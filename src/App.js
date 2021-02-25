@@ -1,3 +1,4 @@
+import React from 'react';
 import './App.css';
 import Home from './components/Home';
 import About from './components/About';
@@ -7,22 +8,23 @@ import Algorithms from './components/Algorithms';
 import DataStructures from './components/DataStructures';
 import TTT from './components/TTT';
 import Footer from './components/Footer';
-import Nav from './components/Nav';
+import Navbar from './components/Navbar';
+import { Route, Link } from 'react-router-dom';
 
 function App() {
-  return (
-    <div className="App">
-      <Nav />
-      <Home />
-      <About />
-      <Contact />
-      <BigO />
-      <Algorithms />
-      <DataStructures />
-      <TTT />
-      <Footer />
-    </div>
-  );
+	return (
+		<div className="App">
+			<Navbar />
+			<Route exact path="/" component={Home} />
+			<Route exact path="/about" component={About} />
+			<Route exact path="/contact" component={Contact} />
+			<Route exact path="/big-o" component={BigO} />
+			<Route exact path="/algorithms" component={Algorithms} />
+			<Route exact path="/data-structures" component={DataStructures} />
+			<Route exact path="/ttt" component={TTT} />
+			<Footer />
+		</div>
+	);
 }
 
 export default App;
