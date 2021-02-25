@@ -5,14 +5,12 @@ function DataStructures() {
 		<div>
 			<h1>DATA STRUCTURES</h1>
 			<p>
-				<i>XXX.</i>
+				<i>A container that stores data in a specific, organized layout.</i>
 			</p>
-			<ul>
-				<li>Linked Lists</li>
-				<li>Stacks & Queues</li>
-				<li>Arrays, Strings, Hash Tables, Sets</li>
-				<li>Trees & Graphs</li>
-			</ul>
+			<p>Linked Lists</p>
+			<p>Stacks & Queues</p>
+			<p>Arrays, Strings, Hash Tables, Sets</p>
+			<p>Trees & Graphs</p>
 		</div>
 	);
 }
