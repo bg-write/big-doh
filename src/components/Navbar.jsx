@@ -4,12 +4,7 @@ import { Link } from 'react-router-dom';
 function Navbar() {
 	return (
 		<div>
-			<img
-				src="https://i.imgur.com/22Hi6M0.jpg"
-				alt="homer"
-				class="img-fluid"
-			/>
-			<ul class="nav">
+			<ul class="nav justify-content-center nav-fill">
 				<li class="nav-item">
 					<Link to="/">Home</Link>
 				</li>
