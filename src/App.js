@@ -6,7 +6,7 @@ import Contact from './components/Contact';
 import BigO from './components/BigO';
 import Algorithms from './components/Algorithms';
 import DataStructures from './components/DataStructures';
-import TTT from './components/TTT';
+import TTT from './components/TTT/TTT';
 import Footer from './components/Footer';
 import Navbar from './components/Navbar';
 import { Route, Link } from 'react-router-dom';

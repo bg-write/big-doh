@@ -1,7 +1,5 @@
 .App {
-  height: 100vh;
-	text-align: center;
-	background-color: #fed90f;
+	/* background-color: #fed90f; */
 	color: #424f46;
 }
 
@@ -10,8 +8,12 @@ a {
 }
 
 a:hover {
-	color: #ffffff;
+	/* color: #ffffff; */
 }
+
+html {
+	height: 100vh;
+  }
 
 .App-logo {
 	height: 40vmin;
