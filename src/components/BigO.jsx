@@ -9,7 +9,9 @@ function BigO() {
 				<Link to="/">Back To Home</Link>
 			</div>
 			<hr />
-			<p>Measures an algorithm’s big-picture efficiency.</p>
+			<p>
+				<i>Measures an algorithm’s big-picture efficiency.</i>
+			</p>
 			<p>
 				Big O Complexity: based on run time (how many steps does an algorithm
 				have to take) and space complexity (an algorithm’s memory/RAM cost).
