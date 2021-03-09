@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 function Contact() {
 	return (
 		<>
-			<content>
+			<main>
 				<h1>CONTACT</h1>
 				<div>
 					<Link to="/">Back To Home</Link>
@@ -24,7 +24,7 @@ function Contact() {
 				</p>
 				<p>Gmail: bradywgerber</p>
 				<hr />
-			</content>
+			</main>
 		</>
 	);
 }

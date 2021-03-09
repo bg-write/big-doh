@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 function BigO() {
 	return (
 		<>
-			<content>
+			<main>
 				<h1>BIG O</h1>
 				<div>
 					<Link to="/">Back To Home</Link>
@@ -69,7 +69,7 @@ function BigO() {
 					Brute force.
 				</p>
 				<hr />
-			</content>
+			</main>
 		</>
 	);
 }

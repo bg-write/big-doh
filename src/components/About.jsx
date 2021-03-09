@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 function About() {
 	return (
 		<>
-			<content>
+			<main>
 				<h1>ABOUT</h1>
 				<div>
 					<Link to="/">Back To Home</Link>
@@ -15,7 +15,7 @@ function About() {
 					<a href="https://github.com/bg-write">Say hello!</a>
 				</p>
 				<hr />
-			</content>
+			</main>
 		</>
 	);
 }

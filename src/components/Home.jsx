@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 function Home() {
 	return (
 		<>
-			<content>
+			<main>
 				<h1>BIG D'OH: HOMER READS 'CRACKING THE CODING INTERVIEW'</h1>
 				<hr />
 				<p>
@@ -24,7 +24,7 @@ function Home() {
 					</li>
 				</ul>
 				<hr />
-			</content>
+			</main>
 		</>
 	);
 }

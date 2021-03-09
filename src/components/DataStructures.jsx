@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 function DataStructures() {
 	return (
 		<>
-			<content>
+			<main>
 				<h1>DATA STRUCTURES</h1>
 				<div>
 					<Link to="/">Back To Home</Link>
@@ -41,7 +41,7 @@ function DataStructures() {
 				<p>Trie: Can only store alphabetical data.</p>
 				<p>Graphs: Any node can have multiple edges to other nodes.</p>
 				<hr />
-			</content>
+			</main>
 		</>
 	);
 }

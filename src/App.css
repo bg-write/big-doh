@@ -1,51 +1,63 @@
-.App {
-	/* background-color: #fed90f; */
-	color: #424f46;
+/*
+HOMER COLOR GUIDE:
+-Skin: #FED90F (Metallic Yellow)
+-Beard: #D1B271 (Light French Beige)
+-Shirt: #FFFFFF (White)
+-Pants: #70D1FE (Maya Blue)
+-Shoes: #424F46 (Outer Space)
+*/
+
+html {
+	box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+:root {
+	font-size: 62.5%;
+}
+
+body {
+	background-color: #FED90F;
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+		Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans- serif;
+	margin: 0;
+	color: whitesmoke;
+	display: grid;
+	font-size: 2.4rem;
+	font-weight: bold;
+	height: 100vh;
+	/* mobile first - single column */
+	grid-template-columns: 1fr;
+	grid-template-rows: 1fr minmax(100px, 1fr) 1fr;
+	grid-template-areas:
+		'header'
+		'content'
+		'footer';
+}
+
+header {
+	grid-area: header;
+}
+
+main {
+	color: #D1B271;
+	grid-area: content;
+}
+
+footer {
+	color: #D1B271;
+	grid-area: footer;
 }
 
 a {
-	color: #424f46;
+	color: #ffffff;
 }
 
 a:hover {
-	/* color: #ffffff; */
-}
-
-html {
-	height: 100vh;
-  }
-
-.App-logo {
-	height: 40vmin;
-	pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-	.App-logo {
-		animation: App-logo-spin infinite 20s linear;
-	}
-}
-
-.App-header {
-	background-color: #282c34;
-	min-height: 100vh;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-	font-size: calc(10px + 2vmin);
-	color: white;
-}
-
-.App-link {
-	color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-	from {
-		transform: rotate(0deg);
-	}
-	to {
-		transform: rotate(360deg);
-	}
+	color: #70D1FE;
 }

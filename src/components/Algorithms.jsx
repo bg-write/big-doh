@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 function Algorithms() {
 	return (
 		<>
-			<content>
+			<main>
 				<h1>ALGORITHMS</h1>
 				<div>
 					<Link to="/">Back To Home</Link>
@@ -82,7 +82,7 @@ function Algorithms() {
 					</li>
 				</ul>
 				<hr />
-			</content>
+			</main>
 		</>
 	);
 }
