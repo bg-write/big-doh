@@ -22,18 +22,19 @@ html {
 }
 
 body {
-	background-color: #FED90F;
+	/* background-color: #FED90F; */
 	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
 		Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans- serif;
 	margin: 0;
-	color: whitesmoke;
+	color: black;
 	display: grid;
+	min-height: 100%;
 	font-size: 2.4rem;
 	font-weight: bold;
 	height: 100vh;
 	/* mobile first - single column */
-	grid-template-columns: 1fr;
-	grid-template-rows: 1fr minmax(100px, 1fr) 1fr;
+	grid-template-columns: 100%;
+	grid-template-rows: auto 1fr auto;
 	grid-template-areas:
 		'header'
 		'content'
@@ -45,19 +46,19 @@ header {
 }
 
 main {
-	color: #D1B271;
+	/* color: #D1B271; */
 	grid-area: content;
 }
 
 footer {
-	color: #D1B271;
+	/* color: #D1B271; */
 	grid-area: footer;
 }
 
 a {
-	color: #ffffff;
+	/* color: #ffffff; */
 }
 
 a:hover {
-	color: #70D1FE;
+	/* color: #70D1FE; */
 }
