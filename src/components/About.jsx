@@ -11,8 +11,9 @@ function About() {
 				</div>
 				<hr />
 				<p>
-					This app was created by Brady Gerber.{' '}
-					<a href="https://github.com/bg-write">Say hello!</a>
+					This app was created by{' '}
+					<a href="https://github.com/bg-write">Brady Gerber</a>.{' '}
+					<a href="https://www.linkedin.com/in/brady-gerber/">Say hello!</a>
 				</p>
 				<hr />
 			</main>

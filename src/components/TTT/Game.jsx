@@ -21,7 +21,9 @@ const Game = () => {
 	};
 
 	const renderMoves = () => (
-		<button onClick={() => setBoard(Array(9).fill(null))}>Start Game</button>
+		<button onClick={() => setBoard(Array(9).fill(null))}>
+			Clean the board
+		</button>
 	);
 
 	return (
