@@ -31,6 +31,26 @@ a:hover {
 header,
 main,
 footer {
-	background: #eaeaea;
+	background: #ffffff;
 	padding: 1em;
+}
+
+#donut {
+	border: solid #ffffff;
+}
+
+.loader {
+	width: 8rem;
+	height: 8rem;
+	border-radius: 50%;
+	animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
 }
