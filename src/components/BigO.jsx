@@ -18,63 +18,88 @@ function BigO() {
 					width="100px"
 				/>
 				<p>
-					<i>Measures an algorithm’s big-picture efficiency.</i>
+					<i>
+						<b>Big O Notation</b> - A measurement of an algorithm’s efficiency.
+						Based on run time (how many steps do you have to take?) and space
+						(how much memory do you need?).
+					</i>
 				</p>
-				<p>
-					Big O Complexity: based on run time (how many steps does an algorithm
-					have to take) and space complexity (an algorithm’s memory/RAM cost).
-				</p>
-				<p>
-					There are many ways for Homer to find a donut - all with different
-					advantages and disadvantages.
-				</p>
+				<a href="https://www.bigocheatsheet.com/">
+					<img
+						id="bigO"
+						alt="Big O"
+						src="https://i.imgur.com/q2GTKn3.png"
+						width="95%"
+					/>
+				</a>
 
-				<p>Great</p>
+				<h2>O(1)</h2>
+				<h3>Constant</h3>
+				<p>[Animation of a donut moving across a straight line.]</p>
 				<p>
-					O(1) - Constant (A straight line across) The input to the algorithm
-					doesn’t matter. The algorithm will still take the same amount of time
-					to run. The input list could be 1 or 1,000 items, yet the function
-					would still just require one “step.”
+					When the input doesn't matter. If you add 1 or 1,000 values,the
+					algorithm still just takes one "step."
 				</p>
+				<p>[code example]</p>
+				<hr />
 
+				<h2>O(log N)</h2>
+				<h3>Logarithmic</h3>
+				<p>[Animation of a line moving up left and right in halves]</p>
 				<p>
-					O(log(N)) - Logarithmic (A line moving up left to right in halves) -
 					Cuts the problem in half each time. EX Looking up a phone book, read
 					one random name, and flip forward or backward depending on how close
 					that name is to what you’re looking for.
 				</p>
+				<p>[code example]</p>
+				<hr />
 
-				<p>Good</p>
+				<h2>O(N)</h2>
+				<h3>Linear</h3>
+				<p>[Animation of a straight line moving up left to right.]</p>
 				<p>
-					O(N) - Linear (A straight line moving up left to right) - N is the
-					number of items in the list. If the list has 10 items, we have to
-					print 10 times. If 1,000 items, we have to print 1,000 times.
+					N is the number of items in the list. If the list has 10 items, we
+					have to print 10 times. If 1,000 items, we have to print 1,000 times.
 				</p>
+				<p>[code example]</p>
+				<hr />
 
-				<p>Not Good</p>
+				<h2>O(N log N)</h2>
+				<h3>Quasilinear</h3>
+				<p>[Animation]</p>
 				<p>
-					O(N log(N)) - Quasilinear - For each time N grows, time required grows
-					linearly and logarithmically.
+					For each time N grows, the time required grows linearly and
+					logarithmically.
 				</p>
+				<p>[code example]</p>
+				<hr />
 
-				<p>Bad</p>
+				<h2>O(N^2)</h2>
+				<h3>Quadratic</h3>
+				<p>[Animation of a line moving almost straight up]</p>
 				<p>
-					O(N2) - Quadratic (A line moving almost straight up) - For each time N
-					grows, the processing time doubles. If the list has 10 items, we have
-					to print 100 times. If it has 1,000 items, we have to print 1M times.
+					For each time N grows, the processing time doubles. If the list has 10
+					items, we have to print 100 times. If it has 1,000 items, we have to
+					print 1M times.
 				</p>
+				<p>[code example]</p>
+				<hr />
 
-				<p>
-					O(2N) - Power of 2 (A line going nearly straight right away) - For
-					each time N grows, the processing time required doubles.
-				</p>
+				<h2>O(2^N)</h2>
+				<h3>Power of 2</h3>
+				<p>[Animation of a line going nearly straight right away]</p>
+				<p>For each time N grows, the processing time required doubles.</p>
+				<p>[code example]</p>
+				<hr />
 
+				<h2>O(N!)</h2>
+				<h3>Factorial Complexity</h3>
+				<p>[Animation of a line going even more nearly straight right away]</p>
 				<p>
-					O(N!) - Factorial Complexity (A line going even more nearly straight
-					right away) - When every possible solution may have to be calculated
-					for the correct output to be determined. 6! = 1*2*3*4*5*6 = 720 EX
-					Brute force.
+					When every possible solution may have to be calculated for the correct
+					output to be determined. 6! = 1*2*3*4*5*6 = 720 EX Brute force.
 				</p>
+				<p>[code example]</p>
 				<hr />
 			</main>
 		</>
