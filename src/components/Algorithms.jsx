@@ -20,13 +20,15 @@ function Algorithms() {
 				<p>
 					<i>A series of steps taken to solve a problem or achieve a goal.</i>
 				</p>
-				<p>Recursion</p>
+				<h2>Recursion</h2>
 				<p>
 					A function that calls itself to break down a large problem into
 					smaller bits. Achieve a small part of the larger task, then pass the
 					partially completed problem to another call of itself.
 				</p>
-				<p>Sorting</p>
+				<hr />
+
+				<h2>Sorting</h2>
 				Comparison Sorting // O(N^2) Stable: compare one value to another (group
 				legos by size)
 				<ul>
@@ -78,7 +80,9 @@ function Algorithms() {
 						digit
 					</li>
 				</ul>
-				<p>Searching</p>
+				<hr />
+				
+				<h2>Searching</h2>
 				<ul>
 					<li>Brute Force Search: Try every possibility available</li>
 					<li>

@@ -20,28 +20,33 @@ function DataStructures() {
 				<p>
 					<i>A container that stores data in a specific, organized layout.</i>
 				</p>
-				<p>Strings & Arrays</p>
-				<p>String (‘Hello’)</p>
-				<p>Array [‘A’, ‘B’, ‘C’]</p>
-				<p>Sets</p>
+				<h2>String (‘Hello’)</h2>
+				<hr />
+				<h2>Array [‘A’, ‘B’, ‘C’]</h2>
+				<hr />
+				<h2>Sets</h2>h2
 				<p>
 					Similar to an array, but can only contain unique values. ["Frodo",
 					"Aragorn", "Saruman"]
 				</p>
-				<p>Linked Lists</p>
+				<hr />
+				<h2>Linked Lists</h2>
 				<p>Lists that store data inside of nodes that point to each other.</p>
-				<p>Stacks & Queues</p>
+				<hr />
+				<h2>Stacks & Queues</h2>
 				<p>Stacks: Last In First Out (LIFO). Like a stack of donuts.</p>
 				<p>
 					Queues: First In First Out (FIFO). Like waiting in line at Lard Lad
 					Donuts.
 				</p>
-				<p>Hash Tables</p>
+				<hr />
+				<h2>Hash Tables</h2>
 				<p>
 					List-like structure that uses a hash function to generate keys for
 					values. Like scrambling a bunch of donuts to make something new.
 				</p>
-				<p>Trees & Graphs</p>
+				<hr />
+				<h2>Trees & Graphs</h2>
 				<p>Trees: Nodes can store lists of child nodes.</p>
 				<p>Binary Trees: Stores values in left and right pointers.</p>
 				<p>Binary Search Trees: Every node fits a specific ordering.</p>

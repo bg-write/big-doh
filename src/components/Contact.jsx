@@ -18,6 +18,11 @@ function Contact() {
 					width="100px"
 				/>
 				<p>
+					This app was created by{' '}
+					<a href="https://github.com/bg-write">Brady Gerber</a>.{' '}
+					<a href="https://www.linkedin.com/in/brady-gerber/">Say hello!</a>
+				</p>
+				<p>
 					<a href="https://github.com/bg-write">GitHub</a>
 				</p>
 				<p>
