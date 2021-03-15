@@ -11,6 +11,13 @@ function TTT() {
 					<Link to="/">Back To Home</Link>
 				</div>
 				<hr />
+				<img
+					id="donut"
+					class="loader"
+					alt="donut"
+					src="https://i.imgur.com/7NqMseE.jpg"
+					width="100px"
+				/>
 				<p>Take a break and play Homer in Tic-Tac-Toe. (Tic-Tac-D'oh.)</p>
 				<Game />
 			</main>

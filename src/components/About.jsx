@@ -10,6 +10,13 @@ function About() {
 					<Link to="/">Back To Home</Link>
 				</div>
 				<hr />
+				<img
+					id="donut"
+					class="loader"
+					alt="donut"
+					src="https://i.imgur.com/7NqMseE.jpg"
+					width="100px"
+				/>
 				<p>
 					This app was created by{' '}
 					<a href="https://github.com/bg-write">Brady Gerber</a>.{' '}

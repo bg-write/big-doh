@@ -10,6 +10,13 @@ function Algorithms() {
 					<Link to="/">Back To Home</Link>
 				</div>
 				<hr />
+				<img
+					id="donut"
+					class="loader"
+					alt="donut"
+					src="https://i.imgur.com/7NqMseE.jpg"
+					width="100px"
+				/>
 				<p>
 					<i>A series of steps taken to solve a problem or achieve a goal.</i>
 				</p>

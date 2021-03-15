@@ -10,6 +10,13 @@ function DataStructures() {
 					<Link to="/">Back To Home</Link>
 				</div>
 				<hr />
+				<img
+					id="donut"
+					class="loader"
+					alt="donut"
+					src="https://i.imgur.com/7NqMseE.jpg"
+					width="100px"
+				/>
 				<p>
 					<i>A container that stores data in a specific, organized layout.</i>
 				</p>
