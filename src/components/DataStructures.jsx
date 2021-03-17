@@ -20,11 +20,13 @@ function DataStructures() {
 				<p>
 					<i>A container that stores data in a specific, organized layout.</i>
 				</p>
-				<h2>String (‘Hello’)</h2>
+				<h2>String</h2>
+				<p>‘Hello’</p>
 				<hr />
-				<h2>Array [‘A’, ‘B’, ‘C’]</h2>
+				<h2>Array</h2>
+				<p>[‘A’, ‘B’, ‘C’]</p>
 				<hr />
-				<h2>Sets</h2>h2
+				<h2>Sets</h2>
 				<p>
 					Similar to an array, but can only contain unique values. ["Frodo",
 					"Aragorn", "Saruman"]

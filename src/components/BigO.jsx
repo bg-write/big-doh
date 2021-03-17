@@ -19,7 +19,7 @@ function BigO() {
 				/>
 				<p>
 					<i>
-						<b>Big O Notation</b> - A measurement of an algorithm’s efficiency.
+						<b>Big O Notation</b> - How efficient is your algorithm.
 						Based on run time (how many steps do you have to take?) and space
 						(how much memory do you need?).
 					</i>
