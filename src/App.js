@@ -5,7 +5,7 @@ import About from './components/About';
 import Contact from './components/Contact';
 import BigO from './components/BigO';
 import Algorithms from './components/Algorithms';
-import DataStructures from './components/DataStructures';
+import DataStructures from './components/DataStructures/DataStructures';
 import TTT from './components/TTT/TTT';
 import Footer from './components/Footer';
 import Navbar from './components/Navbar';
