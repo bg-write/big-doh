@@ -22,7 +22,7 @@ const Game = () => {
 
 	const renderMoves = () => (
 		<button onClick={() => setBoard(Array(9).fill(null))}>
-			Clean the board
+			Clear the board
 		</button>
 	);
 
