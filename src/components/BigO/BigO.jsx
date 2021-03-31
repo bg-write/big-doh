@@ -19,9 +19,9 @@ function BigO() {
 				/>
 				<p>
 					<i>
-						<b>Big O Notation</b> - How efficient is your algorithm.
-						Based on run time (how many steps do you have to take?) and space
-						(how much memory do you need?).
+						<b>Big O Notation</b> - How efficient is your algorithm. Based on
+						run time (how many steps do you have to take?) and space (how much
+						memory do you need?).
 					</i>
 				</p>
 				<a href="https://www.bigocheatsheet.com/">
@@ -33,73 +33,52 @@ function BigO() {
 					/>
 				</a>
 
-				<h2>O(1)</h2>
-				<h3>Constant</h3>
-				<p>[Animation of a donut moving across a straight line.]</p>
+				<h2>O(1) - Constant</h2>
 				<p>
-					When the input doesn't matter. If you add 1 or 1,000 values,the
+					When the input doesn't matter; if you add 1 or 1,000 values,the
 					algorithm still just takes one "step."
 				</p>
-				<p>[code example]</p>
 				<hr />
 
-				<h2>O(log N)</h2>
-				<h3>Logarithmic</h3>
-				<p>[Animation of a line moving up left and right in halves]</p>
+				<h2>O(log N) - Logarithmic</h2>
 				<p>
-					Cuts the problem in half each time. EX Looking up a phone book, read
-					one random name, and flip forward or backward depending on how close
-					that name is to what you’re looking for.
+					Cut the problem in half each time; look up a name in the phone book,
+					read a name, and flip forward or backward depending on how close you
+					are.
 				</p>
-				<p>[code example]</p>
 				<hr />
 
-				<h2>O(N)</h2>
-				<h3>Linear</h3>
-				<p>[Animation of a straight line moving up left to right.]</p>
+				<h2>O(N) - Linear</h2>
 				<p>
-					N is the number of items in the list. If the list has 10 items, we
-					have to print 10 times. If 1,000 items, we have to print 1,000 times.
+					N is the number of items in the list; if the list has 10 items, we
+					have to print 10 times. If we have 1,000 items, we have to print 1,000
+					times.
 				</p>
-				<p>[code example]</p>
 				<hr />
 
-				<h2>O(N log N)</h2>
-				<h3>Quasilinear</h3>
-				<p>[Animation]</p>
+				<h2>O(N log N) - Quasilinear</h2>
 				<p>
 					For each time N grows, the time required grows linearly and
 					logarithmically.
 				</p>
-				<p>[code example]</p>
 				<hr />
 
-				<h2>O(N^2)</h2>
-				<h3>Quadratic</h3>
-				<p>[Animation of a line moving almost straight up]</p>
+				<h2>O(N^2) - Quadratic</h2>
 				<p>
 					For each time N grows, the processing time doubles. If the list has 10
-					items, we have to print 100 times. If it has 1,000 items, we have to
-					print 1M times.
+					items, we have to print 100 times.
 				</p>
-				<p>[code example]</p>
 				<hr />
 
-				<h2>O(2^N)</h2>
-				<h3>Power of 2</h3>
-				<p>[Animation of a line going nearly straight right away]</p>
+				<h2>O(2^N) - Power of 2</h2>
 				<p>For each time N grows, the processing time required doubles.</p>
-				<p>[code example]</p>
 				<hr />
 
-				<h2>O(N!)</h2>
-				<h3>Factorial Complexity</h3>
-				<p>[Animation of a line going even more nearly straight right away]</p>
+				<h2>O(N!) - Factorial Complexity</h2>
 				<p>
 					When every possible solution may have to be calculated for the correct
-					output to be determined. 6! = 1*2*3*4*5*6 = 720 EX Brute force.
+					output to be determined. 6! = 1*2*3*4*5*6 = 720.
 				</p>
-				<p>[code example]</p>
 				<hr />
 			</main>
 		</>
