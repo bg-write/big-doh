@@ -35,49 +35,54 @@ function BigO() {
 
 				<h2>O(1) - Constant</h2>
 				<p>
-					When the input doesn't matter; if you add 1 or 1,000 values,the
-					algorithm still just takes one "step."
+					When the input size doesn't matter; Whether your input (N) is 1 or
+					1,000 values long, the algorithm still just takes one "step."
 				</p>
 				<hr />
 
 				<h2>O(log N) - Logarithmic</h2>
 				<p>
-					Cut the problem in half each time; look up a name in the phone book,
-					read a name, and flip forward or backward depending on how close you
-					are.
+					Cut the number of steps each time in half. EX Binary Search; look up a
+					name in the phone book, read a name, and flip forwards or backwards
+					depending on how close you are.
 				</p>
 				<hr />
 
 				<h2>O(N) - Linear</h2>
 				<p>
-					N is the number of items in the list; if the list has 10 items, we
-					have to print 10 times. If we have 1,000 items, we have to print 1,000
-					times.
+					When N is the length of your input; if your list has 10 items, you
+					print 10 times. If you have 1,000 items, you print 1,000 times. EX the
+					basic "For Loop" (for each item, do this specific thing).
 				</p>
 				<hr />
 
 				<h2>O(N log N) - Quasilinear</h2>
 				<p>
-					For each time N grows, the time required grows linearly and
-					logarithmically.
+					For each time N grows, the time required grows linearly AND
+					logarithmically. EX Quick Sort and Merge Sort.
 				</p>
 				<hr />
 
 				<h2>O(N^2) - Quadratic</h2>
 				<p>
-					For each time N grows, the processing time doubles. If the list has 10
-					items, we have to print 100 times.
+					For each time N grows, the processing time doubles; if your list has
+					10 items, you have to print 100 times. EX nesting two loops in the
+					same function.
 				</p>
 				<hr />
 
-				<h2>O(2^N) - Power of 2</h2>
-				<p>For each time N grows, the processing time required doubles.</p>
+				<h2>O(2^N) - Exponential</h2>
+				<p>
+					Doubles with every additional input; if N = 2, your algorithm runs 4
+					times, and if N = 3, your algorithm runs 8 times. EX Fibonacci.
+				</p>
 				<hr />
 
-				<h2>O(N!) - Factorial Complexity</h2>
+				<h2>O(N!) - Factorial</h2>
 				<p>
-					When every possible solution may have to be calculated for the correct
-					output to be determined. 6! = 1*2*3*4*5*6 = 720.
+					When every possible solution may have to be calculated in order to
+					determine the correct output. 6! = 6*5*4*3*2*1 = 720. EX Brute Force,
+					the Traveling Salesman problem.
 				</p>
 				<hr />
 			</main>
