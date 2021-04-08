@@ -12,7 +12,7 @@ function Footer() {
 						for a technical coding interview, or seeking more work as a software
 						engineer. As two people who transitioned late into programming, we
 						know how hard these concepts can be. It gets better with practice,
-						we promise.
+						we promise. All gifs taken from General Assembly unless otherwise cited.
 					</small>
 				</p>
 				<p>
