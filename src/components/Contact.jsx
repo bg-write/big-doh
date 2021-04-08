@@ -18,23 +18,25 @@ function Contact() {
 					width="100px"
 				/>
 				<p>
-					This app was created by{' '}
-					<a href="https://github.com/bg-write">Brady Gerber</a>.{' '}
-					<a href="https://www.linkedin.com/in/brady-gerber/">Say hello!</a>
+					This app was a collaboration between{' '}
+					<a href="https://bradygerber.com/">Brady Gerber</a> (Software
+					Engineer) and{' '}
+					<a href="https://www.mollyhodson.online/">Molly Hodson</a> (UX
+					Designer). Brady Gerber.
 				</p>
 				<p>
-					<a href="https://github.com/bg-write">GitHub</a>
+					Brady: <a href="https://github.com/bg-write">GitHub</a>,{' '}
+					<a href="https://www.linkedin.com/in/brady-gerber/">LinkedIn</a>,{' '}
+					<a href="https://twitter.com/BradyWGerber">Twitter</a>,{' '}
+					<a href="https://bradygerber.com/">Website</a>, Gmail (bradywgerber)
 				</p>
 				<p>
-					<a href="https://www.linkedin.com/in/brady-gerber/">LinkedIn</a>
+					Molly:{' '}
+					<a href="https://www.linkedin.com/in/molly-hodson/">LinkedIn</a>,{' '}
+					<a href="https://twitter.com/MollyHodson">Twitter</a>,{' '}
+					<a href="https://www.mollyhodson.online/">Website</a>, Gmail
+					(mollyhodsononline)
 				</p>
-				<p>
-					<a href="https://twitter.com/BradyWGerber">Twitter</a>
-				</p>
-				<p>
-					<a href="https://bradygerber.com/">Personal Website</a>
-				</p>
-				<p>Gmail: bradywgerber</p>
 				<hr />
 			</main>
 		</>
