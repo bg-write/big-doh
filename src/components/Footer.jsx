@@ -6,12 +6,11 @@ function Footer() {
 			<footer>
 				<p>
 					<small>
-						All concepts and questions are taken from Gayle Laakmann McDowell's
+						All concepts are taken from Gayle Laakmann McDowell's
 						'Cracking the Coding Interview' (6th Edition) unless cited
-						otherwise. This is meant as a free study aid for anyone preparing
-						for a technical coding interview, or seeking more work as a software
-						engineer. As two people who transitioned late into programming, we
-						know how hard these concepts can be. It gets better with practice,
+						otherwise. This free study aid is for anyone preparing
+						for a technical coding interview. As two people who transitioned late into programming and didn't go to school for computer science, we
+						get how hard these concepts can be at first. It gets better with practice,
 						we promise. All gifs taken from General Assembly unless otherwise cited.
 					</small>
 				</p>
