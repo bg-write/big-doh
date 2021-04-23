@@ -19,22 +19,22 @@ function Contact() {
 				/>
 				<p>
 					This app was a collaboration between{' '}
-					<a href="https://bradygerber.com/">Brady Gerber</a> (Software
+					<a href="https://bradygerber.com/" target="_blank" rel="noopener noreferrer">Brady Gerber</a> (Software
 					Engineer) and{' '}
-					<a href="https://www.mollyhodson.online/">Molly Hodson</a> (UX
+					<a href="https://www.mollyhodson.online/" target="_blank" rel="noopener noreferrer">Molly Hodson</a> (UX
 					Designer).
 				</p>
 				<p>
-					Brady: <a href="https://github.com/bg-write">GitHub</a>,{' '}
-					<a href="https://www.linkedin.com/in/brady-gerber/">LinkedIn</a>,{' '}
-					<a href="https://twitter.com/BradyWGerber">Twitter</a>,{' '}
-					<a href="https://bradygerber.com/">Website</a>, Gmail (bradywgerber)
+					Brady: <a href="https://github.com/bg-write" target="_blank" rel="noopener noreferrer">GitHub</a>,{' '}
+					<a href="https://www.linkedin.com/in/brady-gerber/" target="_blank" rel="noopener noreferrer">LinkedIn</a>,{' '}
+					<a href="https://twitter.com/BradyWGerber" target="_blank" rel="noopener noreferrer">Twitter</a>,{' '}
+					<a href="https://bradygerber.com/" target="_blank" rel="noopener noreferrer">Website</a>, Gmail (bradywgerber)
 				</p>
 				<p>
 					Molly:{' '}
-					<a href="https://www.linkedin.com/in/molly-hodson/">LinkedIn</a>,{' '}
-					<a href="https://twitter.com/MollyHodson">Twitter</a>,{' '}
-					<a href="https://www.mollyhodson.online/">Website</a>, Gmail
+					<a href="https://www.linkedin.com/in/molly-hodson/" target="_blank" rel="noopener noreferrer">LinkedIn</a>,{' '}
+					<a href="https://twitter.com/MollyHodson" target="_blank" rel="noopener noreferrer">Twitter</a>,{' '}
+					<a href="https://www.mollyhodson.online/" target="_blank" rel="noopener noreferrer">Website</a>, Gmail
 					(mollyhodsononline)
 				</p>
 				<hr />
