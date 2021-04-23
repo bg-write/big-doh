@@ -18,7 +18,9 @@ function TTT() {
 					src="https://i.imgur.com/7NqMseE.jpg"
 					width="100px"
 				/>
-				<p><i>Take a break and play Homer in Tic-Tac-Toe. (Tic-Tac-D'oh.)</i></p>
+				<p>
+					<i>Take a break and play Homer in Tic-Tac-D'oh.</i>
+				</p>
 				<Game />
 			</main>
 		</>

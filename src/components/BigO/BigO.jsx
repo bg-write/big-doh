@@ -21,9 +21,9 @@ function BigO() {
 					<i>
 						<b>Big O Notation</b> - How efficient is your algorithm. Based on
 						run time (how many steps do you take?) and space (how much memory do
-						you need?). (<Link to="https://www.youtube.com/watch?v=__vX2sjlpXU">
+						you need?). (<a href="https://www.youtube.com/watch?v=__vX2sjlpXU">
 							YouTube
-						</Link>)
+						</a>)
 					</i>
 				</p>
 				<a href="https://www.bigocheatsheet.com/">
@@ -39,7 +39,7 @@ function BigO() {
 				<p>
 					The input size doesn't matter. Whether your input (N) is 1 or 1,000
 					values long, the algorithm still just takes one "step." (
-					<Link to="https://youtu.be/__vX2sjlpXU?t=114">YouTube</Link>)
+					<a href="https://youtu.be/__vX2sjlpXU?t=114">YouTube</a>)
 				</p>
 				<hr />
 
@@ -49,7 +49,7 @@ function BigO() {
 					have to do 1 more operation. EX Binary Search: look up a name in the
 					phone book, read a name, and flip forwards or backwards depending on
 					how close you are. (
-					<Link to="https://www.youtube.com/watch?v=4mqtiLjtddY">YouTube</Link>)
+					<a href="https://www.youtube.com/watch?v=4mqtiLjtddY">YouTube</a>)
 				</p>
 				<hr />
 
@@ -57,7 +57,7 @@ function BigO() {
 				<p>
 					N is the length of your input. If your list has 10 items, you print 10
 					times. EX A basic "For Loop": for each item, do a specific thing. (
-					<Link to="https://youtu.be/__vX2sjlpXU?t=157">YouTube</Link>)
+					<a href="https://youtu.be/__vX2sjlpXU?t=157">YouTube</a>)
 				</p>
 				<hr />
 
@@ -67,7 +67,7 @@ function BigO() {
 					logarithmically. EX A basic "While For Loop": While something is true,
 					for each item, do this specific thing. Also, Quick Sort and Merge
 					Sort. (
-					<Link to="https://www.youtube.com/watch?v=K3NluEdHkao">YouTube</Link>)
+					<a href="https://www.youtube.com/watch?v=K3NluEdHkao">YouTube</a>)
 				</p>
 				<hr />
 
@@ -76,7 +76,7 @@ function BigO() {
 					For each time N grows, the processing time doubles. If your list has
 					10 items, you have to print 100 times. EX Nesting two loops in the
 					same function. (
-					<Link to="https://youtu.be/__vX2sjlpXU?t=203">YouTube</Link>)
+					<a href="https://youtu.be/__vX2sjlpXU?t=203">YouTube</a>)
 				</p>
 				<hr />
 
@@ -85,7 +85,7 @@ function BigO() {
 					Doubles with every additional input. If N = 2, your algorithm runs 4
 					times, and if N = 3, your algorithm runs 8 times. EX Recursion and
 					Fibonacci. (
-					<Link to="https://www.youtube.com/watch?v=5AxcXHPB3GE">YouTube</Link>)
+					<a href="https://www.youtube.com/watch?v=5AxcXHPB3GE">YouTube</a>)
 				</p>
 				<hr />
 
@@ -94,7 +94,7 @@ function BigO() {
 					When you have to calculate every possible solution to determine the
 					correct output. 6! = 6*5*4*3*2*1 = 720. EX Brute Force and the
 					Traveling Salesman problem. (
-					<Link to="https://youtu.be/5AxcXHPB3GE?t=79">YouTube</Link>)
+					<a href="https://youtu.be/5AxcXHPB3GE?t=79">YouTube</a>)
 				</p>
 				<hr />
 			</main>

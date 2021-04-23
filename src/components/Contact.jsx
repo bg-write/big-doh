@@ -22,7 +22,7 @@ function Contact() {
 					<a href="https://bradygerber.com/">Brady Gerber</a> (Software
 					Engineer) and{' '}
 					<a href="https://www.mollyhodson.online/">Molly Hodson</a> (UX
-					Designer). Brady Gerber.
+					Designer).
 				</p>
 				<p>
 					Brady: <a href="https://github.com/bg-write">GitHub</a>,{' '}
