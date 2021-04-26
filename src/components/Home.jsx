@@ -14,11 +14,7 @@ function Home() {
 					src="https://i.imgur.com/7NqMseE.jpg"
 					width="100px"
 				/>
-				<p>
-					If Homer can do it, so can you. No donuts were harmed in the making of
-					this React app.
-				</p>
-
+				<p>If Homer can do it, so can you.</p>
 				<ul>
 					<li>
 						<Link to="/big-o">Big O</Link>
@@ -30,6 +26,13 @@ function Home() {
 						<Link to="/data-structures">Data Structures</Link>
 					</li>
 				</ul>
+
+				<p>
+					This free study aid was inspired by Gayle Laakmann McDowell's
+					'Cracking the Coding Interview' (6th Edition) and is for anyone
+					preparing for a technical coding interview.
+				</p>
+
 				<hr />
 			</main>
 		</>

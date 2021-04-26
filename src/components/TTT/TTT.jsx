@@ -11,17 +11,18 @@ function TTT() {
 					<Link to="/">Back To Home</Link>
 				</div>
 				<hr />
-				<img
+				{/* <img
 					id="donut"
 					class="loader"
 					alt="donut"
 					src="https://i.imgur.com/7NqMseE.jpg"
 					width="100px"
-				/>
+				/> */}
 				<p>
-					<i>Take a break and play Homer in Tic-Tac-D'oh.</i>
+					<i>Take a break. Play Homer in Tic-Tac-D'oh.</i>
 				</p>
 				<Game />
+				<hr />
 			</main>
 		</>
 	);
