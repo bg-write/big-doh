@@ -99,8 +99,8 @@ function Contact() {
 					, Gmail (mollyhodsononline)
 				</p>
 				<p>
-					Photos are linked to their original sources when possible. Gifs are
-					taken from General Assembly.
+					All photos and gifs are taken from General Assembly except when linked
+					to their original sources.
 				</p>
 				<hr />
 			</main>
