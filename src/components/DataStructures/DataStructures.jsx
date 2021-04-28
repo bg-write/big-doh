@@ -77,7 +77,7 @@ function DataStructures() {
 					</a>
 					)
 				</p>
-				<h3>Linked List</h3>
+				<h3>Linked Lists</h3>
 				<img
 					id="linked-lists"
 					alt="linked lists"
