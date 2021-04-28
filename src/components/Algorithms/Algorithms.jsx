@@ -92,7 +92,7 @@ function Algorithms() {
 					)
 				</p>
 
-				<h4>Insertion Sort</h4>
+				<h4>Insertion (Selection) Sort</h4>
 				<img
 					id="insertion-sort"
 					alt="insertion sort"
