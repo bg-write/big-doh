@@ -69,7 +69,7 @@ function Algorithms() {
 					id="bubble-sort"
 					alt="bubble sort"
 					src="https://ga-instruction.s3.amazonaws.com/assets/tech/computer-science/basic-sorts/bubble-sort.gif"
-					width="150px"
+					width="60%"
 				/>
 				<p>
 					Compare and sort 2 items and then move to the next pair. All the
@@ -97,7 +97,7 @@ function Algorithms() {
 					id="insertion-sort"
 					alt="insertion sort"
 					src="https://ga-instruction.s3.amazonaws.com/assets/tech/computer-science/basic-sorts/insertion-sort.gif"
-					width="150px"
+					width="60%"
 				/>
 				<p>
 					Go down the line, select each item, and “insert” it into its proper
@@ -125,7 +125,7 @@ function Algorithms() {
 					id="merge-sort"
 					alt="merge sort"
 					src="https://ga-instruction.s3.amazonaws.com/assets/tech/computer-science/divide-conquer-sorts/merge-sort.gif"
-					width="150px"
+					width="60%"
 				/>
 				<p>
 					Split the items in half over and over until they're all sorted
@@ -147,7 +147,7 @@ function Algorithms() {
 					id="quick-sort"
 					alt="quick sort"
 					src="https://ga-instruction.s3.amazonaws.com/assets/tech/computer-science/divide-conquer-sorts/quick-sort.gif"
-					width="150px"
+					width="60%"
 				/>
 				<p>
 					Divide all your items into 3 parts (the left partition, the pivot, and
