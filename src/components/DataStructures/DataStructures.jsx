@@ -32,17 +32,10 @@ function DataStructures() {
 					</a>
 					)
 				</p>
-				<h2>String</h2>
-				<img id="" alt="" src="" width="150px" />
+				<h2>Arrays & Strings</h2>
 				<p>
-					‘Hello’ (
-					<a href="" target="_blank" rel="noopener noreferrer">
-						YouTube
-					</a>
-					)
+					<i>blah blah blah.</i>
 				</p>
-				<hr />
-				<h2>Array</h2>
 				<img
 					id="array"
 					alt="array"
@@ -50,15 +43,17 @@ function DataStructures() {
 					width="150px"
 				/>
 				<p>
-					A collection of items that can be accessed individually via an index
-					that lists the position of each item. [‘A’, ‘B’, ‘C’] (
-					<a href="" target="_blank" rel="noopener noreferrer">
+					Arrays: A collection of items that can be accessed individually via an
+					index. [‘A’, ‘B’, ‘C’] (
+					<a
+						href="https://www.youtube.com/watch?v=B2KusJcbVIg"
+						target="_blank"
+						rel="noopener noreferrer"
+					>
 						YouTube
 					</a>
 					)
 				</p>
-				<hr />
-				<h2>Sets</h2>
 				<img
 					id="sets"
 					alt="sets"
@@ -66,14 +61,16 @@ function DataStructures() {
 					width="150px"
 				/>
 				<p>
-					Similar to an array, but it can only contain unique values. (
-					<a href="" target="_blank" rel="noopener noreferrer">
+					Sets: Similar to arrays but can only contain unique values. (
+					<a
+						href="https://www.youtube.com/watch?v=SvvvGT3qD1Y"
+						target="_blank"
+						rel="noopener noreferrer"
+					>
 						YouTube
 					</a>
 					)
 				</p>
-				<hr />
-				<h2>Linked Lists</h2>
 				<img
 					id="linked-lists"
 					alt="linked lists"
@@ -81,14 +78,48 @@ function DataStructures() {
 					width="150px"
 				/>
 				<p>
-					Lists that store data inside of nodes that point to each other. EX A playlist of songs is a doubly linked list since each song points to both the previous and next songs. (
-					<a href="" target="_blank" rel="noopener noreferrer">
+					Linked Lists: Lists that store data inside of nodes that point to each
+					other, and where the order is more strict. EX A playlist of songs is a
+					Doubly Linked List since each song points to both the previous and
+					next songs. (
+					<a
+						href="https://www.youtube.com/watch?v=njTh_OwMljA"
+						target="_blank"
+						rel="noopener noreferrer"
+					>
 						YouTube
 					</a>
 					)
 				</p>
+
+				<img
+					id="hash-tables"
+					alt="hash tables"
+					src="https://i.imgur.com/IhZSTSQ.png"
+					width="150px"
+				/>
+				<p>
+					Hash Tables: A list-like structure that uses a hash function to
+					generate keys for each value. Like scrambling a bunch of donuts to
+					make new donuts, and each new donut has a specific key. (
+					<a
+						href="https://www.youtube.com/watch?v=MfhjkfocRR0"
+						target="_blank"
+						rel="noopener noreferrer"
+					>
+						YouTube
+					</a>
+					)
+				</p>
+
 				<hr />
 				<h2>Stacks & Queues</h2>
+				<p>
+					<i>
+						Both are defined by how items are added to, and removed from, data
+						structures.
+					</i>
+				</p>
 				<img
 					id="stacks"
 					alt="stacks"
@@ -97,8 +128,12 @@ function DataStructures() {
 				/>
 				<p>
 					Stacks: Last In First Out (LIFO). Like a stack of ... donuts. When you
-					want a donut, you'll take the one on top. (
-					<a href="" target="_blank" rel="noopener noreferrer">
+					want a donut, you take the donut on top. (
+					<a
+						href="https://www.youtube.com/watch?v=wjI1WNcIntg"
+						target="_blank"
+						rel="noopener noreferrer"
+					>
 						YouTube
 					</a>
 					)
@@ -112,30 +147,26 @@ function DataStructures() {
 				<p>
 					Queues: First In First Out (FIFO). Like waiting in line at Lard Lad
 					Donuts. The next person to leave is the person at the front of the
-					line. (
-					<a href="" target="_blank" rel="noopener noreferrer">
+					line, since that was the first person of the line to enter at that
+					moment. (
+					<a
+						href="https://www.youtube.com/watch?v=wjI1WNcIntg"
+						target="_blank"
+						rel="noopener noreferrer"
+					>
 						YouTube
 					</a>
 					)
 				</p>
-				<hr />
-				<h2>Hash Tables</h2>
-				<img
-					id="hash-tables"
-					alt="hash tables"
-					src="https://i.imgur.com/IhZSTSQ.png"
-					width="150px"
-				/>
-				<p>
-					A list-like structure that uses a hash function to generate keys for
-					each value. Like scrambling a bunch of donuts to make something new. (
-					<a href="" target="_blank" rel="noopener noreferrer">
-						YouTube
-					</a>
-					)
-				</p>
+
 				<hr />
 				<h2>Trees & Graphs</h2>
+				<p>
+					<i>
+						Both data structures use nodes to store data, but tree edges are
+						more rigid than graphs.
+					</i>
+				</p>
 				<img
 					id="trees"
 					alt="trees"
@@ -145,7 +176,11 @@ function DataStructures() {
 				<p>
 					Trees: A tree-like structure in which nodes can store lists of child
 					nodes. (
-					<a href="" target="_blank" rel="noopener noreferrer">
+					<a
+						href="https://www.youtube.com/watch?v=oSWTXtMglKE"
+						target="_blank"
+						rel="noopener noreferrer"
+					>
 						YouTube
 					</a>
 					)
@@ -157,24 +192,31 @@ function DataStructures() {
 					width="150px"
 				/>
 				<p>
-					Binary Trees: Trees that store values in left and right pointers. (
-					<a href="" target="_blank" rel="noopener noreferrer">
+					Binary Trees: Trees that store values in left and right pointers. A
+					Binary Search Tree is where every node fits a specific ordering. (
+					<a
+						href="https://www.youtube.com/watch?v=oSWTXtMglKE"
+						target="_blank"
+						rel="noopener noreferrer"
+					>
 						YouTube
 					</a>
 					)
 				</p>
-				<img id="" alt="" src="" width="150px" />
+				<img
+					id="trie"
+					alt="trie"
+					src="https://i.imgur.com/NXCozkT.png"
+					width="150px"
+				/>
 				<p>
-					Binary Search Trees: Every node fits a specific ordering.(
-					<a href="" target="_blank" rel="noopener noreferrer">
-						YouTube
-					</a>
-					)
-				</p>
-				<img id="" alt="" src="" width="150px" />
-				<p>
-					Trie: Can only store alphabetical data. (
-					<a href="" target="_blank" rel="noopener noreferrer">
+					Tries: Trees that aren't limited to only left and right pointers, but
+					they usually only store alphabetical data. (
+					<a
+						href="https://www.youtube.com/watch?v=zIjfhVPRZCg"
+						target="_blank"
+						rel="noopener noreferrer"
+					>
 						YouTube
 					</a>
 					)
@@ -188,8 +230,13 @@ function DataStructures() {
 				<p>
 					Graphs: Any collection of nodes and edges in which nodes store data
 					and edges connect data. Any node can have multiple edges to other
-					nodes. (
-					<a href="" target="_blank" rel="noopener noreferrer">
+					nodes. EX A group of people on Facebook, some of whom follow each
+					other while others only follow one-way. (
+					<a
+						href="https://www.youtube.com/watch?v=DBRW8nwZV-g"
+						target="_blank"
+						rel="noopener noreferrer"
+					>
 						YouTube
 					</a>
 					)
