@@ -13,11 +13,11 @@ Deploy the app: https://big-doh.herokuapp.com/
 
 ## Concepts Covered
 
-### Big O
+#### Big O
 
-### Recursion
+#### Recursion
 
-### Algorithms
+#### Algorithms
 - Bubble Sort
 - Insertion (Selection) Sort
 - Merge Sort
@@ -27,7 +27,7 @@ Deploy the app: https://big-doh.herokuapp.com/
 - Brute Force Search
 - Binary Search
 
-### Data Structures
+#### Data Structures
 - Arrays
 - Sets
 - Linked Lists
