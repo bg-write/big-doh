@@ -136,7 +136,7 @@ function DataStructures() {
 				/>
 				<p>
 					Last In First Out (LIFO). Like a stack of ... donuts. When you want a
-					donut, you take the donut on top. (
+					donut, you take the one on top. (
 					<a
 						href="https://www.youtube.com/watch?v=wjI1WNcIntg"
 						target="_blank"
@@ -154,9 +154,7 @@ function DataStructures() {
 					width="60%"
 				/>
 				<p>
-					First In First Out (FIFO). Like waiting in line at Lard Lad Donuts.
-					The next person to leave is the person at the front of the line, since
-					that was the first person of the line to enter at that moment. (
+					First In First Out (FIFO). Like waiting in line at Lard Lad Donuts. If you're at the front of the line, you'll get to leave first. (
 					<a
 						href="https://www.youtube.com/watch?v=wjI1WNcIntg"
 						target="_blank"

@@ -28,9 +28,10 @@ function Home() {
 				</ul>
 
 				<p>
-					This free beginner's study aid was inspired by Gayle Laakmann
-					McDowell's 'Cracking the Coding Interview' (6th Edition) and is for
-					anyone preparing for technical coding interviews.
+					This free study guide was inspired by Gayle Laakmann McDowell's
+					'Cracking the Coding Interview' (6th Edition) and is for anyone
+					preparing for technical coding interviews and needs a quick
+					refresher.
 				</p>
 
 				<hr />
