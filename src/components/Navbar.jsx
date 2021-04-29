@@ -25,7 +25,7 @@ function Navbar() {
 						<Link to="/data-structures">Data Structures</Link>
 					</li>
 					<li class="nav-item">
-						<Link to="/ttt">Stressed?</Link>
+						<Link to="/ttt">Take a Break!</Link>
 					</li>
 				</ul>
 			</header>

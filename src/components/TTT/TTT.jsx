@@ -6,7 +6,7 @@ function TTT() {
 	return (
 		<>
 			<main>
-				<h1>STRESSED?</h1>
+				<h1>TAKE A BREAK!</h1>
 				<div>
 					<Link to="/">Back To Home</Link>
 				</div>
