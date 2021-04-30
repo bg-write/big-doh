@@ -12,9 +12,9 @@ function Navbar() {
 					{/* <li class="nav-item">
 						<Link to="/about">About</Link>
 					</li> */}
-					<li class="nav-item">
+					{/* <li class="nav-item">
 						<Link to="/contact">Contact</Link>
-					</li>
+					</li> */}
 					<li class="nav-item">
 						<Link to="/big-o">Big O</Link>
 					</li>
