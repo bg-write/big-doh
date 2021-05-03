@@ -28,10 +28,10 @@ function Home() {
 				</ul>
 
 				<p>
-					This free study guide was inspired by Gayle Laakmann McDowell's
-					'Cracking the Coding Interview' (6th Edition) and is for anyone
-					preparing for technical coding interviews and needs a quick
-					refresher.
+					Have you read 'Cracking the Coding Interview' but are still struggling
+					with Big O? This free study guide is for anyone wishing to better
+					understand and reinforce Big O and common algorithms and data
+					structures.
 				</p>
 
 				<hr />

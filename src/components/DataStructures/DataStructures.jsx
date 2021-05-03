@@ -36,8 +36,8 @@ function DataStructures() {
 				<h2>Arrays & Strings</h2>
 				<p>
 					<i>
-						Data structures mostly concerened with the ordering and accessing of
-						data.
+						Linear data structures that are mostly concerned with the ordering
+						and accessing of data.
 					</i>
 				</p>
 				<h3>Arrays</h3>
@@ -48,8 +48,8 @@ function DataStructures() {
 					width="60%"
 				/>
 				<p>
-					A collection of items that can be accessed individually via an index.
-					[‘A’, ‘B’, ‘C’] (
+					A collection of items where items can be accessed individually via an
+					index. [‘A’, ‘B’, ‘C’] (
 					<a
 						href="https://www.youtube.com/watch?v=B2KusJcbVIg"
 						target="_blank"
@@ -67,7 +67,8 @@ function DataStructures() {
 					width="60%"
 				/>
 				<p>
-					Similar to arrays but can only contain unique values. (
+					Similar to arrays, but this collection of items can only contain
+					unique values. (
 					<a
 						href="https://www.youtube.com/watch?v=SvvvGT3qD1Y"
 						target="_blank"
@@ -85,10 +86,10 @@ function DataStructures() {
 					width="60%"
 				/>
 				<p>
-					Lists that store data inside of nodes that point to each other, and
-					where the order is more strict. EX A playlist of songs is a Doubly
-					Linked List since each song points to both the previous and next
-					songs. (
+					Lists that store data inside of nodes (basic units for storing data)
+					that point to each other, but the order is strict. EX A playlist of
+					songs is a Doubly Linked List, since each song points to both the
+					previous and next songs. (
 					<a
 						href="https://www.youtube.com/watch?v=njTh_OwMljA"
 						target="_blank"
@@ -107,8 +108,8 @@ function DataStructures() {
 				/>
 				<p>
 					A list-like structure that uses a hash function to generate keys for
-					each value. Like scrambling a bunch of donuts to make new donuts, and
-					each new donut has a specific key. (
+					each value. EX Scrambling a bunch of donuts to make new donuts, each
+					one having a specific key. (
 					<a
 						href="https://www.youtube.com/watch?v=MfhjkfocRR0"
 						target="_blank"
@@ -123,8 +124,8 @@ function DataStructures() {
 				<h2>Stacks & Queues</h2>
 				<p>
 					<i>
-						Both are defined by how items are added to, and removed from, data
-						structures.
+						Linear data structures that are defined by how items are added and
+						removed.
 					</i>
 				</p>
 				<h3>Stacks</h3>
@@ -135,8 +136,9 @@ function DataStructures() {
 					width="60%"
 				/>
 				<p>
-					Last In First Out (LIFO). Like a stack of ... donuts. When you want a
-					donut, you take the one on top. (
+					Follows the ordering principle of “Last In First Out” (LIFO). EX
+					Eating a stack of donuts; when you want a donut, you take the donut on
+					top of the stack. (
 					<a
 						href="https://www.youtube.com/watch?v=wjI1WNcIntg"
 						target="_blank"
@@ -154,7 +156,9 @@ function DataStructures() {
 					width="60%"
 				/>
 				<p>
-					First In First Out (FIFO). Like waiting in line at Lard Lad Donuts. If you're at the front of the line, you'll get to leave first. (
+					Follows the ordering principle of “First In First Out” (FIFO). EX
+					Waiting in line at Lard Lad Donuts; if you're at the front of the
+					line, you get to leave first. (
 					<a
 						href="https://www.youtube.com/watch?v=wjI1WNcIntg"
 						target="_blank"
@@ -169,8 +173,9 @@ function DataStructures() {
 				<h2>Trees & Graphs</h2>
 				<p>
 					<i>
-						Both data structures use nodes to store data, but tree edges are
-						more rigid than graphs.
+						Non-linear data structures that have nodes (basic units for storing
+						data) and edges (lines that connect nodes to each other). Tree edges
+						are more rigid than graphs.
 					</i>
 				</p>
 				<h3>Trees</h3>
@@ -218,8 +223,8 @@ function DataStructures() {
 					width="60%"
 				/>
 				<p>
-					Trees that aren't limited to only left and right pointers, but they
-					usually only store alphabetical data. (
+					Trees that aren't limited to only left and right pointers, but usually
+					only store alphabetical data. (
 					<a
 						href="https://www.youtube.com/watch?v=zIjfhVPRZCg"
 						target="_blank"
@@ -237,10 +242,9 @@ function DataStructures() {
 					width="60%"
 				/>
 				<p>
-					Any collection of nodes and edges in which nodes store data and edges
-					connect data. Any node can have multiple edges to other nodes. EX A
-					group of people on Facebook, some of whom follow each other while
-					others only follow one-way. (
+					Any collection of nodes and edges, in which any node can have multiple
+					edges to other nodes. EX A group of people on Facebook; some people
+					follow each other while others only follow one-way. (
 					<a
 						href="https://www.youtube.com/watch?v=DBRW8nwZV-g"
 						target="_blank"
