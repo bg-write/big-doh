@@ -1,4 +1,5 @@
 # Big D’oh: Homer Reads 'Cracking the Coding Interview'
+
 ## If Homer can do it, so can you.
 
 Have you read 'Cracking the Coding Interview' but are still struggling with Big O? This free study guide is for anyone preparing for technical interviews and wishing to better understand Big O and common algorithms and data structures.
@@ -20,6 +21,7 @@ Deploy the app: https://big-doh.herokuapp.com/
 #### Recursion
 
 #### Algorithms
+
 - Bubble Sort
 - Insertion (Selection) Sort
 - Merge Sort
@@ -30,6 +32,7 @@ Deploy the app: https://big-doh.herokuapp.com/
 - Binary Search
 
 #### Data Structures
+
 - Arrays
 - Sets
 - Linked Lists
