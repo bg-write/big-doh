@@ -35,11 +35,33 @@ footer {
 	padding: 1em;
 }
 
+/* IDs */
+
 #donut {
 	border: solid #ffffff;
 }
 
+/* CLASSES */
+
+.flex-container {
+	/* Put this in the element holding the flex items; this positions all items like a row. */
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+
+.center-text {
+	/* Put this in the element holding the text I want to center. */
+	text-align: center;
+}
+
+.boarder {
+	border: solid 1px black;
+}
+
 .loader {
+	/* To make the donuts spin */
 	width: 8rem;
 	height: 8rem;
 	border-radius: 50%;

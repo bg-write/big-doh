@@ -5,36 +5,40 @@ function Home() {
 	return (
 		<>
 			<main>
-				<h1>BIG D'OH: HOMER READS 'CRACKING THE CODING INTERVIEW'</h1>
+				<div className="flex-container">
+					<h1>If Homer can do it, so can you.</h1>
+					<img
+						id="donut"
+						class="loader"
+						alt="donut"
+						src="https://i.imgur.com/7NqMseE.jpg"
+						width="50%"
+					/>
+				</div>
 				<hr />
-				<img
-					id="donut"
-					class="loader"
-					alt="donut"
-					src="https://i.imgur.com/7NqMseE.jpg"
-					width="100px"
-				/>
-				<p>If Homer can do it, so can you.</p>
-				<ul>
-					<li>
+				<div className="center-text">
+					<p>WHAT IS BIG D'OH?</p>
+					<p>
+						Have you read 'Cracking the Coding Interview' but are still
+						struggling with Big O?
+					</p>
+					<p>
+						This free study guide is for anyone wishing to study Big O and common
+						algorithms and data structures, in a way even Homer Simpson could understand.
+					</p>
+				</div>
+				<hr />
+				<div className="flex-container">
+					<div className="boarder">
 						<Link to="/big-o">Big O</Link>
-					</li>
-					<li>
+					</div>
+					<div className="boarder">
 						<Link to="/algorithms">Algorithms</Link>
-					</li>
-					<li>
+					</div>
+					<div className="boarder">
 						<Link to="/data-structures">Data Structures</Link>
-					</li>
-				</ul>
-
-				<p>
-					Have you read 'Cracking the Coding Interview' but are still struggling
-					with Big O? This free study guide is for anyone wishing to better
-					understand and reinforce Big O and common algorithms and data
-					structures.
-				</p>
-
-				<hr />
+					</div>
+				</div>
 			</main>
 		</>
 	);
