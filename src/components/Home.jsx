@@ -32,13 +32,13 @@ function Home() {
 				<hr />
 				<div className="flex-container center-text">
 					<div className="border-text">
-						<Link to="/big-o">Big O</Link>
+						<a href="/big-o">Big O</a>
 					</div>
 					<div className="border-text">
-						<Link to="/algorithms">Algorithms</Link>
+						<a href="/algorithms">Algorithms</a>
 					</div>
 					<div className="border-text">
-						<Link to="/data-structures">Data Structures</Link>
+						<a href="/data-structures">Data Structures</a>
 					</div>
 				</div>
 			</main>
