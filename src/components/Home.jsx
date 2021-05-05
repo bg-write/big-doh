@@ -23,12 +23,13 @@ function Home() {
 						struggling with Big O?
 					</p>
 					<p>
-						This free study guide is for anyone wishing to study Big O and common
-						algorithms and data structures, in a way even Homer Simpson could understand.
+						This free study guide is for anyone wishing to study Big O and
+						common algorithms and data structures, in a way even Homer Simpson
+						could understand.
 					</p>
 				</div>
 				<hr />
-				<div className="flex-container">
+				<div className="flex-container center-text">
 					<div className="boarder">
 						<Link to="/big-o">Big O</Link>
 					</div>
