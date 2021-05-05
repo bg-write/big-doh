@@ -12,7 +12,7 @@ Big D'oh is a mobile-friendly React app made by General Assembly alumni Brady Ge
 
 ## Getting Started
 
-Deploy the app: https://big-doh.herokuapp.com/
+Deploy the app: [https://big-doh.herokuapp.com/](https://big-doh.herokuapp.com/)
 
 ## Concepts Covered
 

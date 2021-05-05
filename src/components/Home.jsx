@@ -18,15 +18,17 @@ function Home() {
 				</div>
 				<hr />
 				<div className="center-text">
-					<p className="border-text">WHAT IS BIG D'OH?</p>
-					<p>
-						Have you read 'Cracking the Coding Interview' but are still
-						struggling with Big O?
+					<p className="border-text">
+						BIG O? MORE LIKE BIG <i>D'OH</i>!
 					</p>
 					<p>
-						This free study guide is for anyone wishing to study Big O and
-						common algorithms and data structures, in a way even Homer Simpson
-						could understand.
+						Have you read 'Cracking the Coding Interview' but are still
+						struggling understanding Big O?
+					</p>
+					<p>
+						'Big D'oh: Homer Reads Cracking the Coding Interview' is a free
+						study guide for anyone wishing to study Big O and common algorithms
+						and data structures, in a way even Homer Simpson could understand.
 					</p>
 				</div>
 				<hr />

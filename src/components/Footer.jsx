@@ -41,7 +41,7 @@ function Footer() {
 					</p>
 
 					<p>
-						Created by{' '}
+					'Big D'oh: Homer Reads Cracking the Coding Interview' was created by{' '}
 						<a
 							href="https://bradygerber.com/"
 							target="_blank"
