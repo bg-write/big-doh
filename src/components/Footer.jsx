@@ -64,7 +64,7 @@ function Footer() {
 						linked to original sources. All concepts inspired by Gayle Laakmann
 						McDowell's 'Cracking the Coding Interview' (6th Edition).
 					</p>
-					<p>Copyright &copy; Big D'oh 2021</p>
+					<p>Copyright &copy; Big D'oh 2021.</p>
 					<p>
 						{' '}
 						<a

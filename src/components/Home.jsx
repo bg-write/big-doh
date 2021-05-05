@@ -26,9 +26,9 @@ function Home() {
 						struggling understanding Big O?
 					</p>
 					<p>
-						'Big D'oh: Homer Reads Cracking the Coding Interview' is a free
-						study guide for anyone wishing to study Big O and common algorithms
-						and data structures, in a way even Homer Simpson could understand.
+						<b>Big D'oh: Homer Reads Cracking the Coding Interview</b> is a free
+						guide for anyone wishing to study Big O and common algorithms and
+						data structures, in a way even Homer Simpson could get.
 					</p>
 				</div>
 				<hr />
