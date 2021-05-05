@@ -19,7 +19,7 @@ function TTT() {
 					width="100px"
 				/> */}
 				<p>
-					<i>Take a break. Play Homer in Tic-Tac-D'oh.</i>
+					<i>Take a break. Play Homer in some Tic-Tac-D'oh.</i>
 				</p>
 				<Game />
 				<hr />

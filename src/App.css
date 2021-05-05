@@ -35,14 +35,25 @@ footer {
 	padding: 1em;
 }
 
-/* IDs */
-
-#donut {
-	border: solid #ffffff;
+/*------------------------- IDs ----------------------------*/
+/*--------------------- HOME PAGE --------------------------*/
+#homerText {
+	/* border: solid black; */
+	padding: 1rem 0 1rem 1rem;
+	margin-right: 1rem;
+	font-size: 2rem;
+	text-align: left;
 }
 
-/* CLASSES */
+#flex-container-home {
+	/* Flexbox specifically for two flex items, the Homer headline and the spinning donut. */
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
 
+/*------------------------- CLASSES ------------------------*/
 .flex-container {
 	/* Put this in the element holding the flex items; this positions all items like a row. */
 	display: flex;
@@ -56,15 +67,17 @@ footer {
 	text-align: center;
 }
 
-/* .size-text {
-	Put this in the element holding the text I wish to change its size
-	font-size: small;
-} */
-
-.boarder {
+.border-text {
+	/* Put this in the element holding the text I want to add bordering. */
 	border: solid 1px black;
+	border-radius: 25px;
 	padding: 1rem;
 	margin: 1rem;
+}
+
+.donut {
+	border: solid #ffffff;
+	margin: .5rem;
 }
 
 .loader {
@@ -74,7 +87,6 @@ footer {
 	border-radius: 50%;
 	animation: spin 2s linear infinite;
 }
-
 @keyframes spin {
 	0% {
 		transform: rotate(0deg);

@@ -72,7 +72,7 @@ function Footer() {
 							target="_blank"
 							rel="noopener noreferrer"
 						>
-							Find Your Local Representatives
+							Find Your Local Representatives.
 						</a>
 					</p>
 				</small>

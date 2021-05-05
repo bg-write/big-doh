@@ -5,11 +5,12 @@ function Home() {
 	return (
 		<>
 			<main>
-				<div className="flex-container">
-					<h1>If Homer can do it, so can you.</h1>
+				<div id="flex-container-home">
+					<h1 id="homerText">
+						If Homer can do it,<br></br>so can you.
+					</h1>
 					<img
-						id="donut"
-						class="loader"
+						class="donut loader"
 						alt="donut"
 						src="https://i.imgur.com/7NqMseE.jpg"
 						width="50%"
@@ -17,7 +18,7 @@ function Home() {
 				</div>
 				<hr />
 				<div className="center-text">
-					<p>WHAT IS BIG D'OH?</p>
+					<p className="border-text">WHAT IS BIG D'OH?</p>
 					<p>
 						Have you read 'Cracking the Coding Interview' but are still
 						struggling with Big O?
@@ -30,13 +31,13 @@ function Home() {
 				</div>
 				<hr />
 				<div className="flex-container center-text">
-					<div className="boarder">
+					<div className="border-text">
 						<Link to="/big-o">Big O</Link>
 					</div>
-					<div className="boarder">
+					<div className="border-text">
 						<Link to="/algorithms">Algorithms</Link>
 					</div>
-					<div className="boarder">
+					<div className="border-text">
 						<Link to="/data-structures">Data Structures</Link>
 					</div>
 				</div>
