@@ -111,8 +111,8 @@ footer {
 /*--------------------- HOME PAGE --------------------------*/
 #homerText {
 	/* border: solid black; */
-	padding: 1rem 0 1rem 1rem;
-	margin-right: 1rem;
+	padding: 1rem;
+	margin: 0 2rem;
 	font-size: 2rem;
 	text-align: left;
 }

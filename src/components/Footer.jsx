@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 
 function Footer() {
 	return (
@@ -22,22 +22,6 @@ function Footer() {
 						<div>
 							<a href="/ttt">Study Break</a>
 						</div>
-						{/* ICEBOX: Make React Link work to move window view to top of page from footer */}
-						{/* <div>
-							<Link to="/">Home</Link>
-						</div>
-						<div>
-							<Link to="/big-o">Big O</Link>
-						</div>
-						<div>
-							<Link to="/algorithms">Algorithms</Link>
-						</div>
-						<div>
-							<Link to="/data-structures">Data Structures</Link>
-						</div>
-						<div>
-							<Link to="/ttt">Study Break</Link>
-						</div> */}
 					</p>
 
 					<p>
@@ -61,7 +45,7 @@ function Footer() {
 					</p>
 					<p>
 						All photos and gifs are taken from General Assembly except when
-						linked to original sources. All concepts inspired by Gayle Laakmann
+						linked to their original sources. All concepts inspired by Gayle Laakmann
 						McDowell's 'Cracking the Coding Interview' (6th Edition).
 					</p>
 					<p>Copyright &copy; Big D'oh 2021.</p>
