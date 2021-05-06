@@ -36,7 +36,7 @@ function Home() {
 					</p>
 				</div>
 
-				<div className="flex-container center-text">
+				{/* <div className="flex-container center-text">
 					<div className="border-text">
 						<a href="/big-o">Big O</a>
 					</div>
@@ -46,7 +46,7 @@ function Home() {
 					<div className="border-text">
 						<a href="/data-structures">Data Structures</a>
 					</div>
-				</div>
+				</div> */}
 			</main>
 		</>
 	);
