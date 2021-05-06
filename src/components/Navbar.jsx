@@ -6,15 +6,23 @@ function NavBar() {
 	return (
 		<>
 			<header>
-				<Navbar expand="lg" className="center-text">
+				<Navbar expand="lg">
 					<Navbar.Brand href="/">BIG D'OH</Navbar.Brand>
 					<Navbar.Toggle aria-controls="basic-navbar-nav" />
 					<Navbar.Collapse id="basic-navbar-nav">
 						<Nav className="mr-auto">
-							<Nav.Link className="border-text" href="/big-o">BIG O</Nav.Link>
-							<Nav.Link className="border-text" href="/algorithms">ALGORITHMS</Nav.Link>
-							<Nav.Link className="border-text" href="/data-structures">DATA STRUCTURES</Nav.Link>
-							<Nav.Link className="border-text" href="/ttt">STUDY BREAK</Nav.Link>
+							<Nav.Link className="nav-item" href="/big-o">
+								BIG O
+							</Nav.Link>
+							<Nav.Link className="nav-item" href="/algorithms">
+								ALGORITHMS
+							</Nav.Link>
+							<Nav.Link className="nav-item" href="/data-structures">
+								DATA STRUCTURES
+							</Nav.Link>
+							<Nav.Link className="nav-item" href="/ttt">
+								STUDY BREAK
+							</Nav.Link>
 						</Nav>
 					</Navbar.Collapse>
 				</Navbar>
