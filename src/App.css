@@ -28,55 +28,21 @@ a:hover {
 	/* grid-gap: 1em; */
 }
 
-header,
-main,
-footer {
-	padding: 1rem;
-	border-top: solid 2px black;
-}
-
 header {
 	background: #ffffff;
+	border: solid 2px black;
+	padding: 0;
+}
+
+main {
+	padding: 0;
 }
 
 footer {
 	background: black;
 	color: white;
-}
-
-/*------------------------- IDs ----------------------------*/
-/*--------------------- HOME PAGE --------------------------*/
-#homerText {
-	/* border: solid black; */
-	padding: 1rem 0 1rem 1rem;
-	margin-right: 1rem;
-	font-size: 2rem;
-	text-align: left;
-}
-
-#flex-container-home {
-	/* Flexbox specifically for two flex items, the Homer headline and the spinning donut. */
-	display: flex;
-	flex-direction: column-reverse;
-	align-items: center;
-	justify-content: center;
-}
-
-#marquee {
-	/* For the scrolling marquee reading "CRACK THE CODING INTERVIEW" */
-	border: solid 1px black;
-	text-align: center;
 	padding: 1rem;
-	background-color: #d1b271;
-}
-
-/*--------------------- NAVBAR PAGE -------------------------*/
-.nav-item {
-	/* For stylingg the Navbar links */
-	padding: 0;
 	border: solid 2px black;
-	text-align: center;
-	font-size: xx-large;
 }
 
 /*------------------------- CLASSES ------------------------*/
@@ -103,7 +69,7 @@ footer {
 }
 
 .donut {
-	/* border: solid #ffffff; */
+	/* To edit the donuts */
 	margin: 0.5rem;
 }
 
@@ -121,4 +87,62 @@ footer {
 	100% {
 		transform: rotate(360deg);
 	}
+}
+
+/*------------------------- IDs ----------------------------*/
+/*--------------------- HOME PAGE --------------------------*/
+#homerText {
+	/* border: solid black; */
+	padding: 1rem 0 1rem 1rem;
+	margin-right: 1rem;
+	font-size: 2rem;
+	text-align: left;
+}
+
+#flex-container-home {
+	/* Flexbox specifically for two flex items, the Homer headline and the spinning donut. */
+	padding: 1rem 0;
+	display: flex;
+	flex-direction: column-reverse;
+	align-items: center;
+	justify-content: center;
+}
+
+#marquee {
+	/* For the scrolling marquee reading "CRACK THE CODING INTERVIEW" */
+	border: solid 1px black;
+	text-align: center;
+	padding: 1rem;
+	background-color: #d1b271;
+}
+
+/*--------------------- NAVBAR PAGE -------------------------*/
+#nav-container {
+	/* For styling the overall Navbar */
+	padding-bottom: 0;
+}
+
+#nav-title {
+	/* For styling the BIG D'OH Home Page link */
+	margin-left: 1rem;
+	font-size: xx-large;
+}
+
+#nav-toggle {
+	/* For styling the Navbar toggle */
+	margin-right: 1rem;
+	border: none;
+}
+
+#nav-item {
+	/* For stylingg the Navbar links */
+	padding: 0;
+	border: solid 2px black;
+	text-align: center;
+	font-size: xx-large;
+	color: black;
+}
+
+#nav-item:hover {
+	background-color: #70d1fe;
 }

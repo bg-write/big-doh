@@ -6,21 +6,23 @@ function NavBar() {
 	return (
 		<>
 			<header>
-				<Navbar expand="lg">
-					<Navbar.Brand href="/">BIG D'OH</Navbar.Brand>
-					<Navbar.Toggle aria-controls="basic-navbar-nav" />
+				<Navbar id="nav-container" expand="lg">
+					<Navbar.Brand href="/" id="nav-title">
+						BIG D'OH
+					</Navbar.Brand>
+					<Navbar.Toggle aria-controls="basic-navbar-nav" id="nav-toggle" />
 					<Navbar.Collapse id="basic-navbar-nav">
 						<Nav className="mr-auto">
-							<Nav.Link className="nav-item" href="/big-o">
+							<Nav.Link id="nav-item" href="/big-o">
 								BIG O
 							</Nav.Link>
-							<Nav.Link className="nav-item" href="/algorithms">
+							<Nav.Link id="nav-item" href="/algorithms">
 								ALGORITHMS
 							</Nav.Link>
-							<Nav.Link className="nav-item" href="/data-structures">
+							<Nav.Link id="nav-item" href="/data-structures">
 								DATA STRUCTURES
 							</Nav.Link>
-							<Nav.Link className="nav-item" href="/ttt">
+							<Nav.Link id="nav-item" href="/ttt">
 								STUDY BREAK
 							</Nav.Link>
 						</Nav>
