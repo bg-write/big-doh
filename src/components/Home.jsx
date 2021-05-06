@@ -7,7 +7,7 @@ function Home() {
 			<main>
 				<div id="flex-container-home">
 					<h1 id="homerText">
-						If Homer can do it,<br></br>so can you.
+						IF HOMER CAN DO IT<br></br>YOU CAN TOO.
 					</h1>
 					<img
 						class="donut loader"
@@ -16,22 +16,26 @@ function Home() {
 						width="50%"
 					/>
 				</div>
-				<hr />
+				<div>
+					<p id="marquee">
+						CRACK THE CODING INTERVIEW
+					</p>
+				</div>
 				<div className="center-text">
 					<p className="border-text">
 						BIG O? MORE LIKE BIG <i>D'OH</i>!
 					</p>
 					<p>
-						Have you read 'Cracking the Coding Interview' but are still
-						struggling understanding Big O?
+						Read 'Cracking the Coding Interview' but still
+						struggling with Big O?
 					</p>
 					<p>
 						<b>Big D'oh: Homer Reads Cracking the Coding Interview</b> is a free
-						guide for anyone wishing to study Big O and common algorithms and
+						study guide for Big O and common algorithms and
 						data structures, in a way even Homer Simpson could get.
 					</p>
 				</div>
-				<hr />
+
 				<div className="flex-container center-text">
 					<div className="border-text">
 						<a href="/big-o">Big O</a>
