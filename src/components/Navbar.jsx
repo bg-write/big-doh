@@ -6,7 +6,11 @@ function NavBar() {
 	return (
 		<>
 			<header>
-				<Navbar id="nav-container" expand="lg">
+				<Navbar
+					className="justify-content-center"
+					id="nav-container"
+					expand="lg"
+				>
 					<Navbar.Brand href="/" id="nav-title">
 						BIG D'OH
 					</Navbar.Brand>

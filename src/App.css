@@ -118,7 +118,7 @@ footer {
 
 /*--------------------- NAVBAR PAGE -------------------------*/
 #nav-container {
-	/* For styling the overall Navbar */
+	/* For styling the overall Navbar holding BIG D'OH title and the toggle */
 	padding-bottom: 0;
 }
 
@@ -145,4 +145,13 @@ footer {
 
 #nav-item:hover {
 	background-color: #70d1fe;
+}
+
+#study-nav-item {
+	/* For stylingg the "STUDY BREAK" Navbar links */
+	/* padding: 0;
+	border: solid 2px black;
+	text-align: center;
+	font-size: xx-large;
+	color: black; */
 }
