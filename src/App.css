@@ -7,6 +7,24 @@ HOMER COLOR GUIDE:
 -Shoes: #424F46 (Outer Space)
 */
 
+@font-face {
+	font-family: 'FontAwesome5Brands-Regular';
+	src: url('./fonts/FontAwesome5Brands-Regular.eot');
+	src: url('./fonts/FontAwesome5Brands-Regular.eot?#iefix')
+			format('embedded-opentype'),
+		url('./fonts/FontAwesome5Brands-Regular.svg#FontAwesome5Brands-Regular')
+			format('svg'),
+		url('./fonts/FontAwesome5Brands-Regular.ttf') format('truetype'),
+		url('./fonts/FontAwesome5Brands-Regular.woff') format('woff'),
+		url('./fonts/FontAwesome5Brands-Regular.woff2') format('woff2');
+	font-weight: normal;
+	font-style: normal;
+}
+
+body {
+	font-family: FontAwesome5Brands-Regular;
+}
+
 body {
 	background-color: #fed90f;
 }
@@ -145,13 +163,4 @@ footer {
 
 #nav-item:hover {
 	background-color: #70d1fe;
-}
-
-#study-nav-item {
-	/* For stylingg the "STUDY BREAK" Navbar links */
-	/* padding: 0;
-	border: solid 2px black;
-	text-align: center;
-	font-size: xx-large;
-	color: black; */
 }
