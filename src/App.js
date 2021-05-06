@@ -8,13 +8,13 @@ import Algorithms from './components/Algorithms/Algorithms';
 import DataStructures from './components/DataStructures/DataStructures';
 import TTT from './components/TTT/TTT';
 import Footer from './components/Footer';
-import Navbar from './components/Navbar';
+import NavBar from './components/Navbar';
 import { Route, Link } from 'react-router-dom';
 
 function App() {
 	return (
 		<div className="App" class="grid">
-			<Navbar />
+			<NavBar />
 			<Route exact path="/" component={Home} />
 			<Route exact path="/about" component={About} />
 			<Route exact path="/contact" component={Contact} />
