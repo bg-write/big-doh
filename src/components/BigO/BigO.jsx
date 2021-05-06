@@ -14,7 +14,7 @@ function BigO() {
 					id="donut"
 					class="loader"
 					alt="donut"
-					src="https://i.imgur.com/7NqMseE.jpg"
+					src="https://i.imgur.com/ske1xNn.png"
 					width="100px"
 				/>
 				<p>

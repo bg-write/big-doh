@@ -12,7 +12,7 @@ function Home() {
 					<img
 						class="donut loader"
 						alt="donut"
-						src="https://i.imgur.com/7NqMseE.jpg"
+						src="https://i.imgur.com/ske1xNn.png"
 						width="50%"
 					/>
 				</div>
