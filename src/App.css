@@ -48,7 +48,8 @@ a:hover {
 
 header {
 	background: #ffffff;
-	border: solid 2px black;
+	border-top: solid 2px black;
+	border-bottom: solid 2px black;
 	padding: 0;
 }
 
@@ -110,8 +111,8 @@ footer {
 /*------------------------- IDs ----------------------------*/
 /*--------------------- HOME PAGE --------------------------*/
 #homerText {
-	/* border: solid black; */
-	padding: 1rem;
+	/* "IF HOMER CAN DO IT, YOU CAN TOO" */
+	padding-top: .5rem;
 	margin: 0 2rem;
 	font-size: 2rem;
 	text-align: left;
@@ -134,7 +135,7 @@ footer {
 	background-color: #d1b271;
 }
 
-/*--------------------- NAVBAR PAGE -------------------------*/
+/*--------------------- NAVBAR -------------------------*/
 #nav-container {
 	/* For styling the overall Navbar holding BIG D'OH title and the toggle */
 	padding-bottom: 0;
@@ -163,4 +164,10 @@ footer {
 
 #nav-item:hover {
 	background-color: #70d1fe;
+}
+
+/*--------------------- FOOTER -------------------------*/
+#footer-container {
+	/* For styling everything inside the Footer */
+	text-align: right;
 }

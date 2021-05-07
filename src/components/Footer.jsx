@@ -4,7 +4,7 @@ import React from 'react';
 function Footer() {
 	return (
 		<>
-			<footer>
+			<footer id="footer-container">
 				<small>
 					<p>
 						<div>
@@ -25,28 +25,63 @@ function Footer() {
 					</p>
 
 					<p>
-					'Big D'oh: Homer Reads Cracking the Coding Interview' was created by{' '}
+						<i>Built by</i>
+						<br></br>BRADY GERBER<br></br>
+						<a
+							href="https://github.com/bg-write"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							GITHUB
+						</a>{' '}
+						<a
+							href="https://www.linkedin.com/in/brady-gerber/"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							LINKEDIN
+						</a>{' '}
+						<a
+							href="https://twitter.com/BradyWGerber"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							TWITTER
+						</a>
+						<br></br>
 						<a
 							href="https://bradygerber.com/"
 							target="_blank"
 							rel="noopener noreferrer"
 						>
-							Brady Gerber
-						</a>{' '}
-						&{' '}
+							Website
+						</a>
+						<br></br>Gmail (
 						<a
-							href="https://www.mollyhodson.online/"
+							href="mailto:bradywgerber@gmail.com"
 							target="_blank"
 							rel="noopener noreferrer"
 						>
-							Molly Hodson
+							bradywgerber
 						</a>
-						.
+						)
 					</p>
+
+					<p>
+						Designed by<br></br>MOLLY HODSON<br></br>DRIBBBLE LINKEDIN TWITTER
+						<br></br>Website<br></br>Gmail (mollyhodsononline)
+					</p>
+
+					{/* https://dribbble.com/mollyhodson
+					https://www.linkedin.com/in/molly-hodson/
+					https://twitter.com/MollyHodson
+					https://www.mollyhodson.online/
+					mollyphodson@gmail.com */}
+
 					<p>
 						All photos and gifs are taken from General Assembly except when
-						linked to their original sources. All concepts inspired by Gayle Laakmann
-						McDowell's 'Cracking the Coding Interview' (6th Edition).
+						linked to their original sources. All concepts inspired by Gayle
+						Laakmann McDowell's 'Cracking the Coding Interview' (6th Edition).
 					</p>
 					<p>Copyright &copy; Big D'oh 2021.</p>
 					<p>
