@@ -26,29 +26,30 @@ function Footer() {
 
 					<p>
 						<i>Built by</i>
-						<br></br>BRADY GERBER<br></br>
-						<a
-							href="https://github.com/bg-write"
-							target="_blank"
-							rel="noopener noreferrer"
-						>
-							GITHUB
-						</a>{' '}
-						<a
-							href="https://www.linkedin.com/in/brady-gerber/"
-							target="_blank"
-							rel="noopener noreferrer"
-						>
-							LINKEDIN
-						</a>{' '}
-						<a
-							href="https://twitter.com/BradyWGerber"
-							target="_blank"
-							rel="noopener noreferrer"
-						>
-							TWITTER
-						</a>
-						<br></br>
+						<br></br>BRADY GERBER
+						<div className="remove-underline">
+							<a
+								href="https://github.com/bg-write"
+								target="_blank"
+								rel="noopener noreferrer"
+							>
+								GITHUB
+							</a>{' '}
+							<a
+								href="https://www.linkedin.com/in/brady-gerber/"
+								target="_blank"
+								rel="noopener noreferrer"
+							>
+								LINKEDIN
+							</a>{' '}
+							<a
+								href="https://twitter.com/BradyWGerber"
+								target="_blank"
+								rel="noopener noreferrer"
+							>
+								TWITTER
+							</a>
+						</div>
 						<a
 							href="https://bradygerber.com/"
 							target="_blank"
@@ -69,29 +70,30 @@ function Footer() {
 
 					<p>
 						<i>Designed by</i>
-						<br></br>MOLLY HODSON<br></br>
-						<a
-							href="https://dribbble.com/mollyhodson"
-							target="_blank"
-							rel="noopener noreferrer"
-						>
-							DRIBBBLE
-						</a>{' '}
-						<a
-							href="https://www.linkedin.com/in/molly-hodson/"
-							target="_blank"
-							rel="noopener noreferrer"
-						>
-							LINKEDIN
-						</a>{' '}
-						<a
-							href="https://twitter.com/MollyHodson"
-							target="_blank"
-							rel="noopener noreferrer"
-						>
-							TWITTER
-						</a>
-						<br></br>
+						<br></br>MOLLY HODSON
+						<div className="remove-underline">
+							<a
+								href="https://dribbble.com/mollyhodson"
+								target="_blank"
+								rel="noopener noreferrer"
+							>
+								DRIBBBLE
+							</a>{' '}
+							<a
+								href="https://www.linkedin.com/in/molly-hodson/"
+								target="_blank"
+								rel="noopener noreferrer"
+							>
+								LINKEDIN
+							</a>{' '}
+							<a
+								href="https://twitter.com/MollyHodson"
+								target="_blank"
+								rel="noopener noreferrer"
+							>
+								TWITTER
+							</a>
+						</div>
 						<a
 							href="https://www.mollyhodson.online/"
 							target="_blank"

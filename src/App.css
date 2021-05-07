@@ -87,6 +87,11 @@ footer {
 	background-color: #d1b271;
 }
 
+.remove-underline a {
+	/* To remove the underline of any Anchor links */
+	text-decoration: none;
+}
+
 .donut {
 	/* To edit the donuts */
 	margin: 0.5rem;
