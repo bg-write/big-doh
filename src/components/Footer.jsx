@@ -68,15 +68,47 @@ function Footer() {
 					</p>
 
 					<p>
-						Designed by<br></br>MOLLY HODSON<br></br>DRIBBBLE LINKEDIN TWITTER
-						<br></br>Website<br></br>Gmail (mollyhodsononline)
+						<i>Designed by</i>
+						<br></br>MOLLY HODSON<br></br>
+						<a
+							href="https://dribbble.com/mollyhodson"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							DRIBBBLE
+						</a>{' '}
+						<a
+							href="https://www.linkedin.com/in/molly-hodson/"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							LINKEDIN
+						</a>{' '}
+						<a
+							href="https://twitter.com/MollyHodson"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							TWITTER
+						</a>
+						<br></br>
+						<a
+							href="https://www.mollyhodson.online/"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							Website
+						</a>
+						<br></br>Gmail (
+						<a
+							href="mailto:mollyphodson@gmail.com"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							mollyhodsononline
+						</a>
+						)
 					</p>
-
-					{/* https://dribbble.com/mollyhodson
-					https://www.linkedin.com/in/molly-hodson/
-					https://twitter.com/MollyHodson
-					https://www.mollyhodson.online/
-					mollyphodson@gmail.com */}
 
 					<p>
 						All photos and gifs are taken from General Assembly except when
