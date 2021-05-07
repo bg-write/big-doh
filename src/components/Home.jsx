@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 
 function Home() {
 	return (
@@ -29,21 +29,9 @@ function Home() {
 					<p>
 						<b>Big D'oh: Homer Reads Cracking the Coding Interview</b> is a free
 						study guide for Big O and common algorithms and data structures, in
-						a way Homer Simpson could get.
+						a way even Homer Simpson could get.
 					</p>
 				</div>
-
-				{/* <div className="flex-container center-text">
-					<div className="border-text">
-						<a href="/big-o">Big O</a>
-					</div>
-					<div className="border-text">
-						<a href="/algorithms">Algorithms</a>
-					</div>
-					<div className="border-text">
-						<a href="/data-structures">Data Structures</a>
-					</div>
-				</div> */}
 			</main>
 		</>
 	);
