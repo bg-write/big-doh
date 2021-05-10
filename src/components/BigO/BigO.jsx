@@ -5,13 +5,12 @@ function BigO() {
 		<>
 			<main id="bigO-main">
 				<div id="bigO-title">
-					<h1>BIG O NOTATION</h1>
+					<h1 id="bigO-headline">BIG O NOTATION</h1>
 					<img
-						id="donut"
+						id="bigO-donut"
 						class="loader"
 						alt="donut"
 						src="https://i.imgur.com/ske1xNn.png"
-						width="50%"
 					/>
 				</div>
 

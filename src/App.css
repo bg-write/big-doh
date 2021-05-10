@@ -70,7 +70,7 @@ footer {
 	/* For holding most Big O, Algorithm, and Data Structure content */
 	border-top: solid 1px black;
 	text-align: center;
-	padding: 1.5rem 2rem .5rem;
+	padding: 1.5rem 2rem 0.5rem;
 }
 
 .center-text {
@@ -183,11 +183,20 @@ footer {
 }
 
 #bigO-title {
-	/* For styling "BIG O NOTATION" headline & donut */
+	/* For styling "BIG O NOTATION" headline & donut section */
 	padding: 1rem;
 	display: flex;
 	align-items: center;
 	justify-content: center;
+}
+
+#bigO-headline {
+	/* For styling "BIG O NOTATION" copy */
+	text-align: center;
+}
+
+#bigO-donut {
+	/* For styling Big O donut */
 }
 
 #bigO-blurb {
