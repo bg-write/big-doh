@@ -48,7 +48,7 @@ function BigO() {
 				</div>
 
 				<div id="bigO-container">
-					<div className="center-text border-text">
+					<div className="item-container">
 						<h2>O(1) - Constant</h2>
 						<p>
 							The input size doesn't matter. Whether your input (N) is 1 or
@@ -64,7 +64,7 @@ function BigO() {
 						</p>
 					</div>
 
-					<div className="center-text border-text">
+					<div className="item-container">
 						<h2>O(log N) - Logarithmic</h2>
 						<p>
 							Cut the number of steps each time in half; if N is doubled, you
@@ -82,7 +82,7 @@ function BigO() {
 						</p>
 					</div>
 
-					<div className="center-text border-text">
+					<div className="item-container">
 						<h2>O(N) - Linear</h2>
 						<p>
 							N is the length of your input. If your list has 10 items, you
@@ -99,7 +99,7 @@ function BigO() {
 						</p>
 					</div>
 
-					<div className="center-text border-text">
+					<div className="item-container">
 						<h2>O(N log N) - Quasilinear</h2>
 						<p>
 							For each time N grows, the time required grows linearly AND
@@ -117,7 +117,7 @@ function BigO() {
 						</p>
 					</div>
 
-					<div className="center-text border-text">
+					<div className="item-container">
 						<h2>O(N^2) - Quadratic</h2>
 						<p>
 							For each time N grows, the processing time doubles. If your list
@@ -134,7 +134,7 @@ function BigO() {
 						</p>
 					</div>
 
-					<div className="center-text border-text">
+					<div className="item-container">
 						<h2>O(2^N) - Exponential</h2>
 						<p>
 							Doubles with every additional input. If N = 2, your algorithm runs
@@ -151,7 +151,7 @@ function BigO() {
 						</p>
 					</div>
 
-					<div className="center-text border-text">
+					<div className="item-container">
 						<h2>O(N!) - Factorial</h2>
 						<p>
 							When you have to calculate every possible solution to determine

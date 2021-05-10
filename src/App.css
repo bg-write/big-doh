@@ -69,6 +69,13 @@ footer {
 	justify-content: center;
 }
 
+.item-container {
+	/* For holding most Big O, Algorithm, and Data Structure content */
+	border-bottom: solid 1px black;
+	text-align: center;
+	padding: 1rem;
+}
+
 .center-text {
 	/* Put this in the element holding the text I want to center. */
 	text-align: center;
@@ -202,5 +209,4 @@ footer {
 #bigO-container {
 	/* For styling the overall "BIG O NOTATION" values */
 	background-color: greenyellow;
-	border: solid 2px black;
 }
