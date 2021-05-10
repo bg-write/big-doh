@@ -180,9 +180,17 @@ footer {
 }
 
 #bigO-title {
-	/* For styling "BIG O NOTATION" title */
-	background-color: blue;
-	border: solid 2px black;
+	/* For styling "BIG O NOTATION" headline & donut */
+	padding: 1rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#bigO-blurb {
+	/* For styling "BIG O NOTATION" blurb */
+	border-bottom: solid 2px black;
+	padding: 1rem;
 }
 
 #bigO-image {
