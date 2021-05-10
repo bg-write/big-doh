@@ -19,8 +19,10 @@ function Algorithms() {
 				/>
 				<p>
 					<i>
-						<b>Algorithms</b> - A series of steps taken to solve a problem or
-						achieve a goal. (
+						<b>Algorithms</b> - A repeatable series of steps taken to solve a
+						problem, produce some output, or achieve a goal. The goal is to
+						solve a problem in a repeatable way in the shortest time and using
+						the least amount of space. (
 						<a
 							href="https://www.youtube.com/watch?v=6hfOvs8pY1k"
 							target="_blank"
@@ -92,7 +94,7 @@ function Algorithms() {
 					)
 				</p>
 
-				<h4>Insertion (Selection) Sort</h4>
+				<h4>Insertion Sort</h4>
 				<img
 					id="insertion-sort"
 					alt="insertion sort"
@@ -130,7 +132,7 @@ function Algorithms() {
 				<p>
 					Split the items in half over and over until they're all sorted
 					(divide, via the merge sort algorithm), and then merge the sorted
-					pieces together on their way back up (conquer, via the merge
+					pieces back together on their way back up (conquer, via the merge
 					algorithm). (
 					<a
 						href="https://www.youtube.com/watch?v=XaqR3G_NVoo"
@@ -238,7 +240,8 @@ function Algorithms() {
 					/>
 				</a>
 				<p>
-					Check for, and sometimes retrieve, one or more items from a dataset.
+					Find, and sometimes retrieve, an item with a specific value in a
+					sorted sequence.
 				</p>
 				<h3>Brute Force Search</h3>
 				<a
@@ -289,9 +292,10 @@ function Algorithms() {
 					/>
 				</a>
 				<p>
-					When an array is sorted, go to the middle (left of center) and then
-					search its left or right and go to its new middle, and so on. EX
-					Searching a dictionary. (
+					Find an item by repeatedly halving your search. When an array is
+					sorted, go to the middle (left of center) and then search its left or
+					right and go to its new middle, and so on. EX Searching a dictionary.
+					(
 					<a
 						href="https://www.youtube.com/watch?v=iP897Z5Nerk"
 						target="_blank"
