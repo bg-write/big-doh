@@ -31,7 +31,8 @@ function BigO() {
 						)
 					</p>
 				</div>
-				<div id="bigO-image">
+
+				<div id="bigO-image" className="center-text">
 					<a
 						href="https://www.bigocheatsheet.com/"
 						target="_blank"

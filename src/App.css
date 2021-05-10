@@ -176,7 +176,6 @@ footer {
 /*--------------------- BIG O -------------------------*/
 #bigO-main {
 	/* For styling the main BIG O page */
-	background-color: pink;
 }
 
 #bigO-title {
@@ -195,8 +194,9 @@ footer {
 
 #bigO-image {
 	/* For styling "BIG O NOTATION" title */
-	background-color: orange;
-	border: solid 2px black;
+	background-color: white;
+	border-bottom: solid 2px black;
+	padding: 1rem;
 }
 
 #bigO-container {
