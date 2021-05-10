@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 function BigO() {
 	return (
 		<>
-			<main>
+			<main id="bigO-main">
 				<h1>BIG O</h1>
 				<div>
 					<Link to="/">Back To Home</Link>
