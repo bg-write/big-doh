@@ -23,9 +23,6 @@ HOMER COLOR GUIDE:
 
 body {
 	font-family: FontAwesome5Brands-Regular;
-}
-
-body {
 	background-color: #fed90f;
 }
 
@@ -71,9 +68,9 @@ footer {
 
 .item-container {
 	/* For holding most Big O, Algorithm, and Data Structure content */
-	border-bottom: solid 1px black;
+	border-top: solid 1px black;
 	text-align: center;
-	padding: 1rem;
+	padding: 1.5rem 2rem .5rem;
 }
 
 .center-text {
@@ -195,15 +192,14 @@ footer {
 
 #bigO-blurb {
 	/* For styling "BIG O NOTATION" blurb */
-	border-bottom: solid 2px black;
 	padding: 1rem;
 }
 
 #bigO-image {
 	/* For styling "BIG O NOTATION" title */
 	background-color: white;
-	border-bottom: solid 2px black;
 	padding: 1rem;
+	border-top: solid 1px black;
 }
 
 #bigO-container {
