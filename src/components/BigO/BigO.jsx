@@ -49,9 +49,9 @@ function BigO() {
 
 				<div id="bigO-container">
 					<div className="item-container">
-						<h2>O(1) - Constant</h2>
+						<h2>O(1) - CONSTANT</h2>
 						<p>
-							The input size doesn't matter. Whether your input (N) is 1 or
+							The input size doesn't matter.<br></br> Whether your input (N) is 1 or
 							1,000 values long, the algorithm still just takes one "step."
 							<br></br>
 							<i>
@@ -72,9 +72,9 @@ function BigO() {
 					</div>
 
 					<div className="item-container">
-						<h2>O(log N) - Logarithmic</h2>
+						<h2>O(log N) - LOGARITHMIC</h2>
 						<p>
-							Cut the number of steps each time in half. If N is doubled, you
+							Cut the number of steps each time in half.<br></br>If N is doubled, you
 							only have to do 1 more operation.<br></br>
 							<i>
 								<small>
@@ -95,9 +95,9 @@ function BigO() {
 					</div>
 
 					<div className="item-container">
-						<h2>O(N) - Linear</h2>
+						<h2>O(N) - LINEAR</h2>
 						<p>
-							N is the length of your input. If your list has 10 items, you
+							N is the length of your input.<br></br>If your list has 10 items, you
 							print 10 times.<br></br>
 							<i>
 								<small>
@@ -116,7 +116,7 @@ function BigO() {
 					</div>
 
 					<div className="item-container">
-						<h2>O(N log N) - Quasilinear</h2>
+						<h2>O(N log N) - QUASILINEAR</h2>
 						<p>
 							For each time N grows, the time required grows linearly and
 							logarithmically.<br></br>
@@ -139,9 +139,9 @@ function BigO() {
 					</div>
 
 					<div className="item-container">
-						<h2>O(N^2) - Quadratic</h2>
+						<h2>O(N^2) - QUADRATIC</h2>
 						<p>
-							For each time N grows, the processing time doubles. If your list
+							For each time N grows, the processing time doubles.<br></br>If your list
 							has 10 items, you have to print 100 times, or 10^2 times.<br></br>
 							<small>
 								<i>
@@ -162,10 +162,10 @@ function BigO() {
 					</div>
 
 					<div className="item-container">
-						<h2>O(2^N) - Exponential</h2>
+						<h2>O(2^N) - EXPONENTIAL</h2>
 						<p>
-							Doubles with every additional input. If N = 2, your algorithm runs
-							4 times, or 2^2, and if N = 3, your algorithm runs 8 times, or
+							Doubles with every additional input.<br></br>If N = 2, your algorithm runs
+							4 times, or 2^2. If N = 3, your algorithm runs 8 times, or
 							2^3.<br></br>
 							<small>
 								<i>
@@ -184,10 +184,10 @@ function BigO() {
 					</div>
 
 					<div className="item-container">
-						<h2>O(N!) - Factorial</h2>
+						<h2>O(N!) - FACTORIAL</h2>
 						<p>
 							When you have to calculate every possible solution to determine
-							the correct output. 6! = 6*5*4*3*2*1 = 720.<br></br>
+							the correct output.<br></br>6! = 6*5*4*3*2*1 = 720.<br></br>
 							<small>
 								<i>
 									Ex: Brute Force and the Traveling Salesman problem. (

@@ -23,7 +23,7 @@ Deploy the app: [https://big-doh.herokuapp.com/](https://big-doh.herokuapp.com/)
 #### Algorithms
 
 - Bubble Sort
-- Insertion (Selection) Sort
+- Insertion Sort
 - Merge Sort
 - Quick Sort
 - Bucket Sort
