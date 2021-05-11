@@ -68,7 +68,7 @@ function Algorithms() {
 						</p>
 					</div>
 
-					<div className="item-container">
+					<div className="item-container white-background">
 						<h4>Bubble Sort</h4>
 						<img
 							id="bubble-sort"
@@ -127,7 +127,7 @@ function Algorithms() {
 						</p>
 					</div>
 
-					<div className="item-container">
+					<div className="item-container white-background">
 						<h4>Merge Sort</h4>
 						<img
 							id="merge-sort"
@@ -186,7 +186,7 @@ function Algorithms() {
 							by properties. EX Group all your lego pieces by color.
 						</p>
 					</div>
-					<div className="item-container">
+					<div className="item-container white-background">
 						<h4>Bucket Sort</h4>
 						<img
 							id="bucket-sort"
@@ -254,7 +254,7 @@ function Algorithms() {
 						</p>
 					</div>
 
-					<div className="item-container">
+					<div className="item-container white-background">
 						<h4>Brute Force Search</h4>
 						<a
 							href="https://www.quantamagazine.org/one-way-salesman-finds-fast-path-home-20171005/"
