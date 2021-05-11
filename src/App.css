@@ -80,6 +80,11 @@ footer {
 	text-align: center;
 }
 
+.left-text {
+	/* Put this in the element holding the text I want to align left. */
+	text-align: left;
+}
+
 .border-text {
 	/* Put this in the element holding the text I want to add bordering. */
 	border: solid 1px black;

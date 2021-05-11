@@ -71,7 +71,15 @@ function Algorithms() {
 							Compare and order 2 items at a time.<br></br>
 							<i>
 								<small>
-									Ex: Comparing a group of lego pieces based on their size.
+									Ex: Comparing a group of lego pieces based on their size. (
+									<a
+										href="https://www.youtube.com/watch?v=kPRA0W1kECg"
+										target="_blank"
+										rel="noopener noreferrer"
+									>
+										YouTube
+									</a>
+									)
 								</small>
 							</i>
 						</p>
@@ -110,7 +118,7 @@ function Algorithms() {
 								</small>
 							</i>
 						</p>
-
+						<hr></hr>
 						<h4>Insertion Sort</h4>
 						<img
 							id="insertion-sort"
@@ -145,6 +153,15 @@ function Algorithms() {
 								<small>
 									Ex: Keep splitting a group of legos in half until you get to 1
 									lego, and then you put them all back together, now all sorted.
+									(
+									<a
+										href="https://www.youtube.com/watch?v=es2T6KY45cA"
+										target="_blank"
+										rel="noopener noreferrer"
+									>
+										YouTube
+									</a>
+									)
 								</small>
 							</i>
 						</p>
@@ -160,8 +177,8 @@ function Algorithms() {
 						/>
 						<p>
 							Split the items in half over and over until they're all sorted
-							(divide, via the merge sort algorithm), and then merge the sorted
-							pieces back together on their way back up (conquer, via the merge
+							(divide, via the Merge Sort algorithm), and then merge the sorted
+							pieces back together on their way back up (conquer, via the Merge
 							algorithm).<br></br>
 							<i>
 								<small>
@@ -177,7 +194,7 @@ function Algorithms() {
 								</small>
 							</i>
 						</p>
-
+						<hr></hr>
 						<h4>Quick Sort</h4>
 						<img
 							id="quick-sort"
@@ -218,7 +235,17 @@ function Algorithms() {
 							Instead of comparing 2 items, you compare and group all your items
 							by properties.<br></br>
 							<i>
-								<small>Ex: Group all your lego pieces by color.</small>
+								<small>
+									Ex: Group all your lego pieces by color. (
+									<a
+										href="https://www.youtube.com/watch?v=VuXbEb5ywrU"
+										target="_blank"
+										rel="noopener noreferrer"
+									>
+										YouTube
+									</a>
+									)
+								</small>
 							</i>
 						</p>
 					</div>
@@ -247,7 +274,7 @@ function Algorithms() {
 								</small>
 							</i>
 						</p>
-
+						<hr></hr>
 						<h4>Radix Sort</h4>
 						<a
 							href="https://github.com/trekhleb/javascript-algorithms/tree/master/src/algorithms/sorting/radix-sort"
@@ -298,7 +325,17 @@ function Algorithms() {
 							Find, and sometimes retrieve, an item with a specific value in a
 							sorted sequence.<br></br>
 							<i>
-								<small>Ex: XXX.</small>
+								<small>
+									Ex: XXX. (
+									<a
+										href="https://www.youtube.com/watch?v=0eKVizvYSUQ"
+										target="_blank"
+										rel="noopener noreferrer"
+									>
+										YouTube
+									</a>
+									)
+								</small>
 							</i>
 						</p>
 					</div>
@@ -343,7 +380,7 @@ function Algorithms() {
 								</small>
 							</i>
 						</p>
-
+						<hr></hr>
 						<h4>Binary Search</h4>
 						<a
 							href="https://medium.com/techie-delight/binary-search-practice-problems-4c856cd9f26c"
