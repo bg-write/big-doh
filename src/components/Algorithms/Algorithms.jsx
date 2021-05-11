@@ -98,7 +98,8 @@ function Algorithms() {
 							necessary elements will eventually “bubble” up.<br></br>
 							<i>
 								<small>
-									Ex: XXX. (
+									Ex: It's usually used to introduce the idea of an algorithm,
+									or it's used within more efficient sorting algorithms. (
 									<a
 										href="https://www.youtube.com/watch?v=lyZQPjUT5B4"
 										target="_blank"
@@ -112,7 +113,7 @@ function Algorithms() {
 										target="_blank"
 										rel="noopener noreferrer"
 									>
-										But it's not great.
+										It's not great.
 									</a>
 									)
 								</small>
@@ -131,7 +132,8 @@ function Algorithms() {
 							proper place if needed.<br></br>
 							<i>
 								<small>
-									Ex: XXX. (
+									Ex: When you're playing cards and you manually sort your cards
+									in order. (
 									<a
 										href="https://www.youtube.com/watch?v=ROalU379l3U"
 										target="_blank"
@@ -182,7 +184,7 @@ function Algorithms() {
 							algorithm).<br></br>
 							<i>
 								<small>
-									Ex: XXX. (
+									Ex: Sorting a Linked List. (
 									<a
 										href="https://www.youtube.com/watch?v=XaqR3G_NVoo"
 										target="_blank"
@@ -209,7 +211,8 @@ function Algorithms() {
 							first or last value, but it can be any random value.<br></br>
 							<i>
 								<small>
-									Ex: XXX. (
+									Ex: Unlike Merge Sort, the hard work is done during the
+									dividing, not the merging. (
 									<a
 										href="https://www.youtube.com/watch?v=ywWBy6J5gz8"
 										target="_blank"
@@ -262,7 +265,9 @@ function Algorithms() {
 							within those buckets.<br></br>
 							<i>
 								<small>
-									Ex: XXX. (
+									Ex: When sorting a large set of floating point numbers
+									(between 0.0 and 1.0), you can create sorting "buckets" 0
+									through 9 and sort from there. (
 									<a
 										href="https://www.youtube.com/watch?v=ovAfqUafjAA"
 										target="_blank"
@@ -293,7 +298,9 @@ function Algorithms() {
 							by certain digits.<br></br>
 							<i>
 								<small>
-									Ex: XXX. (
+									Ex: Given a range of large numbers, sort all the numbers first
+									by the first digit (1-9), then the next digit range (10-90)
+									and so on. (
 									<a
 										href="https://www.youtube.com/watch?v=XiuSW_mEn7g"
 										target="_blank"
@@ -326,9 +333,9 @@ function Algorithms() {
 							sorted sequence.<br></br>
 							<i>
 								<small>
-									Ex: XXX. (
+									Ex: Searching the good ole dictionary. (
 									<a
-										href="https://www.youtube.com/watch?v=0eKVizvYSUQ"
+										href="https://www.youtube.com/watch?v=-PuqKbu9K3U"
 										target="_blank"
 										rel="noopener noreferrer"
 									>
@@ -374,7 +381,7 @@ function Algorithms() {
 										target="_blank"
 										rel="noopener noreferrer"
 									>
-										But like, avoid it when you can.
+										But avoid it when you can.
 									</a>
 									)
 								</small>
@@ -400,7 +407,7 @@ function Algorithms() {
 							or right and go to its new middle, and so on.<br></br>
 							<i>
 								<small>
-									Ex: Searching a dictionary. (
+									Ex: Literally searching a dictionary. (
 									<a
 										href="https://www.youtube.com/watch?v=iP897Z5Nerk"
 										target="_blank"
