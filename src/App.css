@@ -8,6 +8,7 @@ HOMER COLOR GUIDE:
 */
 
 @font-face {
+	/* Downloadable font-family for Footer symbols */
 	font-family: 'FontAwesome5Brands-Regular';
 	src: url('./fonts/FontAwesome5Brands-Regular.eot');
 	src: url('./fonts/FontAwesome5Brands-Regular.eot?#iefix')
@@ -22,7 +23,8 @@ HOMER COLOR GUIDE:
 }
 
 body {
-	font-family: FontAwesome5Brands-Regular;
+	font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue',
+		Helvetica, Arial, 'Lucida Grande', sans-serif;
 	background-color: #fed90f;
 }
 
@@ -90,6 +92,11 @@ footer {
 .remove-underline a {
 	/* To remove the underline of any Anchor links */
 	text-decoration: none;
+}
+
+.symbol-font {
+	/* For Footer symbols */
+	font-family: FontAwesome5Brands-Regular;
 }
 
 .donut {

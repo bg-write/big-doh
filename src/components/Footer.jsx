@@ -32,6 +32,7 @@ function Footer() {
 								href="https://github.com/bg-write"
 								target="_blank"
 								rel="noopener noreferrer"
+								className="symbol-font"
 							>
 								GITHUB
 							</a>{' '}
@@ -39,6 +40,7 @@ function Footer() {
 								href="https://www.linkedin.com/in/brady-gerber/"
 								target="_blank"
 								rel="noopener noreferrer"
+								className="symbol-font"
 							>
 								LINKEDIN
 							</a>{' '}
@@ -46,6 +48,7 @@ function Footer() {
 								href="https://twitter.com/BradyWGerber"
 								target="_blank"
 								rel="noopener noreferrer"
+								className="symbol-font"
 							>
 								TWITTER
 							</a>
@@ -76,6 +79,7 @@ function Footer() {
 								href="https://dribbble.com/mollyhodson"
 								target="_blank"
 								rel="noopener noreferrer"
+								className="symbol-font"
 							>
 								DRIBBBLE
 							</a>{' '}
@@ -83,6 +87,7 @@ function Footer() {
 								href="https://www.linkedin.com/in/molly-hodson/"
 								target="_blank"
 								rel="noopener noreferrer"
+								className="symbol-font"
 							>
 								LINKEDIN
 							</a>{' '}
@@ -90,6 +95,7 @@ function Footer() {
 								href="https://twitter.com/MollyHodson"
 								target="_blank"
 								rel="noopener noreferrer"
+								className="symbol-font"
 							>
 								TWITTER
 							</a>
