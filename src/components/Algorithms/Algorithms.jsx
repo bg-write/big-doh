@@ -32,7 +32,7 @@ function Algorithms() {
 				</div>
 
 				<div id="algorithms-container">
-					<div className="item-container">
+					<div className="item-container white-background">
 						<h2>But First, Recursion</h2>
 						<img
 							id="recursion"

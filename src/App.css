@@ -99,6 +99,11 @@ footer {
 	font-family: FontAwesome5Brands-Regular;
 }
 
+.white-background {
+	/* For turning any containers to white */
+	background-color: white;
+}
+
 .donut {
 	/* To edit the donuts */
 	margin: 0.5rem;
