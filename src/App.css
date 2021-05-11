@@ -221,3 +221,34 @@ footer {
 #bigO-container {
 	/* For styling the overall "BIG O NOTATION" values */
 }
+
+/*--------------------- ALGORITHMS -------------------------*/
+#algorithms-main {
+	/* For styling the main ALGORITHMS page */
+}
+
+#algorithms-title {
+	/* For styling "ALGORITHMS" headline & donut section */
+	padding: 1rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#algorithms-headline {
+	/* For styling "ALGORITHMS" copy */
+	text-align: center;
+}
+
+#algorithms-donut {
+	/* For styling Algorithms donut */
+}
+
+#algorithms-blurb {
+	/* For styling "ALGORITHM" blurb */
+	padding: 1rem;
+}
+
+#algorithms-container {
+	/* For styling the overall "ALGORITHMS" values */
+}

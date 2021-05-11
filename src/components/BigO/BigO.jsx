@@ -8,7 +8,7 @@ function BigO() {
 					<h1 id="bigO-headline">BIG O NOTATION</h1>
 					<img
 						id="bigO-donut"
-						class="loader"
+						className="loader"
 						alt="donut"
 						src="https://i.imgur.com/ske1xNn.png"
 					/>
