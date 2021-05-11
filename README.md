@@ -64,6 +64,7 @@ Deploy the app: [https://big-doh.herokuapp.com/](https://big-doh.herokuapp.com/)
 ## Next Steps (Icebox)
 
 - Hand-drawn illustrations and animations (more donuts!)
+- Optimize local image storage
 - JavaScript code snippets giving real-life applications of algorithms and data structures
 - Include specific Big O time and space complexities for each algorithm
 - CSS: Dark mode, adjust color based on scrolling position

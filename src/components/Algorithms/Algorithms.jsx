@@ -37,7 +37,7 @@ function Algorithms() {
 						<img
 							id="recursion"
 							alt="recursion"
-							src="https://i.imgur.com/Fc8cmwS.jpg"
+							src="https://i.imgur.com/zD5qpAZ.gif"
 							width="60%"
 						/>
 						<p>
@@ -149,6 +149,12 @@ function Algorithms() {
 
 					<div className="item-container">
 						<h2>Divide-and-Conquer Sort Algorithms</h2>
+						<img
+							id="divide-and-conquer"
+							alt="divide-and-conquer sort"
+							src="https://i.imgur.com/24jRkiE.gif"
+							width="60%"
+						/>
 						<p>
 							Solve problems using comparison sort and recursion.<br></br>
 							<i>
@@ -257,7 +263,7 @@ function Algorithms() {
 						<img
 							id="bucket-sort"
 							alt="bucket sort"
-							src="https://i.imgur.com/n6k4pxm.png"
+							src="https://i.imgur.com/iJQQN5o.gif"
 							width="60%"
 						/>
 						<p>
@@ -289,7 +295,7 @@ function Algorithms() {
 							<img
 								id="radix-sort"
 								alt="radix sort"
-								src="https://i.imgur.com/DdlVIuI.png"
+								src="https://i.imgur.com/EyV7QoH.gif"
 								width="60%"
 							/>
 						</a>
@@ -324,7 +330,7 @@ function Algorithms() {
 							<img
 								id="search-algorithms"
 								alt="search algorithms"
-								src="https://i.imgur.com/J8bEqnB.png"
+								src="https://i.imgur.com/C8PIAyr.gif"
 								width="60%"
 							/>
 						</a>
@@ -333,7 +339,7 @@ function Algorithms() {
 							sorted sequence.<br></br>
 							<i>
 								<small>
-									Ex: Searching the good ole dictionary. (
+									Ex: Searching a dictionary. (
 									<a
 										href="https://www.youtube.com/watch?v=-PuqKbu9K3U"
 										target="_blank"
@@ -357,7 +363,7 @@ function Algorithms() {
 							<img
 								id="brute-force"
 								alt="brute-force"
-								src="https://i.imgur.com/kdS3z6H.jpg"
+								src="https://i.imgur.com/9dOqrHb.gif"
 								width="60%"
 							/>
 						</a>
@@ -397,7 +403,7 @@ function Algorithms() {
 							<img
 								id="binary-search"
 								alt="binary search"
-								src="https://i.imgur.com/NYUb3J3.png"
+								src="https://i.imgur.com/CiLvLbT.gif"
 								width="60%"
 							/>
 						</a>
