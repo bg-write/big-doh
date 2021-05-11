@@ -42,15 +42,20 @@ function Algorithms() {
 						/>
 						<p>
 							A function that calls itself to break down a larger problem into
-							smaller bits. EX Fibonacci. (
-							<a
-								href="https://www.youtube.com/watch?v=6oDQaB2one8"
-								target="_blank"
-								rel="noopener noreferrer"
-							>
-								YouTube
-							</a>
-							)
+							smaller bits.<br></br>
+							<i>
+								<small>
+									Ex: The Fibonacci sequence. (
+									<a
+										href="https://www.youtube.com/watch?v=6oDQaB2one8"
+										target="_blank"
+										rel="noopener noreferrer"
+									>
+										YouTube
+									</a>
+									)
+								</small>
+							</i>
 						</p>
 					</div>
 
@@ -63,8 +68,12 @@ function Algorithms() {
 							width="60%"
 						/>
 						<p>
-							Compare and order 2 items at a time. EX Comparing a group of lego
-							pieces by their size.
+							Compare and order 2 items at a time.<br></br>
+							<i>
+								<small>
+									Ex: Comparing a group of lego pieces based on their size.
+								</small>
+							</i>
 						</p>
 					</div>
 
@@ -78,23 +87,28 @@ function Algorithms() {
 						/>
 						<p>
 							Compare and sort 2 items and then move to the next pair. All the
-							necessary elements will eventually “bubble” up. (
-							<a
-								href="https://www.youtube.com/watch?v=lyZQPjUT5B4"
-								target="_blank"
-								rel="noopener noreferrer"
-							>
-								YouTube
-							</a>
-							) (
-							<a
-								href="https://www.youtube.com/watch?v=k4RRi_ntQc8"
-								target="_blank"
-								rel="noopener noreferrer"
-							>
-								But it's not great.
-							</a>
-							)
+							necessary elements will eventually “bubble” up.<br></br>
+							<i>
+								<small>
+									Ex: XXX. (
+									<a
+										href="https://www.youtube.com/watch?v=lyZQPjUT5B4"
+										target="_blank"
+										rel="noopener noreferrer"
+									>
+										YouTube
+									</a>
+									) (
+									<a
+										href="https://www.youtube.com/watch?v=k4RRi_ntQc8"
+										target="_blank"
+										rel="noopener noreferrer"
+									>
+										But it's not great.
+									</a>
+									)
+								</small>
+							</i>
 						</p>
 
 						<h4>Insertion Sort</h4>
@@ -106,24 +120,33 @@ function Algorithms() {
 						/>
 						<p>
 							Go down the line, select each item, and “insert” it into its
-							proper place if needed. (
-							<a
-								href="https://www.youtube.com/watch?v=ROalU379l3U"
-								target="_blank"
-								rel="noopener noreferrer"
-							>
-								YouTube
-							</a>
-							)
+							proper place if needed.<br></br>
+							<i>
+								<small>
+									Ex: XXX. (
+									<a
+										href="https://www.youtube.com/watch?v=ROalU379l3U"
+										target="_blank"
+										rel="noopener noreferrer"
+									>
+										YouTube
+									</a>
+									)
+								</small>
+							</i>
 						</p>
 					</div>
 
 					<div className="item-container">
 						<h2>Divide-and-Conquer Sort Algorithms</h2>
 						<p>
-							Solve problems using comparison sort and recursion. EX Keep
-							splitting a group of legos in half until you get to 1 lego, and
-							then you put them all back together, now all sorted.
+							Solve problems using comparison sort and recursion.<br></br>
+							<i>
+								<small>
+									Ex: Keep splitting a group of legos in half until you get to 1
+									lego, and then you put them all back together, now all sorted.
+								</small>
+							</i>
 						</p>
 					</div>
 
@@ -139,15 +162,20 @@ function Algorithms() {
 							Split the items in half over and over until they're all sorted
 							(divide, via the merge sort algorithm), and then merge the sorted
 							pieces back together on their way back up (conquer, via the merge
-							algorithm). (
-							<a
-								href="https://www.youtube.com/watch?v=XaqR3G_NVoo"
-								target="_blank"
-								rel="noopener noreferrer"
-							>
-								YouTube
-							</a>
-							)
+							algorithm).<br></br>
+							<i>
+								<small>
+									Ex: XXX. (
+									<a
+										href="https://www.youtube.com/watch?v=XaqR3G_NVoo"
+										target="_blank"
+										rel="noopener noreferrer"
+									>
+										YouTube
+									</a>
+									)
+								</small>
+							</i>
 						</p>
 
 						<h4>Quick Sort</h4>
@@ -161,15 +189,20 @@ function Algorithms() {
 							Divide all your items into 3 parts (the left partition, the pivot,
 							and the right partition), then do recursion on the partitions
 							around the sorted pivot (single value). The pivot is usually the
-							first or last value, but it can be any random value. (
-							<a
-								href="https://www.youtube.com/watch?v=ywWBy6J5gz8"
-								target="_blank"
-								rel="noopener noreferrer"
-							>
-								YouTube
-							</a>
-							)
+							first or last value, but it can be any random value.<br></br>
+							<i>
+								<small>
+									Ex: XXX. (
+									<a
+										href="https://www.youtube.com/watch?v=ywWBy6J5gz8"
+										target="_blank"
+										rel="noopener noreferrer"
+									>
+										YouTube
+									</a>
+									)
+								</small>
+							</i>
 						</p>
 					</div>
 
@@ -183,7 +216,10 @@ function Algorithms() {
 						/>
 						<p>
 							Instead of comparing 2 items, you compare and group all your items
-							by properties. EX Group all your lego pieces by color.
+							by properties.<br></br>
+							<i>
+								<small>Ex: Group all your lego pieces by color.</small>
+							</i>
 						</p>
 					</div>
 					<div className="item-container white-background">
@@ -196,15 +232,20 @@ function Algorithms() {
 						/>
 						<p>
 							Sort items into buckets based on certain properties, and then sort
-							within those buckets. (
-							<a
-								href="https://www.youtube.com/watch?v=ovAfqUafjAA"
-								target="_blank"
-								rel="noopener noreferrer"
-							>
-								YouTube
-							</a>
-							)
+							within those buckets.<br></br>
+							<i>
+								<small>
+									Ex: XXX. (
+									<a
+										href="https://www.youtube.com/watch?v=ovAfqUafjAA"
+										target="_blank"
+										rel="noopener noreferrer"
+									>
+										YouTube
+									</a>
+									)
+								</small>
+							</i>
 						</p>
 
 						<h4>Radix Sort</h4>
@@ -222,15 +263,20 @@ function Algorithms() {
 						</a>
 						<p>
 							Same as Bucket Sort, but only for integers; you group each integer
-							by certain digits. (
-							<a
-								href="https://www.youtube.com/watch?v=XiuSW_mEn7g"
-								target="_blank"
-								rel="noopener noreferrer"
-							>
-								YouTube
-							</a>
-							)
+							by certain digits.<br></br>
+							<i>
+								<small>
+									Ex: XXX. (
+									<a
+										href="https://www.youtube.com/watch?v=XiuSW_mEn7g"
+										target="_blank"
+										rel="noopener noreferrer"
+									>
+										YouTube
+									</a>
+									)
+								</small>
+							</i>
 						</p>
 					</div>
 
@@ -250,7 +296,10 @@ function Algorithms() {
 						</a>
 						<p>
 							Find, and sometimes retrieve, an item with a specific value in a
-							sorted sequence.
+							sorted sequence.<br></br>
+							<i>
+								<small>Ex: XXX.</small>
+							</i>
 						</p>
 					</div>
 
@@ -269,26 +318,30 @@ function Algorithms() {
 							/>
 						</a>
 						<p>
-							Try every possibility available. EX The Traveling Salesman
-							Problem: If a salesman needs to visit 10 cities, calculate the
-							total distance for each possible route and then select the
-							shortest one. (
-							<a
-								href="https://www.youtube.com/watch?v=wDXQ6tWsJxw"
-								target="_blank"
-								rel="noopener noreferrer"
-							>
-								YouTube
-							</a>
-							) (
-							<a
-								href="https://www.youtube.com/watch?v=9FzT2I21F3k"
-								target="_blank"
-								rel="noopener noreferrer"
-							>
-								But like, avoid it when you can.
-							</a>
-							)
+							Try every possibility available.<br></br>
+							<i>
+								<small>
+									Ex: The Traveling Salesman Problem. If a salesman needs to
+									visit 10 cities, calculate the total distance for each
+									possible route and then select the shortest one. (
+									<a
+										href="https://www.youtube.com/watch?v=wDXQ6tWsJxw"
+										target="_blank"
+										rel="noopener noreferrer"
+									>
+										YouTube
+									</a>
+									) (
+									<a
+										href="https://www.youtube.com/watch?v=9FzT2I21F3k"
+										target="_blank"
+										rel="noopener noreferrer"
+									>
+										But like, avoid it when you can.
+									</a>
+									)
+								</small>
+							</i>
 						</p>
 
 						<h4>Binary Search</h4>
@@ -307,16 +360,20 @@ function Algorithms() {
 						<p>
 							Find an item by repeatedly halving your search. When an array is
 							sorted, go to the middle (left of center) and then search its left
-							or right and go to its new middle, and so on. EX Searching a
-							dictionary. (
-							<a
-								href="https://www.youtube.com/watch?v=iP897Z5Nerk"
-								target="_blank"
-								rel="noopener noreferrer"
-							>
-								YouTube
-							</a>
-							)
+							or right and go to its new middle, and so on.<br></br>
+							<i>
+								<small>
+									Ex: Searching a dictionary. (
+									<a
+										href="https://www.youtube.com/watch?v=iP897Z5Nerk"
+										target="_blank"
+										rel="noopener noreferrer"
+									>
+										YouTube
+									</a>
+									)
+								</small>
+							</i>
 						</p>
 					</div>
 				</div>
