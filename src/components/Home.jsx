@@ -16,9 +16,9 @@ function Home() {
 						width="50%"
 					/>
 				</div>
-				<div>
+				{/* <div>
 					<p id="marquee">CRACK THE CODING INTERVIEW</p>
-				</div>
+				</div> */}
 				<div className="center-text">
 					<p className="border-text">
 						BIG O? MORE LIKE BIG <i>D'OH</i>!

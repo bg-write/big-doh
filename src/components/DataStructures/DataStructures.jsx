@@ -16,7 +16,7 @@ function DataStructures() {
 
 				<div id="data-structures-blurb" className="center-text">
 					<p>
-						A container that stores data in a specific and organized layout.
+						A CONTAINER THAT STORES DATA IN A SPECIFIC AND ORGANIZED LAYOUT.
 						<br></br>(
 						<i>
 							<a
@@ -36,7 +36,20 @@ function DataStructures() {
 						<h2>Arrays & Strings</h2>
 						<p>
 							Linear data structures that are mostly concerned with the ordering
-							and accessing of data.
+							and accessing of data.<br></br>
+							<i>
+								<small>
+									(
+									<a
+										href="https://www.youtube.com/watch?v=0vzA1rm9CS8"
+										target="_blank"
+										rel="noopener noreferrer"
+									>
+										YouTube
+									</a>
+									)
+								</small>
+							</i>
 						</p>
 					</div>
 
@@ -149,7 +162,20 @@ function DataStructures() {
 						<h2>Stacks & Queues</h2>
 						<p>
 							Linear data structures that are defined by how items are added and
-							removed.
+							removed.<br></br>
+							<i>
+								<small>
+									(
+									<a
+										href="https://www.youtube.com/watch?v=wjI1WNcIntg"
+										target="_blank"
+										rel="noopener noreferrer"
+									>
+										YouTube
+									</a>
+									)
+								</small>
+							</i>
 						</p>
 					</div>
 
@@ -213,7 +239,20 @@ function DataStructures() {
 						<p>
 							Non-linear data structures that have nodes (basic units for
 							storing data) and edges (lines that connect nodes to each other).
-							Tree edges are more rigid than graphs.
+							Tree edges are more rigid than graphs.<br></br>
+							<i>
+								<small>
+									(
+									<a
+										href="https://www.youtube.com/watch?v=oSWTXtMglKE"
+										target="_blank"
+										rel="noopener noreferrer"
+									>
+										YouTube
+									</a>
+									)
+								</small>
+							</i>
 						</p>
 					</div>
 
