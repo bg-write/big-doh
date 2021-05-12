@@ -62,11 +62,12 @@ function DataStructures() {
 							width="60%"
 						/>
 						<p>
-							A collection of items where items can be accessed individually via
-							an index.<br></br>
+							A collection of the items where items can be accessed by an index.
+							Can be one or two dimensional.<br></br>
 							<i>
 								<small>
-									Ex: [‘A’, ‘B’, ‘C’]. (
+									Ex: If you need to store an image (1000x1000px) as a bitmap,
+									you can use a 2D array that's 1000x1000px. (
 									<a
 										href="https://www.youtube.com/watch?v=B2KusJcbVIg"
 										target="_blank"
@@ -92,7 +93,9 @@ function DataStructures() {
 							unique values.<br></br>
 							<i>
 								<small>
-									Ex: XXX. (
+									Ex: Storing the names of everyone on a basketball team; you
+									can only include team members, and you can't repeat any names.
+									(
 									<a
 										href="https://www.youtube.com/watch?v=SvvvGT3qD1Y"
 										target="_blank"
@@ -140,11 +143,13 @@ function DataStructures() {
 						/>
 						<p>
 							A list-like structure that uses a hash function to generate keys
-							for each value.<br></br>
+							for each value. It's like scrambling a bunch of donuts to make new
+							donuts, each one having a specific key.<br></br>
 							<i>
 								<small>
-									Ex: Scrambling a bunch of donuts to make new donuts, each one
-									having a specific key. (
+									Ex: When you need to store and dynamically add social network
+									feeds, and you don't know the size, you can use a Hash Table
+									to uniquely identify each new feed. (
 									<a
 										href="https://www.youtube.com/watch?v=MfhjkfocRR0"
 										target="_blank"
@@ -188,12 +193,13 @@ function DataStructures() {
 							width="60%"
 						/>
 						<p>
-							Follows the ordering principle of “Last In First Out” (LIFO).
+							Follows the ordering principle of “Last In First Out” (LIFO). It's
+							like eating a stack of donuts; when you want a donut, you take the
+							donut on top of the stack.
 							<br></br>
 							<i>
 								<small>
-									Ex: Eating a stack of donuts; when you want a donut, you take
-									the donut on top of the stack. (
+									Ex: A history of your recently visited websites is a Stack. (
 									<a
 										href="https://www.youtube.com/watch?v=wjI1WNcIntg"
 										target="_blank"
@@ -216,11 +222,13 @@ function DataStructures() {
 						/>
 						<p>
 							Follows the ordering principle of “First In First Out” (FIFO).
+							It's like waiting in line to buy donuts; if you're at the front of
+							the line, you get to leave first.
 							<br></br>
 							<i>
 								<small>
-									Ex: Waiting in line at Lard Lad Donuts; if you're at the front
-									of the line, you get to leave first. (
+									Ex: Programming a printer Queue can make sure that jobs are
+									printed in the order of their arrival. (
 									<a
 										href="https://www.youtube.com/watch?v=wjI1WNcIntg"
 										target="_blank"
@@ -269,7 +277,9 @@ function DataStructures() {
 							nodes.<br></br>
 							<i>
 								<small>
-									Ex: XXX. (
+									Ex: Navigating all your Mac files through Finder. Also, a
+									(very) large tree can store all the possible moves in a chess
+									game. (
 									<a
 										href="https://www.youtube.com/watch?v=oSWTXtMglKE"
 										target="_blank"
@@ -295,7 +305,7 @@ function DataStructures() {
 							Search Tree is where every node fits a specific ordering.<br></br>
 							<i>
 								<small>
-									Ex: XXX. (
+									Ex: A family tree in which every member has two children. (
 									<a
 										href="https://www.youtube.com/watch?v=oSWTXtMglKE"
 										target="_blank"
@@ -318,10 +328,11 @@ function DataStructures() {
 						/>
 						<p>
 							Trees that aren't limited to only left and right pointers, but
-							usually only store alphabetical data.<br></br>
+							they usually only store alphabetical data as collections of
+							strings.<br></br>
 							<i>
 								<small>
-									Ex: XXX. (
+									Ex: Many search dictionaries are built upon Tries. (
 									<a
 										href="https://www.youtube.com/watch?v=zIjfhVPRZCg"
 										target="_blank"
@@ -347,8 +358,8 @@ function DataStructures() {
 							multiple edges to other nodes.<br></br>
 							<i>
 								<small>
-									Ex: A group of people on Facebook; some people follow each
-									other while others only follow one-way. (
+									Ex: A group of people on Facebook make up a Graph; some people
+									follow each other while others only follow one-way. (
 									<a
 										href="https://www.youtube.com/watch?v=DBRW8nwZV-g"
 										target="_blank"
