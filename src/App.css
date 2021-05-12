@@ -264,6 +264,35 @@ footer {
 }
 
 /*-------------------- DATA STRUCTURES ----------------------*/
+#data-structures-main {
+	/* For styling the main DATA STRUCTURES page */
+}
+
+#data-structures-title {
+	/* For styling "DATA STRUCTURES" headline & donut section */
+	padding: 1rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#data-structures-headline {
+	/* For styling "DATA STRUCTURES" copy */
+	text-align: center;
+}
+
+#data-structures-donut {
+	/* For styling DATA STRUCTURES donut */
+}
+
+#data-structures-blurb {
+	/* For styling "DATA STRUCTURES" blurb */
+	padding: 1rem;
+}
+
+#data-structures-container {
+	/* For styling the overall "DATA STRUCTURES" values */
+}
 
 /*------------------ TTT / STUDY BREAK ----------------------*/
 

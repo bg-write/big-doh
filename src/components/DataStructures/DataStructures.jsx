@@ -3,18 +3,18 @@ import React from 'react';
 function DataStructures() {
 	return (
 		<>
-			<main id="algorithms-main">
-				<div id="algorithms-title">
-					<h1 id="algorithms-headline">DATA STRUCTURES</h1>
+			<main id="data-structures-main">
+				<div id="data-structures-title">
+					<h1 id="data-structures-headline">DATA STRUCTURES</h1>
 					<img
-						id="algorithms-donut"
+						id="data-structures-donut"
 						class="loader"
 						alt="donut"
 						src="https://i.imgur.com/ske1xNn.png"
 					/>
 				</div>
 
-				<div id="algorithms-blurb" className="center-text">
+				<div id="data-structures-blurb" className="center-text">
 					<p>
 						A container that stores data in a specific and organized layout.
 						<br></br>(
@@ -31,7 +31,7 @@ function DataStructures() {
 					</p>
 				</div>
 
-				<div id="algorithms-container">
+				<div id="data-structures-container">
 					<div className="item-container">
 						<h2>Arrays & Strings</h2>
 						<p>
