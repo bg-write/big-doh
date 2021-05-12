@@ -262,3 +262,33 @@ footer {
 #algorithms-container {
 	/* For styling the overall "ALGORITHMS" values */
 }
+
+/*-------------------- DATA STRUCTURES ----------------------*/
+
+/*------------------ TTT / STUDY BREAK ----------------------*/
+
+/*-------------------- MEDIA QUERIES ----------------------*/
+/*----MOBILE----*/
+/* App is built mobile-first */
+
+/*----TABLETS----*/
+@media only screen and (min-width: 43em) {
+	body {
+		background-color: lightblue;
+	}
+}
+
+/*----DESKTOP (smaller)----*/
+@media only screen and (min-width: 62em) {
+	body {
+		background-color: lightpink;
+	}
+	/* ICEBOX this is when Navbar breaks */
+}
+
+/*----DESKTOP (larger)----*/
+@media only screen and (min-width: 82em) {
+	body {
+		background-color: lightgreen;
+	}
+}
