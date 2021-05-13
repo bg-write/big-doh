@@ -4,7 +4,7 @@ import Game from './Game';
 function TTT() {
 	return (
 		<>
-			<main>
+			<main className="white-background">
 				<div id="ttt-container">
 					<div id="ttt-headline" className="center-text border-text">
 						<h1>TAKE A STUDY BREAK!</h1>

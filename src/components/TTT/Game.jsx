@@ -21,8 +21,12 @@ const Game = () => {
 	};
 
 	const renderMoves = () => (
-		<button onClick={() => setBoard(Array(9).fill(null))}>
-			Clear the board
+		<button
+			id="ttt-clear-board-button"
+			className="border-text"
+			onClick={() => setBoard(Array(9).fill(null))}
+		>
+			CLEAR THE BOARD
 		</button>
 	);
 
