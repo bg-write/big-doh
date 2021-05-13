@@ -28,6 +28,17 @@ body {
 	background-color: #fed90f;
 }
 
+:root {
+	--marquee-width: 80vw;
+	--marquee-height: 20vw;
+	--marquee-elements: 9;
+	--marquee-elements-displayed: 4;
+	--marquee-element-width: calc(
+		var(--marquee-width) / var(--marquee-elements-displayed)
+	);
+	--marquee-animation-duration: calc(var(--marquee-elements) * 2s);
+}
+
 a:hover {
 	color: #70d1fe;
 }
@@ -136,8 +147,8 @@ footer {
 }
 
 .marquee {
-	width: 80vw;
-	height: 20vh;
+	width: var(--marquee-width);
+	height: var(--marquee-height);
 	background-color: #111;
 	color: white;
 	overflow: hidden;
@@ -168,7 +179,7 @@ footer {
 	list-style-type: none;
 	height: 100%;
 	display: flex;
-	animation: scrolling 10s linear infinite;
+	animation: scrolling var(--marquee-animation-duration) linear infinite;
 }
 
 @keyframes scrolling {
@@ -176,17 +187,23 @@ footer {
 		transform: translateX(0);
 	}
 	100% {
-		transform: translateX(-180vw);
+		transform: translateX(
+			calc(-1 * var(--marquee-element-width) * var(--marquee-elements))
+		);
 	}
 }
 
+.marquee-content:hover {
+	animation-play-state: paused;
+}
+
 .marquee-content li {
-	width: 20vw;
+	width: var(--marquee-element-width);
 	flex-shrink: 0;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	font-size: 5rem;
+	font-size: calc(var(--marquee-height) * 2 / 3);
 	white-space: nowrap;
 }
 
@@ -392,7 +409,18 @@ footer {
 
 /*-------------------- MEDIA QUERIES ----------------------*/
 /*----MOBILE----*/
-/* App is built mobile-first */
+/* App is built mobile-first, but tweaks are made to address marquee */
+@media only screen and (max-width: 42em) {
+	:root {
+		--marquee-width: 100vw;
+		--marquee-height: 16vh;
+		--marquee-elements-displayed: 3;
+	}
+	.marquee:before,
+	.marquee:after {
+		width: 5rem;
+	}
+}
 
 /*----TABLETS----*/
 @media only screen and (min-width: 43em) {
