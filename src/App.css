@@ -161,6 +161,7 @@ footer {
 #nav-container {
 	/* For styling the overall Navbar holding BIG D'OH title and the toggle */
 	padding-bottom: 0;
+	background-color: cornsilk;
 }
 
 #nav-title {
