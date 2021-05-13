@@ -56,7 +56,6 @@ footer {
 	background: black;
 	color: white;
 	padding: 1rem;
-	border: solid 2px black;
 }
 
 /*------------------------- CLASSES ------------------------*/
@@ -155,6 +154,11 @@ footer {
 	text-align: center;
 	padding: 1rem;
 	background-color: #d1b271;
+}
+
+#home-intro {
+	/* For holding the Big O? section and the copy introducing the app */
+	padding: 0.1rem 3rem;
 }
 
 /*--------------------- NAVBAR -------------------------*/

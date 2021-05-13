@@ -16,12 +16,12 @@ function Home() {
 						width="50%"
 					/>
 				</div>
-				{/* <div>
+				<div>
 					<p id="marquee">CRACK THE CODING INTERVIEW</p>
-				</div> */}
-				<div className="center-text">
+				</div>
+				<div id="home-intro" className="center-text">
 					<p className="border-text">
-						BIG O? MORE LIKE BIG <i>D'OH</i>!
+						BIG O?<br></br>MORE LIKE BIG <i>D'OH</i>!
 					</p>
 					<p>
 						Read 'Cracking the Coding Interview' but still not getting Big O?
