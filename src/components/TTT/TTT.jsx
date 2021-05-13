@@ -1,28 +1,21 @@
 import React from 'react';
 import Game from './Game';
-import { Link } from 'react-router-dom';
 
 function TTT() {
 	return (
 		<>
 			<main>
-				<h1>TAKE A BREAK!</h1>
-				<div>
-					<Link to="/">Back To Home</Link>
+				<div id="ttt-container">
+					<div id="ttt-headline" className="center-text border-text">
+						<h1>TAKE A STUDY BREAK!</h1>
+					</div>
+					<div id="ttt-blurb" className="center-text">
+						<p>Take a break. Play Homer in Tic-Tac-D'oh.</p>
+					</div>
+					<div id="ttt-game" className="center-text">
+						<Game />
+					</div>
 				</div>
-				<hr />
-				{/* <img
-					id="donut"
-					class="loader"
-					alt="donut"
-					src="https://i.imgur.com/7NqMseE.jpg"
-					width="100px"
-				/> */}
-				<p>
-					<i>Take a break. Play Homer in some Tic-Tac-D'oh.</i>
-				</p>
-				<Game />
-				<hr />
 			</main>
 		</>
 	);

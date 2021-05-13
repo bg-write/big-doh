@@ -295,6 +295,21 @@ footer {
 }
 
 /*------------------ TTT / STUDY BREAK ----------------------*/
+#ttt-container {
+	/* For styling the main TTT page: The "TAKE A STUDY BREAK!" Headline and blurb, and where the link to the Game component is */
+}
+
+#ttt-headline {
+	/* For styling specifically "TAKE A STUDY BREAK" */
+}
+
+#ttt-blurb {
+	/* For styling specifically "Take a break ..." */
+}
+
+#ttt-game {
+	/* For styling specifically the actual game */
+}
 
 /*-------------------- MEDIA QUERIES ----------------------*/
 /*----MOBILE----*/
