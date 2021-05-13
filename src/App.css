@@ -29,8 +29,8 @@ body {
 }
 
 :root {
-	--marquee-width: 80vw;
-	--marquee-height: 20vw;
+	--marquee-width: 100vw;
+	--marquee-height: 7vw;
 	--marquee-elements: 9;
 	--marquee-elements-displayed: 4;
 	--marquee-element-width: calc(
@@ -149,10 +149,11 @@ footer {
 .marquee {
 	width: var(--marquee-width);
 	height: var(--marquee-height);
-	background-color: #111;
-	color: white;
+	background-color: white;
+	/* color: white; */
 	overflow: hidden;
 	position: relative;
+	border: 4px solid black;
 }
 
 .marquee:before,
@@ -165,6 +166,7 @@ footer {
 	z-index: 1;
 }
 
+/* For adding left and right transparencies */
 .marquee:before {
 	left: 0;
 	background: linear-gradient(to right, #111 0%, transparent 100%);
@@ -198,13 +200,14 @@ footer {
 }
 
 .marquee-content li {
-	width: var(--marquee-element-width);
+	/* width: var(--marquee-element-width); */
 	flex-shrink: 0;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	font-size: calc(var(--marquee-height) * 2 / 3);
+	/* font-size: calc(var(--marquee-height) * 2 / 3); */
 	white-space: nowrap;
+	margin: 0 0.2rem;
 }
 
 /*------------------------- IDs ----------------------------*/
@@ -412,8 +415,7 @@ footer {
 /* App is built mobile-first, but tweaks are made to address marquee */
 @media only screen and (max-width: 42em) {
 	:root {
-		--marquee-width: 100vw;
-		--marquee-height: 16vh;
+		--marquee-height: 5vh;
 		--marquee-elements-displayed: 3;
 	}
 	.marquee:before,
