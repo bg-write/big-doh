@@ -67,6 +67,7 @@ Deploy the app: [https://big-doh.herokuapp.com/](https://big-doh.herokuapp.com/)
 - Optimize local image storage
 - JavaScript code snippets giving real-life applications of algorithms and data structures
 - Include specific Big O time and space complexities for each algorithm
+- Replace TTT X's and O's with donuts (more donuts!)
 - CSS: Dark mode, adjust color based on scrolling position
 
 ## The Developers

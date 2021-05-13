@@ -315,12 +315,12 @@ footer {
 #ttt-clear-board-button {
 	/* For styling the "Clear the board" button; found on Game.jsx */
 	margin: 0 0 1rem 0;
-	background-color: #FED90F;
+	background-color: #fed90f;
 }
 
 #ttt-clear-board-button:hover {
 	/* For styling when hovering over the button */
-	background-color: #70D1FE;
+	background-color: #70d1fe;
 }
 
 /*-------------------- MEDIA QUERIES ----------------------*/
