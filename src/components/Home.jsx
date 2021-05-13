@@ -10,15 +10,19 @@ function Home() {
 						IF HOMER<br></br>CAN DO IT,<br></br>YOU CAN<br></br>TOO.
 					</h1>
 					<img
-						class="donut loader"
+						className="donut loader"
 						alt="donut"
 						src="https://i.imgur.com/ske1xNn.png"
 						width="50%"
 					/>
 				</div>
-				<div>
+
+				{/* <div>
 					<p id="marquee">CRACK THE CODING INTERVIEW</p>
-				</div>
+				</div> */}
+
+		
+
 				<div id="home-intro" className="center-text">
 					<p className="border-text">
 						BIG O?<br></br>MORE LIKE BIG <i>D'OH</i>!

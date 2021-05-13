@@ -153,6 +153,7 @@ footer {
 	border: solid 1px black;
 	text-align: center;
 	padding: 1rem;
+	margin: 1rem 0;
 	background-color: #d1b271;
 }
 
@@ -166,6 +167,7 @@ footer {
 	/* For styling the overall Navbar holding BIG D'OH title and the toggle */
 	padding-bottom: 0;
 	background-color: cornsilk;
+	border: none;
 }
 
 #nav-title {
@@ -183,7 +185,7 @@ footer {
 #nav-item {
 	/* For stylingg the Navbar links */
 	padding: 0;
-	border: solid 2px black;
+	border: solid 1px black;
 	text-align: center;
 	font-size: xx-large;
 	color: black;
@@ -352,3 +354,7 @@ footer {
 		background-color: lightgreen;
 	}
 }
+
+
+
+
