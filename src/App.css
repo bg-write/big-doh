@@ -129,6 +129,67 @@ footer {
 	}
 }
 
+.marquee-holder {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.marquee {
+	width: 80vw;
+	height: 20vh;
+	background-color: #111;
+	color: white;
+	overflow: hidden;
+	position: relative;
+}
+
+.marquee:before,
+.marquee:after {
+	position: absolute;
+	top: 0;
+	width: 10rem;
+	height: 100%;
+	content: '';
+	z-index: 1;
+}
+
+.marquee:before {
+	left: 0;
+	background: linear-gradient(to right, #111 0%, transparent 100%);
+}
+
+.marquee:after {
+	right: 0;
+	background: linear-gradient(to left, #111 0%, transparent 100%);
+}
+
+.marquee-content {
+	list-style-type: none;
+	height: 100%;
+	display: flex;
+	animation: scrolling 10s linear infinite;
+}
+
+@keyframes scrolling {
+	0% {
+		transform: translateX(0);
+	}
+	100% {
+		transform: translateX(-180vw);
+	}
+}
+
+.marquee-content li {
+	width: 20vw;
+	flex-shrink: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 5rem;
+	white-space: nowrap;
+}
+
 /*------------------------- IDs ----------------------------*/
 /*--------------------- HOME PAGE --------------------------*/
 #homerText {
@@ -354,7 +415,3 @@ footer {
 		background-color: lightgreen;
 	}
 }
-
-
-
-
