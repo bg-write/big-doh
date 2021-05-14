@@ -7,6 +7,12 @@ HOMER COLOR GUIDE:
 -Shoes: #424F46 (Outer Space)
 */
 
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
 @font-face {
 	/* Downloadable font-family for Footer symbols */
 	font-family: 'FontAwesome5Brands-Regular';
@@ -38,7 +44,7 @@ body {
 	--marquee-element-width: calc(
 		var(--marquee-width) / var(--marquee-elements-displayed)
 	);
-	--marquee-animation-duration: calc(var(--marquee-elements) * 2s);
+	--marquee-animation-duration: calc(var(--marquee-elements) * 4s);
 }
 
 a:hover {
