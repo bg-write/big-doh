@@ -119,7 +119,8 @@ function Algorithms() {
 								</small>
 							</i>
 						</p>
-						<hr></hr>
+					</div>
+					<div className="item-container white-background">
 						<h4>Insertion Sort</h4>
 						<img
 							id="insertion-sort"
@@ -202,7 +203,8 @@ function Algorithms() {
 								</small>
 							</i>
 						</p>
-						<hr></hr>
+					</div>
+					<div className="item-container white-background">
 						<h4>Quick Sort</h4>
 						<img
 							id="quick-sort"
@@ -285,7 +287,8 @@ function Algorithms() {
 								</small>
 							</i>
 						</p>
-						<hr></hr>
+					</div>
+					<div className="item-container white-background">
 						<h4>Radix Sort</h4>
 						<a
 							href="https://github.com/trekhleb/javascript-algorithms/tree/master/src/algorithms/sorting/radix-sort"
@@ -393,7 +396,8 @@ function Algorithms() {
 								</small>
 							</i>
 						</p>
-						<hr></hr>
+					</div>
+					<div className="item-container white-background">
 						<h4>Binary Search</h4>
 						<a
 							href="https://medium.com/techie-delight/binary-search-practice-problems-4c856cd9f26c"

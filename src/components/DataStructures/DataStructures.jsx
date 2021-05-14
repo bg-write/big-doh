@@ -79,9 +79,9 @@ function DataStructures() {
 								</small>
 							</i>
 						</p>
-						<hr></hr>
-
-						<h3>Sets</h3>
+					</div>
+					<div className="item-container white-background">
+						<h4>Sets</h4>
 						<img
 							id="sets"
 							alt="sets"
@@ -107,8 +107,9 @@ function DataStructures() {
 								</small>
 							</i>
 						</p>
-						<hr></hr>
-						<h3>Linked Lists</h3>
+					</div>
+					<div className="item-container white-background">
+						<h4>Linked Lists</h4>
 						<img
 							id="linked-lists"
 							alt="linked lists"
@@ -133,8 +134,9 @@ function DataStructures() {
 								</small>
 							</i>
 						</p>
-						<hr></hr>
-						<h3>Hash Tables</h3>
+					</div>
+					<div className="item-container white-background">
+						<h4>Hash Tables</h4>
 						<img
 							id="hash-tables"
 							alt="hash tables"
@@ -211,8 +213,8 @@ function DataStructures() {
 								</small>
 							</i>
 						</p>
-						<hr></hr>
-
+					</div>
+					<div className="item-container white-background">
 						<h4>Queues</h4>
 						<img
 							id="queues"
@@ -291,8 +293,8 @@ function DataStructures() {
 								</small>
 							</i>
 						</p>
-						<hr></hr>
-
+					</div>
+					<div className="item-container white-background">
 						<h4>Binary Trees</h4>
 						<img
 							id="binary-trees"
@@ -317,8 +319,8 @@ function DataStructures() {
 								</small>
 							</i>
 						</p>
-						<hr></hr>
-
+					</div>
+					<div className="item-container white-background">
 						<h4>Tries</h4>
 						<img
 							id="trie"
@@ -344,8 +346,8 @@ function DataStructures() {
 								</small>
 							</i>
 						</p>
-						<hr></hr>
-
+					</div>
+					<div className="item-container white-background">
 						<h4>Graphs</h4>
 						<img
 							id="graphs"
