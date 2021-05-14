@@ -99,7 +99,7 @@ footer {
 .border-text {
 	/* Put this in the element holding the text I want to add bordering. */
 	border: solid 4px black;
-	border-radius: 25px;
+	border-radius: 50px;
 	padding: 1rem;
 	margin: 1rem;
 	background-color: #d1b271;
