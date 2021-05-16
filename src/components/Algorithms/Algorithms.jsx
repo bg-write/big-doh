@@ -38,7 +38,7 @@ function Algorithms() {
 							id="recursion"
 							alt="recursion"
 							src="https://i.imgur.com/zD5qpAZ.gif"
-							width="60%"
+							width="40%"
 						/>
 						<p>
 							A function that calls itself to break down a larger problem into
@@ -65,7 +65,7 @@ function Algorithms() {
 							id="comparison-sort"
 							alt="comparison sort"
 							src="https://ga-instruction.s3.amazonaws.com/assets/tech/computer-science/intro-sorting/comparison.gif"
-							width="60%"
+							width="40%"
 						/>
 						<p>
 							Compare and order 2 items at a time.<br></br>
@@ -155,7 +155,7 @@ function Algorithms() {
 							id="divide-and-conquer"
 							alt="divide-and-conquer sort"
 							src="https://i.imgur.com/24jRkiE.gif"
-							width="60%"
+							width="40%"
 						/>
 						<p>
 							Solve problems using comparison sort and recursion.<br></br>
@@ -177,62 +177,65 @@ function Algorithms() {
 						</p>
 					</div>
 
-					<div className="item-container white-background">
-						<h4>Merge Sort</h4>
-						<img
-							id="merge-sort"
-							alt="merge sort"
-							src="https://ga-instruction.s3.amazonaws.com/assets/tech/computer-science/divide-conquer-sorts/merge-sort.gif"
-							width="60%"
-						/>
-						<p>
-							Split the items in half over and over until they're all sorted
-							(divide, via the Merge Sort algorithm), and then merge the sorted
-							pieces back together on their way back up (conquer, via the Merge
-							algorithm).<br></br>
-							<i>
-								<small>
-									Ex: Sorting a Linked List. (
-									<a
-										href="https://www.youtube.com/watch?v=XaqR3G_NVoo"
-										target="_blank"
-										rel="noopener noreferrer"
-									>
-										YouTube
-									</a>
-									)
-								</small>
-							</i>
-						</p>
-					</div>
-					<div className="item-container white-background">
-						<h4>Quick Sort</h4>
-						<img
-							id="quick-sort"
-							alt="quick sort"
-							src="https://ga-instruction.s3.amazonaws.com/assets/tech/computer-science/divide-conquer-sorts/quick-sort.gif"
-							width="60%"
-						/>
-						<p>
-							Divide all your items into 3 parts (the left partition, the pivot,
-							and the right partition), then do recursion on the partitions
-							around the sorted pivot (single value). The pivot is usually the
-							first or last value, but it can be any random value.<br></br>
-							<i>
-								<small>
-									Ex: Unlike Merge Sort, the hard work is done during the
-									dividing, not the merging. (
-									<a
-										href="https://www.youtube.com/watch?v=ywWBy6J5gz8"
-										target="_blank"
-										rel="noopener noreferrer"
-									>
-										YouTube
-									</a>
-									)
-								</small>
-							</i>
-						</p>
+					<div className="flex-container-algorithms">
+						<div className="item-container-algorithms white-background">
+							<h4>Merge Sort</h4>
+							<img
+								id="merge-sort"
+								alt="merge sort"
+								src="https://ga-instruction.s3.amazonaws.com/assets/tech/computer-science/divide-conquer-sorts/merge-sort.gif"
+								width="40%"
+							/>
+							<p>
+								Split the items in half over and over until they're all sorted
+								(divide, via the Merge Sort algorithm), and then merge the
+								sorted pieces back together on their way back up (conquer, via
+								the Merge algorithm).<br></br>
+								<i>
+									<small>
+										Ex: Sorting a Linked List. (
+										<a
+											href="https://www.youtube.com/watch?v=XaqR3G_NVoo"
+											target="_blank"
+											rel="noopener noreferrer"
+										>
+											YouTube
+										</a>
+										)
+									</small>
+								</i>
+							</p>
+						</div>
+						<div className="item-container-algorithms white-background">
+							<h4>Quick Sort</h4>
+							<img
+								id="quick-sort"
+								alt="quick sort"
+								src="https://ga-instruction.s3.amazonaws.com/assets/tech/computer-science/divide-conquer-sorts/quick-sort.gif"
+								width="40%"
+							/>
+							<p>
+								Divide all your items into 3 parts (the left partition, the
+								pivot, and the right partition), then do recursion on the
+								partitions around the sorted pivot (single value). The pivot is
+								usually the first or last value, but it can be any random value.
+								<br></br>
+								<i>
+									<small>
+										Ex: Unlike Merge Sort, the hard work is done during the
+										dividing, not the merging. (
+										<a
+											href="https://www.youtube.com/watch?v=ywWBy6J5gz8"
+											target="_blank"
+											rel="noopener noreferrer"
+										>
+											YouTube
+										</a>
+										)
+									</small>
+								</i>
+							</p>
+						</div>
 					</div>
 
 					<div className="item-container">
@@ -241,7 +244,7 @@ function Algorithms() {
 							id="distribution-sort"
 							alt="distribution sort"
 							src="https://ga-instruction.s3.amazonaws.com/assets/tech/computer-science/intro-sorting/distribution.gif"
-							width="60%"
+							width="40%"
 						/>
 						<p>
 							Instead of comparing 2 items, you compare and group all your items
@@ -261,69 +264,70 @@ function Algorithms() {
 							</i>
 						</p>
 					</div>
-					<div className="item-container white-background">
-						<h4>Bucket Sort</h4>
-						<img
-							id="bucket-sort"
-							alt="bucket sort"
-							src="https://i.imgur.com/iJQQN5o.gif"
-							width="60%"
-						/>
-						<p>
-							Sort items into buckets based on certain properties, and then sort
-							within those buckets.<br></br>
-							<i>
-								<small>
-									Ex: When sorting a large set of floating point numbers
-									(between 0.0 and 1.0), you can create sorting "buckets" 0
-									through 9 and sort from there. (
-									<a
-										href="https://www.youtube.com/watch?v=ovAfqUafjAA"
-										target="_blank"
-										rel="noopener noreferrer"
-									>
-										YouTube
-									</a>
-									)
-								</small>
-							</i>
-						</p>
-					</div>
-					<div className="item-container white-background">
-						<h4>Radix Sort</h4>
-						<a
-							href="https://github.com/trekhleb/javascript-algorithms/tree/master/src/algorithms/sorting/radix-sort"
-							target="_blank"
-							rel="noopener noreferrer"
-						>
+					<div className="flex-container-algorithms">
+						<div className="item-container-algorithms white-background">
+							<h4>Bucket Sort</h4>
 							<img
-								id="radix-sort"
-								alt="radix sort"
-								src="https://i.imgur.com/EyV7QoH.gif"
-								width="60%"
+								id="bucket-sort"
+								alt="bucket sort"
+								src="https://i.imgur.com/iJQQN5o.gif"
+								width="40%"
 							/>
-						</a>
-						<p>
-							Same as Bucket Sort, but only for integers; you group each integer
-							by certain digits.<br></br>
-							<i>
-								<small>
-									Ex: Given a range of large numbers, sort all the numbers first
-									by the first digit (1-9), then the next digit range (10-90)
-									and so on. (
-									<a
-										href="https://www.youtube.com/watch?v=XiuSW_mEn7g"
-										target="_blank"
-										rel="noopener noreferrer"
-									>
-										YouTube
-									</a>
-									)
-								</small>
-							</i>
-						</p>
+							<p>
+								Sort items into buckets based on certain properties, and then
+								sort within those buckets.<br></br>
+								<i>
+									<small>
+										Ex: When sorting a large set of floating point numbers
+										(between 0.0 and 1.0), you can create sorting "buckets" 0
+										through 9 and sort from there. (
+										<a
+											href="https://www.youtube.com/watch?v=ovAfqUafjAA"
+											target="_blank"
+											rel="noopener noreferrer"
+										>
+											YouTube
+										</a>
+										)
+									</small>
+								</i>
+							</p>
+						</div>
+						<div className="item-container-algorithms white-background">
+							<h4>Radix Sort</h4>
+							<a
+								href="https://github.com/trekhleb/javascript-algorithms/tree/master/src/algorithms/sorting/radix-sort"
+								target="_blank"
+								rel="noopener noreferrer"
+							>
+								<img
+									id="radix-sort"
+									alt="radix sort"
+									src="https://i.imgur.com/EyV7QoH.gif"
+									width="40%"
+								/>
+							</a>
+							<p>
+								Same as Bucket Sort, but only for integers; you group each
+								integer by certain digits.<br></br>
+								<i>
+									<small>
+										Ex: Given a range of large numbers, sort all the numbers
+										first by the first digit (1-9), then the next digit range
+										(10-90) and so on. (
+										<a
+											href="https://www.youtube.com/watch?v=XiuSW_mEn7g"
+											target="_blank"
+											rel="noopener noreferrer"
+										>
+											YouTube
+										</a>
+										)
+									</small>
+								</i>
+							</p>
+						</div>
 					</div>
-
 					<div className="item-container">
 						<h2>Search Algorithms</h2>
 						<a
@@ -335,7 +339,7 @@ function Algorithms() {
 								id="search-algorithms"
 								alt="search algorithms"
 								src="https://i.imgur.com/C8PIAyr.gif"
-								width="60%"
+								width="40%"
 							/>
 						</a>
 						<p>
@@ -357,79 +361,81 @@ function Algorithms() {
 						</p>
 					</div>
 
-					<div className="item-container white-background">
-						<h4>Brute Force Search</h4>
-						<a
-							href="https://www.quantamagazine.org/one-way-salesman-finds-fast-path-home-20171005/"
-							target="_blank"
-							rel="noopener noreferrer"
-						>
-							<img
-								id="brute-force"
-								alt="brute-force"
-								src="https://i.imgur.com/9dOqrHb.gif"
-								width="60%"
-							/>
-						</a>
-						<p>
-							Try every possibility available.<br></br>
-							<i>
-								<small>
-									Ex: The Traveling Salesman Problem. If a salesman needs to
-									visit 10 cities, calculate the total distance for each
-									possible route and then select the shortest one. (
-									<a
-										href="https://www.youtube.com/watch?v=wDXQ6tWsJxw"
-										target="_blank"
-										rel="noopener noreferrer"
-									>
-										YouTube
-									</a>
-									) (
-									<a
-										href="https://www.youtube.com/watch?v=9FzT2I21F3k"
-										target="_blank"
-										rel="noopener noreferrer"
-									>
-										But avoid it when you can.
-									</a>
-									)
-								</small>
-							</i>
-						</p>
-					</div>
-					<div className="item-container white-background">
-						<h4>Binary Search</h4>
-						<a
-							href="https://medium.com/techie-delight/binary-search-practice-problems-4c856cd9f26c"
-							target="_blank"
-							rel="noopener noreferrer"
-						>
-							<img
-								id="binary-search"
-								alt="binary search"
-								src="https://i.imgur.com/CiLvLbT.gif"
-								width="60%"
-							/>
-						</a>
-						<p>
-							Find an item by repeatedly halving your search. When an array is
-							sorted, go to the middle (left of center) and then search its left
-							or right and go to its new middle, and so on.<br></br>
-							<i>
-								<small>
-									Ex: Literally searching a dictionary. (
-									<a
-										href="https://www.youtube.com/watch?v=iP897Z5Nerk"
-										target="_blank"
-										rel="noopener noreferrer"
-									>
-										YouTube
-									</a>
-									)
-								</small>
-							</i>
-						</p>
+					<div className="flex-container-algorithms">
+						<div className="item-container-algorithms white-background">
+							<h4>Brute Force Search</h4>
+							<a
+								href="https://www.quantamagazine.org/one-way-salesman-finds-fast-path-home-20171005/"
+								target="_blank"
+								rel="noopener noreferrer"
+							>
+								<img
+									id="brute-force"
+									alt="brute-force"
+									src="https://i.imgur.com/9dOqrHb.gif"
+									width="40%"
+								/>
+							</a>
+							<p>
+								Try every possibility available.<br></br>
+								<i>
+									<small>
+										Ex: The Traveling Salesman Problem. If a salesman needs to
+										visit 10 cities, calculate the total distance for each
+										possible route and then select the shortest one. (
+										<a
+											href="https://www.youtube.com/watch?v=wDXQ6tWsJxw"
+											target="_blank"
+											rel="noopener noreferrer"
+										>
+											YouTube
+										</a>
+										) (
+										<a
+											href="https://www.youtube.com/watch?v=9FzT2I21F3k"
+											target="_blank"
+											rel="noopener noreferrer"
+										>
+											But avoid it when you can.
+										</a>
+										)
+									</small>
+								</i>
+							</p>
+						</div>
+						<div className="item-container-algorithms white-background">
+							<h4>Binary Search</h4>
+							<a
+								href="https://medium.com/techie-delight/binary-search-practice-problems-4c856cd9f26c"
+								target="_blank"
+								rel="noopener noreferrer"
+							>
+								<img
+									id="binary-search"
+									alt="binary search"
+									src="https://i.imgur.com/CiLvLbT.gif"
+									width="40%"
+								/>
+							</a>
+							<p>
+								Find an item by repeatedly halving your search. When an array is
+								sorted, go to the middle (left of center) and then search its
+								left or right and go to its new middle, and so on.<br></br>
+								<i>
+									<small>
+										Ex: Literally searching a dictionary. (
+										<a
+											href="https://www.youtube.com/watch?v=iP897Z5Nerk"
+											target="_blank"
+											rel="noopener noreferrer"
+										>
+											YouTube
+										</a>
+										)
+									</small>
+								</i>
+							</p>
+						</div>
 					</div>
 				</div>
 			</main>

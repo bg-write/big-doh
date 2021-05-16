@@ -405,6 +405,10 @@ footer {
 	/* For styling the overall "ALGORITHMS" values */
 }
 
+.flex-container-algorithms {
+	/* border: 4px solid blue; */
+}
+
 .item-container-algorithms {
 	padding: 0;
 	margin: 0;
@@ -421,7 +425,7 @@ footer {
 	width: 40%;
 }
 .item-container-algorithms p {
-	padding: .5rem 1rem;
+	padding: 0.5rem 1rem;
 	margin: 0;
 	height: 40%;
 	width: auto;
@@ -599,7 +603,8 @@ footer {
 		text-align: left;
 		padding: 1rem;
 		margin: 0;
-		height: auto;
+		/* height: 50%; */
+		width: 50%;
 	}
 	.item-container-algorithms h4 {
 		padding: 1rem;
@@ -608,13 +613,12 @@ footer {
 	.item-container-algorithms img {
 		/* border: 4px solid black; */
 		padding: 1rem;
-		height: 30%;
-		width: auto;
+		height: auto;
+		width: 60%;
 	}
 	.item-container-algorithms p {
 		padding: 1rem;
-		height: 40%;
-		width: auto;
+		font-size: 1rem;
 		/* border: 4px solid black; */
 	}
 }
