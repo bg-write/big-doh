@@ -151,23 +151,27 @@ footer {
 /*------------------------- MARQUEE -------------------------*/
 /* ICEBOX: To move marquee classes into its own component */
 .marquee-holder {
+	/* For styling the marquee holder */
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	margin: 0 0 1.5rem;
 }
 
 .marquee {
+	/* For styling the actual marquee */
 	width: var(--marquee-width);
 	height: var(--marquee-height);
 	background-color: white;
-	/* color: white; */
+	color: black;
 	overflow: hidden;
 	position: relative;
 	border-top: 4px solid black;
 	border-bottom: 4px solid black;
 }
 
-.marquee:before,
+/* All marquee:before & after is for adding and styling left and right transparencies */
+/* .marquee:before,
 .marquee:after {
 	position: absolute;
 	top: 0;
@@ -176,25 +180,24 @@ footer {
 	content: '';
 	z-index: 1;
 }
-
-/* For adding left and right transparencies */
-/* .marquee:before {
+.marquee:before {
 	left: 0;
 	background: linear-gradient(to right, #111 0%, transparent 100%);
 }
-
 .marquee:after {
 	right: 0;
 	background: linear-gradient(to left, #111 0%, transparent 100%);
 } */
 
 .marquee-content {
+	/* To style the actual spacing of the words in the marquee */
 	list-style-type: none;
 	height: 100%;
 	display: flex;
 	animation: scrolling var(--marquee-animation-duration) linear infinite;
 }
 
+/* For creating the scroll logic for the marquee */
 @keyframes scrolling {
 	0% {
 		transform: translateX(0);
@@ -206,9 +209,11 @@ footer {
 	}
 }
 
-.marquee-content:hover {
+/* For when you hover over the marquee and want to pause it */
+/* .marquee-content:hover {
+	
 	animation-play-state: paused;
-}
+} */
 
 .marquee-content li {
 	/* width: var(--marquee-element-width); */
@@ -216,7 +221,7 @@ footer {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	/* font-size: calc(var(--marquee-height) * 2 / 3); */
+	font-size: calc(var(--marquee-height) * 2 / 3);
 	white-space: nowrap;
 	margin: 0 0.2rem;
 }
@@ -226,7 +231,7 @@ footer {
 #homerText {
 	/* "IF HOMER CAN DO IT, YOU CAN TOO" */
 	padding-top: 0.5rem;
-	margin: 0 2rem;
+	margin: 1.5rem;
 	font-size: 3.5rem;
 	text-align: left;
 }
@@ -246,18 +251,10 @@ footer {
 	justify-content: center;
 }
 
-#marquee {
-	/* For the scrolling marquee reading "CRACK THE CODING INTERVIEW" */
-	border: solid 4px black;
-	text-align: center;
-	padding: 1rem;
-	margin: 1rem 0;
-	background-color: #d1b271;
-}
-
 #home-intro {
 	/* For holding the Big O? section and the copy introducing the app */
 	padding: 0.1rem 3rem;
+	font-size: 1.5rem;
 }
 
 /*--------------------- NAVBAR -------------------------*/
@@ -299,6 +296,14 @@ footer {
 	text-align: center;
 	font-size: xx-large;
 	color: black;
+}
+
+#border-text-study {
+	border: solid 4px black;
+	border-radius: 50px;
+	padding: 0;
+	margin: 1rem;
+	background-color: #d1b271;
 }
 
 #nav-item:hover {

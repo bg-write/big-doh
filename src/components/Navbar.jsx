@@ -6,11 +6,7 @@ function NavBar() {
 	return (
 		<>
 			<header>
-				<Navbar
-					className="custom-toggler"
-					id="nav-container"
-					expand="lg"
-				>
+				<Navbar className="custom-toggler" id="nav-container" expand="lg">
 					<Navbar.Brand href="/" id="nav-title">
 						BIG D'OH
 					</Navbar.Brand>
@@ -27,7 +23,7 @@ function NavBar() {
 								DATA STRUCTURES
 							</Nav.Link>
 							<Nav.Link id="nav-item" href="/ttt">
-								STUDY BREAK
+								<div id="border-text-study">STUDY BREAK</div>
 							</Nav.Link>
 						</Nav>
 					</Navbar.Collapse>

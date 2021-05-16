@@ -17,10 +17,6 @@ function Home() {
 					/>
 				</div>
 
-				{/* <div>
-					<p id="marquee">CRACK THE CODING INTERVIEW</p>
-				</div> */}
-
 				<div className="marquee-holder">
 					<div className="marquee">
 						<ul className="marquee-content">
@@ -50,80 +46,13 @@ function Home() {
 							<li>*</li>
 							<li>CRACK THE CODING INTERVIEW!</li>
 							<li>*</li>
-							{/* <li>
-								<img
-									className="donut loader"
-									alt="donut"
-									src="https://i.imgur.com/ske1xNn.png"
-								/>
-							</li>
-							<img
-								className="donut loader"
-								alt="donut"
-								src="https://i.imgur.com/ske1xNn.png"
-							/>
-							<img
-								className="donut loader"
-								alt="donut"
-								src="https://i.imgur.com/ske1xNn.png"
-							/>
-							<img
-								className="donut loader"
-								alt="donut"
-								src="https://i.imgur.com/ske1xNn.png"
-							/>
-							<img
-								className="donut loader"
-								alt="donut"
-								src="https://i.imgur.com/ske1xNn.png"
-							/>
-							<img
-								className="donut loader"
-								alt="donut"
-								src="https://i.imgur.com/ske1xNn.png"
-							/>
-							<img
-								className="donut loader"
-								alt="donut"
-								src="https://i.imgur.com/ske1xNn.png"
-							/>
-							<img
-								className="donut loader"
-								alt="donut"
-								src="https://i.imgur.com/ske1xNn.png"
-							/>
-							<img
-								className="donut loader"
-								alt="donut"
-								src="https://i.imgur.com/ske1xNn.png"
-							/>
-							<img
-								className="donut loader"
-								alt="donut"
-								src="https://i.imgur.com/ske1xNn.png"
-							/>
-							<img
-								className="donut loader"
-								alt="donut"
-								src="https://i.imgur.com/ske1xNn.png"
-							/>
-							<img
-								className="donut loader"
-								alt="donut"
-								src="https://i.imgur.com/ske1xNn.png"
-							/>
-							<img
-								className="donut loader"
-								alt="donut"
-								src="https://i.imgur.com/ske1xNn.png"
-							/> */}
 						</ul>
 					</div>
 				</div>
 
 				<div id="home-intro" className="center-text">
 					<p className="border-text">
-						BIG O?<br></br>MORE LIKE BIG <i>D'OH</i>!
+						<b>BIG O?<br></br>MORE LIKE BIG <i>D'OH</i>!</b>
 					</p>
 					<p>
 						Read 'Cracking the Coding Interview' but still not getting Big O?
