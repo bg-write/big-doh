@@ -17,6 +17,7 @@ function Home() {
 					/>
 				</div>
 
+				{/* ICEBOX: Move marquee into its own component */}
 				<div className="marquee-holder">
 					<div className="marquee">
 						<ul className="marquee-content">
