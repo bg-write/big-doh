@@ -238,7 +238,7 @@ footer {
 
 #donut-home {
 	/* The style the specific donut on the home page */
-	width: 75%;
+	width: 50%;
 	height: auto;
 }
 
@@ -444,8 +444,10 @@ footer {
 	background-color: #70d1fe;
 }
 
-/*-------------------- MEDIA QUERIES ----------------------*/
-/*----MOBILE----*/
+/*-----------------------------------------------------------*/
+/*-------------------- MEDIA QUERIES ------------------------*/
+/*-----------------------------------------------------------*/
+/*-------------------- MOBILE -----------------------------*/
 /* App is built mobile-first, but tweaks are made to address marquee */
 @media only screen and (max-width: 42em) {
 	:root {
@@ -458,14 +460,35 @@ footer {
 	}
 }
 
-/*----TABLETS----*/
+/*-------------------- TABLETS -----------------------------*/
 @media only screen and (min-width: 43em) {
 	body {
 		background-color: lightblue;
 	}
+	/*--------- HOME PAGE ---------------*/
+	#homerText {
+		/* "IF HOMER CAN DO IT, YOU CAN TOO" */
+		font-size: 3rem;
+	}
+
+	#donut-home {
+		/* The style the specific donut on the home page */
+		width: 25%;
+	}
+
+	#flex-container-home {
+		/* Flexbox specifically for two flex items, the Homer headline and the spinning donut. */
+		/* padding: 1.5rem 0; */
+		flex-direction: row;
+	}
+
+	#home-intro {
+		/* For holding the "Big O?" section and the copy introducing the app */
+		padding: 0.1rem 10rem;
+	}
 }
 
-/*----DESKTOP (smaller)----*/
+/*-------------------- DESKTOP (smaller) --------------------*/
 @media only screen and (min-width: 62em) {
 	body {
 		background-color: lightpink;
@@ -473,7 +496,7 @@ footer {
 	/* ICEBOX this is when Navbar breaks */
 }
 
-/*----DESKTOP (larger)----*/
+/*-------------------- DESKTOP (larger) ---------------------*/
 @media only screen and (min-width: 82em) {
 	body {
 		background-color: lightgreen;
