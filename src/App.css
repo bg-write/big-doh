@@ -533,6 +533,12 @@ footer {
 	/*--------- NAVBAR ---------------*/
 	/* ICEBOX: Update navbar to open sideways */
 	/*--------- BIG O ---------------*/
+	#bigO-blurb {
+		padding: 0 5rem 1rem;
+	}
+	.item-container {
+		padding: 2.5rem 3rem 1.5rem;
+	}
 }
 
 /*-------------------- DESKTOP (smaller) --------------------*/
