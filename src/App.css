@@ -535,9 +535,11 @@ footer {
 	/*--------- BIG O ---------------*/
 	#bigO-blurb {
 		padding: 0 5rem 1rem;
+		font-size: 1.25rem;
 	}
 	.item-container {
 		padding: 2.5rem 3rem 1.5rem;
+		font-size: 1.25rem;
 	}
 }
 
@@ -546,11 +548,29 @@ footer {
 	body {
 		background-color: lightpink;
 	}
+	/*--------- BIG O ---------------*/
+	#bigO-blurb {
+		padding: 0 10rem 1.5rem;
+		font-size: 1.5rem;
+	}
+	.item-container {
+		padding: 2.5rem 3rem 1.5rem;
+		font-size: 1.25rem;
+	}
 }
 
 /*-------------------- DESKTOP (larger) ---------------------*/
 @media only screen and (min-width: 82em) {
 	body {
 		background-color: lightgreen;
+	}
+	/*--------- BIG O ---------------*/
+	#bigO-blurb {
+		padding: 0 15rem 2rem;
+		font-size: 1.75rem;
+	}
+	.item-container {
+		padding: 2.5rem 7.5rem 1.5rem;
+		font-size: 1.5rem;
 	}
 }
