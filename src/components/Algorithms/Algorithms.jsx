@@ -85,69 +85,70 @@ function Algorithms() {
 						</p>
 					</div>
 
-					<div className="item-container white-background">
-						<h4>Bubble Sort</h4>
-						<img
-							id="bubble-sort"
-							alt="bubble sort"
-							src="https://ga-instruction.s3.amazonaws.com/assets/tech/computer-science/basic-sorts/bubble-sort.gif"
-							width="60%"
-						/>
-						<p>
-							Compare and sort 2 items and then move to the next pair. All the
-							necessary elements will eventually “bubble” up.<br></br>
-							<i>
-								<small>
-									Ex: It's usually used to introduce the idea of an algorithm,
-									or it's used within more efficient sorting algorithms. (
-									<a
-										href="https://www.youtube.com/watch?v=lyZQPjUT5B4"
-										target="_blank"
-										rel="noopener noreferrer"
-									>
-										YouTube
-									</a>
-									) (
-									<a
-										href="https://www.youtube.com/watch?v=k4RRi_ntQc8"
-										target="_blank"
-										rel="noopener noreferrer"
-									>
-										It's not great.
-									</a>
-									)
-								</small>
-							</i>
-						</p>
+					<div className="flex-container-algorithms">
+						<div className="item-container-algorithms white-background">
+							<h4>Bubble Sort</h4>
+							<img
+								id="bubble-sort"
+								alt="bubble sort"
+								src="https://ga-instruction.s3.amazonaws.com/assets/tech/computer-science/basic-sorts/bubble-sort.gif"
+								width="60%"
+							/>
+							<p>
+								Compare and sort 2 items and then move to the next pair. All the
+								necessary elements will eventually “bubble” up.<br></br>
+								<i>
+									<small>
+										Ex: It's usually used to introduce the idea of an algorithm,
+										or it's used within more efficient sorting algorithms. (
+										<a
+											href="https://www.youtube.com/watch?v=lyZQPjUT5B4"
+											target="_blank"
+											rel="noopener noreferrer"
+										>
+											YouTube
+										</a>
+										) (
+										<a
+											href="https://www.youtube.com/watch?v=k4RRi_ntQc8"
+											target="_blank"
+											rel="noopener noreferrer"
+										>
+											It's not great.
+										</a>
+										)
+									</small>
+								</i>
+							</p>
+						</div>
+						<div className="item-container-algorithms white-background">
+							<h4>Insertion Sort</h4>
+							<img
+								id="insertion-sort"
+								alt="insertion sort"
+								src="https://ga-instruction.s3.amazonaws.com/assets/tech/computer-science/basic-sorts/insertion-sort.gif"
+								width="60%"
+							/>
+							<p>
+								Go down the line, select each item, and “insert” it into its
+								proper place if needed.<br></br>
+								<i>
+									<small>
+										Ex: When you're playing cards and you manually sort your
+										cards in order. (
+										<a
+											href="https://www.youtube.com/watch?v=ROalU379l3U"
+											target="_blank"
+											rel="noopener noreferrer"
+										>
+											YouTube
+										</a>
+										)
+									</small>
+								</i>
+							</p>
+						</div>
 					</div>
-					<div className="item-container white-background">
-						<h4>Insertion Sort</h4>
-						<img
-							id="insertion-sort"
-							alt="insertion sort"
-							src="https://ga-instruction.s3.amazonaws.com/assets/tech/computer-science/basic-sorts/insertion-sort.gif"
-							width="60%"
-						/>
-						<p>
-							Go down the line, select each item, and “insert” it into its
-							proper place if needed.<br></br>
-							<i>
-								<small>
-									Ex: When you're playing cards and you manually sort your cards
-									in order. (
-									<a
-										href="https://www.youtube.com/watch?v=ROalU379l3U"
-										target="_blank"
-										rel="noopener noreferrer"
-									>
-										YouTube
-									</a>
-									)
-								</small>
-							</i>
-						</p>
-					</div>
-
 					<div className="item-container">
 						<h2>Divide-and-Conquer Sort Algorithms</h2>
 						<img
