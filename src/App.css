@@ -227,8 +227,14 @@ footer {
 	/* "IF HOMER CAN DO IT, YOU CAN TOO" */
 	padding-top: 0.5rem;
 	margin: 0 2rem;
-	font-size: 2rem;
+	font-size: 3.5rem;
 	text-align: left;
+}
+
+#donut-home {
+	/* The style the specific donut on the home page */
+	width: 60%;
+	height: auto;
 }
 
 #flex-container-home {

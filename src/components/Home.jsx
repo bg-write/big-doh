@@ -10,10 +10,10 @@ function Home() {
 						IF HOMER<br></br>CAN DO IT,<br></br>YOU CAN<br></br>TOO.
 					</h1>
 					<img
+						id="donut-home"
 						className="donut loader"
 						alt="donut"
 						src="https://i.imgur.com/ske1xNn.png"
-						width="50%"
 					/>
 				</div>
 
