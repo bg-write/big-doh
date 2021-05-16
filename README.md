@@ -69,6 +69,7 @@ Deploy the app: [https://big-doh.herokuapp.com/](https://big-doh.herokuapp.com/)
 - Include specific Big O time and space complexities for each algorithm
 - Replace TTT X's and O's with donuts (more donuts!)
 - Refactor marquee code into its own component
+- Refactor Footer and Navbar media queries for more fluid growth and container transformation
 - CSS: Dark mode, adjust color based on scrolling position
 
 ## The Developers

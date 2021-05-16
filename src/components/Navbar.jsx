@@ -6,7 +6,7 @@ function NavBar() {
 	return (
 		<>
 			<header>
-				<Navbar className="custom-toggler" id="nav-container" expand="lg">
+				<Navbar expand="true" className="custom-toggler" id="nav-container">
 					<Navbar.Brand href="/" id="nav-title">
 						BIG D'OH
 					</Navbar.Brand>

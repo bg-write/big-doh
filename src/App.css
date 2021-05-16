@@ -316,15 +316,7 @@ footer {
 	text-align: right;
 }
 
-/* The below IDs are used for the media queries */
-/* 	#footer-internal-links {
-	}
-	#footer-credit-brady-links {
-	}
-	#footer-credit-molly-links {
-	}
-	#footer-external-links {
-	} */
+/* There are IDs are used for the media queries, see below */
 
 /*--------------------- BIG O -------------------------*/
 #bigO-main {
@@ -532,6 +524,8 @@ footer {
 	#blank {
 		grid-area: 'blank';
 	}
+	/*--------- NAVBAR ---------------*/
+	/* ICEBOX: Update navbar to open sideways */
 }
 
 /*-------------------- DESKTOP (smaller) --------------------*/
@@ -539,6 +533,8 @@ footer {
 	body {
 		background-color: lightpink;
 	}
+	/*--------- NAVBAR ---------------*/
+	
 }
 
 /*-------------------- DESKTOP (larger) ---------------------*/
