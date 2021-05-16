@@ -316,6 +316,16 @@ footer {
 	text-align: right;
 }
 
+/* The below IDs are used for the media queries */
+/* 	#footer-internal-links {
+	}
+	#footer-credit-brady-links {
+	}
+	#footer-credit-molly-links {
+	}
+	#footer-external-links {
+	} */
+
 /*--------------------- BIG O -------------------------*/
 #bigO-main {
 	/* For styling the main BIG O page */
@@ -486,6 +496,41 @@ footer {
 	/*--------- MARQUEE ---------------*/
 	.marquee-content li {
 		font-size: calc(var(--marquee-height) * 2 / 5);
+	}
+	/*--------- FOOTER ---------------*/
+	/* ICEBOX: fix CSS Grid for footer in media query */
+	#footer-grid {
+		/* 3x3
+		internal | [blank] | brady
+		[blank]  | [blank} | molly
+		external | external | external
+		*/
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		grid-template-rows: auto auto auto;
+		grid-template-areas:
+			'internal blank brady'
+			'external blank molly'
+			'external external external';
+	}
+	#footer-internal-links {
+		text-align: left;
+		grid-area: 'internal';
+	}
+	#Footer-credit-brady-links {
+		text-align: right;
+		grid-area: 'brady';
+	}
+	#footer-credit-molly-links {
+		text-align: right;
+		grid-area: 'molly';
+	}
+	#footer-external-links {
+		text-align: left;
+		grid-area: 'external';
+	}
+	#blank {
+		grid-area: 'blank';
 	}
 }
 
