@@ -325,7 +325,8 @@ footer {
 
 #bigO-title {
 	/* For styling "BIG O NOTATION" headline & donut section */
-	padding: 1rem;
+	padding: 2rem 0.5rem 0 0;
+	margin: 0;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -334,15 +335,20 @@ footer {
 #bigO-headline {
 	/* For styling "BIG O NOTATION" copy */
 	text-align: center;
+	font-size: 2.5rem;
 }
 
 #bigO-donut {
 	/* For styling Big O donut */
+	/* width: auto; */
+	height: 35%;
+	margin: 1rem 0.5rem 1.5rem 0.5rem;
 }
 
 #bigO-blurb {
 	/* For styling "BIG O NOTATION" blurb */
-	padding: 1rem;
+	padding: 0 1rem 1rem;
+	font-size: 1rem;
 }
 
 #bigO-image {
@@ -526,6 +532,7 @@ footer {
 	}
 	/*--------- NAVBAR ---------------*/
 	/* ICEBOX: Update navbar to open sideways */
+	/*--------- BIG O ---------------*/
 }
 
 /*-------------------- DESKTOP (smaller) --------------------*/
@@ -533,8 +540,6 @@ footer {
 	body {
 		background-color: lightpink;
 	}
-	/*--------- NAVBAR ---------------*/
-	
 }
 
 /*-------------------- DESKTOP (larger) ---------------------*/
