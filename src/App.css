@@ -369,7 +369,8 @@ footer {
 
 #algorithms-title {
 	/* For styling "ALGORITHMS" headline & donut section */
-	padding: 1rem;
+	padding: 2rem 0 0 0;
+	margin: 0;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -378,15 +379,20 @@ footer {
 #algorithms-headline {
 	/* For styling "ALGORITHMS" copy */
 	text-align: center;
+	font-size: 2.5rem;
 }
 
 #algorithms-donut {
 	/* For styling Algorithms donut */
+	/* width: auto; */
+	height: 35%;
+	margin: 1rem 0.5rem 1.5rem 0.5rem;
 }
 
 #algorithms-blurb {
 	/* For styling "ALGORITHM" blurb */
-	padding: 1rem;
+	padding: 0 1rem 1rem;
+	font-size: 1rem;
 }
 
 #algorithms-container {
@@ -453,9 +459,14 @@ footer {
 }
 
 /*-----------------------------------------------------------*/
+/*-----------------------------------------------------------*/
 /*-------------------- MEDIA QUERIES ------------------------*/
 /*-----------------------------------------------------------*/
+/*-----------------------------------------------------------*/
+
+/*-----------------------------------------------------------*/
 /*-------------------- MOBILE -----------------------------*/
+/*-----------------------------------------------------------*/
 /* App is built mobile-first, but tweaks are made to address marquee */
 @media only screen and (max-width: 42em) {
 	:root {
@@ -467,8 +478,9 @@ footer {
 		width: 5rem;
 	}
 }
-
+/*-----------------------------------------------------------*/
 /*-------------------- TABLETS -----------------------------*/
+/*-----------------------------------------------------------*/
 @media only screen and (min-width: 43em) {
 	body {
 		background-color: lightblue;
@@ -541,9 +553,15 @@ footer {
 		padding: 2.5rem 3rem 1.5rem;
 		font-size: 1.25rem;
 	}
+	/*--------- ALGORITHMS ---------------*/
+	#algorithms-blurb {
+		padding: 0 5rem 1rem;
+		font-size: 1.25rem;
+	}
 }
-
+/*-----------------------------------------------------------*/
 /*-------------------- DESKTOP (smaller) --------------------*/
+/*-----------------------------------------------------------*/
 @media only screen and (min-width: 62em) {
 	body {
 		background-color: lightpink;
@@ -557,9 +575,15 @@ footer {
 		padding: 2.5rem 3rem 1.5rem;
 		font-size: 1.25rem;
 	}
+	/*--------- ALGORITHMS ---------------*/
+	#algorithms-blurb {
+		padding: 0 10rem 1.5rem;
+		font-size: 1.5rem;
+	}
 }
-
+/*-----------------------------------------------------------*/
 /*-------------------- DESKTOP (larger) ---------------------*/
+/*-----------------------------------------------------------*/
 @media only screen and (min-width: 82em) {
 	body {
 		background-color: lightgreen;
@@ -572,5 +596,10 @@ footer {
 	.item-container {
 		padding: 2.5rem 7.5rem 1.5rem;
 		font-size: 1.5rem;
+	}
+	/*--------- ALGORITHMS ---------------*/
+	#algorithms-blurb {
+		padding: 0 15rem 2rem;
+		font-size: 1.75rem;
 	}
 }
