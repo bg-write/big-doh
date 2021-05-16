@@ -233,7 +233,7 @@ footer {
 
 #donut-home {
 	/* The style the specific donut on the home page */
-	width: 60%;
+	width: 75%;
 	height: auto;
 }
 
@@ -263,20 +263,22 @@ footer {
 /*--------------------- NAVBAR -------------------------*/
 #nav-container {
 	/* For styling the overall Navbar holding BIG D'OH title and the toggle */
-	padding-bottom: 0;
+	padding: 0;
 	background-color: cornsilk;
 	border: none;
 }
 
 #nav-title {
 	/* For styling the BIG D'OH Home Page link */
-	margin-left: 1rem;
-	font-size: xx-large;
+	margin-left: 1.5rem;
+	padding: 2rem;
+	font-size: 2.5rem;
 }
 
 #nav-toggle {
 	/* For styling the Navbar toggle */
-	margin-right: 1rem;
+	margin-right: 1.5rem;
+	padding: 1rem;
 	border: none;
 	color: black;
 }
@@ -292,7 +294,7 @@ footer {
 
 #nav-item {
 	/* For styling the Navbar links */
-	padding: 0;
+	padding: 2rem 0;
 	border-top: solid 4px black;
 	text-align: center;
 	font-size: xx-large;

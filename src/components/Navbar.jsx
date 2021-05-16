@@ -7,7 +7,7 @@ function NavBar() {
 		<>
 			<header>
 				<Navbar
-					className="justify-content-center custom-toggler"
+					className="custom-toggler"
 					id="nav-container"
 					expand="lg"
 				>
