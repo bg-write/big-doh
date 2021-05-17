@@ -93,6 +93,12 @@ footer {
 	padding: 1.5rem 2rem 0.5rem;
 }
 
+.item-container > * {
+	/* For styling all the items not turned into flex */
+	/* border: solid 4px black; */
+	padding: 1rem;
+}
+
 .item-container-algorithms {
 	/* For holding most Big O, Algorithm, and Data Structure content */
 	border-top: solid 4px black;
