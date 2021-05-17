@@ -77,7 +77,8 @@ footer {
 	padding: 1rem;
 }
 
-/*------------------------- CLASSES ------------------------*/
+/*-----------------------------------------------------------*/
+/*------------------------- CLASSES -------------------------*/
 .flex-container {
 	/* Put this in the element holding the flex items; this positions all items like a row. */
 	display: flex;
@@ -97,13 +98,6 @@ footer {
 	/* For styling all the items not turned into flex */
 	/* border: solid 4px black; */
 	padding: 1rem;
-}
-
-.item-container-algorithms {
-	/* For holding most Big O, Algorithm, and Data Structure content */
-	border-top: solid 4px black;
-	text-align: center;
-	padding: 1.5rem 2rem 0.5rem;
 }
 
 .center-text {
@@ -161,6 +155,7 @@ footer {
 	}
 }
 
+/*-----------------------------------------------------------*/
 /*------------------------- MARQUEE -------------------------*/
 /* ICEBOX: To move marquee classes into its own component */
 .marquee-holder {
@@ -239,8 +234,9 @@ footer {
 	margin: 0 0.2rem;
 }
 
-/*------------------------- IDs ----------------------------*/
-/*--------------------- HOME PAGE --------------------------*/
+/*-----------------------------------------------------------*/
+/*------------------------- IDs -----------------------------*/
+/*--------------------- HOME PAGE ---------------------------*/
 #homerText {
 	/* "IF HOMER CAN DO IT, YOU CAN TOO" */
 	padding-top: 0.5rem;
@@ -270,7 +266,8 @@ footer {
 	font-size: 1.5rem;
 }
 
-/*--------------------- NAVBAR -------------------------*/
+/*-----------------------------------------------------------*/
+/*------------------------ NAVBAR ---------------------------*/
 #nav-container {
 	/* For styling the overall Navbar holding BIG D'OH title and the toggle */
 	padding: 0;
@@ -323,6 +320,7 @@ footer {
 	background-color: #70d1fe;
 }
 
+/*-----------------------------------------------------------*/
 /*--------------------- FOOTER -------------------------*/
 /* There are IDs are used for the media queries, see below */
 #footer-container {
@@ -330,7 +328,8 @@ footer {
 	text-align: right;
 }
 
-/*--------------------- BIG O -------------------------*/
+/*-----------------------------------------------------------*/
+/*------------------------- BIG O ---------------------------*/
 #bigO-main {
 	/* For styling the main BIG O page */
 }
@@ -374,7 +373,8 @@ footer {
 	/* For styling the overall "BIG O NOTATION" values */
 }
 
-/*--------------------- ALGORITHMS -------------------------*/
+/*-----------------------------------------------------------*/
+/*--------------------- ALGORITHMS --------------------------*/
 #algorithms-main {
 	/* For styling the main ALGORITHMS page */
 }
@@ -415,15 +415,87 @@ footer {
 }
 
 .item-container-algorithms {
-	padding: 0;
-	margin: 0;
+	/* For holding flex Algorithm content */
+	border-top: solid 4px black;
+	text-align: center;
+	padding: 1.5rem 2rem 0.5rem;
 }
+
 .item-container-algorithms h4 {
 	padding: 1rem;
 	margin: 0;
 	/* border: 4px solid black; */
 }
+
 .item-container-algorithms img {
+	/* border: 4px solid black; */
+	padding: 1rem;
+	height: auto;
+	width: 40%;
+}
+
+.item-container-algorithms p {
+	padding: 0.5rem 1rem;
+	margin: 0;
+	height: 40%;
+	width: auto;
+	/* border: 4px solid black; */
+}
+
+/*-----------------------------------------------------------*/
+/*-------------------- DATA STRUCTURES ----------------------*/
+#data-structures-main {
+	/* For styling the main DATA STRUCTURES page */
+}
+
+#data-structures-title {
+	/* For styling "DATA STRUCTURES" headline & donut section */
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 3rem 3rem 0;
+}
+
+#data-structures-headline {
+	/* For styling "DATA STRUCTURES" copy */
+	text-align: center;
+	font-size: 2.5rem;
+}
+
+#data-structures-donut {
+	/* For styling DATA STRUCTURES donut */
+	width: 15%;
+	height: auto;
+	margin: 1rem 0.5rem 1.5rem 0.5rem;
+}
+
+#data-structures-blurb {
+	/* For styling "DATA STRUCTURES" blurb */
+	padding: 0 1rem 1rem;
+	font-size: 1rem;
+}
+
+#data-structures-container {
+	/* For styling the overall "DATA STRUCTURES" values */
+}
+
+.flex-container-data-structures {
+	/* border: 4px solid blue; */
+}
+
+.item-container-data-structures {
+	/* For holding flex Data Structure content */
+	border-top: solid 4px black;
+	text-align: center;
+	padding: 1.5rem 2rem 0.5rem;
+}
+
+.item-container-data-structures h4 {
+	padding: 1rem;
+	margin: 0;
+	/* border: 4px solid black; */
+}
+.item-container-data-structures img {
 	/* border: 4px solid black; */
 	padding: 1rem;
 	height: auto;
@@ -437,37 +509,7 @@ footer {
 	/* border: 4px solid black; */
 }
 
-/*-------------------- DATA STRUCTURES ----------------------*/
-#data-structures-main {
-	/* For styling the main DATA STRUCTURES page */
-}
-
-#data-structures-title {
-	/* For styling "DATA STRUCTURES" headline & donut section */
-	padding: 1rem;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-}
-
-#data-structures-headline {
-	/* For styling "DATA STRUCTURES" copy */
-	text-align: center;
-}
-
-#data-structures-donut {
-	/* For styling DATA STRUCTURES donut */
-}
-
-#data-structures-blurb {
-	/* For styling "DATA STRUCTURES" blurb */
-	padding: 1rem;
-}
-
-#data-structures-container {
-	/* For styling the overall "DATA STRUCTURES" values */
-}
-
+/*-----------------------------------------------------------*/
 /*------------------ TTT / STUDY BREAK ----------------------*/
 #ttt-container {
 	/* For styling the main TTT page: The "TAKE A STUDY BREAK!" Headline and blurb, and where the link to the Game component is */
@@ -514,7 +556,7 @@ footer {
 /*-----------------------------------------------------------*/
 /*-------------------- MOBILE -----------------------------*/
 /*-----------------------------------------------------------*/
-/* App is built mobile-first, but tweaks are made to address marquee */
+/* ICEBOX: App is built mobile-first, but tweaks here are made to address marquee */
 @media only screen and (max-width: 42em) {
 	:root {
 		--marquee-height: 5vh;
@@ -636,6 +678,40 @@ footer {
 		/* border: 4px solid black; */
 	}
 	/*--------- DATA STRUCTURES ---------------*/
+	#data-structures-blurb {
+		padding: 0 5rem 1rem;
+		font-size: 1.25rem;
+	}
+	.flex-container-data-structures {
+		/* border-top: 4px solid black;
+		border-bottom: 4px solid black; */
+		display: flex;
+		align-items: stretch;
+		justify-content: center;
+	}
+	.item-container-data-structures {
+		border: 4px solid black;
+		text-align: left;
+		padding: 1rem;
+		margin: 0;
+		/* height: 50%; */
+		width: 50%;
+	}
+	.item-container-data-structures h4 {
+		padding: 1rem;
+		/* border: 4px solid black; */
+	}
+	.item-container-data-structures img {
+		/* border: 4px solid black; */
+		padding: 1rem;
+		height: auto;
+		width: 60%;
+	}
+	.item-container-data-structures p {
+		padding: 1rem;
+		font-size: 1rem;
+		/* border: 4px solid black; */
+	}
 	/*--------- STUDY BREAK / TTT ---------------*/
 	#ttt-headline {
 		margin: 2rem 10rem 1rem;
