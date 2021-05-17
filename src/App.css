@@ -324,12 +324,11 @@ footer {
 }
 
 /*--------------------- FOOTER -------------------------*/
+/* There are IDs are used for the media queries, see below */
 #footer-container {
 	/* For styling everything inside the Footer */
 	text-align: right;
 }
-
-/* There are IDs are used for the media queries, see below */
 
 /*--------------------- BIG O -------------------------*/
 #bigO-main {
@@ -475,11 +474,20 @@ footer {
 }
 
 #ttt-headline {
-	/* For styling specifically "TAKE A STUDY BREAK" */
+	/* For styling the "TAKE A STUDY BREAK" container */
+	margin: 2rem 2rem 1rem;
+}
+
+#ttt-headline-copy {
+	/* For styling the actual "TAKE A STUDY BREAK" copy */
+	font-size: 1.5rem;
+	padding: 0;
+	margin: 0;
 }
 
 #ttt-blurb {
-	/* For styling specifically "Take a break ..." */
+	/* For styling specifically "Play Homer ..." */
+	font-size: 1rem;
 }
 
 #ttt-game {
@@ -626,6 +634,19 @@ footer {
 		padding: 1rem;
 		font-size: 1rem;
 		/* border: 4px solid black; */
+	}
+	/*--------- DATA STRUCTURES ---------------*/
+	/*--------- STUDY BREAK / TTT ---------------*/
+	#ttt-headline {
+		margin: 2rem 10rem 1rem;
+	}
+	#ttt-headline-copy {
+		font-size: 2rem;
+		padding: 0;
+		margin: 0;
+	}
+	#ttt-blurb {
+		font-size: 1.5rem;
 	}
 }
 /*-----------------------------------------------------------*/

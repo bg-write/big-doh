@@ -3,7 +3,8 @@ import React from 'react';
 const style = {
 	background: '#fed90f',
 	border: '4px solid black',
-	fontSize: '30px',
+	borderRadius: '15px',
+	fontSize: '50px',
 	fontWeight: '800',
 	cursor: 'pointer',
 	outline: 'none',
