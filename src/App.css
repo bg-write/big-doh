@@ -746,6 +746,11 @@ footer {
 		padding: 0 10rem 1.5rem;
 		font-size: 1.5rem;
 	}
+	/*--------- DATA STRUCTURES ---------------*/
+	#data-structures-blurb {
+		padding: 0 10rem 1.5rem;
+		font-size: 1.5rem;
+	}
 }
 /*-----------------------------------------------------------*/
 /*-------------------- DESKTOP (larger) ---------------------*/
@@ -765,6 +770,11 @@ footer {
 	}
 	/*--------- ALGORITHMS ---------------*/
 	#algorithms-blurb {
+		padding: 0 15rem 2rem;
+		font-size: 1.75rem;
+	}
+	/*--------- DATA STRUCTURES ---------------*/
+	#data-structures-blurb {
 		padding: 0 15rem 2rem;
 		font-size: 1.75rem;
 	}
