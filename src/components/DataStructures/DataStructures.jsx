@@ -6,12 +6,14 @@ function DataStructures() {
 			<main id="data-structures-main">
 				<div id="data-structures-title">
 					<h1 id="data-structures-headline">DATA STRUCTURES</h1>
-					<img
-						id="data-structures-donut"
-						class="loader"
-						alt="donut"
-						src="https://i.imgur.com/ske1xNn.png"
-					/>
+					<div id="data-structures-donut-container">
+						<img
+							id="data-structures-donut"
+							class="loader"
+							alt="donut"
+							src="https://i.imgur.com/ske1xNn.png"
+						/>
+					</div>
 				</div>
 
 				<div id="data-structures-blurb" className="center-text">

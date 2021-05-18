@@ -65,6 +65,7 @@ Deploy the app: [https://big-doh.herokuapp.com/](https://big-doh.herokuapp.com/)
 
 - Add new "etc" page sharing other important topics to study: Stability, Scalability, Accessibility, and more
 - Flesh out current Big O, Algorithms, and Data Structures pages with more definitions and details
+- Refactor flex containers with consistent classes to replace individual IDs
 - Hand-drawn illustrations and animations (more donuts!)
 - Optimize local image storage
 - JavaScript code snippets giving real-life applications of algorithms and data structures

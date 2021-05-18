@@ -480,20 +480,25 @@ footer {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	padding: 3rem 3rem 0;
+	padding: 2rem 1rem 0;
+	margin: 1rem 0 0;
 }
 
 #data-structures-headline {
 	/* For styling "DATA STRUCTURES" copy */
-	text-align: center;
-	font-size: 2.5rem;
+	font-size: 1.75rem;
+	padding: 1rem 0;
+	margin: 0;
+}
+
+#data-structures-donut-container {
+	padding-left: 1rem;
 }
 
 #data-structures-donut {
 	/* For styling DATA STRUCTURES donut */
-	width: 15%;
-	height: auto;
-	margin: 1rem 0.5rem 1.5rem 0.5rem;
+	height: 50px;
+	width: auto;
 }
 
 #data-structures-blurb {
@@ -628,12 +633,12 @@ footer {
 		padding: 0.1rem 10rem;
 	}
 	/*-----------------------------------*/
-	/*--------- MARQUEE ---------------*/
+	/*--------- MARQUEE -----------------*/
 	.marquee-content li {
 		font-size: calc(var(--marquee-height) * 2 / 5);
 	}
 	/*-----------------------------------*/
-	/*--------- FOOTER ---------------*/
+	/*--------- FOOTER ------------------*/
 	/* ICEBOX: fix CSS Grid for footer in media query */
 	#footer-grid {
 		/* 3x3
@@ -669,10 +674,10 @@ footer {
 		grid-area: 'blank';
 	}
 	/*-----------------------------------*/
-	/*--------- NAVBAR ---------------*/
+	/*--------- NAVBAR ------------------*/
 	/* ICEBOX: Update navbar to open sideways outside of mobile view */
 	/*-----------------------------------*/
-	/*--------- BIG O ---------------*/
+	/*--------- BIG O -------------------*/
 	#bigO-title {
 		padding-bottom: 0.5rem;
 	}
@@ -691,7 +696,7 @@ footer {
 		font-size: 1.25rem;
 	}
 	/*-----------------------------------*/
-	/*--------- ALGORITHMS ---------------*/
+	/*--------- ALGORITHMS --------------*/
 	#algorithms-title {
 		padding-bottom: 0.5rem;
 	}
@@ -736,10 +741,19 @@ footer {
 		/* border: 4px solid black; */
 	}
 	/*-----------------------------------*/
-	/*--------- DATA STRUCTURES ---------------*/
+	/*--------- DATA STRUCTURES ---------*/
+	#data-structures-title {
+		padding-bottom: 0.5rem;
+	}
+	#data-structures-headline {
+		font-size: 3rem;
+	}
+	#data-structures-donut {
+		height: 100px;
+	}
 	#data-structures-blurb {
 		padding: 0 5rem 1rem;
-		font-size: 1.25rem;
+		font-size: 1rem;
 	}
 	.flex-container-data-structures {
 		/* border-top: 4px solid black;
@@ -772,7 +786,7 @@ footer {
 		/* border: 4px solid black; */
 	}
 	/*-----------------------------------*/
-	/*--------- STUDY BREAK / TTT ---------------*/
+	/*--------- STUDY BREAK / TTT -------*/
 	#ttt-headline {
 		margin: 2rem 10rem 1rem;
 	}
@@ -802,15 +816,14 @@ footer {
 		font-size: 1.25rem;
 	}
 	/*-------------------------------*/
-	/*--------- ALGORITHMS ---------------*/
+	/*--------- ALGORITHMS ----------*/
 	#algorithms-blurb {
 		padding: 0 10rem 1.5rem;
 	}
 	/*-------------------------------*/
-	/*--------- DATA STRUCTURES ---------------*/
+	/*--------- DATA STRUCTURES -----*/
 	#data-structures-blurb {
 		padding: 0 10rem 1.5rem;
-		font-size: 1.5rem;
 	}
 }
 /*-----------------------------------------------------------*/
@@ -830,14 +843,13 @@ footer {
 		font-size: 1.5rem;
 	}
 	/*-------------------------------*/
-	/*--------- ALGORITHMS ---------------*/
+	/*--------- ALGORITHMS ----------*/
 	#algorithms-blurb {
 		font-size: 1.5rem;
 	}
 	/*-------------------------------*/
-	/*--------- DATA STRUCTURES ---------------*/
+	/*--------- DATA STRUCTURES -----*/
 	#data-structures-blurb {
-		padding: 0 15rem 2rem;
-		font-size: 1.75rem;
+		font-size: 1.5rem;
 	}
 }
