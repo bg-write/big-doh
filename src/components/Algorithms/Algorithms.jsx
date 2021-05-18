@@ -6,12 +6,13 @@ function Algorithms() {
 			<main id="algorithms-main">
 				<div id="algorithms-title">
 					<h1 id="algorithms-headline">ALGORITHMS</h1>
+					<div id="algorithms-donut-container">
 					<img
 						id="algorithms-donut"
 						className="loader"
 						alt="donut"
 						src="https://i.imgur.com/ske1xNn.png"
-					/>
+					/></div>
 				</div>
 
 				<div id="algorithms-blurb" className="center-text">

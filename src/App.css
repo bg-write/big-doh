@@ -405,20 +405,25 @@ footer {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	padding: 3rem 3rem 0;
+	padding: 2rem 1rem 0;
+	margin: 1rem 0 0;
 }
 
 #algorithms-headline {
 	/* For styling "ALGORITHMS" copy */
-	text-align: center;
-	font-size: 2.5rem;
+	padding: 1rem 0;
+	margin: 0;
+	font-size: 1.75rem;
+}
+
+#algorithms-donut-container {
+	padding-left: 1rem;
 }
 
 #algorithms-donut {
 	/* For styling Algorithms donut */
-	width: 15%;
-	height: auto;
-	margin: 1rem 0.5rem 1.5rem 0.5rem;
+	height: 50px;
+	width: auto;
 }
 
 #algorithms-blurb {
@@ -687,9 +692,18 @@ footer {
 	}
 	/*-----------------------------------*/
 	/*--------- ALGORITHMS ---------------*/
+	#algorithms-title {
+		padding-bottom: 0.5rem;
+	}
+	#algorithms-headline {
+		font-size: 3rem;
+	}
+	#algorithms-donut {
+		height: 100px;
+	}
 	#algorithms-blurb {
 		padding: 0 5rem 1rem;
-		font-size: 1.25rem;
+		font-size: 1rem;
 	}
 	.flex-container-algorithms {
 		/* border-top: 4px solid black;
@@ -791,7 +805,6 @@ footer {
 	/*--------- ALGORITHMS ---------------*/
 	#algorithms-blurb {
 		padding: 0 10rem 1.5rem;
-		font-size: 1.5rem;
 	}
 	/*-------------------------------*/
 	/*--------- DATA STRUCTURES ---------------*/
@@ -819,8 +832,7 @@ footer {
 	/*-------------------------------*/
 	/*--------- ALGORITHMS ---------------*/
 	#algorithms-blurb {
-		padding: 0 15rem 2rem;
-		font-size: 1.75rem;
+		font-size: 1.5rem;
 	}
 	/*-------------------------------*/
 	/*--------- DATA STRUCTURES ---------------*/
