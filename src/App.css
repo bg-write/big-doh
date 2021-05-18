@@ -1,3 +1,6 @@
+/*-----------------------------------------------------------*/
+/*--------------- UNIVERSAL BASE STYLING --------------------*/
+/*-----------------------------------------------------------*/
 /*
 HOMER COLOR GUIDE:
 -Skin: #FED90F (Metallic Yellow)
@@ -79,6 +82,7 @@ footer {
 
 /*-----------------------------------------------------------*/
 /*------------------------- CLASSES -------------------------*/
+/*-----------------------------------------------------------*/
 .flex-container {
 	/* Put this in the element holding the flex items; this positions all items like a row. */
 	display: flex;
@@ -157,6 +161,7 @@ footer {
 
 /*-----------------------------------------------------------*/
 /*------------------------- MARQUEE -------------------------*/
+/*-----------------------------------------------------------*/
 /* ICEBOX: To move marquee classes into its own component */
 .marquee-holder {
 	/* For styling the marquee holder */
@@ -236,7 +241,19 @@ footer {
 
 /*-----------------------------------------------------------*/
 /*------------------------- IDs -----------------------------*/
+/*-----------------------------------------------------------*/
+/*-----------------------------------------------------------*/
 /*--------------------- HOME PAGE ---------------------------*/
+/*-----------------------------------------------------------*/
+#flex-container-home {
+	/* Flexbox specifically for two flex items, the Homer headline and the spinning donut. */
+	padding: 1rem 0;
+	display: flex;
+	flex-direction: column-reverse;
+	align-items: center;
+	justify-content: center;
+}
+
 #homerText {
 	/* "IF HOMER CAN DO IT, YOU CAN TOO" */
 	padding-top: 0.5rem;
@@ -245,19 +262,14 @@ footer {
 	text-align: left;
 }
 
-#donut-home {
-	/* The style the specific donut on the home page */
-	width: 50%;
-	height: auto;
+#donut-home-container {
+	/* For styling the div holding the donut img */
 }
 
-#flex-container-home {
-	/* Flexbox specifically for two flex items, the Homer headline and the spinning donut. */
-	padding: 1rem 0;
-	display: flex;
-	flex-direction: column-reverse;
-	align-items: center;
-	justify-content: center;
+#donut-home {
+	/* For styling the specific donut on the home page */
+	width: 50%;
+	height: auto;
 }
 
 #home-intro {
@@ -268,6 +280,7 @@ footer {
 
 /*-----------------------------------------------------------*/
 /*------------------------ NAVBAR ---------------------------*/
+/*-----------------------------------------------------------*/
 #nav-container {
 	/* For styling the overall Navbar holding BIG D'OH title and the toggle */
 	padding: 0;
@@ -321,7 +334,8 @@ footer {
 }
 
 /*-----------------------------------------------------------*/
-/*--------------------- FOOTER -------------------------*/
+/*-------------------------- FOOTER -------------------------*/
+/*-----------------------------------------------------------*/
 /* There are IDs are used for the media queries, see below */
 #footer-container {
 	/* For styling everything inside the Footer */
@@ -330,6 +344,7 @@ footer {
 
 /*-----------------------------------------------------------*/
 /*------------------------- BIG O ---------------------------*/
+/*-----------------------------------------------------------*/
 #bigO-main {
 	/* For styling the main BIG O page */
 }
@@ -375,6 +390,7 @@ footer {
 
 /*-----------------------------------------------------------*/
 /*--------------------- ALGORITHMS --------------------------*/
+/*-----------------------------------------------------------*/
 #algorithms-main {
 	/* For styling the main ALGORITHMS page */
 }
@@ -444,6 +460,7 @@ footer {
 
 /*-----------------------------------------------------------*/
 /*-------------------- DATA STRUCTURES ----------------------*/
+/*-----------------------------------------------------------*/
 #data-structures-main {
 	/* For styling the main DATA STRUCTURES page */
 }
@@ -511,6 +528,7 @@ footer {
 
 /*-----------------------------------------------------------*/
 /*------------------ TTT / STUDY BREAK ----------------------*/
+/*-----------------------------------------------------------*/
 #ttt-container {
 	/* For styling the main TTT page: The "TAKE A STUDY BREAK!" Headline and blurb, and where the link to the Game component is */
 }
@@ -554,7 +572,7 @@ footer {
 /*-----------------------------------------------------------*/
 
 /*-----------------------------------------------------------*/
-/*-------------------- MOBILE -----------------------------*/
+/*---------------------- MOBILE -----------------------------*/
 /*-----------------------------------------------------------*/
 /* ICEBOX: App is built mobile-first, but tweaks here are made to address marquee */
 @media only screen and (max-width: 42em) {
@@ -568,25 +586,33 @@ footer {
 	}
 }
 /*-----------------------------------------------------------*/
-/*-------------------- TABLETS -----------------------------*/
+/*-------------------- TABLETS ------------------------------*/
 /*-----------------------------------------------------------*/
 @media only screen and (min-width: 43em) {
 	/* body {
 		background-color: lightblue;
 	} */
 	/*--------- HOME PAGE ---------------*/
+	#flex-container-home {
+		/* The Flexbox specifically for two flex items, the Homer headline and the spinning donut. */
+		flex-direction: row;
+		padding: 1rem 3rem;
+	}
 	#homerText {
 		/* "IF HOMER CAN DO IT, YOU CAN TOO" */
 		font-size: 3rem;
+		border: 1px solid black;
+	}
+	#homerText > br {
+		display: none;
+	}
+	#donut-home-container {
+		border: 1px solid black;
+		text-align: left;
 	}
 	#donut-home {
 		/* The style the specific donut on the home page */
-		width: 25%;
-	}
-	#flex-container-home {
-		/* Flexbox specifically for two flex items, the Homer headline and the spinning donut. */
-		/* padding: 1.5rem 0; */
-		flex-direction: row;
+		width: 125px;
 	}
 	#home-intro {
 		/* For holding the "Big O?" section and the copy introducing the app */
