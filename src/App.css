@@ -597,6 +597,7 @@ footer {
 	/* body {
 		background-color: lightblue;
 	} */
+	/*-----------------------------------*/
 	/*--------- HOME PAGE ---------------*/
 	#flex-container-home {
 		/* The Flexbox specifically for two flex items, the Homer headline and the spinning donut. */
@@ -621,10 +622,12 @@ footer {
 		/* For holding the "Big O?" section and the copy introducing the app */
 		padding: 0.1rem 10rem;
 	}
+	/*-----------------------------------*/
 	/*--------- MARQUEE ---------------*/
 	.marquee-content li {
 		font-size: calc(var(--marquee-height) * 2 / 5);
 	}
+	/*-----------------------------------*/
 	/*--------- FOOTER ---------------*/
 	/* ICEBOX: fix CSS Grid for footer in media query */
 	#footer-grid {
@@ -660,17 +663,29 @@ footer {
 	#blank {
 		grid-area: 'blank';
 	}
+	/*-----------------------------------*/
 	/*--------- NAVBAR ---------------*/
-	/* ICEBOX: Update navbar to open sideways */
+	/* ICEBOX: Update navbar to open sideways outside of mobile view */
+	/*-----------------------------------*/
 	/*--------- BIG O ---------------*/
+	#bigO-title {
+		padding-bottom: 0.5rem;
+	}
+	#bigO-headline {
+		font-size: 3rem;
+	}
+	#bigO-donut {
+		height: 100px;
+	}
 	#bigO-blurb {
 		padding: 0 5rem 1rem;
-		font-size: 1.25rem;
+		font-size: 1rem;
 	}
 	.item-container {
 		padding: 2.5rem 3rem 1.5rem;
 		font-size: 1.25rem;
 	}
+	/*-----------------------------------*/
 	/*--------- ALGORITHMS ---------------*/
 	#algorithms-blurb {
 		padding: 0 5rem 1rem;
@@ -706,6 +721,7 @@ footer {
 		font-size: 1rem;
 		/* border: 4px solid black; */
 	}
+	/*-----------------------------------*/
 	/*--------- DATA STRUCTURES ---------------*/
 	#data-structures-blurb {
 		padding: 0 5rem 1rem;
@@ -741,6 +757,7 @@ footer {
 		font-size: 1rem;
 		/* border: 4px solid black; */
 	}
+	/*-----------------------------------*/
 	/*--------- STUDY BREAK / TTT ---------------*/
 	#ttt-headline {
 		margin: 2rem 10rem 1rem;
@@ -761,20 +778,22 @@ footer {
 	/* body {
 		background-color: lightpink;
 	} */
+	/*-------------------------------*/
 	/*--------- BIG O ---------------*/
 	#bigO-blurb {
 		padding: 0 10rem 1.5rem;
-		font-size: 1.5rem;
 	}
 	.item-container {
 		padding: 2.5rem 3rem 1.5rem;
 		font-size: 1.25rem;
 	}
+	/*-------------------------------*/
 	/*--------- ALGORITHMS ---------------*/
 	#algorithms-blurb {
 		padding: 0 10rem 1.5rem;
 		font-size: 1.5rem;
 	}
+	/*-------------------------------*/
 	/*--------- DATA STRUCTURES ---------------*/
 	#data-structures-blurb {
 		padding: 0 10rem 1.5rem;
@@ -788,20 +807,22 @@ footer {
 	/* body {
 		background-color: lightgreen;
 	} */
+	/*-------------------------------*/
 	/*--------- BIG O ---------------*/
 	#bigO-blurb {
-		padding: 0 15rem 2rem;
-		font-size: 1.75rem;
+		font-size: 1.5rem;
 	}
 	.item-container {
 		padding: 2.5rem 7.5rem 1.5rem;
 		font-size: 1.5rem;
 	}
+	/*-------------------------------*/
 	/*--------- ALGORITHMS ---------------*/
 	#algorithms-blurb {
 		padding: 0 15rem 2rem;
 		font-size: 1.75rem;
 	}
+	/*-------------------------------*/
 	/*--------- DATA STRUCTURES ---------------*/
 	#data-structures-blurb {
 		padding: 0 15rem 2rem;
