@@ -101,7 +101,7 @@ footer {
 .item-container > * {
 	/* For styling all the items not turned into flex */
 	/* border: solid 4px black; */
-	padding: 1rem;
+	/* padding: 0 1rem 1rem; */
 }
 
 .center-text {
@@ -385,7 +385,7 @@ footer {
 #bigO-image {
 	/* For styling "BIG O NOTATION" image */
 	background-color: white;
-	padding: 1rem;
+	padding: 1rem 2.5rem;
 	border-top: solid 4px black;
 }
 
