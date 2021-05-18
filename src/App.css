@@ -351,8 +351,8 @@ footer {
 
 #bigO-title {
 	/* For styling "BIG O NOTATION" headline & donut section */
-	padding: 2rem 0.5rem 0 0;
-	margin: 0;
+	padding: 2rem 1rem 0;
+	margin: 1rem 0 0;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -360,15 +360,20 @@ footer {
 
 #bigO-headline {
 	/* For styling "BIG O NOTATION" copy */
-	text-align: center;
-	font-size: 2.5rem;
+	font-size: 1.75rem;
+	padding: 1rem 0;
+	margin: 0;
+}
+
+#bigO-donut-container {
+	/* For styling the div holding the Big O donut img */
+	padding-left: 1rem;
 }
 
 #bigO-donut {
 	/* For styling Big O donut */
-	/* width: auto; */
-	height: 35%;
-	margin: 1rem 0.5rem 1.5rem 0.5rem;
+	height: 50px;
+	width: auto;
 }
 
 #bigO-blurb {
@@ -378,7 +383,7 @@ footer {
 }
 
 #bigO-image {
-	/* For styling "BIG O NOTATION" title */
+	/* For styling "BIG O NOTATION" image */
 	background-color: white;
 	padding: 1rem;
 	border-top: solid 4px black;
@@ -601,13 +606,11 @@ footer {
 	#homerText {
 		/* "IF HOMER CAN DO IT, YOU CAN TOO" */
 		font-size: 3rem;
-		border: 1px solid black;
 	}
 	#homerText > br {
 		display: none;
 	}
 	#donut-home-container {
-		border: 1px solid black;
 		text-align: left;
 	}
 	#donut-home {
