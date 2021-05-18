@@ -28,6 +28,7 @@ function Footer() {
 								</div>
 							</p>
 						</div>
+
 						<div id="blank"></div>
 						<div id="footer-credit-brady-links">
 							<p>
@@ -127,7 +128,6 @@ function Footer() {
 								)
 							</p>
 						</div>
-
 						<div id="footer-external-links">
 							<p>
 								All photos and gifs are taken from General Assembly except when
@@ -147,6 +147,7 @@ function Footer() {
 								</a>
 							</p>
 						</div>
+
 					</div>
 				</small>
 			</footer>

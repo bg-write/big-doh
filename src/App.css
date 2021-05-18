@@ -640,19 +640,14 @@ footer {
 	/*-----------------------------------*/
 	/*--------- FOOTER ------------------*/
 	/* ICEBOX: fix CSS Grid for footer in media query */
-	#footer-grid {
-		/* 3x3
-		internal | [blank] | brady
-		[blank]  | [blank} | molly
-		external | external | external
-		*/
+	/* #footer-grid {
 		display: grid;
 		grid-template-columns: 1fr 1fr 1fr;
 		grid-template-rows: auto auto auto;
 		grid-template-areas:
 			'internal blank brady'
 			'external blank molly'
-			'external external external';
+			'blank blank external';
 	}
 	#footer-internal-links {
 		text-align: left;
@@ -672,7 +667,7 @@ footer {
 	}
 	#blank {
 		grid-area: 'blank';
-	}
+	} */
 	/*-----------------------------------*/
 	/*--------- NAVBAR ------------------*/
 	/* ICEBOX: Update navbar to open sideways outside of mobile view */
