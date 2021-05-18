@@ -571,9 +571,9 @@ footer {
 /*-------------------- TABLETS -----------------------------*/
 /*-----------------------------------------------------------*/
 @media only screen and (min-width: 43em) {
-	body {
+	/* body {
 		background-color: lightblue;
-	}
+	} */
 	/*--------- HOME PAGE ---------------*/
 	#homerText {
 		/* "IF HOMER CAN DO IT, YOU CAN TOO" */
@@ -729,9 +729,9 @@ footer {
 /*-------------------- DESKTOP (smaller) --------------------*/
 /*-----------------------------------------------------------*/
 @media only screen and (min-width: 62em) {
-	body {
+	/* body {
 		background-color: lightpink;
-	}
+	} */
 	/*--------- BIG O ---------------*/
 	#bigO-blurb {
 		padding: 0 10rem 1.5rem;
@@ -756,9 +756,9 @@ footer {
 /*-------------------- DESKTOP (larger) ---------------------*/
 /*-----------------------------------------------------------*/
 @media only screen and (min-width: 82em) {
-	body {
+	/* body {
 		background-color: lightgreen;
-	}
+	} */
 	/*--------- BIG O ---------------*/
 	#bigO-blurb {
 		padding: 0 15rem 2rem;

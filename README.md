@@ -63,6 +63,8 @@ Deploy the app: [https://big-doh.herokuapp.com/](https://big-doh.herokuapp.com/)
 
 ## Next Steps (Icebox)
 
+- Add new "etc" page sharing other important topics to study: Stability, Scalability, Accessibility, and more
+- Flesh out current Big O, Algorithms, and Data Structures pages with more definitions and details
 - Hand-drawn illustrations and animations (more donuts!)
 - Optimize local image storage
 - JavaScript code snippets giving real-life applications of algorithms and data structures
@@ -70,7 +72,6 @@ Deploy the app: [https://big-doh.herokuapp.com/](https://big-doh.herokuapp.com/)
 - Replace TTT X's and O's with donuts (more donuts!)
 - Refactor Marquee code into its own component
 - Refactor Footer and Navbar media queries for more fluid growth and container transformation
-- Edit Algorithm item containers to remain consistent shared widths
 - CSS: Dark mode, adjust color based on scrolling position
 
 ## The Developers
