@@ -760,7 +760,6 @@ footer {
 	.item-container-algorithms p {
 		padding: 1rem;
 		font-size: 1rem;
-		/* border: 4px solid black; */
 	}
 	/*-----------------------------------*/
 	/*--------- DATA STRUCTURES ---------*/
@@ -837,10 +836,16 @@ footer {
 	#algorithms-blurb {
 		padding: 0 10rem 1.5rem;
 	}
+	.item-container-algorithms p {
+		font-size: 1.25rem;
+	}
 	/*-------------------------------*/
 	/*--------- DATA STRUCTURES -----*/
 	#data-structures-blurb {
 		padding: 0 10rem 1.5rem;
+	}
+	.item-container-data-structures p {
+		font-size: 1.25rem;
 	}
 }
 /*-----------------------------------------------------------*/
@@ -864,9 +869,20 @@ footer {
 	#algorithms-blurb {
 		font-size: 1.5rem;
 	}
+	.item-container-algorithms p {
+		font-size: 1.5rem;
+	}
 	/*-------------------------------*/
 	/*--------- DATA STRUCTURES -----*/
 	#data-structures-blurb {
+		font-size: 1.5rem;
+	}
+	.item-container-data-structures p {
+		font-size: 1.5rem;
+	}
+	/*-------------------------------*/
+	/*---------- TTT ----------------*/
+	#ttt-game {
 		font-size: 1.5rem;
 	}
 }
