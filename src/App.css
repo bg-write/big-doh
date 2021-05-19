@@ -31,6 +31,12 @@ HOMER COLOR GUIDE:
 	font-style: normal;
 }
 
+/* @font-face {
+	Downloadable font-family for body */
+/* font-family: 'Helvetica Neue Regular';
+	src: url('./fonts/helveticaneue-regular.ttf');
+} */
+
 body {
 	font-family: 'Helvetica Neue Regular', 'Helvetica Neue', 'HelveticaNeue-Light',
 		'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande',
@@ -132,6 +138,8 @@ footer {
 .symbol-font {
 	/* For Footer symbols */
 	font-family: FontAwesome5Brands-Regular;
+	letter-spacing: 0;
+	padding: 0.2rem;
 }
 
 .white-background {
