@@ -410,6 +410,14 @@ footer {
 	/* For styling the overall "BIG O NOTATION" values */
 }
 
+.item-container img {
+	border: solid 4px black;
+	height: auto;
+	width: 75%;
+	border-radius: 12.5%;
+	margin: 1rem;
+}
+
 /*-----------------------------------------------------------*/
 /*--------------------- ALGORITHMS --------------------------*/
 /*-----------------------------------------------------------*/

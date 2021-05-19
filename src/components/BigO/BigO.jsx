@@ -5,9 +5,7 @@ function BigO() {
 		<>
 			<main id="bigO-main">
 				<div id="bigO-title">
-					<h1 id="bigO-headline">
-						BIG O NOTATION
-					</h1>
+					<h1 id="bigO-headline">BIG O NOTATION</h1>
 					<div id="bigO-donut-container">
 						<img
 							id="bigO-donut"
@@ -53,6 +51,18 @@ function BigO() {
 				<div id="bigO-container">
 					<div className="item-container">
 						<h2>O(1) - CONSTANT</h2>
+						<a
+							href="https://www.freecodecamp.org/news/big-o-notation/"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							<img
+								id="CONSTANT"
+								alt="CONSTANT"
+								src="https://i.imgur.com/SRJqkiF.png"
+								width="95%"
+							/>
+						</a>
 						<p>
 							The input size doesn't matter. Whether your input (N) is 1 or
 							1,000 values long, the algorithm still just takes one "step."
@@ -76,6 +86,18 @@ function BigO() {
 
 					<div className="item-container">
 						<h2>O(log N) - LOGARITHMIC</h2>
+						<a
+							href="https://www.freecodecamp.org/news/big-o-notation/"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							<img
+								id="LOGARITHMIC"
+								alt="LOGARITHMIC"
+								src="https://i.imgur.com/rMNtk3F.png"
+								width="95%"
+							/>
+						</a>
 						<p>
 							Cut the number of steps each time in half. If N is doubled, you
 							only have to do 1 more operation.<br></br>
@@ -99,6 +121,18 @@ function BigO() {
 
 					<div className="item-container">
 						<h2>O(N) - LINEAR</h2>
+						<a
+							href="https://www.freecodecamp.org/news/big-o-notation/"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							<img
+								id="LINEAR"
+								alt="LINEAR"
+								src="https://i.imgur.com/cpOZS0H.png"
+								width="95%"
+							/>
+						</a>
 						<p>
 							N is the length of your input. If your list has 10 items, you
 							print 10 times.<br></br>
@@ -120,6 +154,18 @@ function BigO() {
 
 					<div className="item-container">
 						<h2>O(N log N) - QUASILINEAR</h2>
+						<a
+							href="https://www.happycoders.eu/algorithms/big-o-notation-time-complexity/"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							<img
+								id="QUASILINEAR"
+								alt="QUASILINEAR"
+								src="https://i.imgur.com/esfgCCw.png"
+								width="95%"
+							/>
+						</a>
 						<p>
 							For each time N grows, the time required grows linearly and
 							logarithmically.<br></br>
@@ -143,6 +189,18 @@ function BigO() {
 
 					<div className="item-container">
 						<h2>O(N^2) - QUADRATIC</h2>
+						<a
+							href="https://www.freecodecamp.org/news/big-o-notation/"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							<img
+								id="QUADRATIC"
+								alt="QUADRATIC"
+								src="https://i.imgur.com/dMDKMwY.png"
+								width="95%"
+							/>
+						</a>
 						<p>
 							For each time N grows, the processing time doubles. If your list
 							has 10 items, you have to print 100 times, or 10^2 times.<br></br>
@@ -166,6 +224,18 @@ function BigO() {
 
 					<div className="item-container">
 						<h2>O(2^N) - EXPONENTIAL</h2>
+						<a
+							href="https://www.101computing.net/big-o-notation-exponential-algorithm/"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							<img
+								id="EXPONENTIAL"
+								alt="EXPONENTIAL"
+								src="https://i.imgur.com/BGdXHS2.png"
+								width="95%"
+							/>
+						</a>
 						<p>
 							Doubles with every additional input. If N = 2, your algorithm runs
 							4 times, or 2^2. If N = 3, your algorithm runs 8 times, or 2^3.
@@ -188,6 +258,18 @@ function BigO() {
 
 					<div className="item-container">
 						<h2>O(N!) - FACTORIAL</h2>
+						<a
+							href="https://www.freecodecamp.org/news/big-o-notation/"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							<img
+								id="FACTORIAL"
+								alt="FACTORIAL"
+								src="https://i.imgur.com/BN2JUQ2.png"
+								width="95%"
+							/>
+						</a>
 						<p>
 							When you have to calculate every possible solution to determine
 							the correct output. 6! = 6*5*4*3*2*1 = 720.<br></br>
