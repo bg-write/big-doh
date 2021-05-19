@@ -269,12 +269,18 @@ function Algorithms() {
 					<div className="flex-container-algorithms">
 						<div className="item-container-algorithms white-background">
 							<h4>Bucket Sort</h4>
-							<img
-								id="bucket-sort"
-								alt="bucket sort"
-								src="https://i.imgur.com/iJQQN5o.gif"
-								width="40%"
-							/>
+							<a
+								href="https://blogs.cuit.columbia.edu/zp2130/sorting/"
+								target="_blank"
+								rel="noopener noreferrer"
+							>
+								<img
+									id="bucket-sort"
+									alt="bucket sort"
+									src="https://i.imgur.com/iJQQN5o.gif"
+									width="40%"
+								/>
+							</a>
 							<p>
 								Sort items into buckets based on certain properties, and then
 								sort within those buckets.<br></br>
@@ -298,7 +304,7 @@ function Algorithms() {
 						<div className="item-container-algorithms white-background">
 							<h4>Radix Sort</h4>
 							<a
-								href="https://github.com/trekhleb/javascript-algorithms/tree/master/src/algorithms/sorting/radix-sort"
+								href="https://blogs.cuit.columbia.edu/zp2130/sorting/"
 								target="_blank"
 								rel="noopener noreferrer"
 							>
@@ -332,18 +338,18 @@ function Algorithms() {
 					</div>
 					<div className="item-container">
 						<h2>Search Algorithms</h2>
-						<a
-							href="https://www.tvweek.com/tvbizwire/2015/05/merriam-webster-declares-the-word-of-the-year-for-2014-and-adds-a-bunch-of-new-words-to-the-dictionary/"
+						{/* <a
+							href=""
 							target="_blank"
 							rel="noopener noreferrer"
 						>
-							{/* <img
+							<img
 								id="search-algorithms"
 								alt="search algorithms"
 								src="https://i.imgur.com/C8PIAyr.gif"
 								width="40%"
-							/> */}
-						</a>
+							/>
+						</a> */}
 						<p>
 							Find, and sometimes retrieve, an item with a specific value in a
 							sorted sequence.<br></br>
@@ -367,7 +373,7 @@ function Algorithms() {
 						<div className="item-container-algorithms white-background">
 							<h4>Brute Force Search</h4>
 							<a
-								href="https://www.quantamagazine.org/one-way-salesman-finds-fast-path-home-20171005/"
+								href="https://www.raywenderlich.com/541-swift-algorithm-club-boyer-moore-string-search-algorithm"
 								target="_blank"
 								rel="noopener noreferrer"
 							>
