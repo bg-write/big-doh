@@ -135,6 +135,20 @@ function Footer() {
 								Laakmann McDowell's 'Cracking the Coding Interview' (6th
 								Edition).
 							</p>
+							<p>
+								Other helpful links:
+								<ul>
+									<li>
+										<a
+											href="https://www.freecodecamp.org/news/big-o-notation/"
+											target="_blank"
+											rel="noopener noreferrer"
+										>
+											freeCodeCamp
+										</a>
+									</li>
+								</ul>
+							</p>
 							<p>Copyright &copy; Big D'oh 2021.</p>
 							<p>
 								{' '}
@@ -147,7 +161,6 @@ function Footer() {
 								</a>
 							</p>
 						</div>
-
 					</div>
 				</small>
 			</footer>

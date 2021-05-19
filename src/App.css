@@ -61,6 +61,10 @@ a:hover {
 	color: #70d1fe;
 }
 
+ul {
+	list-style-type: none;
+}
+
 .grid {
 	/* placed in App.js */
 	display: grid;

@@ -65,12 +65,14 @@ function BigO() {
 						</a>
 						<p>
 							The input size doesn't matter. Whether your input (N) is 1 or
-							1,000 values long, the algorithm still just takes one "step."
+							1,000 values long, the algorithm still just takes one "step." When
+							you're planning a birthday party, you bake one cake, no matter how
+							many people show up. O(1) has the least complexity, which is great.
 							<br></br>
 							<i>
 								<small>
 									Ex: Looking up an array when you already know the key or
-									index. It doesn't matter how long the array is. (
+									index; it doesn't matter how long the array is. (
 									<a
 										href="https://youtu.be/__vX2sjlpXU?t=114"
 										target="_blank"
@@ -100,12 +102,15 @@ function BigO() {
 						</a>
 						<p>
 							Cut the number of steps each time in half. If N is doubled, you
-							only have to do 1 more operation.<br></br>
+							only have to do 1 more operation. If 1 person is coming to your
+							birthday party, you only need to bake 1 cake; 2-3 people require
+							baking 2 cakes; 4-7 people require 3 cakes; and so on.<br></br>
 							<i>
 								<small>
-									Ex: Binary Search - look up a name in the phone book, read a
-									name, and flip forwards or backwards depending on how close
-									you are. (
+									Ex: "Binary Search" in an ordered array - look at the middle
+									of the array, see if the value is higher or lower than what
+									you need, then repeat the process now only focusing on the
+									half you need. (
 									<a
 										href="https://www.youtube.com/watch?v=4mqtiLjtddY"
 										target="_blank"
@@ -135,10 +140,10 @@ function BigO() {
 						</a>
 						<p>
 							N is the length of your input. If your list has 10 items, you
-							print 10 times.<br></br>
+							print 10 times. Each birthday party guest gets a cake.<br></br>
 							<i>
 								<small>
-									Ex: A basic For Loop: for each item, do a specific thing. (
+									Ex: A basic "For Loop": for each item, do a specific thing. (
 									<a
 										href="https://youtu.be/__vX2sjlpXU?t=157"
 										target="_blank"
@@ -171,9 +176,9 @@ function BigO() {
 							logarithmically.<br></br>
 							<i>
 								<small>
-									Ex: A basic While For Loop: While something is true, for each
-									item, do this specific thing. Also, Quick Sort and Merge Sort.
-									(
+									Ex: A basic "While For Loop": While something is true, for
+									each item, do this specific thing. Also, Quick Sort and Merge
+									Sort. (
 									<a
 										href="https://www.youtube.com/watch?v=K3NluEdHkao"
 										target="_blank"
@@ -203,12 +208,15 @@ function BigO() {
 						</a>
 						<p>
 							For each time N grows, the processing time doubles. If your list
-							has 10 items, you have to print 100 times, or 10^2 times.<br></br>
+							has 10 items, you have to print 100 times, or 10^2 times. If you
+							bake a cake for each guest and you also write their names on each
+							cake, 1 cake requires 2 steps (baking it and then writing a
+							guest's name). 2 cakes require 4 steps, and so on.<br></br>
 							<small>
 								<i>
-									Ex: Nesting two loops in the same function. Also selection and
-									bubble sorts, when we have to iterate over each item and then
-									compare to its unsorted items. (
+									Ex: Nesting two loops in the same function. Also "Selection
+									Sort" and "Bubble Sort,"" when we have to iterate over each
+									item and then compare to its unsorted items. (
 									<a
 										href="https://youtu.be/__vX2sjlpXU?t=203"
 										target="_blank"
@@ -242,7 +250,7 @@ function BigO() {
 							<br></br>
 							<small>
 								<i>
-									Ex: Recursion and Fibonacci. (
+									Ex: "Recursion" and "Fibonacci." (
 									<a
 										href="https://www.youtube.com/watch?v=5AxcXHPB3GE"
 										target="_blank"
