@@ -36,6 +36,7 @@ body {
 		'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande',
 		sans-serif;
 	background-color: #fed90f;
+	letter-spacing: -1px;
 }
 
 /* For creating style variables for the marquee */
