@@ -105,6 +105,14 @@ footer {
 	padding: 1.5rem 2rem 0.5rem;
 }
 
+.item-container > h2 {
+	font-size: 1.75rem;
+}
+
+.item-container img {
+	/* border: solid 4px blue; */
+}
+
 .item-container > * {
 	/* For styling all the items not turned into flex */
 	/* border: solid 4px black; */
@@ -139,7 +147,7 @@ footer {
 	/* For Footer symbols */
 	font-family: FontAwesome5Brands-Regular;
 	letter-spacing: 0;
-	padding: 0.2rem;
+	padding: 0 0 0 0.25rem;
 }
 
 .white-background {
@@ -443,6 +451,12 @@ footer {
 
 #algorithms-container {
 	/* For styling the overall "ALGORITHMS" values */
+}
+
+#algorithms-container img {
+	height: auto;
+	width: 75%;
+	border-radius: 12.5%;
 }
 
 .flex-container-algorithms {

@@ -7,12 +7,13 @@ function Algorithms() {
 				<div id="algorithms-title">
 					<h1 id="algorithms-headline">ALGORITHMS</h1>
 					<div id="algorithms-donut-container">
-					<img
-						id="algorithms-donut"
-						className="loader"
-						alt="donut"
-						src="https://i.imgur.com/ske1xNn.png"
-					/></div>
+						<img
+							id="algorithms-donut"
+							className="loader"
+							alt="donut"
+							src="https://i.imgur.com/ske1xNn.png"
+						/>
+					</div>
 				</div>
 
 				<div id="algorithms-blurb" className="center-text">
@@ -35,12 +36,12 @@ function Algorithms() {
 				<div id="algorithms-container">
 					<div className="item-container white-background">
 						<h2>But First, Recursion</h2>
-						<img
+						{/* <img
 							id="recursion"
 							alt="recursion"
 							src="https://i.imgur.com/zD5qpAZ.gif"
 							width="40%"
-						/>
+						/> */}
 						<p>
 							A function that calls itself to break down a larger problem into
 							smaller bits.<br></br>
@@ -62,12 +63,12 @@ function Algorithms() {
 
 					<div className="item-container">
 						<h2>Comparison Sort Algorithms</h2>
-						<img
+						{/* <img
 							id="comparison-sort"
 							alt="comparison sort"
 							src="https://ga-instruction.s3.amazonaws.com/assets/tech/computer-science/intro-sorting/comparison.gif"
 							width="40%"
-						/>
+						/> */}
 						<p>
 							Compare and order 2 items at a time.<br></br>
 							<i>
@@ -152,12 +153,12 @@ function Algorithms() {
 					</div>
 					<div className="item-container">
 						<h2>Divide-and-Conquer Sort Algorithms</h2>
-						<img
+						{/* <img
 							id="divide-and-conquer"
 							alt="divide-and-conquer sort"
 							src="https://i.imgur.com/24jRkiE.gif"
 							width="40%"
-						/>
+						/> */}
 						<p>
 							Solve problems using comparison sort and recursion.<br></br>
 							<i>
@@ -241,12 +242,12 @@ function Algorithms() {
 
 					<div className="item-container">
 						<h2>Distribution Sort Algorithms</h2>
-						<img
+						{/* <img
 							id="distribution-sort"
 							alt="distribution sort"
 							src="https://ga-instruction.s3.amazonaws.com/assets/tech/computer-science/intro-sorting/distribution.gif"
 							width="40%"
-						/>
+						/> */}
 						<p>
 							Instead of comparing 2 items, you compare and group all your items
 							by properties.<br></br>
@@ -336,12 +337,12 @@ function Algorithms() {
 							target="_blank"
 							rel="noopener noreferrer"
 						>
-							<img
+							{/* <img
 								id="search-algorithms"
 								alt="search algorithms"
 								src="https://i.imgur.com/C8PIAyr.gif"
 								width="40%"
-							/>
+							/> */}
 						</a>
 						<p>
 							Find, and sometimes retrieve, an item with a specific value in a
