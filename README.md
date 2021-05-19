@@ -70,6 +70,7 @@ Deploy the app: [https://big-doh.herokuapp.com/](https://big-doh.herokuapp.com/)
 - Optimize local image storage
 - JavaScript code snippets giving real-life applications of algorithms and data structures
 - Include specific Big O time and space complexities for each algorithm
+- Make white background examples center like study cards
 - Replace TTT X's and O's with donuts (more donuts!)
 - Refactor Marquee code into its own component
 - Refactor Footer and Navbar media queries for more fluid growth and container transformation
