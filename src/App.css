@@ -728,20 +728,24 @@ footer {
 		padding: 0 5rem 1rem;
 		font-size: 1rem;
 	}
+	#algorithms-container img {
+		height: 50%;
+		width: 95%;
+	}
 	.flex-container-algorithms {
-		/* border-top: 4px solid black;
-		border-bottom: 4px solid black; */
 		display: flex;
 		align-items: stretch;
 		justify-content: center;
 	}
 	.item-container-algorithms {
-		border: 4px solid black;
+		border-left: 4px solid black;
 		text-align: left;
 		padding: 1rem;
 		margin: 0;
-		/* height: 50%; */
 		width: 50%;
+	}
+	.item-container-algorithms:first-child {
+		border-left: none;
 	}
 	.item-container-algorithms h4 {
 		padding: 1rem;

@@ -414,7 +414,7 @@ function Algorithms() {
 						<div className="item-container-algorithms white-background">
 							<h4>Binary Search</h4>
 							<a
-								href="https://medium.com/techie-delight/binary-search-practice-problems-4c856cd9f26c"
+								href="https://www.sitesbay.com/cpp-datastructure/cpp-binary-search"
 								target="_blank"
 								rel="noopener noreferrer"
 							>
