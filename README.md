@@ -1,14 +1,14 @@
 # Big D’oh: Homer Reads 'Cracking the Coding Interview'
 
-## If Homer can do it, so can you.
+![Big D'oh landing page](https://i.imgur.com/VLtap0R.png)
 
-Have you read 'Cracking the Coding Interview' but are still struggling with Big O? This free study guide is for anyone preparing for technical interviews and wishing to better understand Big O and common algorithms and data structures.
+Have you read 'Cracking the Coding Interview' but still struggle with Big O? This free study aid is for anyone preparing for technical interviews to better understand Big O and common algorithms and data structures.
 
-THE GOAL: To reinforce high-level knowledge of key algorithms and data structures pulled from Gayle Laakmann McDowell's 6th Edition of 'Cracking the Coding Interview' in a way even Homer Simpson could understand.
+THE GOAL: To reinforce high-level knowledge of key algorithms and data structures from Gayle Laakmann McDowell's 6th Edition of 'Cracking the Coding Interview,' in a way even Homer Simpson could understand.
 
-This app is not meant to be a definitive or all-encompassing resource but rather a beginner's guide to navigating key concepts in software engineering and computer science. YouTube links are included to deepen understanding and to encourge ongoing learning. And if you're stressed, you can always play Homer in a game of Tic-Tac-D'oh.
+This app is not meant to be the definitive or all-encompassing resource but rather a beginner's guide to navigating key concepts in software engineering and computer science. YouTube links are included to deepen understanding and encourage ongoing learning. And if you're stressed, you can always play Homer in a game of Tic-Tac-D'oh.
 
-Big D'oh is a mobile-friendly React app made by General Assembly alumni Brady Gerber and Molly Hodson.
+Big D'oh is a mobile-first designed React app made by General Assembly alumni Brady Gerber and Molly Hodson.
 
 ## Getting Started
 
@@ -41,6 +41,8 @@ Deploy the app: [https://big-doh.herokuapp.com/](https://big-doh.herokuapp.com/)
 - Queues
 - Trees
 - Binary Trees
+- Breadth First Search (BFS)
+- Depth First Search (DFS)
 - Tries
 - Graphs
 
@@ -58,20 +60,22 @@ Deploy the app: [https://big-doh.herokuapp.com/](https://big-doh.herokuapp.com/)
 - Google Chrome DevTools
 - Google
 - Bootstap
+- React Bootstrap
 - Coffee
 - Naps
 
 ## Next Steps (Icebox)
 
-- Add new "etc" page sharing other important topics to study: Stability, Scalability, Accessibility, and more
+- Increase overall Lighthouse Performance rate for mobile and desktop
+- Add a new "etc" page sharing other important topics to study: Stability, Scalability, Accessibility, and more
 - Flesh out current Big O, Algorithms, and Data Structures pages with more definitions and details
 - Refactor flex containers with consistent classes to replace individual IDs
-- Hand-drawn illustrations and animations (more donuts!)
-- Optimize local image storage
-- JavaScript code snippets giving real-life applications of algorithms and data structures
-- Include specific Big O time and space complexities for each algorithm
-- Make white background examples center like study cards
-- Replace TTT X's and O's with donuts (more donuts!)
+- Add hand-drawn illustrations and animations (more donuts!)
+- Optimize local image storage and replace current photos with more consistent and higher quality images
+- Add JS code snippets to give real-life applications of algorithms and data structures
+- Add specific Big O time and space complexities for each algorithm
+- Make white background-ed algorithm and data structure examples center like study cards
+- Replace TTT's X's and O's with donuts (more donuts!)
 - Refactor Marquee code into its own component
 - Refactor Footer and Navbar media queries for more fluid growth and container transformation
 - CSS: Dark mode, adjust color based on scrolling position
