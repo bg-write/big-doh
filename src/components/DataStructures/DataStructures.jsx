@@ -9,7 +9,7 @@ function DataStructures() {
 					<div id="data-structures-donut-container">
 						<img
 							id="data-structures-donut"
-							class="loader"
+							className="loader"
 							alt="donut"
 							src="https://i.imgur.com/ske1xNn.png"
 						/>

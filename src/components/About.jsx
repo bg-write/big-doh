@@ -12,7 +12,7 @@ function About() {
 				<hr />
 				<img
 					id="donut"
-					class="loader"
+					className="loader"
 					alt="donut"
 					src="https://i.imgur.com/7NqMseE.jpg"
 					width="100px"

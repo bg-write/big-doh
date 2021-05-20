@@ -13,7 +13,7 @@ import { Route, Link } from 'react-router-dom';
 
 function App() {
 	return (
-		<div className="App" class="grid">
+		<div className="App grid">
 			<NavBar />
 			<Route exact path="/" component={Home} />
 			<Route exact path="/about" component={About} />

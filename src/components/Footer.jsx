@@ -135,7 +135,7 @@ function Footer() {
 								Laakmann McDowell's 'Cracking the Coding Interview' (6th
 								Edition).
 							</p>
-							<p>
+							<div>
 								Other helpful links:
 								<ul>
 									<li>
@@ -229,7 +229,7 @@ function Footer() {
 										</a>
 									</li>
 								</ul>
-							</p>
+							</div>
 							<p>Copyright &copy; Big D'oh 2021.</p>
 							<p>
 								{' '}
