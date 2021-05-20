@@ -147,6 +147,33 @@ function Footer() {
 											freeCodeCamp
 										</a>
 									</li>
+									<li>
+										<a
+											href="https://www.youtube.com/c/WebDevSimplified"
+											target="_blank"
+											rel="noopener noreferrer"
+										>
+											Web Dev Simplified
+										</a>
+									</li>
+									<li>
+										<a
+											href="https://nickbulljs.com/"
+											target="_blank"
+											rel="noopener noreferrer"
+										>
+											Nick Bull's 3-2-1 Newsletter
+										</a>
+									</li>
+									<li>
+										<a
+											href="https://www.youtube.com/watch?v=sVZX0XvEBhk"
+											target="_blank"
+											rel="noopener noreferrer"
+										>
+											Coding Journey
+										</a>
+									</li>
 								</ul>
 							</p>
 							<p>Copyright &copy; Big D'oh 2021.</p>

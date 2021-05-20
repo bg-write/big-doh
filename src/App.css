@@ -549,6 +549,8 @@ footer {
 #data-structures-container img {
 	height: auto;
 	width: 75%;
+	margin: 1rem;
+	padding: 1rem;
 }
 
 .flex-container-data-structures {
