@@ -31,11 +31,11 @@ HOMER COLOR GUIDE:
 	font-style: normal;
 }
 
-/* @font-face {
-	Downloadable font-family for body */
-/* font-family: 'Helvetica Neue Regular';
-	src: url('./fonts/helveticaneue-regular.ttf');
-} */
+@font-face {
+	/* Downloadable font-family for body */
+	font-family: 'Helvetica Neue Regular';
+	src: url('./fonts/HelveticaNeue.ttc');
+}
 
 body {
 	font-family: 'Helvetica Neue Regular', 'Helvetica Neue', 'HelveticaNeue-Light',
