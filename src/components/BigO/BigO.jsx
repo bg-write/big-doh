@@ -67,7 +67,8 @@ function BigO() {
 							The input size doesn't matter. Whether your input (N) is 1 or
 							1,000 values long, the algorithm still just takes one "step." When
 							you're planning a birthday party, you bake one cake, no matter how
-							many people show up. O(1) has the least complexity, which is great.
+							many people show up. O(1) has the least complexity, which is
+							great.
 							<br></br>
 							<i>
 								<small>

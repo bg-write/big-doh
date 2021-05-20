@@ -1,12 +1,10 @@
 import React from 'react';
-// import { Link } from 'react-router-dom';
 
 function Footer() {
 	return (
 		<>
 			<footer id="footer-container">
 				<small>
-					{/* ICEBOX: fix CSS Grid for footer in media query */}
 					<div id="footer-grid">
 						<div id="footer-internal-links">
 							<p>

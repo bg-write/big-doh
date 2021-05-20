@@ -1,5 +1,4 @@
 import React from 'react';
-// import { Link } from 'react-router-dom';
 
 function Home() {
 	return (
@@ -19,7 +18,6 @@ function Home() {
 					</div>
 				</div>
 
-				{/* ICEBOX: Move marquee into its own component */}
 				<div className="marquee-holder">
 					<div className="marquee">
 						<ul className="marquee-content">
