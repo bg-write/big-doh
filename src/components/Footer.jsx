@@ -139,23 +139,48 @@ function Footer() {
 								Other helpful links:
 								<ul>
 									<li>
-										<a href="" target="_blank" rel="noopener noreferrer">
+										<a
+											href="https://www.crackingthecodinginterview.com/"
+											target="_blank"
+											rel="noopener noreferrer"
+										>
 											Cracking the Coding Interview
 										</a>
 									</li>
 									<li>
-										<a href="" target="_blank" rel="noopener noreferrer">
+										<a
+											href="https://eloquentjavascript.net/"
+											target="_blank"
+											rel="noopener noreferrer"
+										>
 											Eloquent JavaScript
 										</a>
 									</li>
 									<li>
-										<a href="" target="_blank" rel="noopener noreferrer">
-											CSS Tricks
+										<a
+											href="https://css-tricks.com/almanac/"
+											target="_blank"
+											rel="noopener noreferrer"
+										>
+											CSS-Tricks
 										</a>
 									</li>
 									<li>
-										<a href="" target="_blank" rel="noopener noreferrer">
-											Flexbox Frog
+										<a
+											href="https://flexboxfroggy.com/"
+											target="_blank"
+											rel="noopener noreferrer"
+										>
+											Flexbox Froggy
+										</a>
+									</li>
+									<li>
+										<a
+											href="https://cssgridgarden.com/"
+											target="_blank"
+											rel="noopener noreferrer"
+										>
+											Grid Garden
 										</a>
 									</li>
 									<li>
