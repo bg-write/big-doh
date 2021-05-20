@@ -334,6 +334,76 @@ function DataStructures() {
 					</div>
 					<div className="flex-container-data-structures">
 						<div className="item-container-data-structures white-background">
+							<h4>Breadth First Search (BFS)</h4>
+							<a
+								href="https://pdfsharein.blogspot.com/2020/05/depth-first-search-vs-breadth-first.html"
+								target="_blank"
+								rel="noopener noreferrer"
+							>
+								<img
+									id="BFS"
+									alt="BFS"
+									src="https://i.imgur.com/7yerhuP.png"
+									width="60%"
+								/>
+							</a>
+							<p>
+								A queue-like search that traverses a tree from left to right,
+								then top to bottom, like reading each level of all the nodes.
+								<br></br>
+								<i>
+									<small>
+										Ex: Good for finding the shortest path between two nodes. (
+										<a
+											href="https://www.youtube.com/watch?v=QRq6p9s8NVg"
+											target="_blank"
+											rel="noopener noreferrer"
+										>
+											YouTube
+										</a>
+										)
+									</small>
+								</i>
+							</p>
+						</div>
+						<div className="item-container-data-structures white-background">
+							<h4>Depth First Search (DFS)</h4>
+							<a
+								href="https://totheinnovation.com/depth-first-search-dfs/"
+								target="_blank"
+								rel="noopener noreferrer"
+							>
+								<img
+									id="DFS"
+									alt="DFS"
+									src="https://i.imgur.com/mkx2xrk.jpg"
+									width="60%"
+								/>
+							</a>
+							<p>
+								A stack-like search that traverses a tree from top to bottom,
+								visiting all a node's child nodes before moving from left to
+								right to its siblings.
+								<br></br>
+								<i>
+									<small>
+										Ex: Good for looking for paths and values far away from our
+										source. (
+										<a
+											href="https://www.youtube.com/watch?v=iaBEKo5sM7w"
+											target="_blank"
+											rel="noopener noreferrer"
+										>
+											YouTube
+										</a>
+										)
+									</small>
+								</i>
+							</p>
+						</div>
+					</div>
+					<div className="flex-container-data-structures">
+						<div className="item-container-data-structures white-background">
 							<h4>Tries</h4>
 							<img
 								id="trie"
@@ -370,7 +440,8 @@ function DataStructures() {
 							/>
 							<p>
 								Any collection of nodes and edges, in which any node can have
-								multiple edges to other nodes.<br></br>
+								multiple edges to other nodes.
+								<br></br>
 								<i>
 									<small>
 										Ex: A group of people on Facebook make up a Graph; some

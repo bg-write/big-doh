@@ -139,6 +139,35 @@ function Footer() {
 								Other helpful links:
 								<ul>
 									<li>
+										<a href="" target="_blank" rel="noopener noreferrer">
+											Cracking the Coding Interview
+										</a>
+									</li>
+									<li>
+										<a href="" target="_blank" rel="noopener noreferrer">
+											Eloquent JavaScript
+										</a>
+									</li>
+									<li>
+										<a href="" target="_blank" rel="noopener noreferrer">
+											CSS Tricks
+										</a>
+									</li>
+									<li>
+										<a href="" target="_blank" rel="noopener noreferrer">
+											Flexbox Frog
+										</a>
+									</li>
+									<li>
+										<a
+											href="https://www.geeksforgeeks.org/"
+											target="_blank"
+											rel="noopener noreferrer"
+										>
+											GeeksforGeeks
+										</a>
+									</li>
+									<li>
 										<a
 											href="https://www.freecodecamp.org/news/big-o-notation/"
 											target="_blank"
