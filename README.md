@@ -2,7 +2,7 @@
 
 ![Big D'oh landing page](https://i.imgur.com/XFFO0Bg.png)
 
-Have you read 'Cracking the Coding Interview' but still struggle with Big O? This free study aid is for anyone preparing for technical interviews to better understand Big O and common algorithms and data structures.
+Did you do a Bootcamp, read 'Cracking the Coding Interview,' but are still struggle with Big O? This free study aid is for anyone preparing for technical interviews to better understand Big O and common algorithms and data structures.
 
 THE GOAL: To reinforce high-level knowledge of key algorithms and data structures from Gayle Laakmann McDowell's 6th Edition of 'Cracking the Coding Interview,' in a way even Homer Simpson could understand.
 

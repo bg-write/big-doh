@@ -124,9 +124,7 @@ function Footer() {
 						<div id="footer-external-links">
 							<p>
 								All photos and gifs are taken from General Assembly except when
-								linked to their original sources. All concepts inspired by Gayle
-								Laakmann McDowell's 'Cracking the Coding Interview' (6th
-								Edition).
+								linked to their original sources.
 							</p>
 							<div>
 								Other helpful links:

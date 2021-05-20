@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { calculateWinner } from './helpers';
+import { calculateWinner } from './Helpers';
 import Board from './Board';
 
 const styles = {
