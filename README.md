@@ -1,6 +1,6 @@
 # Big D’oh: Homer Reads 'Cracking the Coding Interview'
 
-![Big D'oh landing page](https://i.imgur.com/VLtap0R.png)
+![Big D'oh landing page](https://i.imgur.com/XFFO0Bg.png)
 
 Have you read 'Cracking the Coding Interview' but still struggle with Big O? This free study aid is for anyone preparing for technical interviews to better understand Big O and common algorithms and data structures.
 
