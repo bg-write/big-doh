@@ -7,124 +7,119 @@ function Footer() {
 				<small>
 					<div id="footer-grid">
 						<div id="footer-internal-links">
-							<p>
-								<div>
+							<ul>
+								<li>
 									<a href="/">Home</a>
-								</div>
-								<div>
+								</li>
+								<li>
 									<a href="/big-o">Big O</a>
-								</div>
-								<div>
+								</li>
+								<li>
 									<a href="/algorithms">Algorithms</a>
-								</div>
-								<div>
+								</li>
+								<li>
 									<a href="/data-structures">Data Structures</a>
-								</div>
-
-								<div>
+								</li>
+								<li>
 									<a href="/ttt">Study Break</a>
-								</div>
-							</p>
+								</li>
+							</ul>
 						</div>
 
 						<div id="blank"></div>
 						<div id="footer-credit-brady-links">
-							<p>
-								<i>Built by</i>
-								<br></br>BRADY GERBER
-								<div className="remove-underline">
-									<a
-										href="https://github.com/bg-write"
-										target="_blank"
-										rel="noopener noreferrer"
-										className="symbol-font"
-									>
-										GITHUB
-									</a>{' '}
-									<a
-										href="https://www.linkedin.com/in/brady-gerber/"
-										target="_blank"
-										rel="noopener noreferrer"
-										className="symbol-font"
-									>
-										LINKEDIN
-									</a>{' '}
-									<a
-										href="https://twitter.com/BradyWGerber"
-										target="_blank"
-										rel="noopener noreferrer"
-										className="symbol-font"
-									>
-										TWITTER
-									</a>
-								</div>
+							<i>Built by</i>
+							<br></br>BRADY GERBER
+							<div className="remove-underline">
 								<a
-									href="https://bradygerber.com/"
+									href="https://github.com/bg-write"
 									target="_blank"
 									rel="noopener noreferrer"
+									className="symbol-font"
 								>
-									Website
-								</a>
-								<br></br>Gmail (
+									GITHUB
+								</a>{' '}
 								<a
-									href="mailto:bradywgerber@gmail.com"
+									href="https://www.linkedin.com/in/brady-gerber/"
 									target="_blank"
 									rel="noopener noreferrer"
+									className="symbol-font"
 								>
-									bradywgerber
+									LINKEDIN
+								</a>{' '}
+								<a
+									href="https://twitter.com/BradyWGerber"
+									target="_blank"
+									rel="noopener noreferrer"
+									className="symbol-font"
+								>
+									TWITTER
 								</a>
-								)
-							</p>
+							</div>
+							<a
+								href="https://bradygerber.com/"
+								target="_blank"
+								rel="noopener noreferrer"
+							>
+								Website
+							</a>
+							<br></br>Gmail (
+							<a
+								href="mailto:bradywgerber@gmail.com"
+								target="_blank"
+								rel="noopener noreferrer"
+							>
+								bradywgerber
+							</a>
+							)
 						</div>
 						<div id="blank"></div>
 						<div id="blank"></div>
 						<div id="footer-credit-molly-links">
-							<p>
-								<i>Designed by</i>
-								<br></br>MOLLY HODSON
-								<div className="remove-underline">
-									<a
-										href="https://dribbble.com/mollyhodson"
-										target="_blank"
-										rel="noopener noreferrer"
-										className="symbol-font"
-									>
-										DRIBBBLE
-									</a>{' '}
-									<a
-										href="https://www.linkedin.com/in/molly-hodson/"
-										target="_blank"
-										rel="noopener noreferrer"
-										className="symbol-font"
-									>
-										LINKEDIN
-									</a>{' '}
-									<a
-										href="https://twitter.com/MollyHodson"
-										target="_blank"
-										rel="noopener noreferrer"
-										className="symbol-font"
-									>
-										TWITTER
-									</a>
-								</div>
+							<i>Designed by</i>
+							<br></br>MOLLY HODSON
+							<div className="remove-underline">
 								<a
-									href="https://www.mollyhodson.online/"
+									href="https://dribbble.com/mollyhodson"
 									target="_blank"
 									rel="noopener noreferrer"
+									className="symbol-font"
 								>
-									Website
-								</a>
-								<br></br>Gmail (
+									DRIBBBLE
+								</a>{' '}
 								<a
-									href="mailto:mollyphodson@gmail.com"
+									href="https://www.linkedin.com/in/molly-hodson/"
 									target="_blank"
 									rel="noopener noreferrer"
+									className="symbol-font"
 								>
-									mollyhodsononline
+									LINKEDIN
+								</a>{' '}
+								<a
+									href="https://twitter.com/MollyHodson"
+									target="_blank"
+									rel="noopener noreferrer"
+									className="symbol-font"
+								>
+									TWITTER
 								</a>
-								)
-							</p>
+							</div>
+							<a
+								href="https://www.mollyhodson.online/"
+								target="_blank"
+								rel="noopener noreferrer"
+							>
+								Website
+							</a>
+							<br></br>Gmail (
+							<a
+								href="mailto:mollyphodson@gmail.com"
+								target="_blank"
+								rel="noopener noreferrer"
+							>
+								mollyhodsononline
+							</a>
+							)
 						</div>
 						<div id="footer-external-links">
 							<p>

@@ -362,6 +362,12 @@ footer {
 	/* For styling everything inside the Footer */
 	text-align: right;
 }
+#footer-credit-brady-links {
+	margin-bottom: 1rem;
+}
+#footer-credit-molly-links {
+	margin-bottom: 1rem;
+}
 
 /*-----------------------------------------------------------*/
 /*------------------------- BIG O ---------------------------*/
