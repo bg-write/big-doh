@@ -385,7 +385,7 @@ footer {
 #bigO-title {
 	/* For styling "BIG O NOTATION" headline & donut section */
 	padding: 2rem 1rem 0;
-	margin: 1rem 0 0;
+	margin: 0;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -454,7 +454,8 @@ footer {
 	align-items: center;
 	justify-content: center;
 	padding: 2rem 1rem 0;
-	margin: 1rem 0 0;
+	margin: 0;
+	background-color: var(--lard-lad);
 }
 
 #algorithms-headline {
@@ -478,10 +479,19 @@ footer {
 	/* For styling "ALGORITHM" blurb */
 	padding: 0 1rem 1rem;
 	font-size: 1rem;
+	background-color: var(--lard-lad);
 }
 
 #algorithms-container {
 	/* For styling the overall "ALGORITHMS" values */
+}
+
+#algorithms-container .item-container:first-child {
+	background-color: var(--white);
+}
+
+#algorithms-container .item-container {
+	background-color: var(--homer);
 }
 
 #algorithms-container img {
