@@ -68,7 +68,7 @@ Deploy the app: [https://big-doh.herokuapp.com/](https://big-doh.herokuapp.com/)
 - Visual Studio Code
 - Google Chrome DevTools
 - Google
-- Bootstap
+- Bootstrap
 - React Bootstrap
 - Coffee
 - Naps
@@ -80,7 +80,7 @@ Deploy the app: [https://big-doh.herokuapp.com/](https://big-doh.herokuapp.com/)
 - Flesh out current Big O, Algorithms, and Data Structures pages with more definitions and details; add specific Big O time and space complexities for each algorithm
 - Refactor flex containers with consistent classes to replace individual IDs
 - Add hand-drawn illustrations and animations (more donuts!)
-- Optimize local image storage and replace current photos with more consistent and higher quality images
+- Optimize local image storage and replace current photos with more consistent, higher quality images
 - Add JS code snippets to give real-life applications of algorithms and data structures
 - Make white background-ed algorithm and data structure examples center like study cards
 - Replace TTT's X's and O's with donuts (more donuts!)

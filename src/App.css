@@ -483,9 +483,10 @@ footer {
 
 #algorithms-blurb {
 	/* For styling "ALGORITHM" blurb */
-	padding: 0 1rem 1rem;
+	padding: 0 2rem 2rem;
 	font-size: 1rem;
 	background-color: var(--lard-lad);
+	border-top: solid 4px var(--lard-lad);
 }
 
 #algorithms-container {
@@ -498,6 +499,7 @@ footer {
 
 #algorithms-container .item-container {
 	background-color: var(--homer);
+	padding: 2rem;
 }
 
 #algorithms-container img {
@@ -514,7 +516,7 @@ footer {
 	/* For holding flex Algorithm content */
 	border-top: solid 4px black;
 	text-align: center;
-	padding: 1.5rem 2rem 0.5rem;
+	padding: 2rem;
 }
 
 .item-container-algorithms h4 {
