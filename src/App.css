@@ -413,15 +413,16 @@ footer {
 
 #bigO-blurb {
 	/* For styling "BIG O NOTATION" blurb */
-	padding: 0 1rem 1rem;
+	padding: 0 2rem 2rem;
 	font-size: 1rem;
+	border-top: solid 4px var(--lard-lad);
 	background-color: var(--lard-lad);
 }
 
 #bigO-image {
 	/* For styling "BIG O NOTATION" image */
 	background-color: white;
-	padding: 1rem 2.5rem;
+	padding: 2rem 2.5rem;
 	border-top: solid 4px black;
 }
 
@@ -429,7 +430,11 @@ footer {
 	/* For styling the overall "BIG O NOTATION" values */
 }
 
-#bigO-container div:nth-child(odd) {
+#bigO-container .item-container {
+	padding: 2rem;
+}
+
+#bigO-container .item-container:nth-child(odd) {
 	/* For styling the color of every other container */
 	background-color: var(--homer);
 }
