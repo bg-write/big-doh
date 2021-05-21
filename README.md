@@ -86,6 +86,7 @@ Deploy the app: [https://big-doh.herokuapp.com/](https://big-doh.herokuapp.com/)
 - Replace TTT's X's and O's with donuts (more donuts!)
 - Refactor Marquee code into its own component
 - Refactor Footer and Navbar media queries for more fluid growth and container transformation
+- CSS Customize Navbar from hamburger to X's with shifting link placements
 - CSS: Illustrate Simpsons clouds that pop up and frame Navbar text upon hover (like in the opening credits)
 - CSS: Illustrate Homer popping up when you win a game of TTT
 - CSS: Dark mode, adjust color based on scrolling position

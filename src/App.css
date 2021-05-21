@@ -674,7 +674,7 @@ footer {
 /*-----------------------------------------------------------*/
 /*---------------------- MOBILE -----------------------------*/
 /*-----------------------------------------------------------*/
-/* ICEBOX: App is built mobile-first, but tweaks here are made to address marquee */
+/* App is built mobile-first, but tweaks here are made to address marquee */
 @media only screen and (max-width: 42em) {
 	:root {
 		--marquee-height: 5vh;
@@ -695,12 +695,10 @@ footer {
 	/*-----------------------------------*/
 	/*--------- HOME PAGE ---------------*/
 	#flex-container-home {
-		/* The Flexbox specifically for two flex items, the Homer headline and the spinning donut. */
 		flex-direction: row;
-		padding: 1rem 3rem;
+		padding: 3rem 3rem;
 	}
 	#homerText {
-		/* "IF HOMER CAN DO IT, YOU CAN TOO" */
 		font-size: 3rem;
 	}
 	#homerText > br {
@@ -710,12 +708,10 @@ footer {
 		text-align: left;
 	}
 	#donut-home {
-		/* The style the specific donut on the home page */
 		width: 125px;
 	}
 	#home-intro {
-		/* For holding the "Big O?" section and the copy introducing the app */
-		padding: 0.1rem 10rem;
+		padding: 2rem 10rem;
 	}
 	/*-----------------------------------*/
 	/*--------- MARQUEE -----------------*/
@@ -725,6 +721,9 @@ footer {
 	/*-----------------------------------*/
 	/*--------- FOOTER ------------------*/
 	/* ICEBOX: fix CSS Grid for footer in media query */
+	#footer-container {
+		padding: 1.5rem 1rem;
+	}
 	/* #footer-grid {
 		display: grid;
 		grid-template-columns: 1fr 1fr 1fr;
@@ -756,10 +755,16 @@ footer {
 	/*-----------------------------------*/
 	/*--------- NAVBAR ------------------*/
 	/* ICEBOX: Update navbar to open sideways outside of mobile view */
+	#nav-title {
+		padding: 1.5rem;
+	}
+	#border-text-study {
+		margin: 1rem 15rem;
+	}
 	/*-----------------------------------*/
 	/*--------- BIG O -------------------*/
 	#bigO-title {
-		padding-bottom: 0.5rem;
+		padding: 3rem 0 0.5rem;
 	}
 	#bigO-headline {
 		font-size: 3rem;
@@ -768,8 +773,14 @@ footer {
 		height: 100px;
 	}
 	#bigO-blurb {
-		padding: 0 5rem 1rem;
+		padding: 0 5rem 3rem;
 		font-size: 1rem;
+	}
+	#bigO-image {
+		padding: 3rem;
+	}
+	#bigO-container .item-container {
+		padding: 3rem 4rem;
 	}
 	.item-container {
 		padding: 2.5rem 3rem 1.5rem;
@@ -778,7 +789,7 @@ footer {
 	/*-----------------------------------*/
 	/*--------- ALGORITHMS --------------*/
 	#algorithms-title {
-		padding-bottom: 0.5rem;
+		padding: 3rem 0 0.5rem;
 	}
 	#algorithms-headline {
 		font-size: 3rem;
@@ -787,7 +798,7 @@ footer {
 		height: 100px;
 	}
 	#algorithms-blurb {
-		padding: 0 5rem 1rem;
+		padding: 0 5rem 3rem;
 		font-size: 1rem;
 	}
 	#algorithms-container img {
@@ -802,7 +813,7 @@ footer {
 	.item-container-algorithms {
 		border-left: 4px solid black;
 		text-align: left;
-		padding: 1rem;
+		padding: 2rem 1rem;
 		margin: 0;
 		width: 50%;
 	}
@@ -826,7 +837,7 @@ footer {
 	/*-----------------------------------*/
 	/*--------- DATA STRUCTURES ---------*/
 	#data-structures-title {
-		padding-bottom: 0.5rem;
+		padding: 3rem 0 0.5rem;
 	}
 	#data-structures-headline {
 		font-size: 3rem;
@@ -835,7 +846,7 @@ footer {
 		height: 100px;
 	}
 	#data-structures-blurb {
-		padding: 0 5rem 1rem;
+		padding: 0 5rem 3rem;
 		font-size: 1rem;
 	}
 	.flex-container-data-structures {
@@ -846,7 +857,7 @@ footer {
 	.item-container-data-structures {
 		border-left: 4px solid black;
 		text-align: left;
-		padding: 1rem;
+		padding: 2rem 1rem;
 		margin: 0;
 		width: 50%;
 	}
