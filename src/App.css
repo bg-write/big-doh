@@ -576,9 +576,10 @@ footer {
 
 #data-structures-blurb {
 	/* For styling "DATA STRUCTURES" blurb */
-	padding: 0 1rem 1rem;
+	padding: 0 1rem 2rem;
 	font-size: 1rem;
 	background-color: var(--lard-lad);
+	border-top: solid 4px var(--lard-lad);
 }
 
 #data-structures-container {
@@ -587,6 +588,7 @@ footer {
 
 #data-structures-container .item-container {
 	background-color: var(--homer);
+	padding: 2rem;
 }
 
 #data-structures-container img {
@@ -604,7 +606,7 @@ footer {
 	/* For holding flex Data Structure content */
 	border-top: solid 4px black;
 	text-align: center;
-	padding: 1.5rem 2rem 0.5rem;
+	padding: 2rem;
 }
 
 .item-container-data-structures h4 {
