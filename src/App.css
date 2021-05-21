@@ -644,15 +644,18 @@ footer {
 
 #ttt-blurb {
 	/* For styling specifically "Play Homer ..." */
-	font-size: 1rem;
+	font-size: 1.25rem;
+	padding: 1rem;
 }
 
 #ttt-game {
 	/* For styling specifically the actual game */
+	font-size: 1.25rem;
 }
 
 #ttt-clear-board-button {
 	/* For styling the "Clear the board" button; found on Game.jsx */
+	font-size: 1rem;
 	margin: 0 0 1rem 0;
 	background-color: var(--lard-lad);
 }
