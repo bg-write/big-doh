@@ -49,12 +49,12 @@ Deploy the app: [https://big-doh.herokuapp.com/](https://big-doh.herokuapp.com/)
 ## Color Guide
 
 - White #ffffff
-- Black  #111111
+- Black #111111
 - Homer Blue Jeans #40a0ff
 - Homer Skin #ffd90d
 - Donut #ff4fa2
 - Lard Lad #e86b17
-  
+
 ## Technologies Used
 
 - React.js
@@ -77,16 +77,17 @@ Deploy the app: [https://big-doh.herokuapp.com/](https://big-doh.herokuapp.com/)
 
 - Increase overall Lighthouse Performance rate for mobile and desktop
 - Add a new "etc" page sharing other important topics to study: Stability, Scalability, Accessibility, and more
-- Flesh out current Big O, Algorithms, and Data Structures pages with more definitions and details
+- Flesh out current Big O, Algorithms, and Data Structures pages with more definitions and details; add specific Big O time and space complexities for each algorithm
 - Refactor flex containers with consistent classes to replace individual IDs
 - Add hand-drawn illustrations and animations (more donuts!)
 - Optimize local image storage and replace current photos with more consistent and higher quality images
 - Add JS code snippets to give real-life applications of algorithms and data structures
-- Add specific Big O time and space complexities for each algorithm
 - Make white background-ed algorithm and data structure examples center like study cards
 - Replace TTT's X's and O's with donuts (more donuts!)
 - Refactor Marquee code into its own component
 - Refactor Footer and Navbar media queries for more fluid growth and container transformation
+- CSS: Illustrate Simpsons clouds that pop up and frame Navbar text upon hover (like in the opening credits)
+- CSS: Illustrate Homer popping up when you win a game of TTT
 - CSS: Dark mode, adjust color based on scrolling position
 
 ## The Developers
