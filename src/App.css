@@ -1,19 +1,35 @@
 /*-----------------------------------------------------------*/
 /*------------------------- BASE STYLING --------------------*/
 /*-----------------------------------------------------------*/
-/*
-HOMER COLOR GUIDE:
--Skin: #FED90F (Metallic Yellow)
--Beard: #D1B271 (Light French Beige)
--Shirt: #FFFFFF (White)
--Pants: #70D1FE (Maya Blue)
--Shoes: #424F46 (Outer Space)
-*/
-
 * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+}
+
+/* For creating style variables for the colors and marquee */
+:root {
+	--marquee-width: 100vw;
+	--marquee-height: 7vw;
+	--marquee-elements: 9;
+	--marquee-elements-displayed: 4;
+	--marquee-element-width: calc(
+		var(--marquee-width) / var(--marquee-elements-displayed)
+	);
+	--marquee-animation-duration: calc(var(--marquee-elements) * 4s);
+	/* BIG D'OH COLOR GUIDE: */
+	--white: #ffffff;
+	--black: #111111;
+	--blue-jeans: #40a0ff;
+	--homer: #ffd90d;
+	--donut: #ff4fa2;
+	--lard-lad: #e86b17;
+}
+
+@font-face {
+	/* Downloadable font-family for body */
+	font-family: 'Helvetica Neue Regular';
+	src: url('./fonts/HelveticaNeue.ttc');
 }
 
 @font-face {
@@ -31,34 +47,20 @@ HOMER COLOR GUIDE:
 	font-style: normal;
 }
 
-@font-face {
-	/* Downloadable font-family for body */
-	font-family: 'Helvetica Neue Regular';
-	src: url('./fonts/HelveticaNeue.ttc');
-}
-
 body {
 	font-family: 'Helvetica Neue Regular', 'Helvetica Neue', 'HelveticaNeue-Light',
 		'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande',
 		sans-serif;
-	background-color: #fed90f;
+	background-color: var(--white);
 	letter-spacing: -1px;
 }
 
-/* For creating style variables for the marquee */
-:root {
-	--marquee-width: 100vw;
-	--marquee-height: 7vw;
-	--marquee-elements: 9;
-	--marquee-elements-displayed: 4;
-	--marquee-element-width: calc(
-		var(--marquee-width) / var(--marquee-elements-displayed)
-	);
-	--marquee-animation-duration: calc(var(--marquee-elements) * 4s);
+a {
+	color: var(--black);
 }
 
 a:hover {
-	color: #70d1fe;
+	color: var(--donut);
 }
 
 ul {
@@ -139,7 +141,7 @@ footer {
 	border-radius: 50px;
 	padding: 1rem;
 	margin: 1rem;
-	background-color: #d1b271;
+	background-color: var(--donut);
 }
 
 .remove-underline a {
@@ -149,7 +151,7 @@ footer {
 
 .symbol-font {
 	/* For Footer symbols */
-	font-family: FontAwesome5Brands-Regular;
+	font-family: 'FontAwesome5Brands-Regular';
 	letter-spacing: 0;
 	padding: 0 0 0 0.25rem;
 }
@@ -189,14 +191,14 @@ footer {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	margin: 0 0 1.5rem;
+	margin: 1rem 0 0;
 }
 
 .marquee {
 	/* For styling the actual marquee */
 	width: var(--marquee-width);
 	height: var(--marquee-height);
-	background-color: white;
+	background-color: var(--lard-lad);
 	color: black;
 	overflow: hidden;
 	position: relative;
@@ -297,6 +299,7 @@ footer {
 	/* For holding the Big O? section and the copy introducing the app */
 	padding: 0.1rem 3rem;
 	font-size: 1.5rem;
+	background-color: var(--homer);
 }
 
 /*-----------------------------------------------------------*/
@@ -305,7 +308,7 @@ footer {
 #nav-container {
 	/* For styling the overall Navbar holding BIG D'OH title and the toggle */
 	padding: 0;
-	background-color: cornsilk;
+	background-color: var(--homer);
 	border: none;
 }
 
@@ -347,11 +350,11 @@ footer {
 	border-radius: 50px;
 	padding: 0;
 	margin: 1rem;
-	background-color: #d1b271;
+	background-color: var(--blue-jeans);
 }
 
 #nav-item:hover {
-	background-color: #70d1fe;
+	background-color: var(--donut);
 }
 
 /*-----------------------------------------------------------*/
@@ -360,7 +363,10 @@ footer {
 /* There are IDs are used for the media queries, see below */
 #footer-container {
 	/* For styling everything inside the Footer */
+	border-top: solid 4px black;
 	text-align: right;
+	background-color: var(--blue-jeans);
+	color: var(--black);
 }
 #footer-credit-brady-links {
 	margin-bottom: 1rem;
@@ -383,6 +389,7 @@ footer {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	background-color: var(--lard-lad);
 }
 
 #bigO-headline {
@@ -407,6 +414,7 @@ footer {
 	/* For styling "BIG O NOTATION" blurb */
 	padding: 0 1rem 1rem;
 	font-size: 1rem;
+	background-color: var(--lard-lad);
 }
 
 #bigO-image {
@@ -418,6 +426,11 @@ footer {
 
 #bigO-container {
 	/* For styling the overall "BIG O NOTATION" values */
+}
+
+#bigO-container div:nth-child(odd) {
+	/* For styling the color of every other container */
+	background-color: var(--homer);
 }
 
 .item-container img {
