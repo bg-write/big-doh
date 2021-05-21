@@ -54,7 +54,7 @@ function Home() {
 				<div id="home-intro" className="center-text">
 					<p className="border-text">
 						<b>
-							BIG O?<br></br>MORE LIKE BIG <i>D'OH</i>!
+							BIG O? <br></br>MORE LIKE BIG <i>D'OH</i>!
 						</b>
 					</p>
 					<p>

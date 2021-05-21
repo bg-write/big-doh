@@ -896,9 +896,17 @@ footer {
 		background-color: lightpink;
 	} */
 	/*-------------------------------*/
+	/*--------- NAVBAR ---------------*/
+	#border-text-study {
+		margin: 1rem 20rem;
+	}
+	/*-------------------------------*/
 	/*--------- BIG O ---------------*/
 	#bigO-blurb {
 		padding: 0 10rem 1.5rem;
+	}
+	#home-intro br {
+		display: none;
 	}
 	.item-container {
 		padding: 2.5rem 3rem 1.5rem;
@@ -907,7 +915,11 @@ footer {
 	/*-------------------------------*/
 	/*--------- ALGORITHMS ----------*/
 	#algorithms-blurb {
-		padding: 0 10rem 1.5rem;
+		padding: 0 10rem 3rem;
+		font-size: 1.25rem;
+	}
+	#algorithms-container .item-container {
+		padding: 3rem;
 	}
 	.item-container-algorithms p {
 		font-size: 1.25rem;
@@ -915,7 +927,11 @@ footer {
 	/*-------------------------------*/
 	/*--------- DATA STRUCTURES -----*/
 	#data-structures-blurb {
-		padding: 0 10rem 1.5rem;
+		padding: 0 10rem 3rem;
+		font-size: 1.25rem;
+	}
+	#data-structures-container .item-container {
+		padding: 3rem;
 	}
 	.item-container-data-structures p {
 		font-size: 1.25rem;
