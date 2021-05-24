@@ -2,8 +2,9 @@ import React from 'react';
 import Square from './Square';
 
 const style = {
-	borderRadius: '10px',
-	width: '260px',
+	border: '2px solid black',
+	// borderRadius: '10px',
+	width: '250px',
 	height: '250px',
 	margin: '0 auto',
 	display: 'grid',
