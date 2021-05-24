@@ -425,9 +425,12 @@ footer {
 #bigO-blurb {
 	/* For styling the "BIG O NOTATION" blurb, "How efficient ..." */
 	padding: 0 2rem 2rem;
-	font-size: 1rem;
 	border-top: solid 4px var(--lard-lad);
 	background-color: var(--lard-lad);
+}
+
+#bigO-blurb p {
+	font-size: 1rem;
 }
 
 #bigO-image {
@@ -495,9 +498,12 @@ footer {
 #algorithms-blurb {
 	/* For styling "ALGORITHM" blurb */
 	padding: 0 2rem 2rem;
-	font-size: 1rem;
 	background-color: var(--lard-lad);
 	border-top: solid 4px var(--lard-lad);
+}
+
+#algorithms-blurb p {
+	font-size: 1rem;
 }
 
 #algorithms-container {
@@ -593,9 +599,12 @@ footer {
 #data-structures-blurb {
 	/* For styling "DATA STRUCTURES" blurb */
 	padding: 0 1rem 2rem;
-	font-size: 1rem;
 	background-color: var(--lard-lad);
 	border-top: solid 4px var(--lard-lad);
+}
+
+#data-structures-blurb p {
+	font-size: 1rem;
 }
 
 #data-structures-container {
@@ -795,7 +804,9 @@ footer {
 	}
 	#bigO-blurb {
 		padding: 0 5rem 3rem;
-		font-size: 1rem;
+	}
+	#bigO-blurb p {
+		font-size: 1.5rem;
 	}
 	#bigO-image {
 		padding: 3rem;
@@ -823,7 +834,9 @@ footer {
 	}
 	#algorithms-blurb {
 		padding: 0 5rem 3rem;
-		font-size: 1rem;
+	}
+	#algorithms-blurb p {
+		font-size: 1.5rem;
 	}
 	#algorithms-container img {
 		height: 50%;
@@ -872,7 +885,9 @@ footer {
 	}
 	#data-structures-blurb {
 		padding: 0 5rem 3rem;
-		font-size: 1rem;
+	}
+	#data-structures-blurb p {
+		font-size: 1.5rem;
 	}
 	.flex-container-data-structures {
 		display: flex;
