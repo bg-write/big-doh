@@ -152,7 +152,7 @@ function DataStructures() {
 							<p>
 								A list-like structure that uses a hash function to generate keys
 								for each value. It's like scrambling a bunch of donuts to make
-								new donuts, each one having a specific key.<br></br>
+								new donuts, each one having a specific key. If you can use a Hash Table, use it!<br></br>
 								<i>
 									<small>
 										Ex: When you need to store and dynamically add social

@@ -352,7 +352,13 @@ footer {
 	background-color: var(--blue-jeans);
 }
 
-#nav-item:hover {
+#border-text-study:hover {
+	/* To change the background color of only the "study break" button upon hover */
+	background-color: var(--donut);
+}
+
+#nav-item:not(:last-child):hover {
+	/* Targets all nav items except for the background yellow on "Study Break" */
 	background-color: var(--donut);
 }
 

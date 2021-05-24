@@ -218,6 +218,15 @@ function Footer() {
 										Coding Journey
 									</a>
 								</li>
+								<li>
+									<a
+										href="https://leetcode.com/"
+										target="_blank"
+										rel="noopener noreferrer"
+									>
+										LeetCode
+									</a>
+								</li>
 							</ul>
 						</div>
 						<small>

@@ -78,6 +78,7 @@ function Algorithms() {
 					<div className="flex-container-algorithms">
 						<div className="item-container-algorithms white-background">
 							<h4>Bubble Sort</h4>
+
 							<img
 								id="bubble-sort"
 								alt="bubble sort"
@@ -110,6 +111,16 @@ function Algorithms() {
 									</small>
 								</i>
 							</p>
+							{/* <div>
+								<pre>
+									<code>{`BubbleSort(array){
+  for i -> 0 to arrayLength 
+     for j -> 0 to (arrayLength - i - 1)
+      if arr[j] > arr[j + 1]
+        swap(arr[j], arr[j + 1])
+}`}</code>
+								</pre>
+							</div> */}
 						</div>
 						<div className="item-container-algorithms white-background">
 							<h4>Insertion Sort</h4>
