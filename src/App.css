@@ -513,6 +513,10 @@ footer {
 	padding: 2rem;
 }
 
+#algorithms-container .item-container p {
+	padding-top: 1rem;
+}
+
 #algorithms-container img {
 	height: auto;
 	width: 75%;
@@ -548,6 +552,7 @@ footer {
 	margin: 0;
 	height: 40%;
 	width: auto;
+	text-align: right;
 	/* border: 4px solid black; */
 }
 
@@ -847,6 +852,7 @@ footer {
 	.item-container-algorithms p {
 		padding: 1rem;
 		font-size: 1rem;
+		text-align: center;
 	}
 	/*-----------------------------------*/
 	/*--------- DATA STRUCTURES ---------*/
@@ -887,6 +893,7 @@ footer {
 	.item-container-data-structures p {
 		padding: 1rem;
 		font-size: 1rem;
+		text-align: center;
 	}
 	/*-----------------------------------*/
 	/*--------- STUDY BREAK / TTT -------*/

@@ -38,7 +38,7 @@ function Algorithms() {
 						<h2>But First, Recursion</h2>
 						<p>
 							A function that calls itself to break down a larger problem into
-							smaller bits.<br></br>
+							smaller bits.<hr></hr>
 							<i>
 								<small>
 									Ex: The Fibonacci sequence. (
@@ -58,7 +58,7 @@ function Algorithms() {
 					<div className="item-container">
 						<h2>Comparison Sort Algorithms</h2>
 						<p>
-							Compare and order 2 items at a time.<br></br>
+							Compare and order 2 items at a time.<hr></hr>
 							<i>
 								<small>
 									Ex: Comparing a group of lego pieces based on their size. (
@@ -87,7 +87,7 @@ function Algorithms() {
 							/>
 							<p>
 								Compare and sort 2 items and then move to the next pair. All the
-								necessary elements will eventually “bubble” up.<br></br>
+								necessary elements will eventually “bubble” up.<hr></hr>
 								<i>
 									<small>
 										Ex: It's usually used to introduce the idea of an algorithm,
@@ -132,7 +132,7 @@ function Algorithms() {
 							/>
 							<p>
 								Go down the line, select each item, and “insert” it into its
-								proper place if needed.<br></br>
+								proper place if needed.<hr></hr>
 								<i>
 									<small>
 										Ex: When you're playing cards and you manually sort your
@@ -153,7 +153,7 @@ function Algorithms() {
 					<div className="item-container">
 						<h2>Divide-and-Conquer Sort Algorithms</h2>
 						<p>
-							Solve problems using comparison sort and recursion.<br></br>
+							Solve problems using comparison sort and recursion.<hr></hr>
 							<i>
 								<small>
 									Ex: Keep splitting a group of legos in half until you get to 1
@@ -185,7 +185,7 @@ function Algorithms() {
 								Split the items in half over and over until they're all sorted
 								(divide, via the Merge Sort algorithm), and then merge the
 								sorted pieces back together on their way back up (conquer, via
-								the Merge algorithm).<br></br>
+								the Merge algorithm).<hr></hr>
 								<i>
 									<small>
 										Ex: Sorting a Linked List. (
@@ -214,7 +214,7 @@ function Algorithms() {
 								pivot, and the right partition), then do recursion on the
 								partitions around the sorted pivot (single value). The pivot is
 								usually the first or last value, but it can be any random value.
-								<br></br>
+								<hr></hr>
 								<i>
 									<small>
 										Ex: Unlike Merge Sort, the hard work is done during the
@@ -237,7 +237,7 @@ function Algorithms() {
 						<h2>Distribution Sort Algorithms</h2>
 						<p>
 							Instead of comparing 2 items, you compare and group all your items
-							by properties.<br></br>
+							by properties.<hr></hr>
 							<i>
 								<small>
 									Ex: Group all your lego pieces by color. (
@@ -270,7 +270,7 @@ function Algorithms() {
 							</a>
 							<p>
 								Sort items into buckets based on certain properties, and then
-								sort within those buckets.<br></br>
+								sort within those buckets.<hr></hr>
 								<i>
 									<small>
 										Ex: When sorting a large set of floating point numbers
@@ -304,7 +304,7 @@ function Algorithms() {
 							</a>
 							<p>
 								Same as Bucket Sort, but only for integers; you group each
-								integer by certain digits.<br></br>
+								integer by certain digits.<hr></hr>
 								<i>
 									<small>
 										Ex: Given a range of large numbers, sort all the numbers
@@ -327,7 +327,7 @@ function Algorithms() {
 						<h2>Search Algorithms</h2>
 						<p>
 							Find, and sometimes retrieve, an item with a specific value in a
-							sorted sequence.<br></br>
+							sorted sequence.<hr></hr>
 							<i>
 								<small>
 									Ex: Searching a dictionary. (
@@ -360,7 +360,7 @@ function Algorithms() {
 								/>
 							</a>
 							<p>
-								Try every possibility available.<br></br>
+								Try every possibility available.<hr></hr>
 								<i>
 									<small>
 										Ex: The Traveling Salesman Problem. If a salesman needs to
@@ -403,7 +403,7 @@ function Algorithms() {
 							<p>
 								Find an item by repeatedly halving your search. When an array is
 								sorted, go to the middle (left of center) and then search its
-								left or right and go to its new middle, and so on.<br></br>
+								left or right and go to its new middle, and so on.<hr></hr>
 								<i>
 									<small>
 										Ex: Literally searching a dictionary. (
