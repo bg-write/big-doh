@@ -607,6 +607,10 @@ footer {
 	padding: 2rem;
 }
 
+#data-structures-container .item-container p {
+	padding-top: 1rem;
+}
+
 #data-structures-container img {
 	height: auto;
 	width: 75%;
@@ -631,11 +635,12 @@ footer {
 	/* border: 4px solid black; */
 }
 
-.item-container-algorithms p {
+.item-container-data-structures p {
 	padding: 0.5rem 1rem;
 	margin: 0;
 	height: 40%;
 	width: auto;
+	text-align: right;
 	/* border: 4px solid black; */
 }
 

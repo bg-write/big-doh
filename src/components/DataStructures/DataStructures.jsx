@@ -66,7 +66,7 @@ function DataStructures() {
 							/>
 							<p>
 								A collection of the items where items can be accessed by an
-								index. Can be one or two dimensional.<br></br>
+								index. Can be one or two dimensional.<hr></hr>
 								<i>
 									<small>
 										Ex: If you need to store an image (1000x1000px) as a bitmap,
@@ -93,7 +93,7 @@ function DataStructures() {
 							/>
 							<p>
 								Similar to arrays, but this collection of items can only contain
-								unique values.<br></br>
+								unique values.<hr></hr>
 								<i>
 									<small>
 										Ex: Storing the names of everyone on a basketball team; you
@@ -124,7 +124,7 @@ function DataStructures() {
 							<p>
 								Lists that store data inside of nodes (basic units for storing
 								data) that point to each other, but the order is strict.
-								<br></br>
+								<hr></hr>
 								<i>
 									<small>
 										Ex: A playlist of songs is a Doubly Linked List, since each
@@ -152,7 +152,8 @@ function DataStructures() {
 							<p>
 								A list-like structure that uses a hash function to generate keys
 								for each value. It's like scrambling a bunch of donuts to make
-								new donuts, each one having a specific key. If you can use a Hash Table, use it!<br></br>
+								new donuts, each one having a specific key. If you can use a
+								Hash Table, use it!<hr></hr>
 								<i>
 									<small>
 										Ex: When you need to store and dynamically add social
@@ -205,7 +206,7 @@ function DataStructures() {
 								Follows the ordering principle of “Last In First Out” (LIFO).
 								It's like eating a stack of donuts; when you want a donut, you
 								take the donut on top of the stack.
-								<br></br>
+								<hr></hr>
 								<i>
 									<small>
 										Ex: A history of your recently visited websites is a Stack.
@@ -234,7 +235,7 @@ function DataStructures() {
 								Follows the ordering principle of “First In First Out” (FIFO).
 								It's like waiting in line to buy donuts; if you're at the front
 								of the line, you get to leave first.
-								<br></br>
+								<hr></hr>
 								<i>
 									<small>
 										Ex: Programming a printer Queue can make sure that jobs are
@@ -286,7 +287,7 @@ function DataStructures() {
 							/>
 							<p>
 								A tree-like structure in which nodes can store lists of child
-								nodes.<br></br>
+								nodes.<hr></hr>
 								<i>
 									<small>
 										Ex: Navigating all your Mac files through Finder. Also, a
@@ -315,7 +316,7 @@ function DataStructures() {
 							<p>
 								Trees that store values in left and right pointers. A Binary
 								Search Tree is where every node fits a specific ordering.
-								<br></br>
+								<hr></hr>
 								<i>
 									<small>
 										Ex: A family tree in which every member has two children. (
@@ -350,7 +351,7 @@ function DataStructures() {
 							<p>
 								A queue-like search that traverses a tree from left to right,
 								then top to bottom, like reading each level of all the nodes.
-								<br></br>
+								<hr></hr>
 								<i>
 									<small>
 										Ex: Good for finding the shortest path between two nodes. (
@@ -384,7 +385,7 @@ function DataStructures() {
 								A stack-like search that traverses a tree from top to bottom,
 								visiting all a node's child nodes before moving from left to
 								right to its siblings.
-								<br></br>
+								<hr></hr>
 								<i>
 									<small>
 										Ex: Good for looking for paths and values far away from our
@@ -414,7 +415,7 @@ function DataStructures() {
 							<p>
 								Trees that aren't limited to only left and right pointers, but
 								they usually only store alphabetical data as collections of
-								strings.<br></br>
+								strings.<hr></hr>
 								<i>
 									<small>
 										Ex: Many search dictionaries are built upon Tries. (
@@ -441,7 +442,7 @@ function DataStructures() {
 							<p>
 								Any collection of nodes and edges, in which any node can have
 								multiple edges to other nodes.
-								<br></br>
+								<hr></hr>
 								<i>
 									<small>
 										Ex: A group of people on Facebook make up a Graph; some
