@@ -120,6 +120,11 @@ footer {
 	/* border: solid 4px blue; */
 }
 
+.item-container p {
+	text-align: right;
+	padding: 0 2rem;
+}
+
 .item-container > * {
 	/* For styling all the items not turned into flex */
 	/* border: solid 4px black; */
@@ -314,7 +319,7 @@ footer {
 
 #nav-title {
 	/* For styling the BIG D'OH Home Page link */
-	margin-left: 1.5rem;
+	margin-left: 0.5rem;
 	padding: 2rem;
 	font-size: 2.5rem;
 }
@@ -400,7 +405,7 @@ footer {
 }
 
 #bigO-headline {
-	/* For styling "BIG O NOTATION" copy */
+	/* For styling "BIG O NOTATION" */
 	font-size: 1.75rem;
 	padding: 1rem 0;
 	margin: 0;
@@ -418,7 +423,7 @@ footer {
 }
 
 #bigO-blurb {
-	/* For styling "BIG O NOTATION" blurb */
+	/* For styling the "BIG O NOTATION" blurb, "How efficient ..." */
 	padding: 0 2rem 2rem;
 	font-size: 1rem;
 	border-top: solid 4px var(--lard-lad);
@@ -791,6 +796,9 @@ footer {
 	.item-container {
 		padding: 2.5rem 3rem 1.5rem;
 		font-size: 1.25rem;
+	}
+	.item-container p {
+		text-align: center;
 	}
 	/*-----------------------------------*/
 	/*--------- ALGORITHMS --------------*/

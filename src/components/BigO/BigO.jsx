@@ -69,7 +69,7 @@ function BigO() {
 							you're planning a birthday party, you bake one cake, no matter how
 							many people show up. O(1) has the least complexity, which is
 							great.
-							<br></br>
+							<hr></hr>
 							<i>
 								<small>
 									Ex: Looking up an array when you already know the key or
@@ -105,7 +105,7 @@ function BigO() {
 							Cut the number of steps each time in half. If N is doubled, you
 							only have to do 1 more operation. If 1 person is coming to your
 							birthday party, you only need to bake 1 cake; 2-3 people require
-							baking 2 cakes; 4-7 people require 3 cakes; and so on.<br></br>
+							baking 2 cakes; 4-7 people require 3 cakes; and so on.<hr></hr>
 							<i>
 								<small>
 									Ex: "Binary Search" in an ordered array - look at the middle
@@ -141,7 +141,7 @@ function BigO() {
 						</a>
 						<p>
 							N is the length of your input. If your list has 10 items, you
-							print 10 times. Each birthday party guest gets a cake.<br></br>
+							print 10 times. Each birthday party guest gets a cake.<hr></hr>
 							<i>
 								<small>
 									Ex: A basic "For Loop": for each item, do a specific thing. (
@@ -174,7 +174,7 @@ function BigO() {
 						</a>
 						<p>
 							For each time N grows, the time required grows linearly and
-							logarithmically.<br></br>
+							logarithmically.<hr></hr>
 							<i>
 								<small>
 									Ex: A basic "While For Loop": While something is true, for
@@ -212,7 +212,7 @@ function BigO() {
 							has 10 items, you have to print 100 times, or 10^2 times. If you
 							bake a cake for each guest and you also write their names on each
 							cake, 1 cake requires 2 steps (baking it and then writing a
-							guest's name). 2 cakes require 4 steps, and so on.<br></br>
+							guest's name). 2 cakes require 4 steps, and so on.<hr></hr>
 							<small>
 								<i>
 									Ex: Nesting two loops in the same function. Also "Selection
@@ -248,7 +248,7 @@ function BigO() {
 						<p>
 							Doubles with every additional input. If N = 2, your algorithm runs
 							4 times, or 2^2. If N = 3, your algorithm runs 8 times, or 2^3.
-							<br></br>
+							<hr></hr>
 							<small>
 								<i>
 									Ex: "Recursion" and "Fibonacci." (
@@ -281,7 +281,7 @@ function BigO() {
 						</a>
 						<p>
 							When you have to calculate every possible solution to determine
-							the correct output. 6! = 6*5*4*3*2*1 = 720.<br></br>
+							the correct output. 6! = 6*5*4*3*2*1 = 720.<hr></hr>
 							<small>
 								<i>
 									Ex: Brute Force and the Traveling Salesman problem. (
