@@ -1,28 +1,3 @@
-/*-------------------WELCOME TO BIG D'OH!!!-----------------*/
-
-/*----------------------TABLE OF CONTENTS---------------------
-(command + F to search by sectionn. Search "***" to return)
-- BASE STYLING
-- CLASSES
-- MARQUEE
-- IDs
-	o HOME PAGE
-	o NAVBAR
-	o FOOTER
-	o BIG O
-	o ALGORITHMS
-	o DATA STRUCTURES
-	O TTT / STUDY BREAK
-- MEDIA QUERIES
-	O MOBILE
-	O TABLET
-	o DESKTOP (smaller)
-	0 DESKTOP (larger)
- */
-
-/*----------------------------------------------------------*/
-/*-------------------- BASE STYLING ------------------------*/
-/*----------------------------------------------------------*/
 * {
 	margin: 0;
 	padding: 0;
@@ -52,21 +27,7 @@
 	/* Downloadable font-family for body */
 	font-family: 'Helvetica Neue Regular';
 	src: url('./fonts/HelveticaNeue.ttc');
-}
-
-@font-face {
-	/* Downloadable font-family for Footer symbols */
-	font-family: 'FontAwesome5Brands-Regular';
-	src: url('./fonts/FontAwesome5Brands-Regular.eot');
-	src: url('./fonts/FontAwesome5Brands-Regular.eot?#iefix')
-			format('embedded-opentype'),
-		url('./fonts/FontAwesome5Brands-Regular.svg#FontAwesome5Brands-Regular')
-			format('svg'),
-		url('./fonts/FontAwesome5Brands-Regular.ttf') format('truetype'),
-		url('./fonts/FontAwesome5Brands-Regular.woff') format('woff'),
-		url('./fonts/FontAwesome5Brands-Regular.woff2') format('woff2');
-	font-weight: normal;
-	font-style: normal;
+	font-display: swap;
 }
 
 body {
@@ -116,9 +77,7 @@ footer {
 	padding: 1rem;
 }
 
-/*----------------------------------------------------------*/
 /*------------------------ CLASSES -------------------------*/
-/*----------------------------------------------------------*/
 .flex-container {
 	/* Put this in the element holding the flex items; this positions all items like a row. */
 	display: flex;
@@ -210,9 +169,7 @@ footer {
 	}
 }
 
-/*----------------------------------------------------------*/
 /*------------------------ MARQUEE -------------------------*/
-/*----------------------------------------------------------*/
 /* ICEBOX: To move marquee classes into its own component */
 .marquee-holder {
 	/* For styling the marquee holder */
@@ -289,12 +246,8 @@ footer {
 	margin: 0 0.2rem;
 }
 
-/*----------------------------------------------------------*/
 /*------------------------ IDs -----------------------------*/
-/*----------------------------------------------------------*/
-/*----------------------------------------------------------*/
 /*-------------------- HOME PAGE ---------------------------*/
-/*----------------------------------------------------------*/
 #flex-container-home {
 	/* Flexbox specifically for two flex items, the Homer headline and the spinning donut. */
 	padding: 1rem 0;
@@ -329,9 +282,7 @@ footer {
 	background-color: var(--homer);
 }
 
-/*----------------------------------------------------------*/
 /*----------------------- NAVBAR ---------------------------*/
-/*----------------------------------------------------------*/
 #nav-container {
 	/* For styling the overall Navbar holding BIG D'OH title and the toggle */
 	padding: 0;
@@ -389,9 +340,7 @@ footer {
 	background-color: var(--donut);
 }
 
-/*----------------------------------------------------------*/
 /*------------------------- FOOTER -------------------------*/
-/*----------------------------------------------------------*/
 #footer-container {
 	/* For styling everything inside the Footer */
 	border-top: solid 4px black;
@@ -409,9 +358,7 @@ footer {
 	margin-bottom: 1rem;
 }
 
-/*----------------------------------------------------------*/
 /*------------------------ BIG O ---------------------------*/
-/*----------------------------------------------------------*/
 #bigO-main {
 	/* For styling the main BIG O page */
 }
@@ -483,9 +430,7 @@ footer {
 	margin: 1rem;
 }
 
-/*----------------------------------------------------------*/
 /*-------------------- ALGORITHMS --------------------------*/
-/*----------------------------------------------------------*/
 #algorithms-main {
 	/* For styling the main ALGORITHMS page */
 }
@@ -584,9 +529,7 @@ footer {
 	/* border: 4px solid black; */
 }
 
-/*----------------------------------------------------------*/
 /*------------------- DATA STRUCTURES ----------------------*/
-/*----------------------------------------------------------*/
 #data-structures-main {
 	/* For styling the main DATA STRUCTURES page */
 }
@@ -675,9 +618,7 @@ footer {
 	/* border: 4px solid black; */
 }
 
-/*----------------------------------------------------------*/
 /*----------------- TTT / STUDY BREAK ----------------------*/
-/*----------------------------------------------------------*/
 #ttt-container {
 	/* For styling the main TTT page: The "TAKE A STUDY BREAK!" Headline and blurb, and where the link to the Game component is */
 }
@@ -717,15 +658,8 @@ footer {
 	background-color: var(--donut);
 }
 
-/*----------------------------------------------------------*/
-/*----------------------------------------------------------*/
 /*------------------- MEDIA QUERIES ------------------------*/
-/*----------------------------------------------------------*/
-/*----------------------------------------------------------*/
-
-/*----------------------------------------------------------*/
 /*--------------------- MOBILE -----------------------------*/
-/*----------------------------------------------------------*/
 /* App is built mobile-first, but tweaks here are made to address marquee */
 @media only screen and (max-width: 42em) {
 	:root {
@@ -737,14 +671,11 @@ footer {
 		width: 5rem;
 	}
 }
-/*----------------------------------------------------------*/
 /*------------------- TABLETS ------------------------------*/
-/*----------------------------------------------------------*/
 @media only screen and (min-width: 43em) {
 	/* body {
 		background-color: lightblue;
 	} */
-	/*-----------------------------------*/
 	/*--------- HOME PAGE ---------------*/
 	#flex-container-home {
 		flex-direction: row;
@@ -765,12 +696,10 @@ footer {
 	#home-intro {
 		padding: 2rem 10rem;
 	}
-	/*-----------------------------------*/
 	/*--------- MARQUEE -----------------*/
 	.marquee-content li {
 		font-size: calc(var(--marquee-height) * 2 / 5);
 	}
-	/*-----------------------------------*/
 	/*--------- FOOTER ------------------*/
 	/* ICEBOX: fix CSS Grid for footer in media query */
 	#footer-container {
@@ -804,7 +733,6 @@ footer {
 	#blank {
 		grid-area: 'blank';
 	} */
-	/*-----------------------------------*/
 	/*--------- NAVBAR ------------------*/
 	/* ICEBOX: Update navbar to open sideways outside of mobile view */
 	#nav-title {
@@ -813,7 +741,6 @@ footer {
 	#border-text-study {
 		margin: 1rem 15rem;
 	}
-	/*-----------------------------------*/
 	/*--------- BIG O -------------------*/
 	#bigO-title {
 		padding: 3rem 0 0.5rem;
@@ -843,7 +770,6 @@ footer {
 	.item-container p {
 		text-align: center;
 	}
-	/*-----------------------------------*/
 	/*--------- ALGORITHMS --------------*/
 	#algorithms-title {
 		padding: 3rem 0 0.5rem;
@@ -894,7 +820,6 @@ footer {
 		font-size: 1rem;
 		text-align: center;
 	}
-	/*-----------------------------------*/
 	/*--------- DATA STRUCTURES ---------*/
 	#data-structures-title {
 		padding: 3rem 0 0.5rem;
@@ -937,7 +862,6 @@ footer {
 		font-size: 1rem;
 		text-align: center;
 	}
-	/*-----------------------------------*/
 	/*--------- STUDY BREAK / TTT -------*/
 	#ttt-headline {
 		margin: 2rem 10rem 1rem;
@@ -951,14 +875,11 @@ footer {
 		font-size: 1.5rem;
 	}
 }
-/*----------------------------------------------------------*/
 /*------------------- DESKTOP (smaller) --------------------*/
-/*----------------------------------------------------------*/
 @media only screen and (min-width: 62em) {
 	/* body {
 		background-color: lightpink;
 	} */
-	/*-----------------------------------*/
 	/*--------- HOME PAGE ---------------*/
 	#home-intro {
 		padding: 5rem;
@@ -967,12 +888,10 @@ footer {
 		padding-top: 1rem;
 		margin-top: 1rem;
 	}
-	/*-------------------------------*/
 	/*--------- NAVBAR ---------------*/
 	#border-text-study {
 		margin: 1rem 20rem;
 	}
-	/*-------------------------------*/
 	/*--------- BIG O ---------------*/
 	#bigO-blurb {
 		padding: 0 10rem 1.5rem;
@@ -984,7 +903,6 @@ footer {
 		padding: 2.5rem 3rem 1.5rem;
 		font-size: 1.25rem;
 	}
-	/*-------------------------------*/
 	/*--------- ALGORITHMS ----------*/
 	#algorithms-blurb {
 		padding: 0 10rem 3rem;
@@ -996,7 +914,6 @@ footer {
 	.item-container-algorithms p {
 		font-size: 1.25rem;
 	}
-	/*-------------------------------*/
 	/*--------- DATA STRUCTURES -----*/
 	#data-structures-blurb {
 		padding: 0 10rem 3rem;
@@ -1009,24 +926,19 @@ footer {
 		font-size: 1.25rem;
 	}
 }
-/*----------------------------------------------------------*/
 /*------------------- DESKTOP (larger) ---------------------*/
-/*----------------------------------------------------------*/
 @media only screen and (min-width: 82em) {
 	/* body {
 		background-color: lightgreen;
 	} */
-	/*-----------------------------------*/
 	/*--------- HOME PAGE ---------------*/
 	#home-intro .border-text:first-child {
 		margin: 0 10rem;
 	}
-	/*-------------------------------*/
 	/*--------- NAVBAR ---------------*/
 	#border-text-study {
 		margin: 1rem 30rem;
 	}
-	/*-------------------------------*/
 	/*--------- BIG O ---------------*/
 	#bigO-title {
 		padding-top: 4rem;
@@ -1049,7 +961,6 @@ footer {
 		padding: 2.5rem 7.5rem 1.5rem;
 		font-size: 1.5rem;
 	}
-	/*-------------------------------*/
 	/*--------- ALGORITHMS ----------*/
 	#algorithms-title {
 		padding-top: 4rem;
@@ -1068,7 +979,6 @@ footer {
 	.item-container-algorithms p {
 		font-size: 1.5rem;
 	}
-	/*-------------------------------*/
 	/*--------- DATA STRUCTURES -----*/
 	#data-structures-title {
 		padding-top: 4rem;
@@ -1087,7 +997,6 @@ footer {
 	.item-container-data-structures p {
 		font-size: 1.5rem;
 	}
-	/*-------------------------------*/
 	/*---------- TTT ----------------*/
 	#ttt-game {
 		font-size: 1.5rem;

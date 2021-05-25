@@ -1,5 +1,22 @@
 // FOR ALL THE THINGS WE MUST USE LATER, WANT TO USE LATER
 
+// OVERALL
+/*
+@font-face {
+	font-family: 'FontAwesome5Brands-Regular';
+	src: url('./fonts/FontAwesome5Brands-Regular.eot');
+	src: url('./fonts/FontAwesome5Brands-Regular.eot?#iefix')
+			format('embedded-opentype'),
+		url('./fonts/FontAwesome5Brands-Regular.svg#FontAwesome5Brands-Regular')
+			format('svg'),
+		url('./fonts/FontAwesome5Brands-Regular.ttf') format('truetype'),
+		url('./fonts/FontAwesome5Brands-Regular.woff') format('woff'),
+		url('./fonts/FontAwesome5Brands-Regular.woff2') format('woff2');
+	font-weight: normal;
+	font-style: normal;
+}
+*/
+
 //FOOTER
 // All the links we don't have room for but might want to still place somewhere?
 /*

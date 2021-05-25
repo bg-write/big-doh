@@ -108,7 +108,9 @@ function Algorithms() {
 											It's not great.
 										</a>
 										)
+										
 									</small>
+
 								</i>
 							</p>
 							{/* <div>
