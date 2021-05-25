@@ -1,7 +1,6 @@
-/* WELCOME TO BIG D'OH!!! */
+/*-------------------WELCOME TO BIG D'OH!!!-----------------*/
 
-/*
-----------------------TABLE OF CONTENTS--------------------
+/*----------------------TABLE OF CONTENTS---------------------
 (command + F to search by sectionn. Search "***" to return)
 - BASE STYLING
 - CLASSES
@@ -144,7 +143,7 @@ footer {
 }
 
 .item-container p {
-	text-align: right;
+	text-align: left;
 	padding: 0 2rem;
 }
 
@@ -581,7 +580,7 @@ footer {
 	margin: 0;
 	height: 40%;
 	width: auto;
-	text-align: right;
+	text-align: left;
 	/* border: 4px solid black; */
 }
 
@@ -672,7 +671,7 @@ footer {
 	margin: 0;
 	height: 40%;
 	width: auto;
-	text-align: right;
+	text-align: left;
 	/* border: 4px solid black; */
 }
 
