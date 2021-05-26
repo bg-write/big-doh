@@ -12,6 +12,7 @@ function BigO() {
 							className="loader"
 							alt="donut"
 							src="https://i.imgur.com/ske1xNn.png"
+							loading="lazy"
 						/>
 					</div>
 				</div>
@@ -44,6 +45,7 @@ function BigO() {
 							alt="Big O"
 							src="https://i.imgur.com/q2GTKn3.png"
 							width="95%"
+							loading="lazy"
 						/>
 					</a>
 				</div>
@@ -61,6 +63,7 @@ function BigO() {
 								alt="CONSTANT"
 								src="https://i.imgur.com/SRJqkiF.png"
 								width="95%"
+								loading="lazy"
 							/>
 						</a>
 						<p>
@@ -69,9 +72,9 @@ function BigO() {
 							you're planning a birthday party, you bake one cake, no matter how
 							many people show up. O(1) has the least complexity, which is
 							great.
-							</p>
-							<hr></hr>
-							<p>
+						</p>
+						<hr></hr>
+						<p>
 							<i>
 								<small>
 									Ex: Looking up an array when you already know the key or
@@ -101,15 +104,17 @@ function BigO() {
 								alt="LOGARITHMIC"
 								src="https://i.imgur.com/rMNtk3F.png"
 								width="95%"
+								loading="lazy"
 							/>
 						</a>
 						<p>
 							Cut the number of steps each time in half. If N is doubled, you
 							only have to do 1 more operation. If 1 person is coming to your
 							birthday party, you only need to bake 1 cake; 2-3 people require
-							baking 2 cakes; 4-7 people require 3 cakes; and so on.</p>
-							<hr></hr>
-							<p>
+							baking 2 cakes; 4-7 people require 3 cakes; and so on.
+						</p>
+						<hr></hr>
+						<p>
 							<i>
 								<small>
 									Ex: "Binary Search" in an ordered array - look at the middle
@@ -141,13 +146,15 @@ function BigO() {
 								alt="LINEAR"
 								src="https://i.imgur.com/cpOZS0H.png"
 								width="95%"
+								loading="lazy"
 							/>
 						</a>
 						<p>
 							N is the length of your input. If your list has 10 items, you
-							print 10 times. Each birthday party guest gets a cake.</p>
-							<hr></hr>
-							<p>
+							print 10 times. Each birthday party guest gets a cake.
+						</p>
+						<hr></hr>
+						<p>
 							<i>
 								<small>
 									Ex: A basic "For Loop": for each item, do a specific thing. (
@@ -176,13 +183,15 @@ function BigO() {
 								alt="QUASILINEAR"
 								src="https://i.imgur.com/esfgCCw.png"
 								width="95%"
+								loading="lazy"
 							/>
 						</a>
 						<p>
 							For each time N grows, the time required grows linearly and
-							logarithmically.</p>
-							<hr></hr>
-							<p>
+							logarithmically.
+						</p>
+						<hr></hr>
+						<p>
 							<i>
 								<small>
 									Ex: A basic "While For Loop": While something is true, for
@@ -213,6 +222,7 @@ function BigO() {
 								alt="QUADRATIC"
 								src="https://i.imgur.com/dMDKMwY.png"
 								width="95%"
+								loading="lazy"
 							/>
 						</a>
 						<p>
@@ -220,9 +230,10 @@ function BigO() {
 							has 10 items, you have to print 100 times, or 10^2 times. If you
 							bake a cake for each guest and you also write their names on each
 							cake, 1 cake requires 2 steps (baking it and then writing a
-							guest's name). 2 cakes require 4 steps, and so on.</p>
-							<hr></hr>
-							<p>
+							guest's name). 2 cakes require 4 steps, and so on.
+						</p>
+						<hr></hr>
+						<p>
 							<small>
 								<i>
 									Ex: Nesting two loops in the same function. Also "Selection
@@ -253,14 +264,15 @@ function BigO() {
 								alt="EXPONENTIAL"
 								src="https://i.imgur.com/BGdXHS2.png"
 								width="95%"
+								loading="lazy"
 							/>
 						</a>
 						<p>
 							Doubles with every additional input. If N = 2, your algorithm runs
 							4 times, or 2^2. If N = 3, your algorithm runs 8 times, or 2^3.
-							</p>
-							<hr></hr>
-							<p>
+						</p>
+						<hr></hr>
+						<p>
 							<small>
 								<i>
 									Ex: "Recursion" and "Fibonacci." (
@@ -289,13 +301,15 @@ function BigO() {
 								alt="FACTORIAL"
 								src="https://i.imgur.com/BN2JUQ2.png"
 								width="95%"
+								loading="lazy"
 							/>
 						</a>
 						<p>
 							When you have to calculate every possible solution to determine
-							the correct output. 6! = 6*5*4*3*2*1 = 720.</p>
-							<hr></hr>
-							<p>
+							the correct output. 6! = 6*5*4*3*2*1 = 720.
+						</p>
+						<hr></hr>
+						<p>
 							<small>
 								<i>
 									Ex: Brute Force and the Traveling Salesman problem. (

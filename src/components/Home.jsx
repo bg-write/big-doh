@@ -14,6 +14,7 @@ function Home() {
 							className="donut loader"
 							alt="donut"
 							src="https://i.imgur.com/ske1xNn.png"
+							loading="lazy"
 						/>
 					</div>
 				</div>

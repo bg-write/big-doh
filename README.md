@@ -91,7 +91,7 @@ Deploy the app: [https://big-doh.herokuapp.com/](https://big-doh.herokuapp.com/)
 - CSS: Illustrate Homer popping up when you win a game of TTT
 - CSS: Dark mode, adjust color based on scrolling position
 
-## The Developers
+## The Team
 
 [Brady Gerber](https://github.com/bg-write) (Software Engineer)
 

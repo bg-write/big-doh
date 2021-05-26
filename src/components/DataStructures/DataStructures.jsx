@@ -12,6 +12,7 @@ function DataStructures() {
 							className="loader"
 							alt="donut"
 							src="https://i.imgur.com/ske1xNn.png"
+							loading="lazy"
 						/>
 					</div>
 				</div>
@@ -63,6 +64,7 @@ function DataStructures() {
 								alt="array"
 								src="https://i.imgur.com/e4cqW9f.png"
 								width="60%"
+								loading="lazy"
 							/>
 							<p>
 								A collection of the items where items can be accessed by an
@@ -90,6 +92,7 @@ function DataStructures() {
 								alt="sets"
 								src="https://i.imgur.com/fV02AeY.png"
 								width="60%"
+								loading="lazy"
 							/>
 							<p>
 								Similar to arrays, but this collection of items can only contain
@@ -120,6 +123,7 @@ function DataStructures() {
 								alt="linked lists"
 								src="https://i.imgur.com/cUSLM2p.png"
 								width="60%"
+								loading="lazy"
 							/>
 							<p>
 								Lists that store data inside of nodes (basic units for storing
@@ -148,6 +152,7 @@ function DataStructures() {
 								alt="hash tables"
 								src="https://i.imgur.com/IhZSTSQ.png"
 								width="60%"
+								loading="lazy"
 							/>
 							<p>
 								A list-like structure that uses a hash function to generate keys
@@ -201,6 +206,7 @@ function DataStructures() {
 								alt="stacks"
 								src="https://i.imgur.com/UQCW78i.png"
 								width="60%"
+								loading="lazy"
 							/>
 							<p>
 								Follows the ordering principle of “Last In First Out” (LIFO).
@@ -230,6 +236,7 @@ function DataStructures() {
 								alt="queues"
 								src="https://i.imgur.com/qSqFRY4.png"
 								width="60%"
+								loading="lazy"
 							/>
 							<p>
 								Follows the ordering principle of “First In First Out” (FIFO).
@@ -284,6 +291,7 @@ function DataStructures() {
 								alt="trees"
 								src="https://i.imgur.com/WG26NDo.png"
 								width="60%"
+								loading="lazy"
 							/>
 							<p>
 								A tree-like structure in which nodes can store lists of child
@@ -312,6 +320,7 @@ function DataStructures() {
 								alt="binary trees"
 								src="https://i.imgur.com/FAgEGr2.png"
 								width="60%"
+								loading="lazy"
 							/>
 							<p>
 								Trees that store values in left and right pointers. A Binary
@@ -346,6 +355,7 @@ function DataStructures() {
 									alt="BFS"
 									src="https://i.imgur.com/7yerhuP.png"
 									width="60%"
+									loading="lazy"
 								/>
 							</a>
 							<p>
@@ -379,6 +389,7 @@ function DataStructures() {
 									alt="DFS"
 									src="https://i.imgur.com/mkx2xrk.jpg"
 									width="60%"
+									loading="lazy"
 								/>
 							</a>
 							<p>
@@ -411,6 +422,7 @@ function DataStructures() {
 								alt="trie"
 								src="https://i.imgur.com/NXCozkT.png"
 								width="60%"
+								loading="lazy"
 							/>
 							<p>
 								Trees that aren't limited to only left and right pointers, but
@@ -438,6 +450,7 @@ function DataStructures() {
 								alt="graphs"
 								src="https://i.imgur.com/k9X8jh5.png"
 								width="60%"
+								loading="lazy"
 							/>
 							<p>
 								Any collection of nodes and edges, in which any node can have

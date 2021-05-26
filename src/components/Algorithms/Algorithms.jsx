@@ -12,6 +12,7 @@ function Algorithms() {
 							className="loader"
 							alt="donut"
 							src="https://i.imgur.com/ske1xNn.png"
+							loading="lazy"
 						/>
 					</div>
 				</div>
@@ -84,6 +85,7 @@ function Algorithms() {
 								alt="bubble sort"
 								src="https://ga-instruction.s3.amazonaws.com/assets/tech/computer-science/basic-sorts/bubble-sort.gif"
 								width="60%"
+								loading="lazy"
 							/>
 							<p>
 								Compare and sort 2 items and then move to the next pair. All the
@@ -108,9 +110,7 @@ function Algorithms() {
 											It's not great.
 										</a>
 										)
-										
 									</small>
-
 								</i>
 							</p>
 							{/* <div>
@@ -131,6 +131,7 @@ function Algorithms() {
 								alt="insertion sort"
 								src="https://ga-instruction.s3.amazonaws.com/assets/tech/computer-science/basic-sorts/insertion-sort.gif"
 								width="60%"
+								loading="lazy"
 							/>
 							<p>
 								Go down the line, select each item, and “insert” it into its
@@ -182,6 +183,7 @@ function Algorithms() {
 								alt="merge sort"
 								src="https://ga-instruction.s3.amazonaws.com/assets/tech/computer-science/divide-conquer-sorts/merge-sort.gif"
 								width="40%"
+								loading="lazy"
 							/>
 							<p>
 								Split the items in half over and over until they're all sorted
@@ -210,6 +212,7 @@ function Algorithms() {
 								alt="quick sort"
 								src="https://ga-instruction.s3.amazonaws.com/assets/tech/computer-science/divide-conquer-sorts/quick-sort.gif"
 								width="40%"
+								loading="lazy"
 							/>
 							<p>
 								Divide all your items into 3 parts (the left partition, the
@@ -268,6 +271,7 @@ function Algorithms() {
 									alt="bucket sort"
 									src="https://i.imgur.com/iJQQN5o.gif"
 									width="40%"
+									loading="lazy"
 								/>
 							</a>
 							<p>
@@ -302,6 +306,7 @@ function Algorithms() {
 									alt="radix sort"
 									src="https://i.imgur.com/EyV7QoH.gif"
 									width="40%"
+									loading="lazy"
 								/>
 							</a>
 							<p>
@@ -359,6 +364,7 @@ function Algorithms() {
 									alt="brute-force"
 									src="https://i.imgur.com/9dOqrHb.gif"
 									width="40%"
+									loading="lazy"
 								/>
 							</a>
 							<p>
@@ -400,6 +406,7 @@ function Algorithms() {
 									alt="binary search"
 									src="https://i.imgur.com/CiLvLbT.gif"
 									width="40%"
+									loading="lazy"
 								/>
 							</a>
 							<p>
