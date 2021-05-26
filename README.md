@@ -75,7 +75,7 @@ Deploy the app: [https://big-doh.herokuapp.com/](https://big-doh.herokuapp.com/)
 
 ## Next Steps (Icebox)
 
-- Increase overall Lighthouse Performance rate for mobile and desktop
+- Increase overall Lighthouse Performance rate for mobile and desktop through HTTP caching, decreasing network payloads, image consistency, and more
 - Add a new "etc" page sharing other important topics to study: Stability, Scalability, Accessibility, and more
 - Flesh out current Big O, Algorithms, and Data Structures pages with more definitions and details; add specific Big O time and space complexities for each algorithm
 - Refactor flex containers with consistent classes to replace individual IDs

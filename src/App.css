@@ -20,8 +20,10 @@
 @font-face {
 	/* Downloadable font-family for body */
 	font-family: 'Helvetica Neue Regular';
-	src: url('./fonts/HelveticaNeue.ttc');
 	font-display: swap;
+	unicode-range: U+000-5FF;
+	src: local('Helvetica Neue Regular');
+	src: url('./fonts/helveticaneue-regular.ttf') format('ttc');
 }
 
 body {
@@ -29,7 +31,6 @@ body {
 		'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande',
 		sans-serif;
 	background-color: var(--white);
-	/* letter-spacing: -1px; */
 }
 
 a {
