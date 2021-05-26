@@ -1,5 +1,5 @@
-import React from 'react';
-import Square from './Square';
+import React, { Suspense } from 'react';
+const Square = React.lazy(() => import('./Square'));
 
 const style = {
 	border: '2px solid black',
@@ -14,7 +14,9 @@ const style = {
 const Board = ({ squares, onClick }) => (
 	<div style={style}>
 		{squares.map((square, i) => (
-			<Square key={i} value={square} onClick={() => onClick(i)} />
+			<Suspense fallback={<div>Loading...</div>}>
+				<Square key={i} value={square} onClick={() => onClick(i)} />
+			</Suspense>
 		))}
 	</div>
 );
