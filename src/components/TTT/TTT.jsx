@@ -1,5 +1,5 @@
-import React from 'react';
-import Game from './Game';
+import React, { Suspense } from 'react';
+const Game = React.lazy(() => import('./Game'));
 
 function TTT() {
 	return (
@@ -13,7 +13,9 @@ function TTT() {
 						<p>Play Homer in some Tic-Tac-D'oh.</p>
 					</div>
 					<div id="ttt-game" className="center-text">
-						<Game />
+						<Suspense fallback={<p>Loading...</p>}>
+							<Game />
+						</Suspense>
 					</div>
 				</div>
 			</main>

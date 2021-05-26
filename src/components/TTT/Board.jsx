@@ -14,7 +14,7 @@ const style = {
 const Board = ({ squares, onClick }) => (
 	<div style={style}>
 		{squares.map((square, i) => (
-			<Suspense fallback={<div>Loading...</div>}>
+			<Suspense fallback={<p>Loading...</p>}>
 				<Square key={i} value={square} onClick={() => onClick(i)} />
 			</Suspense>
 		))}

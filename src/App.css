@@ -1,11 +1,5 @@
-* {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-}
-
-/* For creating style variables for the colors and marquee */
 :root {
+	/* For creating style variables for the marquee */
 	--marquee-width: 100vw;
 	--marquee-height: 7vw;
 	--marquee-elements: 9;

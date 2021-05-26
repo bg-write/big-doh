@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
+import React, { useState, Suspense } from 'react';
 import { calculateWinner } from './helpers';
-import Board from './Board';
+const Board = React.lazy(() => import('./Board'));
 
 const styles = {
 	width: '200px',
@@ -32,7 +32,9 @@ const Game = () => {
 
 	return (
 		<>
-			<Board squares={board} onClick={handleClick} />
+			<Suspense fallback={<p>Loading...</p>}>
+				<Board squares={board} onClick={handleClick} />
+			</Suspense>
 			<div style={styles}>
 				<p>
 					{winner
