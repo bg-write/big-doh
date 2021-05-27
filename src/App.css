@@ -186,25 +186,6 @@ footer {
 	padding: 1.5rem;
 }
 
-/* All marquee:before & after is for adding and styling left and right transparencies */
-/* .marquee:before,
-.marquee:after {
-	position: absolute;
-	top: 0;
-	width: 10rem;
-	height: 100%;
-	content: '';
-	z-index: 1;
-}
-.marquee:before {
-	left: 0;
-	background: linear-gradient(to right, #111 0%, transparent 100%);
-}
-.marquee:after {
-	right: 0;
-	background: linear-gradient(to left, #111 0%, transparent 100%);
-} */
-
 .marquee-content {
 	/* To style the actual spacing of the words in the marquee */
 	list-style-type: none;
@@ -224,11 +205,6 @@ footer {
 		);
 	}
 }
-
-/* For when you hover over the marquee and want to pause it */
-/* .marquee-content:hover {
-	animation-play-state: paused;
-} */
 
 .marquee-content li {
 	/* width: var(--marquee-element-width); */

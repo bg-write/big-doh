@@ -23,31 +23,18 @@ function Home() {
 					<div className="marquee">
 						<ul className="marquee-content">
 							<li>CRACK THE CODING INTERVIEW!</li>
-							<li>*</li>
 							<li>CRACK THE CODING INTERVIEW!</li>
-							<li>*</li>
 							<li>CRACK THE CODING INTERVIEW!</li>
-							<li>*</li>
 							<li>CRACK THE CODING INTERVIEW!</li>
-							<li>*</li>
 							<li>CRACK THE CODING INTERVIEW!</li>
-							<li>*</li>
 							<li>CRACK THE CODING INTERVIEW!</li>
-							<li>*</li>
 							<li>CRACK THE CODING INTERVIEW!</li>
-							<li>*</li>
 							<li>CRACK THE CODING INTERVIEW!</li>
-							<li>*</li>
 							<li>CRACK THE CODING INTERVIEW!</li>
-							<li>*</li>
 							<li>CRACK THE CODING INTERVIEW!</li>
-							<li>*</li>
 							<li>CRACK THE CODING INTERVIEW!</li>
-							<li>*</li>
 							<li>CRACK THE CODING INTERVIEW!</li>
-							<li>*</li>
 							<li>CRACK THE CODING INTERVIEW!</li>
-							<li>*</li>
 						</ul>
 					</div>
 				</div>
