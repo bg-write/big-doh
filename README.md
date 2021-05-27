@@ -46,15 +46,6 @@ Deploy the app: [https://big-doh.herokuapp.com/](https://big-doh.herokuapp.com/)
 - Tries
 - Graphs
 
-## Color Guide
-
-- White #ffffff
-- Black #111111
-- Homer Blue Jeans #40a0ff
-- Homer Skin #ffd90d
-- Donut #ff4fa2
-- Lard Lad #e86b17
-
 ## Technologies Used
 
 - React.js

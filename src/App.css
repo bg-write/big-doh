@@ -813,7 +813,7 @@ footer {
 	.item-container-algorithms p {
 		padding: 1rem;
 		font-size: 1rem;
-		text-align: center;
+		/* text-align: center; */
 	}
 	/*--------- DATA STRUCTURES ---------*/
 	#data-structures-title {
@@ -855,7 +855,7 @@ footer {
 	.item-container-data-structures p {
 		padding: 1rem;
 		font-size: 1rem;
-		text-align: center;
+		/* text-align: center; */
 	}
 	/*--------- STUDY BREAK / TTT -------*/
 	#ttt-headline {
