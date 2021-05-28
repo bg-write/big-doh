@@ -23,12 +23,11 @@
 	font-display: swap;
 	unicode-range: U+000-5FF;
 	src: local('Helvetica Neue Regular');
-	src: url('./fonts/helveticaneue-regular.ttf') format('ttc');
+	src: url('./fonts/HelveticaNeue-01.woff') format('woff');
 }
 
 body {
-	font-family: 'Helvetica Neue Regular', 'Helvetica Neue', 'HelveticaNeue-Light',
-		'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande',
+	font-family: 'Helvetica Neue Regular', Helvetica, Arial, 'Lucida Grande',
 		sans-serif;
 	background-color: var(--white);
 }
