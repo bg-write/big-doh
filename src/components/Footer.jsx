@@ -25,33 +25,31 @@ function Footer() {
 								</li>
 							</ul>
 						</div>
-						<ul>
-							<li>
-								Built by{' '}
-								<a
-									href="https://bradygerber.com/"
-									target="_blank"
-									rel="noopener noreferrer"
-								>
-									Brady Gerber
-								</a>
-							</li>
-							<li>
-								Designed by{' '}
-								<a
-									href="https://www.mollyhodson.online/"
-									target="_blank"
-									rel="noopener noreferrer"
-								>
-									Molly Hodson
-								</a>
-							</li>
-						</ul>
 						<div id="footer-external-links">
-							<p>
-								All photos and gifs are taken from General Assembly <br></br>
-								except when linked to their original sources.
-							</p>
+							<ul>
+								<li>
+									Built by{' '}
+									<a
+										href="https://bradygerber.com/"
+										target="_blank"
+										rel="noopener noreferrer"
+									>
+										Brady Gerber
+									</a>
+								</li>
+								<li>
+									Designed by{' '}
+									<a
+										href="https://www.mollyhodson.online/"
+										target="_blank"
+										rel="noopener noreferrer"
+									>
+										Molly Hodson
+									</a>
+								</li>
+							</ul>
+						</div>
+						<div id="footer-copyright">
 							<p>Copyright &copy; Big D'oh 2021.</p>
 							<p>
 								{' '}

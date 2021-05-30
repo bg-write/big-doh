@@ -53,6 +53,10 @@ function Home() {
 						study guide for Big O and common algorithms and data structures, in
 						a way even Homer Simpson could get.
 					</p>
+					<p>
+						All photos and gifs are taken from General Assembly except when
+						linked to their original sources.
+					</p>
 				</div>
 			</main>
 		</>

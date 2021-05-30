@@ -680,37 +680,35 @@ footer {
 	/*--------- FOOTER ------------------*/
 	/* ICEBOX: fix CSS Grid for footer in media query */
 	#footer-container {
-		padding: 1.5rem 1rem;
+		padding: 3rem 5rem;
 		font-size: 1.25rem;
 	}
-	/* #footer-grid {
+	#footer-container ul {
+		padding: 0;
+	}
+	#footer-container li {
+		padding: 0.25rem 0;
+	}
+	#footer-grid {
 		display: grid;
-		grid-template-columns: 1fr 1fr 1fr;
-		grid-template-rows: auto auto auto;
 		grid-template-areas:
-			'internal blank brady'
-			'external blank molly'
-			'blank blank external';
+			'internal . external'
+			'. . .'
+			'copyright . .';
+		grid-row-gap: 1em;
 	}
 	#footer-internal-links {
+		grid-area: internal;
 		text-align: left;
-		grid-area: 'internal';
-	}
-	#Footer-credit-brady-links {
-		text-align: right;
-		grid-area: 'brady';
-	}
-	#footer-credit-molly-links {
-		text-align: right;
-		grid-area: 'molly';
 	}
 	#footer-external-links {
-		text-align: left;
-		grid-area: 'external';
+		grid-area: external;
 	}
-	#blank {
-		grid-area: 'blank';
-	} */
+	#footer-copyright {
+		grid-area: copyright;
+		text-align: left;
+	}
+
 	/*--------- NAVBAR ------------------*/
 	/* ICEBOX: Update navbar to open sideways outside of mobile view */
 	#nav-title {
