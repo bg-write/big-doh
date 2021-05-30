@@ -623,6 +623,26 @@ footer {
 	font-size: 1.25rem;
 }
 
+#ttt-game div:first-child button:first-child {
+	/* For styling TTT square, top left */
+	border-radius: 30% 0 0 0;
+}
+
+#ttt-game div:first-child button:nth-child(3) {
+	/* For styling TTT square, top right */
+	border-radius: 0 30% 0 0;
+}
+
+#ttt-game div:first-child button:nth-child(7) {
+	/* For styling TTT square, bottom left */
+	border-radius: 0 0 0 30%;
+}
+
+#ttt-game div:first-child button:nth-child(9) {
+	/* For styling TTT square, bottom right */
+	border-radius: 0 0 30% 0;
+}
+
 #ttt-clear-board-button {
 	/* For styling the "Clear the board" button; found on Game.jsx */
 	font-size: 1rem;
@@ -634,7 +654,6 @@ footer {
 	/* For styling when hovering over the button */
 	background-color: var(--donut);
 }
-
 /*------------------- MEDIA QUERIES ------------------------*/
 /*--------------------- MOBILE -----------------------------*/
 /* App is built mobile-first, but tweaks here are made to address marquee */
