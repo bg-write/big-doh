@@ -680,25 +680,33 @@ footer {
 }
 /*------------------- TABLETS ------------------------------*/
 @media only screen and (min-width: 43em) {
-	/* body {
-		background-color: lightblue;
-	} */
 	/*--------- HOME PAGE ---------------*/
 	#flex-container-home {
+		/* border: 4px solid orange; */
+		display: flex;
 		flex-direction: row;
-		padding: 3rem 3rem;
+		width: 80%;
+		margin: 0 auto;
+	}
+	#homerText-container {
+		/* background: blue; */
 	}
 	#homerText {
+		/* border: 4px solid green; */
 		font-size: 3rem;
+		margin: 0;
+		padding: 0;
 	}
 	#homerText > br {
 		display: none;
 	}
 	#donut-home-container {
-		text-align: left;
+		/* background: red; */
 	}
 	#donut-home {
-		width: 125px;
+		/* border: 4px solid green; */
+		height: 220px;
+		width: auto;
 	}
 	#home-intro {
 		/* padding: 2rem 10rem; */

@@ -5,9 +5,11 @@ function Home() {
 		<>
 			<main>
 				<div id="flex-container-home">
-					<h1 id="homerText">
-						IF HOMER <br></br>CAN DO IT, <br></br>YOU CAN <br></br>TOO.
-					</h1>
+					<div id="homerText-container">
+						<h1 id="homerText">
+							IF HOMER <br></br>CAN DO IT, <br></br>YOU CAN <br></br>TOO.
+						</h1>
+					</div>
 					<div id="donut-home-container" className="center-text">
 						<img
 							id="donut-home"
