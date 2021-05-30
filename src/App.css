@@ -617,6 +617,12 @@ footer {
 	margin: 0;
 }
 
+.pillTTT {
+	margin: auto;
+	width: 95%;
+	padding: 10px;
+}
+
 #ttt-blurb {
 	/* For styling specifically "Play Homer ..." */
 	font-size: 1.25rem;
@@ -880,6 +886,11 @@ footer {
 	}
 	#ttt-blurb {
 		font-size: 1.5rem;
+	}
+	.pillTTT {
+		margin: auto;
+		width: 80%;
+		padding: 10px;
 	}
 }
 /*------------------- DESKTOP (smaller) --------------------*/

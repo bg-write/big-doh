@@ -6,8 +6,10 @@ function TTT() {
 		<>
 			<main className="white-background">
 				<div id="ttt-container">
-					<div id="ttt-headline" className="center-text border-text">
-						<h1 id="ttt-headline-copy">TAKE A STUDY BREAK!</h1>
+					<div className="pillTTT">
+						<div id="ttt-headline" className="center-text border-text">
+							<h1 id="ttt-headline-copy">TAKE A STUDY BREAK!</h1>
+						</div>
 					</div>
 					<div id="ttt-blurb" className="center-text">
 						<p>Play Homer in some Tic-Tac-D'oh.</p>
