@@ -681,6 +681,7 @@ footer {
 	/* ICEBOX: fix CSS Grid for footer in media query */
 	#footer-container {
 		padding: 1.5rem 1rem;
+		font-size: 1.25rem;
 	}
 	/* #footer-grid {
 		display: grid;
