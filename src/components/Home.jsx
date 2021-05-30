@@ -40,23 +40,27 @@ function Home() {
 				</div>
 
 				<div id="home-intro" className="center-text">
-					<p className="border-text">
-						<b>
-							BIG O? <br></br>MORE LIKE BIG <i>D'OH</i>!
-						</b>
-					</p>
-					<p>
-						Read 'Cracking the Coding Interview' but still not getting Big O?
-					</p>
-					<p>
-						<b>Big D'oh: Homer Reads Cracking the Coding Interview</b> is a free
-						study guide for Big O and common algorithms and data structures, in
-						a way even Homer Simpson could get.
-					</p>
-					<p>
-						All photos and gifs are taken from General Assembly except when
-						linked to their original sources.
-					</p>
+					<div className="pill">
+						<p className="border-text">
+							<b>
+								BIG O? <br></br>MORE LIKE BIG <i>D'OH</i>!
+							</b>
+						</p>
+					</div>
+					<div>
+						<p>
+							Read 'Cracking the Coding Interview' but still not getting Big O?
+						</p>
+						<p>
+							<b>Big D'oh: Homer Reads Cracking the Coding Interview</b> is a
+							free study guide for Big O and common algorithms and data
+							structures, in a way even Homer Simpson could get.
+						</p>
+						<p>
+							All photos and gifs are taken from General Assembly except when
+							linked to their original sources.
+						</p>
+					</div>
 				</div>
 			</main>
 		</>

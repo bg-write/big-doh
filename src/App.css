@@ -253,6 +253,11 @@ footer {
 	background-color: var(--homer);
 }
 
+.pill {
+	margin: auto;
+	width: 95%;
+	padding: 10px;
+}
 /*----------------------- NAVBAR ---------------------------*/
 #nav-container {
 	/* For styling the overall Navbar holding BIG D'OH title and the toggle */
@@ -690,7 +695,14 @@ footer {
 		width: 125px;
 	}
 	#home-intro {
-		padding: 2rem 10rem;
+		/* padding: 2rem 10rem; */
+		padding: 1rem 3rem;
+	}
+	.pill {
+		/* background: red; */
+		margin: auto;
+		width: 50%;
+		padding: 10px;
 	}
 	/*--------- MARQUEE -----------------*/
 	.marquee-content li {
