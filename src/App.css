@@ -233,6 +233,7 @@ footer {
 	margin: 1.5rem;
 	font-size: 3.5rem;
 	text-align: left;
+	letter-spacing: -0.01em;
 }
 
 #donut-home-container {
@@ -348,6 +349,7 @@ footer {
 	font-size: 1.75rem;
 	padding: 1rem 0;
 	margin: 0;
+	letter-spacing: -0.01em;
 }
 
 #bigO-donut-container {
@@ -370,6 +372,7 @@ footer {
 
 #bigO-blurb p {
 	font-size: 1rem;
+	letter-spacing: -0.01em;
 }
 
 #bigO-image {
@@ -420,6 +423,7 @@ footer {
 	padding: 1rem 0;
 	margin: 0;
 	font-size: 1.75rem;
+	letter-spacing: -0.01em;
 }
 
 #algorithms-donut-container {
@@ -437,6 +441,7 @@ footer {
 	padding: 0 2rem 2rem;
 	background-color: var(--lard-lad);
 	border-top: solid 4px var(--lard-lad);
+	letter-spacing: -0.01em;
 }
 
 #algorithms-blurb p {
@@ -519,6 +524,7 @@ footer {
 	font-size: 1.75rem;
 	padding: 1rem 0;
 	margin: 0;
+	letter-spacing: -0.01em;
 }
 
 #data-structures-donut-container {
@@ -536,6 +542,7 @@ footer {
 	padding: 0 1rem 2rem;
 	background-color: var(--lard-lad);
 	border-top: solid 4px var(--lard-lad);
+	letter-spacing: -0.01em;
 }
 
 #data-structures-blurb p {
