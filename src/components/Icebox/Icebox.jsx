@@ -263,3 +263,87 @@
 				</div>
 			</footer>
 */
+
+// NAVBAR
+/* 
+// function NavBar() {
+// 	// useState for when you click the menu icon on and off
+// 	const [click, setClick] = useState(false);
+// 	const handleClick = () => setClick(!click);
+// 	const closeMobileMenu = () => setClick(false);
+
+{/* The container holding all of the NavBar 
+			<header className="header">
+				{/* Holding all the icons as they look in desktop */}
+				<div className="logo-nav">
+					{/* Holding "Big D'oh" Home link */}
+					<div className="logo-container">
+						<a href="/">BIG D'OH</a>
+					</div>
+					{/* Holding Big O, Algorithms, Data Structures, and Study Break links: When the menu icon is "clicked", this turns "on" the additional "nav-options active" class */}
+					<ul className={click ? 'nav-options active' : 'nav-options'}>
+						<li className="option" onClick={closeMobileMenu}>
+							<a href="/big-o">BIG O</a>
+						</li>
+						<li className="option" onClick={closeMobileMenu}>
+							<a href="/algorithms">ALGORITHMS</a>
+						</li>
+						<li className="option" onClick={closeMobileMenu}>
+							<a href="/data-structures">DATA STRUCTURES</a>
+						</li>
+						{/* This allows us unique styling with "Study Break" while in mobile */}
+						<li className=" option mobile-option" onClick={closeMobileMenu}>
+							<a href="/ttt" className="sign-up">
+								STUDY BREAK
+							</a>
+						</li>
+					</ul>
+				</div>
+
+				{/* How "sign in" and "sign up" look on desktop */}
+				<ul className="signin-up">
+					<li onClick={closeMobileMenu}>
+						<a href="/ttt" className="signup-btn">
+							STUDY BREAK
+						</a>
+					</li>
+				</ul>
+
+				{/* When you click on the hamburger, this code turns it into an X */}
+				<div className="mobile-menu" onClick={handleClick}>
+					{click ? (
+						<svg
+							xmlns="http://www.w3.org/2000/svg"
+							className="h-6 w-6 menu-icon"
+							fill="none"
+							viewBox="0 0 24 24"
+							stroke="currentColor"
+						>
+							<path
+								strokeLinecap="round"
+								strokeLinejoin="round"
+								strokeWidth={2}
+								d="M6 18L18 6M6 6l12 12"
+							/>
+						</svg>
+					) : (
+						<svg
+							xmlns="http://www.w3.org/2000/svg"
+							className="h-6 w-6 menu-icon"
+							fill="none"
+							viewBox="0 0 24 24"
+							stroke="currentColor"
+						>
+							<path
+								strokeLinecap="round"
+								strokeLinejoin="round"
+								strokeWidth={2}
+								d="M4 6h16M4 12h16M4 18h16"
+							/>
+						</svg>
+					)}
+				</div> */}
+			</header>
+*/
+
+
