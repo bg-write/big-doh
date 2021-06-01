@@ -4,6 +4,7 @@ function Home() {
 	return (
 		<>
 			<main>
+			<div id="home-main">
 				<div id="flex-container-home">
 					<div id="homerText-container">
 						<h1 id="homerText">
@@ -63,6 +64,7 @@ function Home() {
 							linked to their original sources.
 						</p>
 					</div>
+				</div>
 				</div>
 			</main>
 		</>

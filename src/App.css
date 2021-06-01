@@ -30,6 +30,7 @@ body {
 	font-family: 'Helvetica Neue Regular', Helvetica, Arial, 'Lucida Grande',
 		sans-serif;
 	background-color: var(--white);
+	/* max-width: 900px; */
 }
 
 a {
@@ -469,11 +470,11 @@ footer {
 	padding-top: 1rem;
 }
 
-#algorithms-container img {
+/* #algorithms-container img {
 	height: auto;
 	width: 75%;
 	border-radius: 12.5%;
-}
+} */
 
 .flex-container-algorithms {
 	/* border: 4px solid blue; */
@@ -806,10 +807,11 @@ footer {
 	#algorithms-blurb p {
 		font-size: 1.5rem;
 	}
-	#algorithms-container img {
+	/* #algorithms-container img {
+		This affects the cards, keep hidden until ready to go live with cards!!!
 		height: 50%;
 		width: 95%;
-	}
+	} */
 	.flex-container-algorithms {
 		display: flex;
 		align-items: stretch;
@@ -902,23 +904,39 @@ footer {
 }
 /*------------------- DESKTOP (smaller) --------------------*/
 @media only screen and (min-width: 62em) {
-	/* body {
-		background-color: lightpink;
-	} */
+	body {
+		max-width: 62em;
+		margin: auto;
+		background: var(--donut);
+	}
+	#nav-container, #footer-container {
+		border-left: 4px solid black;
+		border-right: 4px solid black;
+	}
+	.card {
+		border: none;
+	}
+	#home-main, #bigO-main {
+		background: var(--white);
+	}
+	main {
+		border-left: 4px solid black;
+		border-right: 4px solid black;
+	}
 	/*--------- HOME PAGE ---------------*/
-	#home-intro {
+	/* #home-intro {
 		padding: 5rem;
 	}
 	#home-intro p {
 		padding-top: 1rem;
 		margin-top: 1rem;
-	}
+	} */
 	/*--------- NAVBAR ---------------*/
-	#border-text-study {
+	/* #border-text-study {
 		margin: 1rem 20rem;
-	}
+	} */
 	/*--------- BIG O ---------------*/
-	#bigO-blurb {
+	/* #bigO-blurb {
 		padding: 0 10rem 1.5rem;
 	}
 	#home-intro br {
@@ -927,9 +945,9 @@ footer {
 	.item-container {
 		padding: 2.5rem 3rem 1.5rem;
 		font-size: 1.25rem;
-	}
+	} */
 	/*--------- ALGORITHMS ----------*/
-	#algorithms-blurb {
+	/* #algorithms-blurb {
 		padding: 0 10rem 3rem;
 		font-size: 1.25rem;
 	}
@@ -938,9 +956,9 @@ footer {
 	}
 	.item-container-algorithms p {
 		font-size: 1.25rem;
-	}
+	} */
 	/*--------- DATA STRUCTURES -----*/
-	#data-structures-blurb {
+	/* #data-structures-blurb {
 		padding: 0 10rem 3rem;
 		font-size: 1.25rem;
 	}
@@ -949,23 +967,23 @@ footer {
 	}
 	.item-container-data-structures p {
 		font-size: 1.25rem;
-	}
+	} */
 }
 /*------------------- DESKTOP (larger) ---------------------*/
 @media only screen and (min-width: 82em) {
-	/* body {
-		background-color: lightgreen;
-	} */
+	body {
+		background: lightgreen;
+	}
 	/*--------- HOME PAGE ---------------*/
-	#home-intro .border-text:first-child {
+	/* #home-intro .border-text:first-child {
 		margin: 0 10rem;
-	}
+	} */
 	/*--------- NAVBAR ---------------*/
-	#border-text-study {
+	/* #border-text-study {
 		margin: 1rem 30rem;
-	}
+	} */
 	/*--------- BIG O ---------------*/
-	#bigO-title {
+	/* #bigO-title {
 		padding-top: 4rem;
 	}
 	#bigO-blurb {
@@ -985,9 +1003,9 @@ footer {
 	.item-container {
 		padding: 2.5rem 7.5rem 1.5rem;
 		font-size: 1.5rem;
-	}
+	} */
 	/*--------- ALGORITHMS ----------*/
-	#algorithms-title {
+	/* #algorithms-title {
 		padding-top: 4rem;
 	}
 	#algorithms-blurb {
@@ -1003,9 +1021,9 @@ footer {
 	}
 	.item-container-algorithms p {
 		font-size: 1.5rem;
-	}
+	} */
 	/*--------- DATA STRUCTURES -----*/
-	#data-structures-title {
+	/* #data-structures-title {
 		padding-top: 4rem;
 	}
 	#data-structures-blurb {
@@ -1021,9 +1039,64 @@ footer {
 	}
 	.item-container-data-structures p {
 		font-size: 1.5rem;
-	}
+	} */
 	/*---------- TTT ----------------*/
-	#ttt-game {
+	/* #ttt-game {
 		font-size: 1.5rem;
+	} */
+}
+
+/* EXPERIMENT WITH CARDS */
+.card_grid {
+	/* Edit the entire grid of cards */
+	display: flex;
+	flex-wrap: wrap;
+	/* margin-left: -1rem; */
+	/* margin-bottom: -1rem; */
+}
+.card_grid_item {
+	/* Edit the cards in relation to each other */
+	width: calc(100% * 1 / 2);
+	/* padding-left: 1rem; */
+	/* margin-bottom: 1rem; */
+}
+.card {
+	/* Edit everything inside the card */
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	padding: 3rem 2rem 1rem;
+	background: #eee;
+	border: 4px solid black;
+}
+.card_title {
+	font-size: 1.25rem;
+}
+.card_image {
+	border: 4px solid black;
+	height: 150px;
+	width: 50%;
+	border-radius: 12.5%;
+}
+.card_blurb {
+	display: block;
+	padding-top: 1rem;
+	/* margin-top: auto; */
+}
+.card_example {
+	display: block;
+	padding-top: 1rem;
+	margin-top: auto;
+}
+
+@media only screen and (max-width: 42em) {
+	.card_grid_item {
+		width: calc(100% * 1);
+	}
+	.card_image {
+		border: 4px solid black;
+		height: auto;
+		width: 50%;
+		border-radius: 12.5%;
 	}
 }
