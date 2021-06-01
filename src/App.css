@@ -463,11 +463,16 @@ footer {
 
 #algorithms-container .item-container {
 	background-color: var(--homer);
-	padding: 2rem;
+	padding: 7.5rem 1rem;
+}
+
+#algorithms-container .item-container h2 {
+	font-size: 4rem;
 }
 
 #algorithms-container .item-container p {
-	padding-top: 1rem;
+	padding-top: 2rem;
+	font-size: 1.5rem;
 }
 
 /* #algorithms-container img {
@@ -909,14 +914,13 @@ footer {
 		margin: auto;
 		background: var(--donut);
 	}
-	#nav-container, #footer-container {
+	#nav-container,
+	#footer-container {
 		border-left: 4px solid black;
 		border-right: 4px solid black;
 	}
-	.card {
-		border: none;
-	}
-	#home-main, #bigO-main {
+	#home-main,
+	#bigO-main {
 		background: var(--white);
 	}
 	main {
@@ -971,9 +975,9 @@ footer {
 }
 /*------------------- DESKTOP (larger) ---------------------*/
 @media only screen and (min-width: 82em) {
-	body {
+	/* body {
 		background: lightgreen;
-	}
+	} */
 	/*--------- HOME PAGE ---------------*/
 	/* #home-intro .border-text:first-child {
 		margin: 0 10rem;
@@ -1051,37 +1055,35 @@ footer {
 	/* Edit the entire grid of cards */
 	display: flex;
 	flex-wrap: wrap;
-	/* margin-left: -1rem; */
-	/* margin-bottom: -1rem; */
 }
 .card_grid_item {
 	/* Edit the cards in relation to each other */
 	width: calc(100% * 1 / 2);
-	/* padding-left: 1rem; */
-	/* margin-bottom: 1rem; */
 }
 .card {
 	/* Edit everything inside the card */
 	display: flex;
 	flex-direction: column;
 	height: 100%;
-	padding: 3rem 2rem 1rem;
-	background: #eee;
-	border: 4px solid black;
+	padding: 7.5rem 5rem;
+	border-top: 4px solid black;
+	/* border-right: 2px solid black; */
+	border-bottom: 4px solid black;
+	/* border-left: 2px solid black; */
 }
 .card_title {
-	font-size: 1.25rem;
+	font-size: 2rem;
 }
 .card_image {
 	border: 4px solid black;
 	height: 150px;
-	width: 50%;
+	width: 95%;
 	border-radius: 12.5%;
+	margin: 2rem 0;
 }
 .card_blurb {
 	display: block;
-	padding-top: 1rem;
-	/* margin-top: auto; */
+	font-size: 1.5rem;
 }
 .card_example {
 	display: block;
@@ -1090,13 +1092,14 @@ footer {
 }
 
 @media only screen and (max-width: 42em) {
+	/* MOBILE */
 	.card_grid_item {
-		width: calc(100% * 1);
+		width: calc(100%);
 	}
 	.card_image {
 		border: 4px solid black;
 		height: auto;
-		width: 50%;
+		width: 95%;
 		border-radius: 12.5%;
 	}
 }

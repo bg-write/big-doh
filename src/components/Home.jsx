@@ -60,8 +60,7 @@ function Home() {
 							structures, in a way even Homer Simpson could get.
 						</p>
 						<p>
-							All photos and gifs are taken from General Assembly except when
-							linked to their original sources.
+							Click on photos and gifs to see original sizes and sources.
 						</p>
 					</div>
 				</div>

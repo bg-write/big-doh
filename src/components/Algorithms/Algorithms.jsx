@@ -81,16 +81,17 @@ function Algorithms() {
 							<div className="card">
 								<h2 className="card_title">BUBBLE SORT</h2>
 								<a
-									href=""
+									href="https://generalassemb.ly/"
 									target="_blank"
 									rel="noopener noreferrer"
 								>
-								<img
-									className="card_image"
-									alt="bubble sort"
-									src="https://ga-instruction.s3.amazonaws.com/assets/tech/computer-science/basic-sorts/bubble-sort.gif"
-									loading="lazy"
-								/></a>
+									<img
+										className="card_image"
+										alt="bubble sort"
+										src="https://ga-instruction.s3.amazonaws.com/assets/tech/computer-science/basic-sorts/bubble-sort.gif"
+										loading="lazy"
+									/>
+								</a>
 								<p className="card_blurb">
 									Compare and sort 2 items and then move to the next pair. All
 									the necessary elements will eventually “bubble” up.
@@ -127,15 +128,17 @@ function Algorithms() {
 							<div className="card">
 								<h2 className="card_title">INSERTION SORT</h2>
 								<a
-									href=""
+									href="https://generalassemb.ly/"
 									target="_blank"
 									rel="noopener noreferrer"
-								><img
-									className="card_image"
-									alt="insertion sort"
-									src="https://ga-instruction.s3.amazonaws.com/assets/tech/computer-science/basic-sorts/insertion-sort.gif"
-									loading="lazy"
-								/></a>
+								>
+									<img
+										className="card_image"
+										alt="insertion sort"
+										src="https://ga-instruction.s3.amazonaws.com/assets/tech/computer-science/basic-sorts/insertion-sort.gif"
+										loading="lazy"
+									/>
+								</a>
 								<p className="card_blurb">
 									Go down the line, select each item, and “insert” it into its
 									proper place if needed.
@@ -187,15 +190,17 @@ function Algorithms() {
 							<div className="card">
 								<h2 className="card_title">MERGE SORT</h2>
 								<a
-									href=""
+									href="https://generalassemb.ly/"
 									target="_blank"
 									rel="noopener noreferrer"
-								><img
-									className="card_image"
-									alt="merge sort"
-									src="https://ga-instruction.s3.amazonaws.com/assets/tech/computer-science/divide-conquer-sorts/merge-sort.gif"
-									loading="lazy"
-								/></a>
+								>
+									<img
+										className="card_image"
+										alt="merge sort"
+										src="https://ga-instruction.s3.amazonaws.com/assets/tech/computer-science/divide-conquer-sorts/merge-sort.gif"
+										loading="lazy"
+									/>
+								</a>
 								<p className="card_blurb">
 									Split the items in half over and over until they're all sorted
 									(divide, via the Merge Sort algorithm), and then merge the
@@ -224,15 +229,17 @@ function Algorithms() {
 							<div className="card">
 								<h2 className="card_title">QUICK SORT</h2>
 								<a
-									href=""
+									href="https://generalassemb.ly/"
 									target="_blank"
 									rel="noopener noreferrer"
-								><img
-									className="card_image"
-									alt="quick sort"
-									src="https://ga-instruction.s3.amazonaws.com/assets/tech/computer-science/divide-conquer-sorts/quick-sort.gif"
-									loading="lazy"
-								/></a>
+								>
+									<img
+										className="card_image"
+										alt="quick sort"
+										src="https://ga-instruction.s3.amazonaws.com/assets/tech/computer-science/divide-conquer-sorts/quick-sort.gif"
+										loading="lazy"
+									/>
+								</a>
 								<p className="card_blurb">
 									Divide all your items into 3 parts (the left partition, the
 									pivot, and the right partition), then do recursion on the
