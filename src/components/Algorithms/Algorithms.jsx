@@ -19,8 +19,8 @@ function Algorithms() {
 
 				<div id="algorithms-blurb" className="center-text">
 					<p>
-						A REPEATABLE SERIES OF STEPS TAKEN TO SOLVE A PROBLEM, PRODUCE SOME
-						OUTPUT, OR ACHIEVE A GOAL.<br></br>(
+						A repeatable series of steps taken to solve a problem, produce some
+						output, or achieve a goal.<br></br>(
 						<i>
 							<a
 								href="https://www.youtube.com/watch?v=6hfOvs8pY1k"

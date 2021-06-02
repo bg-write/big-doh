@@ -19,7 +19,7 @@ function DataStructures() {
 
 				<div id="data-structures-blurb" className="center-text">
 					<p>
-						A CONTAINER THAT STORES DATA IN A SPECIFIC AND ORGANIZED LAYOUT.
+						A container that stores data in a specific and organized layout.
 						<br></br>(
 						<i>
 							<a

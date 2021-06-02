@@ -59,9 +59,6 @@ function Home() {
 							free study guide for Big O and common algorithms and data
 							structures, in a way even Homer Simpson could get.
 						</p>
-						<p>
-							Click on photos and gifs to see original sizes and sources.
-						</p>
 					</div>
 				</div>
 				</div>

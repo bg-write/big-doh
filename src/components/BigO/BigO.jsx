@@ -19,8 +19,9 @@ function BigO() {
 
 				<div id="bigO-blurb" className="center-text">
 					<p>
-						HOW EFFICIENT IS YOUR ALGORITHM. BASED ON RUN TIME (HOW MANY STEPS
-						DO YOU TAKE) AND SPACE (HOW MUCH MEMORY DO YOU NEED).<br></br>(
+						How efficient is your algorithm. Based on run time (how many steps
+						do you have to take) and space complexity (how much memory do you
+						need).<br></br>(
 						<i>
 							<a
 								href="https://www.youtube.com/watch?v=__vX2sjlpXU"
