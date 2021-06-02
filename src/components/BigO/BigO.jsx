@@ -73,7 +73,6 @@ function BigO() {
 							many people show up. O(1) has the least complexity, which is
 							great.
 						</p>
-						<hr></hr>
 						<p>
 							<i>
 								<small>
@@ -113,7 +112,6 @@ function BigO() {
 							birthday party, you only need to bake 1 cake; 2-3 people require
 							baking 2 cakes; 4-7 people require 3 cakes; and so on.
 						</p>
-						<hr></hr>
 						<p>
 							<i>
 								<small>
@@ -153,7 +151,6 @@ function BigO() {
 							N is the length of your input. If your list has 10 items, you
 							print 10 times. Each birthday party guest gets a cake.
 						</p>
-						<hr></hr>
 						<p>
 							<i>
 								<small>
@@ -190,7 +187,6 @@ function BigO() {
 							For each time N grows, the time required grows linearly and
 							logarithmically.
 						</p>
-						<hr></hr>
 						<p>
 							<i>
 								<small>
@@ -232,7 +228,6 @@ function BigO() {
 							cake, 1 cake requires 2 steps (baking it and then writing a
 							guest's name). 2 cakes require 4 steps, and so on.
 						</p>
-						<hr></hr>
 						<p>
 							<small>
 								<i>
@@ -271,7 +266,6 @@ function BigO() {
 							Doubles with every additional input. If N = 2, your algorithm runs
 							4 times, or 2^2. If N = 3, your algorithm runs 8 times, or 2^3.
 						</p>
-						<hr></hr>
 						<p>
 							<small>
 								<i>
@@ -308,7 +302,6 @@ function BigO() {
 							When you have to calculate every possible solution to determine
 							the correct output. 6! = 6*5*4*3*2*1 = 720.
 						</p>
-						<hr></hr>
 						<p>
 							<small>
 								<i>
