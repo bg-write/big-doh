@@ -657,6 +657,8 @@ footer {
 #ttt-game {
 	/* For styling specifically the actual game */
 	font-size: 1.25rem;
+	max-width: 255px;
+	margin: 0 auto;
 }
 
 #ttt-game div:first-child button:first-child {
