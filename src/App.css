@@ -30,7 +30,7 @@ body {
 	font-family: 'Helvetica Neue Regular', Helvetica, Arial, 'Lucida Grande',
 		sans-serif;
 	background-color: var(--white);
-	/* max-width: 900px; */
+	letter-spacing: -0.5px;
 }
 
 a {
@@ -71,6 +71,7 @@ main {
 footer {
 	color: var(--black);
 	padding: 1rem;
+	border-bottom: solid 4px black;
 }
 
 /*------------------------ CLASSES -------------------------*/
@@ -213,7 +214,7 @@ footer {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	font-size: calc(var(--marquee-height) * 2 / 3);
+	font-size: calc(var(--marquee-height) * 2 / 4);
 	white-space: nowrap;
 	margin: 0 0.2rem;
 }
@@ -255,6 +256,11 @@ footer {
 	background-color: var(--homer);
 }
 
+#home-intro div:not(:first-child) {
+	/* For editing the yellow body copy */
+	font-size: 1.25rem;
+}
+
 .pill {
 	margin: auto;
 	width: 95%;
@@ -280,7 +286,7 @@ footer {
 	margin-right: 1.5rem;
 	padding: 1rem;
 	border: none;
-	color: black;
+	color: var(--homer);
 }
 
 .custom-toggler .navbar-toggler-icon {
@@ -1080,10 +1086,8 @@ footer {
 	text-align: left;
 }
 .card_image {
-	border: 4px solid black;
 	height: 150px;
 	width: 95%;
-	border-radius: 12.5%;
 	margin: 2rem 0;
 }
 .card_blurb {
@@ -1112,9 +1116,9 @@ footer {
 		text-align: center;
 	}
 	.card_image {
-		border: 4px solid black;
+		/* border: 4px solid black;
+		border-radius: 12.5%; */
 		height: auto;
 		width: 95%;
-		border-radius: 12.5%;
 	}
 }
