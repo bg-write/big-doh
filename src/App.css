@@ -94,19 +94,9 @@ footer {
 	font-size: 1.75rem;
 }
 
-.item-container img {
-	/* border: solid 4px blue; */
-}
-
 .item-container p {
 	text-align: left;
 	padding: 0 1rem;
-}
-
-.item-container > * {
-	/* For styling all the items not turned into flex */
-	/* border: solid 4px black; */
-	/* padding: 0 1rem 1rem; */
 }
 
 .center-text {
@@ -219,6 +209,55 @@ footer {
 	margin: 0 0.2rem;
 }
 
+/*----------- CARDS (Algorithms/Data Structures) ------------*/
+.card_grid {
+	/* Edit the entire grid of cards */
+	display: flex;
+	flex-wrap: wrap;
+}
+.card_grid_item {
+	/* Edit the cards in relation to each other */
+	width: calc(100% * 1 / 2);
+}
+.card_grid_item:nth-child(odd) {
+	border-right: 4px solid black;
+}
+.card {
+	/* Edit everything inside the card */
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	padding: 2rem 2rem;
+	border-radius: 0;
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+}
+.card_title {
+	font-size: 1.75rem;
+	text-align: left;
+}
+.card_image {
+	height: 150px;
+	width: 95%;
+	margin: 2rem 0;
+}
+.card_blurb {
+	display: block;
+	font-size: 1rem;
+}
+.card_example {
+	display: block;
+	padding-top: 1rem;
+	margin-top: auto;
+}
+#data-structures-container .card_grid img {
+	width: 90%;
+	margin: 2rem 1rem;
+}
+#data-structures-container .card_grid p {
+	padding: 0 1rem;
+}
+
 /*------------------------ IDs -----------------------------*/
 /*-------------------- HOME PAGE ---------------------------*/
 #flex-container-home {
@@ -237,10 +276,6 @@ footer {
 	font-size: 3.5rem;
 	text-align: left;
 	letter-spacing: -0.01em;
-}
-
-#donut-home-container {
-	/* For styling the div holding the donut img */
 }
 
 #donut-home {
@@ -294,9 +329,6 @@ footer {
 	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
-.navbar-toggler-icon {
-}
-
 #nav-item {
 	/* For styling the Navbar links */
 	padding: 2rem 0;
@@ -313,13 +345,9 @@ footer {
 	background-color: var(--blue-jeans);
 }
 
-#border-text-study:hover {
-	/* To change the background color of only the "study break" button upon hover */
-	background-color: var(--donut);
-}
-
+#border-text-study:hover,
 #nav-item:not(:last-child):hover {
-	/* Targets all nav items except for the background yellow on "Study Break" */
+	/* To change the background color of only the "study break" button upon hover */
 	background-color: var(--donut);
 }
 
@@ -334,18 +362,12 @@ footer {
 #footer-grid {
 	line-height: 1.5rem;
 }
-#footer-credit-brady-links {
-	margin-bottom: 1rem;
-}
+#footer-credit-brady-links,
 #footer-credit-molly-links {
 	margin-bottom: 1rem;
 }
 
 /*------------------------ BIG O ---------------------------*/
-#bigO-main {
-	/* For styling the main BIG O page */
-}
-
 #bigO-title {
 	/* For styling "BIG O NOTATION" headline & donut section */
 	padding: 2rem 1rem 0;
@@ -394,10 +416,6 @@ footer {
 	border-top: solid 4px black;
 }
 
-#bigO-container {
-	/* For styling the overall "BIG O NOTATION" values */
-}
-
 #bigO-container .item-container {
 	padding: 2rem;
 	border-top: solid 4px black;
@@ -421,10 +439,6 @@ footer {
 }
 
 /*-------------------- ALGORITHMS --------------------------*/
-#algorithms-main {
-	/* For styling the main ALGORITHMS page */
-}
-
 #algorithms-title {
 	/* For styling "ALGORITHMS" headline & donut section */
 	display: flex;
@@ -489,16 +503,6 @@ footer {
 	font-size: 1rem;
 }
 
-/* #algorithms-container img {
-	height: auto;
-	width: 75%;
-	border-radius: 12.5%;
-} */
-
-.flex-container-algorithms {
-	/* border: 4px solid blue; */
-}
-
 .item-container-algorithms {
 	/* For holding flex Algorithm content */
 	border-top: solid 2px black;
@@ -509,11 +513,9 @@ footer {
 .item-container-algorithms h4 {
 	padding: 1rem;
 	margin: 0;
-	/* border: 4px solid black; */
 }
 
 .item-container-algorithms img {
-	/* border: 4px solid black; */
 	padding: 1rem;
 	height: auto;
 	width: 40%;
@@ -525,14 +527,9 @@ footer {
 	height: 40%;
 	width: auto;
 	text-align: left;
-	/* border: 4px solid black; */
 }
 
 /*------------------- DATA STRUCTURES ----------------------*/
-#data-structures-main {
-	/* For styling the main DATA STRUCTURES page */
-}
-
 #data-structures-title {
 	/* For styling "DATA STRUCTURES" headline & donut section */
 	display: flex;
@@ -595,10 +592,6 @@ footer {
 	padding: 1rem;
 }
 
-.flex-container-data-structures {
-	/* border: 4px solid blue; */
-}
-
 .item-container-data-structures {
 	/* For holding flex Data Structure content */
 	border-top: solid 4px black;
@@ -609,7 +602,6 @@ footer {
 .item-container-data-structures h4 {
 	padding: 1rem;
 	margin: 0;
-	/* border: 4px solid black; */
 }
 
 .item-container-data-structures p {
@@ -618,16 +610,11 @@ footer {
 	height: 40%;
 	width: auto;
 	text-align: left;
-	/* border: 4px solid black; */
 }
 
 /*----------------- TTT / STUDY BREAK ----------------------*/
 #ttt {
 	border-bottom: solid 2px black;
-}
-
-#ttt-container {
-	/* For styling the main TTT page: The "TAKE A STUDY BREAK!" Headline and blurb, and where the link to the Game component is */
 }
 
 #ttt-headline {
@@ -694,7 +681,7 @@ footer {
 }
 /*------------------- MEDIA QUERIES ------------------------*/
 /*--------------------- MOBILE -----------------------------*/
-/* App is built mobile-first, but tweaks here are made to address marquee */
+/* App is built mobile-first, but tweaks here are made to address marquee and cards */
 @media only screen and (max-width: 42em) {
 	:root {
 		--marquee-height: 5vh;
@@ -704,23 +691,35 @@ footer {
 	.marquee:after {
 		width: 5rem;
 	}
+	.card_grid_item {
+		width: calc(100%);
+	}
+	.card_grid_item:nth-child(odd) {
+		border-right: none;
+	}
+	.card {
+		border-top: 2px solid black;
+		border-bottom: 2px solid black;
+	}
+	.card_title {
+		text-align: center;
+	}
+	.card_image {
+		height: auto;
+		width: 95%;
+	}
 }
 /*------------------- TABLETS ------------------------------*/
 @media only screen and (min-width: 43em) {
 	/*--------- HOME PAGE ---------------*/
 	#flex-container-home {
-		/* border: 4px solid orange; */
 		display: flex;
 		flex-direction: row;
 		width: 80%;
 		margin: 0 auto;
 		padding: 2rem 0;
 	}
-	#homerText-container {
-		/* background: blue; */
-	}
 	#homerText {
-		/* border: 4px solid green; */
 		font-size: 3.5rem;
 		margin: 0;
 		padding: 0;
@@ -730,16 +729,13 @@ footer {
 		display: none;
 	}
 	#donut-home-container {
-		/* background: red; */
 		padding-right: 4rem;
 	}
 	#donut-home {
-		/* border: 4px solid green; */
 		height: 220px;
 		width: auto;
 	}
 	.pill {
-		/* background: red; */
 		margin: auto;
 		width: 50%;
 		padding: 10px;
@@ -749,7 +745,6 @@ footer {
 		font-size: calc(var(--marquee-height) * 2 / 5);
 	}
 	/*--------- FOOTER ------------------*/
-	/* ICEBOX: fix CSS Grid for footer in media query */
 	#footer-container {
 		padding: 2rem 2rem 0.5rem;
 		font-size: 1.1rem;
@@ -779,9 +774,7 @@ footer {
 		grid-area: copyright;
 		text-align: left;
 	}
-
 	/*--------- NAVBAR ------------------*/
-	/* ICEBOX: Update navbar to open sideways outside of mobile view */
 	#nav-title {
 		padding: 1.5rem;
 	}
@@ -833,11 +826,6 @@ footer {
 	#algorithms-blurb p {
 		font-size: 1.5rem;
 	}
-	#algorithms-container img {
-		/* This affects the cards, keep hidden until ready to go live with cards!!! */
-		/* height: 50%;
-		width: 95%; */
-	}
 	.flex-container-algorithms {
 		display: flex;
 		align-items: stretch;
@@ -855,10 +843,8 @@ footer {
 	}
 	.item-container-algorithms h4 {
 		padding: 1rem;
-		/* border: 4px solid black; */
 	}
 	.item-container-algorithms img {
-		/* border: 4px solid black; */
 		padding: 1rem;
 		height: auto;
 		width: 60%;
@@ -866,7 +852,6 @@ footer {
 	.item-container-algorithms p {
 		padding: 1rem;
 		font-size: 1rem;
-		/* text-align: center; */
 	}
 	/*--------- DATA STRUCTURES ---------*/
 	#data-structures-title {
@@ -899,16 +884,13 @@ footer {
 	.item-container-data-structures:first-child {
 		border-left: none;
 	}
-	.item-container-data-structures h4 {
-		padding: 1rem;
-	}
+	.item-container-data-structures h4,
 	.item-container-data-structures img {
 		padding: 1rem;
 	}
 	.item-container-data-structures p {
 		padding: 1rem;
 		font-size: 1rem;
-		/* text-align: center; */
 	}
 	/*--------- STUDY BREAK / TTT -------*/
 	#ttt-headline {
@@ -936,7 +918,8 @@ footer {
 		background: var(--donut);
 	}
 	#nav-container,
-	#footer-container {
+	#footer-container,
+	main {
 		border-left: 4px solid black;
 		border-right: 4px solid black;
 	}
@@ -944,200 +927,7 @@ footer {
 	#bigO-main {
 		background: var(--white);
 	}
-	main {
-		border-left: 4px solid black;
-		border-right: 4px solid black;
-	}
-	/*--------- HOME PAGE ---------------*/
-	/* #home-intro {
-		padding: 5rem;
-	}
-	#home-intro p {
-		padding-top: 1rem;
-		margin-top: 1rem;
-	} */
-	/*--------- NAVBAR ---------------*/
-	/* #border-text-study {
-		margin: 1rem 20rem;
-	} */
-	/*--------- BIG O ---------------*/
-	/* #bigO-blurb {
-		padding: 0 10rem 1.5rem;
-	}
-	#home-intro br {
-		display: none;
-	}
-	.item-container {
-		padding: 2.5rem 3rem 1.5rem;
-		font-size: 1.25rem;
-	} */
-	/*--------- ALGORITHMS ----------*/
-	/* #algorithms-blurb {
-		padding: 0 10rem 3rem;
-		font-size: 1.25rem;
-	}
-	#algorithms-container .item-container {
-		padding: 3rem;
-	}
-	.item-container-algorithms p {
-		font-size: 1.25rem;
-	} */
-	/*--------- DATA STRUCTURES -----*/
-	/* #data-structures-blurb {
-		padding: 0 10rem 3rem;
-		font-size: 1.25rem;
-	}
-	#data-structures-container .item-container {
-		padding: 3rem;
-	}
-	.item-container-data-structures p {
-		font-size: 1.25rem;
-	} */
 }
 /*------------------- DESKTOP (larger) ---------------------*/
-@media only screen and (min-width: 82em) {
-	/* body {
-		background: lightgreen;
-	} */
-	/*--------- HOME PAGE ---------------*/
-	/* #home-intro .border-text:first-child {
-		margin: 0 10rem;
-	} */
-	/*--------- NAVBAR ---------------*/
-	/* #border-text-study {
-		margin: 1rem 30rem;
-	} */
-	/*--------- BIG O ---------------*/
-	/* #bigO-title {
-		padding-top: 4rem;
-	}
-	#bigO-blurb {
-		font-size: 1.5rem;
-		padding-bottom: 4rem;
-	}
-	#bigO-image {
-		padding: 4rem;
-	}
-	#bigO-container .item-container {
-		padding: 4rem 10rem;
-	}
-	#bigO-container img {
-		height: auto;
-		width: 55%;
-	}
-	.item-container {
-		padding: 2.5rem 7.5rem 1.5rem;
-		font-size: 1.5rem;
-	} */
-	/*--------- ALGORITHMS ----------*/
-	/* #algorithms-title {
-		padding-top: 4rem;
-	}
-	#algorithms-blurb {
-		font-size: 1.5rem;
-		padding-bottom: 4rem;
-	}
-	#algorithms-container .item-container {
-		padding: 4rem 10rem;
-	}
-	#algorithms-container img {
-		height: auto;
-		width: 55%;
-	}
-	.item-container-algorithms p {
-		font-size: 1.5rem;
-	} */
-	/*--------- DATA STRUCTURES -----*/
-	/* #data-structures-title {
-		padding-top: 4rem;
-	}
-	#data-structures-blurb {
-		font-size: 1.5rem;
-		padding-bottom: 4rem;
-	}
-	#data-structures-container .item-container {
-		padding: 4rem 10rem;
-	}
-	#data-structures-container img {
-		height: auto;
-		width: 55%;
-	}
-	.item-container-data-structures p {
-		font-size: 1.5rem;
-	} */
-	/*---------- TTT ----------------*/
-	/* #ttt-game {
-		font-size: 1.5rem;
-	} */
-}
-
-/*===----------------------------------------------------===*/
-/* EXPERIMENT WITH CARDS */
-.card_grid {
-	/* Edit the entire grid of cards */
-	display: flex;
-	flex-wrap: wrap;
-}
-.card_grid_item {
-	/* Edit the cards in relation to each other */
-	width: calc(100% * 1 / 2);
-}
-.card_grid_item:nth-child(odd) {
-	border-right: 4px solid black;
-}
-.card {
-	/* Edit everything inside the card */
-	display: flex;
-	flex-direction: column;
-	height: 100%;
-	padding: 2rem 2rem;
-	border-radius: 0;
-	border-top: 2px solid black;
-	border-bottom: 2px solid black;
-}
-.card_title {
-	font-size: 1.75rem;
-	text-align: left;
-}
-.card_image {
-	height: 150px;
-	width: 95%;
-	margin: 2rem 0;
-}
-.card_blurb {
-	display: block;
-	font-size: 1rem;
-}
-.card_example {
-	display: block;
-	padding-top: 1rem;
-	margin-top: auto;
-}
-#data-structures-container .card_grid img {
-	width: 90%;
-	margin: 2rem 1rem;
-}
-#data-structures-container .card_grid p {
-	padding: 0 1rem;
-}
-
-@media only screen and (max-width: 42em) {
-	/* MOBILE */
-	.card_grid_item {
-		width: calc(100%);
-	}
-	.card_grid_item:nth-child(odd) {
-		border-right: none;
-	}
-	.card {
-		border-top: 2px solid black;
-		border-bottom: 2px solid black;
-	}
-	.card_title {
-		text-align: center;
-	}
-	.card_image {
-		height: auto;
-		width: 95%;
-	}
-}
+/* @media only screen and (min-width: 82em) {
+} */
