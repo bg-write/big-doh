@@ -90,4 +90,4 @@ Deploy the app: [https://big-doh.herokuapp.com/](https://big-doh.herokuapp.com/)
 
 ## Credits
 
-All photos and gifs are taken from General Assembly except when linked to their original sources. Marquee was made with the help of [Coding Journey](https://www.youtube.com/watch?v=sVZX0XvEBhk).
+All photos and gifs are taken from General Assembly except when linked to their original sources. Marquee was made with the help of [Coding Journey](https://www.youtube.com/watch?v=sVZX0XvEBhk). Flashcard template made with the help of [Alex Carpenter](https://www.youtube.com/watch?v=OmmM_a_AMNE).
