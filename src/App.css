@@ -423,8 +423,6 @@ footer {
 /*-------------------- ALGORITHMS --------------------------*/
 #algorithms-main {
 	/* For styling the main ALGORITHMS page */
-	border-left: solid 4px black;
-	border-right: solid 4px black;
 }
 
 #algorithms-title {
@@ -469,6 +467,7 @@ footer {
 
 #algorithms-container {
 	/* For styling the overall "ALGORITHMS" values */
+	border-top: solid 2px black;
 }
 
 #algorithms-container .item-container:first-child {
@@ -478,6 +477,7 @@ footer {
 #algorithms-container .item-container {
 	background-color: var(--homer);
 	padding: 2rem 1rem;
+	border-bottom: 2px solid black;
 }
 
 #algorithms-container .item-container h2 {
@@ -575,11 +575,13 @@ footer {
 
 #data-structures-container {
 	/* For styling the overall "DATA STRUCTURES" values */
+	border-top: 2px solid black;
 }
 
 #data-structures-container .item-container {
 	background-color: var(--homer);
 	padding: 2rem;
+	border-bottom: 2px solid black;
 }
 
 #data-structures-container .item-container p {
@@ -829,11 +831,11 @@ footer {
 	#algorithms-blurb p {
 		font-size: 1.5rem;
 	}
-	/* #algorithms-container img {
-		This affects the cards, keep hidden until ready to go live with cards!!!
-		height: 50%;
-		width: 95%;
-	} */
+	#algorithms-container img {
+		/* This affects the cards, keep hidden until ready to go live with cards!!! */
+		/* height: 50%;
+		width: 95%; */
+	}
 	.flex-container-algorithms {
 		display: flex;
 		align-items: stretch;
@@ -1078,17 +1080,18 @@ footer {
 	/* Edit the cards in relation to each other */
 	width: calc(100% * 1 / 2);
 }
+.card_grid_item:nth-child(odd) {
+	border-right: 4px solid black;
+}
 .card {
 	/* Edit everything inside the card */
 	display: flex;
 	flex-direction: column;
 	height: 100%;
 	padding: 2rem 2rem;
-	border-top: 2px solid black;
-	border-right: 2px solid black;
-	border-bottom: 2px solid black;
-	border-left: 2px solid black;
 	border-radius: 0;
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
 }
 .card_title {
 	font-size: 1.75rem;
@@ -1121,12 +1124,17 @@ footer {
 	.card_grid_item {
 		width: calc(100%);
 	}
+	.card_grid_item:nth-child(odd) {
+		border-right: none;
+	}
+	.card {
+		border-top: 2px solid black;
+		border-bottom: 2px solid black;
+	}
 	.card_title {
 		text-align: center;
 	}
 	.card_image {
-		/* border: 4px solid black;
-		border-radius: 12.5%; */
 		height: auto;
 		width: 95%;
 	}
