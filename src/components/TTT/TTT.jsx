@@ -4,7 +4,7 @@ const Game = React.lazy(() => import('./Game'));
 function TTT() {
 	return (
 		<>
-			<main className="white-background">
+			<main id="ttt" className="white-background">
 				<div id="ttt-container">
 					<div className="pillTTT">
 						<div id="ttt-headline" className="center-text border-text">
