@@ -1,8 +1,12 @@
 # Big D’oh: Homer Reads 'Cracking the Coding Interview'
 
-![Big D'oh landing page](https://i.imgur.com/IlKQRn8.png)
+![Big D'oh landing page](https://i.imgur.com/J8dOaUA.png)
 
-Did you do a coding Bootcamp, read 'Cracking the Coding Interview,' but still struggle with Big O? This free study aid is to help prepare for technical interviews to better understand Big O and common algorithms and data structures.
+Did you do a coding Bootcamp, read 'Cracking the Coding Interview,' but still struggle with Big O?
+
+Welcome!
+
+This free study aid is to help prepare anyone for technical interviews to better understand Big O and common algorithms and data structures.
 
 THE GOAL: To reinforce high-level knowledge of key algorithms and data structures from Gayle Laakmann McDowell's 6th Edition of 'Cracking the Coding Interview,' in a way even Homer Simpson could understand.
 
@@ -69,18 +73,13 @@ Deploy the app: [https://big-doh.herokuapp.com/](https://big-doh.herokuapp.com/)
 - Increase overall Lighthouse Performance rate for mobile and desktop through HTTP caching, decreasing network payloads, image consistency, and more
 - Add a new "etc" page sharing other important topics to study: Stability, Scalability, Accessibility, and more
 - Flesh out current Big O, Algorithms, and Data Structures pages with more definitions and details; add specific Big O time and space complexities for each algorithm
-- Refactor flex containers with consistent classes to replace individual IDs
 - Add hand-drawn illustrations and animations (more donuts!)
 - Optimize local image storage and replace current photos with more consistent, higher quality images
 - Add JS code snippets to give real-life applications of algorithms and data structures
-- Make white background-ed algorithm and data structure examples center like study cards
 - Replace TTT's X's and O's with donuts (more donuts!)
-- Refactor Marquee code into its own component
-- Refactor Footer and Navbar media queries for more fluid growth and container transformation
-- CSS Customize Navbar from hamburger to X's with shifting link placements
+- Refactor marquee code into its own component
 - CSS: Illustrate Simpsons clouds that pop up and frame Navbar text upon hover (like in the opening credits)
 - CSS: Illustrate Homer popping up when you win a game of TTT
-- CSS: Dark mode, adjust color based on scrolling position
 
 ## The Team
 
@@ -90,4 +89,4 @@ Deploy the app: [https://big-doh.herokuapp.com/](https://big-doh.herokuapp.com/)
 
 ## Credits
 
-All photos and gifs are taken from General Assembly except when linked to their original sources. Marquee was made with the help of [Coding Journey](https://www.youtube.com/watch?v=sVZX0XvEBhk). Flashcard template made with the help of [Alex Carpenter](https://www.youtube.com/watch?v=OmmM_a_AMNE).
+All photos and gifs are taken from General Assembly except when linked to their original sources. The marquee was made with the help of [Coding Journey](https://www.youtube.com/watch?v=sVZX0XvEBhk). Flashcard templates were made with the help of [Alex Carpenter](https://www.youtube.com/watch?v=OmmM_a_AMNE).
