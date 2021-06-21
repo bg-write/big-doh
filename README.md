@@ -80,6 +80,8 @@ Deploy the app: [https://big-doh.herokuapp.com/](https://big-doh.herokuapp.com/)
 - Refactor marquee code into its own component
 - CSS: Illustrate Simpsons clouds that pop up and frame Navbar text upon hover (like in the opening credits)
 - CSS: Illustrate Homer popping up when you win a game of TTT
+- Create 404 page
+- Add TypeScript
 
 ## The Team
 

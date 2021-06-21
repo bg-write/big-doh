@@ -1,7 +1,7 @@
 :root {
 	/* For creating style variables for the marquee */
 	--marquee-width: 100vw;
-	--marquee-height: 7vw;
+	--marquee-height: 6vw;
 	--marquee-elements: 9;
 	--marquee-elements-displayed: 4;
 	--marquee-element-width: calc(
@@ -204,7 +204,7 @@ footer {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	font-size: calc(var(--marquee-height) * 2 / 4);
+	font-size: calc(var(--marquee-height) * 2 / 3);
 	white-space: nowrap;
 	margin: 0 0.2rem;
 }
