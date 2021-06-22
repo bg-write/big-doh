@@ -35,11 +35,12 @@ function Algorithms() {
 				</div>
 
 				<div id="algorithms-container">
+					{/* RECURSION */}
 					<div className="item-container white-background">
 						<h2>But First, Recursion</h2>
 						<p>
 							A function that calls itself to break down a larger problem into
-							smaller bits.<br></br>
+							smaller bits.<br></br><br></br>
 							<i>
 								<small>
 									Ex: The Fibonacci sequence. (
@@ -56,10 +57,11 @@ function Algorithms() {
 						</p>
 					</div>
 
+					{/* COMPARISON SORT */}
 					<div className="item-container">
 						<h2>Comparison Sort Algorithms</h2>
 						<p>
-							Compare and order 2 items at a time.<br></br>
+							Compare and order 2 items at a time.<br></br><br></br>
 							<i>
 								<small>
 									Ex: Comparing a group of lego pieces based on their size. (
@@ -162,10 +164,12 @@ function Algorithms() {
 							</div>
 						</div>
 					</div>
+
+					{/* DIVIDE-AND-CONQUER */}
 					<div className="item-container">
 						<h2>Divide-and-Conquer Sort Algorithms</h2>
 						<p>
-							Solve problems using comparison sort and recursion.<br></br>
+							Solve problems using comparison sort and recursion.<br></br><br></br>
 							<i>
 								<small>
 									Ex: Keep splitting a group of legos in half until you get to 1
@@ -266,11 +270,13 @@ function Algorithms() {
 							</div>
 						</div>
 					</div>
+
+					{/* DISTRIBUTION SORT */}
 					<div className="item-container">
 						<h2>Distribution Sort Algorithms</h2>
 						<p>
 							Instead of comparing 2 items, you compare and group all your items
-							by properties.<br></br>
+							by properties.<br></br><br></br>
 							<i>
 								<small>
 									Ex: Group all your lego pieces by color. (
@@ -367,11 +373,13 @@ function Algorithms() {
 							</div>
 						</div>
 					</div>
+
+					{/* SEARCH */}
 					<div className="item-container">
 						<h2>Search Algorithms</h2>
 						<p>
 							Find, and sometimes retrieve, an item with a specific value in a
-							sorted sequence.<br></br>
+							sorted sequence.<br></br><br></br>
 							<i>
 								<small>
 									Ex: Searching a dictionary. (
