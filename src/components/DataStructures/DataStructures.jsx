@@ -35,6 +35,7 @@ function DataStructures() {
 				</div>
 
 				<div id="data-structures-container">
+					{/* ARRAYS & STRINGS */}
 					<div className="item-container">
 						<h2>Arrays & Strings</h2>
 						<p>
@@ -75,9 +76,8 @@ function DataStructures() {
 								</a>
 								<p className="card_blurb">
 									A collection of the items where items can be accessed by an
-									index. Can be one or two dimensional.
-								</p>
-								<p className="card_example">
+									index. Can be one or two dimensional.<br></br>
+									<br></br>{' '}
 									<i>
 										<small>
 											Ex: If you need to store an image (1000x1000px) as a
@@ -93,6 +93,22 @@ function DataStructures() {
 										</small>
 									</i>
 								</p>
+								{/* <p className="card_example">
+									<i>
+										<small>
+											Ex: If you need to store an image (1000x1000px) as a
+											bitmap, you can use a 2D array that's 1000x1000px. (
+											<a
+												href="https://www.youtube.com/watch?v=B2KusJcbVIg"
+												target="_blank"
+												rel="noopener noreferrer"
+											>
+												YouTube
+											</a>
+											)
+										</small>
+									</i>
+								</p> */}
 							</div>
 						</div>
 						{/* SETS */}
@@ -113,9 +129,8 @@ function DataStructures() {
 								</a>
 								<p className="card_blurb">
 									Similar to arrays, but this collection of items can only
-									contain unique values.
-								</p>
-								<p className="card_example">
+									contain unique values.<br></br>
+									<br></br>{' '}
 									<i>
 										<small>
 											Ex: Storing the names of everyone on a basketball team;
@@ -132,6 +147,23 @@ function DataStructures() {
 										</small>
 									</i>
 								</p>
+								{/* <p className="card_example">
+									<i>
+										<small>
+											Ex: Storing the names of everyone on a basketball team;
+											you can only include team members, and you can't repeat
+											any names. (
+											<a
+												href="https://www.youtube.com/watch?v=SvvvGT3qD1Y"
+												target="_blank"
+												rel="noopener noreferrer"
+											>
+												YouTube
+											</a>
+											)
+										</small>
+									</i>
+								</p> */}
 							</div>
 						</div>
 						{/* LINKED LISTS */}
@@ -153,8 +185,8 @@ function DataStructures() {
 								<p className="card_blurb">
 									Lists that store data inside of nodes (basic units for storing
 									data) that point to each other, but the order is strict.
-								</p>
-								<p className="card_example">
+									<br></br>
+									<br></br>{' '}
 									<i>
 										<small>
 											Ex: A playlist of songs is a Doubly Linked List, since
@@ -170,6 +202,22 @@ function DataStructures() {
 										</small>
 									</i>
 								</p>
+								{/* <p className="card_example">
+									<i>
+										<small>
+											Ex: A playlist of songs is a Doubly Linked List, since
+											each song points to both the previous and next songs. (
+											<a
+												href="https://www.youtube.com/watch?v=njTh_OwMljA"
+												target="_blank"
+												rel="noopener noreferrer"
+											>
+												YouTube
+											</a>
+											)
+										</small>
+									</i>
+								</p> */}
 							</div>
 						</div>
 						{/* HASH TABLES */}
@@ -192,9 +240,8 @@ function DataStructures() {
 									A list-like structure that uses a hash function to generate
 									keys for each value. It's like scrambling a bunch of donuts to
 									make new donuts, each one having a specific key. If you can
-									use a Hash Table, use it!
-								</p>
-								<p className="card_example">
+									use a Hash Table, use it!<br></br>
+									<br></br>{' '}
 									<i>
 										<small>
 											Ex: When you need to store and dynamically add social
@@ -211,9 +258,27 @@ function DataStructures() {
 										</small>
 									</i>
 								</p>
+								{/* <p className="card_example">
+									<i>
+										<small>
+											Ex: When you need to store and dynamically add social
+											network feeds, and you don't know the size, you can use a
+											Hash Table to uniquely identify each new feed. (
+											<a
+												href="https://www.youtube.com/watch?v=MfhjkfocRR0"
+												target="_blank"
+												rel="noopener noreferrer"
+											>
+												YouTube
+											</a>
+											)
+										</small>
+									</i>
+								</p> */}
 							</div>
 						</div>
 					</div>
+					{/* STACKS & QUEUES */}
 					<div className="item-container">
 						<h2>Stacks & Queues</h2>
 						<p>
@@ -255,10 +320,7 @@ function DataStructures() {
 								<p className="card_blurb">
 									Follows the ordering principle of “Last In First Out” (LIFO).
 									It's like eating a stack of donuts; when you want a donut, you
-									take the donut on top of the stack.
-								</p>
-								<p className="card_example">
-									<i>
+									take the donut on top of the stack.<br></br><br></br>									<i>
 										<small>
 											Ex: A history of your recently visited websites is a
 											Stack. (
@@ -273,6 +335,22 @@ function DataStructures() {
 										</small>
 									</i>
 								</p>
+								{/* <p className="card_example">
+									<i>
+										<small>
+											Ex: A history of your recently visited websites is a
+											Stack. (
+											<a
+												href="https://www.youtube.com/watch?v=wjI1WNcIntg"
+												target="_blank"
+												rel="noopener noreferrer"
+											>
+												YouTube
+											</a>
+											)
+										</small>
+									</i>
+								</p> */}
 							</div>
 						</div>
 						{/* QUEUES */}
@@ -294,10 +372,7 @@ function DataStructures() {
 								<p className="card_blurb">
 									Follows the ordering principle of “First In First Out” (FIFO).
 									It's like waiting in line to buy donuts; if you're at the
-									front of the line, you get to leave first.
-								</p>
-								<p className="card_example">
-									<i>
+									front of the line, you get to leave first.<br></br><br></br>									<i>
 										<small>
 											Ex: Programming a printer Queue can make sure that jobs
 											are printed in the order of their arrival. (
@@ -312,9 +387,26 @@ function DataStructures() {
 										</small>
 									</i>
 								</p>
+								{/* <p className="card_example">
+									<i>
+										<small>
+											Ex: Programming a printer Queue can make sure that jobs
+											are printed in the order of their arrival. (
+											<a
+												href="https://www.youtube.com/watch?v=wjI1WNcIntg"
+												target="_blank"
+												rel="noopener noreferrer"
+											>
+												YouTube
+											</a>
+											)
+										</small>
+									</i>
+								</p> */}
 							</div>
 						</div>
 					</div>
+					{/* TREES & GRAPHS */}
 					<div className="item-container">
 						<h2>Trees & Graphs</h2>
 						<p>
@@ -355,10 +447,7 @@ function DataStructures() {
 								</a>
 								<p className="card_blurb">
 									A tree-like structure in which nodes can store lists of child
-									nodes.
-								</p>
-								<p className="card_example">
-									<i>
+									nodes.<br></br><br></br>									<i>
 										<small>
 											Ex: Navigating all your Mac files through Finder. Also, a
 											(very) large tree can store all the possible moves in a
@@ -374,6 +463,23 @@ function DataStructures() {
 										</small>
 									</i>
 								</p>
+								{/* <p className="card_example">
+									<i>
+										<small>
+											Ex: Navigating all your Mac files through Finder. Also, a
+											(very) large tree can store all the possible moves in a
+											chess game. (
+											<a
+												href="https://www.youtube.com/watch?v=oSWTXtMglKE"
+												target="_blank"
+												rel="noopener noreferrer"
+											>
+												YouTube
+											</a>
+											)
+										</small>
+									</i>
+								</p> */}
 							</div>
 						</div>
 						{/* BINARY TREES */}
@@ -394,10 +500,7 @@ function DataStructures() {
 								</a>
 								<p className="card_blurb">
 									Trees that store values in left and right pointers. A Binary
-									Search Tree is where every node fits a specific ordering.
-								</p>
-								<p className="card_example">
-									<i>
+									Search Tree is where every node fits a specific ordering.<br></br><br></br>									<i>
 										<small>
 											Ex: A family tree in which every member has two children.
 											(
@@ -412,6 +515,22 @@ function DataStructures() {
 										</small>
 									</i>
 								</p>
+								{/* <p className="card_example">
+									<i>
+										<small>
+											Ex: A family tree in which every member has two children.
+											(
+											<a
+												href="https://www.youtube.com/watch?v=oSWTXtMglKE"
+												target="_blank"
+												rel="noopener noreferrer"
+											>
+												YouTube
+											</a>
+											)
+										</small>
+									</i>
+								</p> */}
 							</div>
 						</div>
 						{/* BREADTH FIRST SEARCH (BFS) */}
@@ -432,10 +551,7 @@ function DataStructures() {
 								</a>
 								<p className="card_blurb">
 									A queue-like search that traverses a tree from left to right,
-									then top to bottom, like reading each level of all the nodes.
-								</p>
-								<p className="card_example">
-									<i>
+									then top to bottom, like reading each level of all the nodes.<br></br><br></br>									<i>
 										<small>
 											Ex: Good for finding the shortest path between two nodes.
 											(
@@ -450,6 +566,22 @@ function DataStructures() {
 										</small>
 									</i>
 								</p>
+								{/* <p className="card_example">
+									<i>
+										<small>
+											Ex: Good for finding the shortest path between two nodes.
+											(
+											<a
+												href="https://www.youtube.com/watch?v=QRq6p9s8NVg"
+												target="_blank"
+												rel="noopener noreferrer"
+											>
+												YouTube
+											</a>
+											)
+										</small>
+									</i>
+								</p> */}
 							</div>
 						</div>
 						{/* DEPTH FIRST SEARCH (DFS) */}
@@ -471,10 +603,7 @@ function DataStructures() {
 								<p className="card_blurb">
 									A stack-like search that traverses a tree from top to bottom,
 									visiting all a node's child nodes before moving from left to
-									right to its siblings.
-								</p>
-								<p className="card_example">
-									<i>
+									right to its siblings.<br></br><br></br>									<i>
 										<small>
 											Ex: Good for looking for paths and values far away from
 											our source. (
@@ -489,6 +618,22 @@ function DataStructures() {
 										</small>
 									</i>
 								</p>
+								{/* <p className="card_example">
+									<i>
+										<small>
+											Ex: Good for looking for paths and values far away from
+											our source. (
+											<a
+												href="https://www.youtube.com/watch?v=iaBEKo5sM7w"
+												target="_blank"
+												rel="noopener noreferrer"
+											>
+												YouTube
+											</a>
+											)
+										</small>
+									</i>
+								</p> */}
 							</div>
 						</div>
 						{/* TRIES */}
@@ -510,10 +655,7 @@ function DataStructures() {
 								<p className="card_blurb">
 									Trees that aren't limited to only left and right pointers, but
 									they usually only store alphabetical data as collections of
-									strings.
-								</p>
-								<p className="card_example">
-									<i>
+									strings.<br></br><br></br>									<i>
 										<small>
 											Ex: Many search dictionaries are built upon Tries. (
 											<a
@@ -527,6 +669,21 @@ function DataStructures() {
 										</small>
 									</i>
 								</p>
+								{/* <p className="card_example">
+									<i>
+										<small>
+											Ex: Many search dictionaries are built upon Tries. (
+											<a
+												href="https://www.youtube.com/watch?v=zIjfhVPRZCg"
+												target="_blank"
+												rel="noopener noreferrer"
+											>
+												YouTube
+											</a>
+											)
+										</small>
+									</i>
+								</p> */}
 							</div>
 						</div>
 						{/* GRAPHS */}
@@ -547,10 +704,7 @@ function DataStructures() {
 								</a>
 								<p className="card_blurb">
 									Any collection of nodes and edges, in which any node can have
-									multiple edges to other nodes.
-								</p>
-								<p className="card_example">
-									<i>
+									multiple edges to other nodes.<br></br><br></br>									<i>
 										<small>
 											Ex: A group of people on Facebook make up a Graph; some
 											people follow each other while others only follow one-way.
@@ -566,6 +720,23 @@ function DataStructures() {
 										</small>
 									</i>
 								</p>
+								{/* <p className="card_example">
+									<i>
+										<small>
+											Ex: A group of people on Facebook make up a Graph; some
+											people follow each other while others only follow one-way.
+											(
+											<a
+												href="https://www.youtube.com/watch?v=DBRW8nwZV-g"
+												target="_blank"
+												rel="noopener noreferrer"
+											>
+												YouTube
+											</a>
+											)
+										</small>
+									</i>
+								</p> */}
 							</div>
 						</div>
 					</div>
