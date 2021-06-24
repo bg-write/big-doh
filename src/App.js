@@ -9,14 +9,14 @@ const DataStructures = lazy(() =>
 );
 const TTT = lazy(() => import('./components/TTT/TTT'));
 const Footer = lazy(() => import('./components/Footer.jsx'));
-const NavBar = lazy(() => import('./components/Navbar.jsx'));
+const Navbar = lazy(() => import('./components/Navbar.jsx'));
 
 function App() {
 	return (
 		<Router>
 			<Suspense fallback={<p>Loading...</p>}>
 				<div className="App grid">
-					<NavBar />
+					<Navbar />
 					<Route exact path="/" component={Home} />
 					<Route exact path="/big-o" component={BigO} />
 					<Route exact path="/algorithms" component={Algorithms} />

@@ -10,7 +10,9 @@ function NavBar() {
 					<Navbar.Brand href="/" id="nav-title">
 						BIG D'OH
 					</Navbar.Brand>
-					<Navbar.Toggle aria-controls="basic-navbar-nav" id="nav-toggle" />
+
+					<Navbar.Toggle aria-controls="basic-navbar-nav" id='nav-toggle' />
+
 					<Navbar.Collapse id="basic-navbar-nav">
 						<Nav className="mr-auto">
 							<Nav.Link id="nav-item" href="/big-o">

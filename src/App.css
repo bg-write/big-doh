@@ -317,20 +317,31 @@ footer {
 	font-size: 2.5rem;
 }
 
+/* For styling the Navbar toggle */
 #nav-toggle {
-	/* For styling the Navbar toggle */
 	margin-right: 1.5rem;
 	padding: 1rem;
 	border: none;
 	color: var(--homer);
 }
 
-.custom-toggler .navbar-toggler-icon {
-	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+/* Reset the toggle logic */
+.navbar-light .navbar-toggler-icon {
+	background-image: none;
 }
 
+/* Hamburger */
+.navbar-toggler.collapsed {
+	background-image: url('./icons/list.svg');
+}
+
+/* X */
+.navbar-toggler {
+	background-image: url('./icons/x.svg');
+}
+
+/* For styling the Navbar links */
 #nav-item {
-	/* For styling the Navbar links */
 	padding: 2rem 0;
 	border-top: solid 4px black;
 	text-align: center;
