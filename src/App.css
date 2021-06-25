@@ -661,22 +661,22 @@ footer {
 
 #ttt-game div:first-child button:first-child {
 	/* For styling TTT square, top left */
-	border-radius: 30% 0 0 0;
+	/* border-radius: 30% 0 0 0; */
 }
 
 #ttt-game div:first-child button:nth-child(3) {
 	/* For styling TTT square, top right */
-	border-radius: 0 30% 0 0;
+	/* border-radius: 0 30% 0 0; */
 }
 
 #ttt-game div:first-child button:nth-child(7) {
 	/* For styling TTT square, bottom left */
-	border-radius: 0 0 0 30%;
+	/* border-radius: 0 0 0 30%; */
 }
 
 #ttt-game div:first-child button:nth-child(9) {
 	/* For styling TTT square, bottom right */
-	border-radius: 0 0 30% 0;
+	/* border-radius: 0 0 30% 0; */
 }
 
 #ttt-clear-board-button {

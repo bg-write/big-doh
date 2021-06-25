@@ -3,8 +3,8 @@ const Square = React.lazy(() => import('./Square'));
 
 const style = {
 	border: '4px solid black',
-	borderRadius: '12.5%',
-	width: '255px',
+	// borderRadius: '12.5%',
+	width: '260px',
 	height: '255px',
 	margin: '0 auto',
 	display: 'grid',
