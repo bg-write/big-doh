@@ -50,12 +50,12 @@ function Home() {
 						</div>
 						<div>
 							<p>
-								Read 'Cracking the Coding Interview' but still not getting Big
+								Reading 'Cracking the Coding Interview' but still not getting Big
 								O?
 							</p>
 							<p>
 								<b>Big D'oh: Homer Reads Cracking the Coding Interview</b> is a
-								free study guide for Big O and common algorithms and data
+								free study guide for Big O notation and common algorithms and data
 								structures, in a way even Homer Simpson could get.
 							</p>
 						</div>
