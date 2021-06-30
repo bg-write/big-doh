@@ -726,18 +726,16 @@ footer {
 	#flex-container-home {
 		display: flex;
 		flex-direction: row;
+		justify-content: space-evenly;
 		width: 80%;
 		margin: 0 auto;
-		padding: 2rem 0;
+		padding: 4rem 0;
 	}
 	#homerText {
 		font-size: 3.5rem;
 		margin: 0;
 		padding: 0;
 		padding-left: 4rem;
-	}
-	#homerText > br {
-		display: none;
 	}
 	#donut-home-container {
 		padding-right: 4rem;
