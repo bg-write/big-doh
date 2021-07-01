@@ -1,12 +1,12 @@
 # Big D’oh: Homer Reads 'Cracking the Coding Interview'
 
-![Big D'oh landing page](https://i.imgur.com/J8dOaUA.png)
+![Big D'oh landing page](https://i.imgur.com/IsMuOEV.png)
 
 Did you do a coding Bootcamp, read 'Cracking the Coding Interview,' but still struggle with Big O?
 
 Welcome!
 
-This free study aid is to help prepare anyone for technical interviews to better understand Big O and common algorithms and data structures.
+This free study aid is for anyone preparing for technical interviews to better understand Big O and common algorithms and data structures.
 
 THE GOAL: To reinforce high-level knowledge of key algorithms and data structures from Gayle Laakmann McDowell's 6th Edition of 'Cracking the Coding Interview,' in a way even Homer Simpson could understand.
 
@@ -67,21 +67,6 @@ Deploy the app: [https://big-doh.herokuapp.com/](https://big-doh.herokuapp.com/)
 - React Bootstrap
 - Coffee
 - Naps
-
-## Next Steps (Icebox)
-
-- Increase overall Lighthouse Performance rate for mobile and desktop through HTTP caching, decreasing network payloads, image consistency, and more
-- Add a new "etc" page sharing other important topics to study: Stability, Scalability, Accessibility, and more
-- Flesh out current Big O, Algorithms, and Data Structures pages with more definitions and details; add specific Big O time and space complexities for each algorithm
-- Add hand-drawn illustrations and animations (more donuts!)
-- Optimize local image storage and replace current photos with more consistent, higher quality images
-- Add JS code snippets to give real-life applications of algorithms and data structures
-- Replace TTT's X's and O's with donuts (more donuts!)
-- Refactor marquee code into its own component
-- CSS: Illustrate Simpsons clouds that pop up and frame Navbar text upon hover (like in the opening credits)
-- CSS: Illustrate Homer popping up when you win a game of TTT
-- Create 404 page
-- Add TypeScript
 
 ## The Team
 
