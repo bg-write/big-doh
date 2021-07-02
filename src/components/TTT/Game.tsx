@@ -12,7 +12,7 @@ const Game = () => {
 	const [xIsNext, setXIsNext] = useState(true);
 	const winner = calculateWinner(board);
 
-	const handleClick = (i) => {
+	const handleClick = (i: any) => {
 		const boardCopy = [...board];
 		if (winner || boardCopy[i]) return;
 		boardCopy[i] = xIsNext ? 'X' : 'O';
