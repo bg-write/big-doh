@@ -53,6 +53,7 @@ Deploy the app: [https://big-doh.herokuapp.com/](https://big-doh.herokuapp.com/)
 ## Technologies Used
 
 - React.js
+- TypeScript
 - Figma
 - Heroku
 - JavaScript
