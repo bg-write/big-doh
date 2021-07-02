@@ -1,4 +1,4 @@
-import React, { Suspense, lazy } from 'react';
+import { Suspense, lazy } from 'react';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import './App.css';
 const Home = lazy(() => import('./components/Home'));
