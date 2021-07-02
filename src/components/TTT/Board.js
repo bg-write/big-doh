@@ -3,7 +3,6 @@ const Square = React.lazy(() => import('./Square'));
 
 const style = {
 	border: '4px solid black',
-	// borderRadius: '12.5%',
 	width: '260px',
 	height: '255px',
 	margin: '0 auto',
@@ -13,7 +12,7 @@ const style = {
 
 const Board = ({ squares, onClick }) => (
 	<div  style={style}>
-		{squares.map((square, i) => (
+		{squares.map((square: any, i) => (
 			<Square key={i} value={square} onClick={() => onClick(i)} />
 		))}
 	</div>

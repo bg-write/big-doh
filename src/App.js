@@ -8,8 +8,8 @@ const DataStructures = lazy(() =>
 	import('./components/DataStructures/DataStructures')
 );
 const TTT = lazy(() => import('./components/TTT/TTT'));
-const Footer = lazy(() => import('./components/Footer.jsx'));
-const Navbar = lazy(() => import('./components/Navbar.jsx'));
+const Footer = lazy(() => import('./components/Footer'));
+const Navbar = lazy(() => import('./components/Navbar'));
 
 function App() {
 	return (
