@@ -1,5 +1,6 @@
 # Big D’oh: Homer Reads 'Cracking the Coding Interview'
 
+[![GitHub issues](https://img.shields.io/github/issues/bg-write/big-doh?style=flat-square)](https://github.com/bg-write/big-doh/issues)
 [![twitter](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Fbig-doh.herokuapp.com%2F)](https://twitter.com/intent/tweet?text=Wow:&url=https%3A%2F%2Fbig-doh.herokuapp.com%2F)
 
 ![Big D'oh landing page](https://i.imgur.com/IsMuOEV.png)
@@ -65,6 +66,7 @@ Deploy the app: [https://big-doh.herokuapp.com/](https://big-doh.herokuapp.com/)
 - Git
 - Visual Studio Code
 - Google Chrome DevTools
+- Shields.io
 - Google
 - Bootstrap
 - React Bootstrap
