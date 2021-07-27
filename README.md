@@ -1,5 +1,7 @@
 # Big D’oh: Homer Reads 'Cracking the Coding Interview'
 
+![twitter](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Fbig-doh.herokuapp.com%2F)
+
 ![Big D'oh landing page](https://i.imgur.com/IsMuOEV.png)
 
 Did you do a coding Bootcamp, read 'Cracking the Coding Interview,' but still struggle with Big O?
