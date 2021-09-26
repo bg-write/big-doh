@@ -15,11 +15,13 @@ THE GOAL: To reinforce high-level knowledge of key algorithms and data structure
 
 This app is not meant to be the definitive or all-encompassing resource, but rather a beginner's guide to navigating key concepts in software engineering and computer science. YouTube links are included to deepen understanding and encourage ongoing learning. And if you're stressed, you can always play Homer in a game of Tic-Tac-D'oh.
 
-Big D'oh is a mobile-first designed React app made by General Assembly alumni Brady Gerber and Molly Hodson.
+Big D'oh is a mobile-first designed React app made by Brady Gerber and Molly Hodson.
 
 ## Getting Started
 
 Deploy the app: [https://big-doh.herokuapp.com/](https://big-doh.herokuapp.com/)
+
+Run local (in your terminal) "npm start"
 
 ## Concepts Covered
 
