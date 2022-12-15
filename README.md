@@ -1,11 +1,13 @@
-# Big D’oh: Homer Reads 'Cracking the Coding Interview'
+# Big D'oh: Homer Reads 'Cracking the Coding Interview'
+
+NOTE: As of November 2022, we've moved Big D'oh offline to handle the transition from Heroku to another platform. Thank you for your patience and understanding.
 
 [![GitHub issues](https://img.shields.io/github/issues/bg-write/big-doh?style=flat-square)](https://github.com/bg-write/big-doh/issues)
 [![twitter](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Fbig-doh.herokuapp.com%2F)](https://twitter.com/intent/tweet?text=Wow:&url=https%3A%2F%2Fbig-doh.herokuapp.com%2F)
 
 ![Big D'oh landing page](https://i.imgur.com/IsMuOEV.png)
 
-Did you do a coding Bootcamp, read 'Cracking the Coding Interview,' but still struggle with Big O?
+Did you do a coding Bootcamp and read 'Cracking the Coding Interview' but still struggle with Big O?
 
 Welcome!
 
@@ -17,7 +19,7 @@ This app is not meant to be the definitive or all-encompassing resource, but rat
 
 Big D'oh is a mobile-first designed React app made by Brady Gerber and Molly Hodson.
 
-## Getting Started
+## Getting Started (NOTE: this will be fixed in an upcoming update)
 
 Deploy the app: [https://big-doh.herokuapp.com/](https://big-doh.herokuapp.com/)
 
