@@ -38,7 +38,7 @@ function Footer() {
 								<li>
 									Designed by{' '}
 									<a
-										href="https://www.mollyhodson.online/"
+										href="https://mollyhodson.design/"
 										target="_blank"
 										rel="noopener noreferrer"
 									>
