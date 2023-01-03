@@ -49,7 +49,7 @@ function Footer() {
 						</div>
 						<div id="footer-copyright">
 							<p>Click on photos and gifs for original sources.</p>
-							<p>Copyright &copy; Big D'oh 2021.</p>
+							<p>Copyright &copy; Big D'oh 2023.</p>
 							<p>
 								{' '}
 								<a

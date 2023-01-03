@@ -19,9 +19,7 @@ This app is not meant to be the definitive or all-encompassing resource, but rat
 
 Big D'oh is a mobile-first designed React app made by Brady Gerber and Molly Hodson.
 
-## Getting Started (NOTE: this will be fixed in an upcoming update)
-
-Deploy the app: [https://big-doh.herokuapp.com/](https://big-doh.herokuapp.com/)
+## Getting Started (NOTE: deployed link to arrive in an upcoming update)
 
 Run local (in your terminal) "npm start"
 
