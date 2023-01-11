@@ -1,5 +1,3 @@
-import React from 'react';
-
 function BigO() {
 	return (
 		<>
@@ -19,15 +17,14 @@ function BigO() {
 
 				<div id="bigO-blurb" className="center-text">
 					<p>
-						How efficient is your algorithm. Based on run time (how many steps
-						do you have to take) and space complexity (how much memory do you
-						need).<br></br>(
+						How efficient is your algorithm. Based on run time (how many steps do you
+						have to take) and space complexity (how much memory do you need).<br></br>
+						(
 						<i>
 							<a
 								href="https://www.youtube.com/watch?v=__vX2sjlpXU"
 								target="_blank"
-								rel="noopener noreferrer"
-							>
+								rel="noopener noreferrer">
 								YouTube
 							</a>
 						</i>
@@ -39,8 +36,7 @@ function BigO() {
 					<a
 						href="https://www.bigocheatsheet.com/"
 						target="_blank"
-						rel="noopener noreferrer"
-					>
+						rel="noopener noreferrer">
 						<img
 							id="bigO"
 							alt="Big O"
@@ -57,8 +53,7 @@ function BigO() {
 						<a
 							href="https://www.freecodecamp.org/news/big-o-notation/"
 							target="_blank"
-							rel="noopener noreferrer"
-						>
+							rel="noopener noreferrer">
 							<img
 								id="CONSTANT"
 								alt="CONSTANT"
@@ -68,22 +63,20 @@ function BigO() {
 							/>
 						</a>
 						<p>
-							The input size doesn't matter. Whether your input (N) is 1 or
-							1,000 values long, the algorithm still just takes one "step." When
-							you're planning a birthday party, you bake one cake, no matter how
-							many people show up. O(1) has the least complexity, which is
-							great.
+							The input size doesn't matter. Whether your input (N) is 1 or 1,000
+							values long, the algorithm still just takes one "step." When you're
+							planning a birthday party, you bake one cake, no matter how many people
+							show up. O(1) has the least complexity, which is great.
 						</p>
 						<p>
 							<i>
 								<small>
-									Ex: Looking up an array when you already know the key or
-									index; it doesn't matter how long the array is. (
+									Ex: Looking up an array when you already know the key or index; it
+									doesn't matter how long the array is. (
 									<a
 										href="https://youtu.be/__vX2sjlpXU?t=114"
 										target="_blank"
-										rel="noopener noreferrer"
-									>
+										rel="noopener noreferrer">
 										YouTube
 									</a>
 									)
@@ -97,8 +90,7 @@ function BigO() {
 						<a
 							href="https://www.freecodecamp.org/news/big-o-notation/"
 							target="_blank"
-							rel="noopener noreferrer"
-						>
+							rel="noopener noreferrer">
 							<img
 								id="LOGARITHMIC"
 								alt="LOGARITHMIC"
@@ -108,23 +100,21 @@ function BigO() {
 							/>
 						</a>
 						<p>
-							Cut the number of steps each time in half. If N is doubled, you
-							only have to do 1 more operation. If 1 person is coming to your
-							birthday party, you only need to bake 1 cake; 2-3 people require
-							baking 2 cakes; 4-7 people require 3 cakes; and so on.
+							Cut the number of steps each time in half. If N is doubled, you only have
+							to do 1 more operation. If 1 person is coming to your birthday party, you
+							only need to bake 1 cake; 2-3 people require baking 2 cakes; 4-7 people
+							require 3 cakes; and so on.
 						</p>
 						<p>
 							<i>
 								<small>
-									Ex: "Binary Search" in an ordered array - look at the middle
-									of the array, see if the value is higher or lower than what
-									you need, then repeat the process now only focusing on the
-									half you need. (
+									Ex: "Binary Search" in an ordered array - look at the middle of the
+									array, see if the value is higher or lower than what you need, then
+									repeat the process now only focusing on the half you need. (
 									<a
 										href="https://www.youtube.com/watch?v=4mqtiLjtddY"
 										target="_blank"
-										rel="noopener noreferrer"
-									>
+										rel="noopener noreferrer">
 										YouTube
 									</a>
 									)
@@ -138,8 +128,7 @@ function BigO() {
 						<a
 							href="https://www.freecodecamp.org/news/big-o-notation/"
 							target="_blank"
-							rel="noopener noreferrer"
-						>
+							rel="noopener noreferrer">
 							<img
 								id="LINEAR"
 								alt="LINEAR"
@@ -149,8 +138,8 @@ function BigO() {
 							/>
 						</a>
 						<p>
-							N is the length of your input. If your list has 10 items, you
-							print 10 times. Each birthday party guest gets a cake.
+							N is the length of your input. If your list has 10 items, you print 10
+							times. Each birthday party guest gets a cake.
 						</p>
 						<p>
 							<i>
@@ -159,8 +148,7 @@ function BigO() {
 									<a
 										href="https://youtu.be/__vX2sjlpXU?t=157"
 										target="_blank"
-										rel="noopener noreferrer"
-									>
+										rel="noopener noreferrer">
 										YouTube
 									</a>
 									)
@@ -174,8 +162,7 @@ function BigO() {
 						<a
 							href="https://www.happycoders.eu/algorithms/big-o-notation-time-complexity/"
 							target="_blank"
-							rel="noopener noreferrer"
-						>
+							rel="noopener noreferrer">
 							<img
 								id="QUASILINEAR"
 								alt="QUASILINEAR"
@@ -191,14 +178,12 @@ function BigO() {
 						<p>
 							<i>
 								<small>
-									Ex: A basic "While For Loop": While something is true, for
-									each item, do this specific thing. Also, Quick Sort and Merge
-									Sort. (
+									Ex: A basic "While For Loop": While something is true, for each item,
+									do this specific thing. Also, Quick Sort and Merge Sort. (
 									<a
 										href="https://www.youtube.com/watch?v=K3NluEdHkao"
 										target="_blank"
-										rel="noopener noreferrer"
-									>
+										rel="noopener noreferrer">
 										YouTube
 									</a>
 									)
@@ -212,8 +197,7 @@ function BigO() {
 						<a
 							href="https://www.freecodecamp.org/news/big-o-notation/"
 							target="_blank"
-							rel="noopener noreferrer"
-						>
+							rel="noopener noreferrer">
 							<img
 								id="QUADRATIC"
 								alt="QUADRATIC"
@@ -223,23 +207,22 @@ function BigO() {
 							/>
 						</a>
 						<p>
-							For each time N grows, the processing time doubles. If your list
-							has 10 items, you have to print 100 times, or 10^2 times. If you
-							bake a cake for each guest and you also write their names on each
-							cake, 1 cake requires 2 steps (baking it and then writing a
-							guest's name). 2 cakes require 4 steps, and so on.
+							For each time N grows, the processing time doubles. If your list has 10
+							items, you have to print 100 times, or 10^2 times. If you bake a cake for
+							each guest and you also write their names on each cake, 1 cake requires 2
+							steps (baking it and then writing a guest's name). 2 cakes require 4
+							steps, and so on.
 						</p>
 						<p>
 							<small>
 								<i>
-									Ex: Nesting two loops in the same function. Also "Selection
-									Sort" and "Bubble Sort,"" when we have to iterate over each
-									item and then compare to its unsorted items. (
+									Ex: Nesting two loops in the same function. Also "Selection Sort" and
+									"Bubble Sort,"" when we have to iterate over each item and then compare
+									to its unsorted items. (
 									<a
 										href="https://youtu.be/__vX2sjlpXU?t=203"
 										target="_blank"
-										rel="noopener noreferrer"
-									>
+										rel="noopener noreferrer">
 										YouTube
 									</a>
 									)
@@ -253,8 +236,7 @@ function BigO() {
 						<a
 							href="https://www.101computing.net/big-o-notation-exponential-algorithm/"
 							target="_blank"
-							rel="noopener noreferrer"
-						>
+							rel="noopener noreferrer">
 							<img
 								id="EXPONENTIAL"
 								alt="EXPONENTIAL"
@@ -264,8 +246,8 @@ function BigO() {
 							/>
 						</a>
 						<p>
-							Doubles with every additional input. If N = 2, your algorithm runs
-							4 times, or 2^2. If N = 3, your algorithm runs 8 times, or 2^3.
+							Doubles with every additional input. If N = 2, your algorithm runs 4
+							times, or 2^2. If N = 3, your algorithm runs 8 times, or 2^3.
 						</p>
 						<p>
 							<small>
@@ -274,8 +256,7 @@ function BigO() {
 									<a
 										href="https://www.youtube.com/watch?v=5AxcXHPB3GE"
 										target="_blank"
-										rel="noopener noreferrer"
-									>
+										rel="noopener noreferrer">
 										YouTube
 									</a>
 									)
@@ -289,8 +270,7 @@ function BigO() {
 						<a
 							href="https://www.freecodecamp.org/news/big-o-notation/"
 							target="_blank"
-							rel="noopener noreferrer"
-						>
+							rel="noopener noreferrer">
 							<img
 								id="FACTORIAL"
 								alt="FACTORIAL"
@@ -300,8 +280,8 @@ function BigO() {
 							/>
 						</a>
 						<p>
-							When you have to calculate every possible solution to determine
-							the correct output. 6! = 6*5*4*3*2*1 = 720.
+							When you have to calculate every possible solution to determine the
+							correct output. 6! = 6*5*4*3*2*1 = 720.
 						</p>
 						<p>
 							<small>
@@ -310,8 +290,7 @@ function BigO() {
 									<a
 										href="https://youtu.be/5AxcXHPB3GE?t=79"
 										target="_blank"
-										rel="noopener noreferrer"
-									>
+										rel="noopener noreferrer">
 										YouTube
 									</a>
 									)

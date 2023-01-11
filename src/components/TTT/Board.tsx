@@ -12,7 +12,7 @@ const style = {
 };
 
 const Board: FunctionComponent<TBoardProps> = ({ squares, onClick }) => (
-	<div  style={style}>
+	<div style={style}>
 		{squares.map((square: any, i: any) => (
 			<Square key={i} value={square} onClick={() => onClick(i)} />
 		))}

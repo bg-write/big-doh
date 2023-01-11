@@ -1,11 +1,11 @@
 // Square.tsx
 export type TSquareProps = {
-    value: any;
-    onClick: any;
-}
+	value: any;
+	onClick: any;
+};
 
 // Board.tsx
 export type TBoardProps = {
-    squares: any;
-    onClick: any;
-}
+	squares: any;
+	onClick: any;
+};

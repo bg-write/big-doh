@@ -24,8 +24,7 @@ const Game = () => {
 		<button
 			id="ttt-clear-board-button"
 			className="border-text"
-			onClick={() => setBoard(Array(9).fill(null))}
-		>
+			onClick={() => setBoard(Array(9).fill(null))}>
 			CLEAR THE BOARD
 		</button>
 	);
@@ -37,9 +36,7 @@ const Game = () => {
 			</Suspense>
 			<div style={styles}>
 				<p>
-					{winner
-						? 'Winner: ' + winner
-						: 'Next Player: ' + (xIsNext ? 'X' : 'O')}
+					{winner ? 'Winner: ' + winner : 'Next Player: ' + (xIsNext ? 'X' : 'O')}
 				</p>
 				{renderMoves()}
 			</div>

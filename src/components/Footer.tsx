@@ -30,8 +30,7 @@ function Footer() {
 									<a
 										href="https://bradygerber.com/"
 										target="_blank"
-										rel="noopener noreferrer"
-									>
+										rel="noopener noreferrer">
 										Brady Gerber
 									</a>
 								</li>
@@ -40,8 +39,7 @@ function Footer() {
 									<a
 										href="https://mollyhodson.design/"
 										target="_blank"
-										rel="noopener noreferrer"
-									>
+										rel="noopener noreferrer">
 										Molly Hodson
 									</a>
 								</li>
@@ -55,8 +53,7 @@ function Footer() {
 								<a
 									href="https://www.house.gov/representatives/find-your-representative"
 									target="_blank"
-									rel="noopener noreferrer"
-								>
+									rel="noopener noreferrer">
 									Find Your Local Representatives.
 								</a>
 							</p>

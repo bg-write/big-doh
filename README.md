@@ -5,7 +5,7 @@
 
 ![Big D'oh landing page](https://i.imgur.com/IsMuOEV.png)
 
-## Big D'oh Explained in Three Sentences
+## Big D'oh in Three Sentences
 
 Did you do a coding Bootcamp and read 'Cracking the Coding Interview' but still struggle with Big O? Welcome! This free study aid built in React and TypeScript is for anyone preparing for technical interviews to better understand Big O and common algorithms and data structures.
 
@@ -17,7 +17,7 @@ Big O and basic algorithms and data structures are important to learn as softwar
 
 To reinforce high-level knowledge of key algorithms and data structures from Gayle Laakmann McDowell's 6th Edition of 'Cracking the Coding Interview,' but in a way even Homer Simpson could understand.
 
-This app is not meant to be a definitive or all-encompassing resource, but rather a beginner's guide to navigating key concepts in software engineering and computer science. YouTube links are included to deepen understanding and encourage ongoing learning. And if you're stressed, you can always play Homer in a game of Tic-Tac-D'oh (currently updating the game on mobile).
+This app is not meant to be a definitive or all-encompassing resource, but rather a beginner's guide to navigating key concepts in software engineering and computer science. YouTube links are included to deepen understanding and encourage ongoing learning. And if you're stressed, you can always play Homer in a game of Tic-Tac-D'oh.
 
 Big D'oh is a mobile-first designed React app made by Brady Gerber and Molly Hodson.
 
@@ -57,6 +57,27 @@ Big D'oh is a mobile-first designed React app made by Brady Gerber and Molly Hod
 The deployed app: <https://big-doh.netlify.app/>
 
 In your IDE of choice, in an open terminal window, enter and run `npm start` and open the development server URL provided in the terminal output (if it doesn't already open).
+
+---
+
+## `src` Architecture
+
+- `components`
+
+  - `Algorithms`
+  - `BigO`
+  - `DataStructures`
+  - `TTT`
+  - `Footer.tsx`
+  - `Home.tsx`
+  - `Navbar.js`
+
+- `App.css`: Holds the majority of our CSS
+- `App.js`: Our `components` are wrapped around `<Router/>` and `<Suspense/>`
+- `index.css`: CSS for `<body/>` and `<code/>`
+- `index.js`: `<App/>` is wrapped around `BrowserRouter`
+
+`public` includes our `index.html`
 
 ---
 
@@ -104,6 +125,14 @@ Big D'oh will soon be updated to match [Airbnb's JS style guide](https://airbnb.
 - React Bootstrap
 - Coffee
 - Naps
+
+---
+
+## Next Steps (my "Icebox")
+
+- Convert more JS logic into TS; current TS use is minimal
+- Incorporate code style guide and enforce consistency from IDE to GitHub
+- Address new note that the CSS on TTT mobile is not as responsive on some iPhones
 
 ---
 
