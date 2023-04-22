@@ -9,33 +9,39 @@
 
 ## Table of Contents
 
-I. [Big D'oh in Three Sentences](#intro)
-II. [The Problem](#problem)
-III. [The Goal](#goal)
-IV: [Concepts Covered](#concepts)
-V: [Getting Started](#starting)
-VI: [Architecture](#architecture)
-VII: [Style Guide](#styling)
-VIII: [Tech Stack & Tools](#tech)
-IX: [Next Steps](#icebox)
-X: [The Team](#team)
+I. [Big D'oh in Three Sentences](#intro)<br>
+II. [The Problem](#problem)<br>
+III. [The Goal](#goal)<br>
+IV: [Concepts Covered](#concepts)<br>
+V: [Getting Started](#starting)<br>
+VI: [Architecture](#architecture)<br>
+VII: [Style Guide](#styling)<br>
+VIII: [Tech Stack & Tools](#tech)<br>
+IX: [Next Steps](#icebox)<br>
+X: [The Team](#team)<br>
 XI: [Closing credits](#credits)
 
 ---
 
 ## Big D'oh in Three Sentences <a name="intro"></a>
 
-Did you do a coding Bootcamp and read 'Cracking the Coding Interview' but still struggle with Big O? Welcome! This free study aid built in React and TypeScript is for anyone preparing for technical interviews to better understand Big O and common algorithms and data structures.
+Did you do a coding Bootcamp and read 'Cracking the Coding Interview' but are still struggling with Big O?
+
+Welcome!
+
+This free study aid, built in React and TypeScript, is for anyone preparing for technical interviews to better understand Big O and common algorithms and data structures.
 
 ## The Problem <a name="problem"></a>
 
-Big O and basic algorithms and data structures are important to learn as software engineers, but they're not easy concepts to learn for new developers, especially for those without computer science degrees.
+Big O and basic algorithms and data structures are important to learn in order to be a software engineer, but they're not easy concepts to learn for new developers, especially for those without computer science degrees.
 
 ## The Goal <a name="goal"></a>
 
-To reinforce high-level knowledge of key algorithms and data structures from Gayle Laakmann McDowell's 6th Edition of 'Cracking the Coding Interview,' but in a way even Homer Simpson could understand.
+To reinforce high-level knowledge of algorithms and data structures from Gayle Laakmann McDowell's 6th Edition of 'Cracking the Coding Interview,' but in a way even Homer Simpson could understand.
 
-This app is not meant to be a definitive or all-encompassing resource, but rather a beginner's guide to navigating key concepts in software engineering and computer science. YouTube links are included to deepen understanding and encourage ongoing learning. And if you're stressed, you can always play Homer in a game of Tic-Tac-D'oh.
+This app is not meant to be a definitive or all-encompassing resource, but rather a beginner's guide to navigating key concepts in software engineering and computer science. YouTube links are included to deepen understanding and encourage ongoing learning.
+
+And if you're stressed, you can always play Homer in a game of Tic-Tac-D'oh.
 
 Big D'oh is a mobile-first designed React app made by Brady Gerber and Molly Hodson.
 
@@ -76,7 +82,7 @@ The deployed app: <https://big-doh.netlify.app/>
 
 To launch Big D'oh locally:
 
-1. In your IDE of choice, open a new terminal.
+1. In your IDE of choice, open up a new terminal.
 2. Enter and run the command `npm start`.
 3. Open the development server URL provided in the terminal output (if it doesn't already open).
 4. Enjoy!
@@ -85,7 +91,7 @@ To launch Big D'oh locally:
 
 ## Architecture <a name="architecture"></a>
 
-Here's the breakdown of the `src` folder:
+A breakdown of the `src` folder:
 
 - `components`
 
@@ -110,7 +116,7 @@ Here's the breakdown of the `src` folder:
 
 ### UX/UI Design
 
-Big D'oh was designed by [Molly Hodson](https://mollyhodson.design/) to be a fully responsive web app that's fun and accessible while still being useful. Check out Molly's case study detailing how she approached our project, including Figma boards and wireframes: <https://mollyhodson.design/home/big-doh>
+Big D'oh was designed by [Molly Hodson](https://mollyhodson.design/) to be a fully responsive web app - fun and accessible while still being useful. Check out Molly's case study detailing how she approached our project, including Figma boards and wireframes: <https://mollyhodson.design/home/big-doh>
 
 ### CSS
 
