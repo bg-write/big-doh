@@ -1,3 +1,5 @@
+<a name="top"></a>
+
 # Big D'oh: Homer Reads 'Cracking the Coding Interview'
 
 [![GitHub issues](https://img.shields.io/github/issues/bg-write/big-doh?style=flat-square)](https://github.com/bg-write/big-doh/issues)
@@ -5,15 +7,31 @@
 
 ![Big D'oh landing page](https://i.imgur.com/IsMuOEV.png)
 
-## Big D'oh in Three Sentences
+## Table of Contents
+
+I. [Big D'oh in Three Sentences](#intro)
+II. [The Problem](#problem)
+III. [The Goal](#goal)
+IV: [Concepts Covered](#concepts)
+V: [Getting Started](#starting)
+VI: [Architecture](#architecture)
+VII: [Style Guide](#styling)
+VIII: [Tech Stack & Tools](#tech)
+IX: [Next Steps](#icebox)
+X: [The Team](#team)
+XI: [Closing credits](#credits)
+
+---
+
+## Big D'oh in Three Sentences <a name="intro"></a>
 
 Did you do a coding Bootcamp and read 'Cracking the Coding Interview' but still struggle with Big O? Welcome! This free study aid built in React and TypeScript is for anyone preparing for technical interviews to better understand Big O and common algorithms and data structures.
 
-## The Problem
+## The Problem <a name="problem"></a>
 
-Big O and basic algorithms and data structures are important to learn as software engineers, but they're not the easiest concepts to learn for new coders, especially for those without CS degrees.
+Big O and basic algorithms and data structures are important to learn as software engineers, but they're not easy concepts to learn for new developers, especially for those without computer science degrees.
 
-## The Goal
+## The Goal <a name="goal"></a>
 
 To reinforce high-level knowledge of key algorithms and data structures from Gayle Laakmann McDowell's 6th Edition of 'Cracking the Coding Interview,' but in a way even Homer Simpson could understand.
 
@@ -23,7 +41,7 @@ Big D'oh is a mobile-first designed React app made by Brady Gerber and Molly Hod
 
 ---
 
-## Concepts Covered
+## Concepts Covered <a name="concepts"></a>
 
 - Big O
 - Recursion
@@ -52,15 +70,22 @@ Big D'oh is a mobile-first designed React app made by Brady Gerber and Molly Hod
 
 ---
 
-## Getting Started (On Your Local Machine)
+## Getting Started <a name="starting"></a>
 
 The deployed app: <https://big-doh.netlify.app/>
 
-In your IDE of choice, in an open terminal window, enter and run `npm start` and open the development server URL provided in the terminal output (if it doesn't already open).
+To launch Big D'oh locally:
+
+1. In your IDE of choice, open a new terminal.
+2. Enter and run the command `npm start`.
+3. Open the development server URL provided in the terminal output (if it doesn't already open).
+4. Enjoy!
 
 ---
 
-## `src` Architecture
+## Architecture <a name="architecture"></a>
+
+Here's the breakdown of the `src` folder:
 
 - `components`
 
@@ -72,20 +97,20 @@ In your IDE of choice, in an open terminal window, enter and run `npm start` and
   - `Home.tsx`
   - `Navbar.js`
 
-- `App.css`: Holds the majority of our CSS
-- `App.js`: Our `components` are wrapped around `<Router/>` and `<Suspense/>`
+- `App.css`: holds the majority of our CSS
+- `App.js`: our `components` are wrapped around `<Router/>` and `<Suspense/>`
 - `index.css`: CSS for `<body/>` and `<code/>`
 - `index.js`: `<App/>` is wrapped around `BrowserRouter`
 
-`public` includes our `index.html`
+> Note that `public` includes our `index.html`
 
 ---
 
-## Big D'oh Style Guide
+## Style Guide <a name="styling"></a>
 
 ### UX/UI Design
 
-Big D'oh was designed by [Molly Hodson](https://mollyhodson.design/) to be a fully responsive web app that's fun and accessible while still being useful. Check out Molly's case study detailing how she approached our project including Figma boards and wireframes: <https://mollyhodson.design/home/big-doh>
+Big D'oh was designed by [Molly Hodson](https://mollyhodson.design/) to be a fully responsive web app that's fun and accessible while still being useful. Check out Molly's case study detailing how she approached our project, including Figma boards and wireframes: <https://mollyhodson.design/home/big-doh>
 
 ### CSS
 
@@ -102,11 +127,11 @@ Big D'oh was designed by [Molly Hodson](https://mollyhodson.design/) to be a ful
 
 ### The code Itself
 
-Big D'oh will soon be updated to match [Airbnb's JS style guide](https://airbnb.io/javascript/) as closely as possible. This involves following [Nethmi Wijesinghe's excellent set-up guide](https://enlear.academy/how-to-set-up-airbnb-style-guide-82413ea6c5f2) for installing ESLint and Prettier in VS Code to match Airbnb's guide in a new project. Nethmi's guide also works if you wish to use another popular style guide (i.e. Google).
+Big D'oh will soon be updated to follow [Airbnb's JS style guide](https://airbnb.io/javascript/). This involves following [Nethmi Wijesinghe's excellent set-up guide](https://enlear.academy/how-to-set-up-airbnb-style-guide-82413ea6c5f2) for installing ESLint and Prettier in VS Code to match Airbnb's guide in a new project. Nethmi's guide also works if you wish to use another popular style guide (i.e. Google).
 
 ---
 
-## Tech Stack & Tools
+## Tech Stack & Tools <a name="tech"></a>
 
 - React.js
 - TypeScript
@@ -128,20 +153,24 @@ Big D'oh will soon be updated to match [Airbnb's JS style guide](https://airbnb.
 
 ---
 
-## Next Steps (my "Icebox")
+## Next Steps <a name="icebox"></a>
 
-- Convert more JS logic into TS; current TS use is minimal
-- Incorporate code style guide and enforce consistency from IDE to GitHub
-- Address new note that the CSS on TTT mobile is not as responsive on some iPhones
+- Convert more JS logic into TS (current TS use is minimal).
+- Incorporate code style guide and enforce consistency from IDE to GitHub.
+- Address new note that the CSS on TTT mobile is not as responsive on some iPhones.
 
 ---
 
-## The Team
+## The Team <a name="team"></a>
 
 [Brady Gerber](https://github.com/bg-write) (Software Engineer)
 
 [Molly Hodson](https://mollyhodson.design/) (UX Designer)
 
-## Closing Credits
+## Closing Credits <a name="credits"></a>
 
 All photos and gifs are taken from General Assembly except when linked to their original sources. The marquee was made with the help of [Coding Journey](https://www.youtube.com/watch?v=sVZX0XvEBhk). Flashcard templates were made with the help of [Alex Carpenter](https://www.youtube.com/watch?v=OmmM_a_AMNE).
+
+© 2023 Brady Gerber. All Rights Reserved.
+
+[Return to top](#top)
