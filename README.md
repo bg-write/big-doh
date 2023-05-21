@@ -7,6 +7,8 @@
 
 ![Big D'oh landing page](https://i.imgur.com/IsMuOEV.png)
 
+> NOTE: As of May 2023, [Imgur](https://imgur.com/) is experiencing temporary capacity issues that are affecting this app. Big D'oh images may appear broken while we address this issue. Thank you for your patience.
+
 ## Table of Contents
 
 I. [Big D'oh in Three Sentences](#intro)<br>

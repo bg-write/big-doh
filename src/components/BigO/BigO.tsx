@@ -10,7 +10,6 @@ function BigO() {
 							className="loader"
 							alt="donut"
 							src="https://i.imgur.com/ske1xNn.png"
-							loading="lazy"
 						/>
 					</div>
 				</div>
@@ -42,7 +41,6 @@ function BigO() {
 							alt="Big O"
 							src="https://i.imgur.com/q2GTKn3.png"
 							width="95%"
-							loading="lazy"
 						/>
 					</a>
 				</div>
@@ -59,7 +57,6 @@ function BigO() {
 								alt="CONSTANT"
 								src="https://i.imgur.com/SRJqkiF.png"
 								width="95%"
-								loading="lazy"
 							/>
 						</a>
 						<p>
@@ -96,7 +93,6 @@ function BigO() {
 								alt="LOGARITHMIC"
 								src="https://i.imgur.com/rMNtk3F.png"
 								width="95%"
-								loading="lazy"
 							/>
 						</a>
 						<p>
@@ -134,7 +130,6 @@ function BigO() {
 								alt="LINEAR"
 								src="https://i.imgur.com/cpOZS0H.png"
 								width="95%"
-								loading="lazy"
 							/>
 						</a>
 						<p>
@@ -168,7 +163,6 @@ function BigO() {
 								alt="QUASILINEAR"
 								src="https://i.imgur.com/esfgCCw.png"
 								width="95%"
-								loading="lazy"
 							/>
 						</a>
 						<p>
@@ -203,7 +197,6 @@ function BigO() {
 								alt="QUADRATIC"
 								src="https://i.imgur.com/dMDKMwY.png"
 								width="95%"
-								loading="lazy"
 							/>
 						</a>
 						<p>
@@ -242,7 +235,6 @@ function BigO() {
 								alt="EXPONENTIAL"
 								src="https://i.imgur.com/BGdXHS2.png"
 								width="95%"
-								loading="lazy"
 							/>
 						</a>
 						<p>
@@ -276,7 +268,6 @@ function BigO() {
 								alt="FACTORIAL"
 								src="https://i.imgur.com/BN2JUQ2.png"
 								width="95%"
-								loading="lazy"
 							/>
 						</a>
 						<p>
